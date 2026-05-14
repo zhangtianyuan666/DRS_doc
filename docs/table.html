@@ -1,0 +1,1167 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supplementary tables &mdash; Nanopore DRS guide 1.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=175ac1d5" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=def9ab29"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Personalized Plotting" href="code.html" />
+    <link rel="prev" title="Conclusions" href="conclusions.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Nanopore DRS guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fundamental_principles.html">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparative_analysis.html">Comparative analysis of DRS technology and traditional sequencing technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biological_landscape.html">The biological landscape from a DRS perspective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="typical_application.html">Typical application scenarios and breakthrough discoveries of DRS technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="design.html">Design, standardization and optimization of DRS workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_analysis.html">DRS data analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">Designing, validating, and benchmarking DRS: an integrated framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiomics.html">Application-oriented integration of nanopore DRS with multi-omics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Challenges and technical improvements of DRS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="outlook.html">Outlook: toward integrative, haplotype-aware RNA biology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Supplementary tables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#computational-tools-for-rna-modification-detection-and-analysis-using-oxford-drs">Computational tools for RNA modification detection and analysis using Oxford DRS.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#computational-tools-for-oxford-nanopore-drs-data-analysis-beyond-rna-modification-detection">Computational tools for Oxford Nanopore DRS data analysis beyond RNA modification detection.</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="code.html">Personalized Plotting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nanopore DRS guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Supplementary tables</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="supplementary-tables">
+<h1>Supplementary tables<a class="headerlink" href="#supplementary-tables" title="Permalink to this heading"></a></h1>
+<section id="computational-tools-for-rna-modification-detection-and-analysis-using-oxford-drs">
+<h2>Computational tools for RNA modification detection and analysis using Oxford DRS.<a class="headerlink" href="#computational-tools-for-rna-modification-detection-and-analysis-using-oxford-drs" title="Permalink to this heading"></a></h2>
+<p>This table summarizes currently available computational methods developed for detecting, quantifying, or modeling RNA modifications from Oxford Nanopore Technologies (ONT) direct RNA sequencing data. For each tool, we list the functional description, GitHub repository, targeted RNA modification(s), supported pore chemistry (RNA002 and/or RNA004), and year of publication or release.</p>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Comprehensive list of RNA modification–related tools for nanopore DRS</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 9.0%" />
+<col style="width: 26.3%" />
+<col style="width: 22.6%" />
+<col style="width: 18.8%" />
+<col style="width: 18.8%" />
+<col style="width: 4.5%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tool</p></th>
+<th class="head"><p>Functional description</p></th>
+<th class="head"><p>GitHub</p></th>
+<th class="head"><p>Modification</p></th>
+<th class="head"><p>Pore chemistry</p></th>
+<th class="head"><p>Year</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Tombo</p></td>
+<td><p>Signal-level statistical framework for detecting RNA and DNA modifications from nanopore reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/nanoporetech/tombo">https://github.com/nanoporetech/tombo</a></p></td>
+<td><p>m6A, m5C</p></td>
+<td><p>RNA002</p></td>
+<td><p>2017</p></td>
+</tr>
+<tr class="row-odd"><td><p>EpiNano</p></td>
+<td><p>Machine learning–based framework for detecting RNA modifications (e.g., m6A) from basecalling error features in nanopore data.</p></td>
+<td><p><a class="reference external" href="https://github.com/enovoa/EpiNano">https://github.com/enovoa/EpiNano</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2019</p></td>
+</tr>
+<tr class="row-even"><td><p>DiffErr</p></td>
+<td><p>Differential error-based method for detecting RNA modifications by comparing mismatch profiles between conditions.</p></td>
+<td><p><a class="reference external" href="https://github.com/bartongroup/differr_nanopore_DRS">https://github.com/bartongroup/differr_nanopore_DRS</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p>MINES</p></td>
+<td><p>Supervised learning tool for m6A detection from nanopore signal features using motif constraints.</p></td>
+<td><p><a class="reference external" href="https://github.com/YeoLab/MINES">https://github.com/YeoLab/MINES</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-even"><td><p>Nano-ID</p></td>
+<td><p>A method that detects newly synthesized RNA isoforms and monitors isoform metabolism. Combines metabolic RNA labeling, long-read nanopore sequencing of native RNA molecules and machine learning.</p></td>
+<td><p><a class="reference external" href="https://github.com/birdumbrella/nano-ID">https://github.com/birdumbrella/nano-ID</a></p></td>
+<td><p>5EU</p></td>
+<td><p>RNA002</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p>ELIGOS</p></td>
+<td><p>Statistical model for identifying RNA modifications based on systematic basecalling errors.</p></td>
+<td><p><a class="reference external" href="https://gitlab.com/piroonj/eligos2">https://gitlab.com/piroonj/eligos2</a></p></td>
+<td><p>m6A, m1A, 5moU, Ψ, m7G, A-to-I, hm5C, f5C, m5C</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p>Nanocompore</p></td>
+<td><p>Statistical framework for detecting differential RNA modifications by comparing signal distributions across conditions.</p></td>
+<td><p><a class="reference external" href="https://github.com/tleonardi/nanocompore">https://github.com/tleonardi/nanocompore</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p>NanoPsu</p></td>
+<td><p>Supervised machine learning tool for pseudouridine (Ψ) detection from nanopore signals.</p></td>
+<td><p><a class="reference external" href="https://github.com/sihaohuanguc/Nanopore_psU">https://github.com/sihaohuanguc/Nanopore_psU</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p>nanoRMS</p></td>
+<td><p>Single-molecule RNA modification stoichiometry estimation framework using signal clustering.</p></td>
+<td><p><a class="reference external" href="https://github.com/novoalab/nanoRMS">https://github.com/novoalab/nanoRMS</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sequoia</p></td>
+<td><p>Visualization and signal exploration tool for nanopore current data.</p></td>
+<td><p><a class="reference external" href="https://github.com/dnonatar/Sequoia">https://github.com/dnonatar/Sequoia</a></p></td>
+<td><p>m6A, m5C</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p>xPore</p></td>
+<td><p>Probabilistic mixture model for estimating RNA modification stoichiometry and differential modification from nanopore signals.</p></td>
+<td><p><a class="reference external" href="https://github.com/GoekeLab/xpore">https://github.com/GoekeLab/xpore</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yanocomp</p></td>
+<td><p>Tool for identifying RNA modification sites using nanopore signal clustering and statistical modeling.</p></td>
+<td><p><a class="reference external" href="https://github.com/bartongroup/yanocomp">https://github.com/bartongroup/yanocomp</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p>nanom6A</p></td>
+<td><p>Machine learning–based m6A detection tool using signal-derived features from nanopore DRS data.</p></td>
+<td><p><a class="reference external" href="https://github.com/gaoyubang/nanom6A">https://github.com/gaoyubang/nanom6A</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p>DENA</p></td>
+<td><p>Recurrent neural network–based framework for m6A detection from nanopore signals.</p></td>
+<td><p><a class="reference external" href="https://github.com/weir12/DENA">https://github.com/weir12/DENA</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p>Dinopore</p></td>
+<td><p>CNN-based model for detecting RNA editing directly from ionic current traces.</p></td>
+<td><p><a class="reference external" href="https://github.com/darelab2014/Dinopore">https://github.com/darelab2014/Dinopore</a></p></td>
+<td><p>A-to-I</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p>IndoC</p></td>
+<td><p>Machine learning framework for pseudouridine detection from nanopore signal and alignment features.</p></td>
+<td><p><a class="reference external" href="https://github.com/geno-verse/indoC">https://github.com/geno-verse/indoC</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p>JACUSA2</p></td>
+<td><p>Variant and RNA modification detection framework using statistical comparison of aligned read features.</p></td>
+<td><p><a class="reference external" href="https://github.com/dieterich-lab/JACUSA2">https://github.com/dieterich-lab/JACUSA2</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p>ModPhred</p></td>
+<td><p>Modification-aware post-processing tool for annotating basecalled reads with modification tags.</p></td>
+<td><p><a class="reference external" href="https://github.com/novoalab/modPhred">https://github.com/novoalab/modPhred</a></p></td>
+<td><p>m6A, m5C</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p>Penguin</p></td>
+<td><p>Supervised ML-based tool for Ψ detection from nanopore data.</p></td>
+<td><p><a class="reference external" href="https://github.com/Janga-Lab/Penguin">https://github.com/Janga-Lab/Penguin</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p>DRUMMER</p></td>
+<td><p>Differential RNA modification detection tool based on basecalling error comparison.</p></td>
+<td><p><a class="reference external" href="https://github.com/DepledgeLab/DRUMMER">https://github.com/DepledgeLab/DRUMMER</a></p></td>
+<td><p>rRNA modifications</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p>nanoSHAPE</p></td>
+<td><p>Signal-based RNA structural probing tool (SHAPE-like) using nanopore data.</p></td>
+<td><p><a class="reference external" href="https://github.com/physnano/rRNA_nanoSHAPE">https://github.com/physnano/rRNA_nanoSHAPE</a></p></td>
+<td><p>rRNA modifications</p></td>
+<td><p>RNA002</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p>m6Anet</p></td>
+<td><p>Deep learning (MIL-based) framework for m6A site detection and stoichiometry estimation from nanopore reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/GoekeLab/m6anet">https://github.com/GoekeLab/m6anet</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p>DeepEdit</p></td>
+<td><p>Deep learning tool for RNA editing or modification detection (exact scope unclear).</p></td>
+<td><p><a class="reference external" href="https://github.com/weir12/DeepEdit">https://github.com/weir12/DeepEdit</a></p></td>
+<td><p>A-to-I</p></td>
+<td><p>RNA002</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dorado</p></td>
+<td><p>ONT production basecaller with integrated RNA modification detection models.</p></td>
+<td><p><a class="reference external" href="https://github.com/nanoporetech/dorado">https://github.com/nanoporetech/dorado</a></p></td>
+<td><p>m6A, m5C, Ψ, A-to-I</p></td>
+<td><p>RNA004</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p>PsiNanopore</p></td>
+<td><p>This package provides computational tools for detecting pseudouridine modification sites in nanopore sequencing data by comparing direct RNA vs IVT samples, calculating p-values to identify candidate positions, and visualizing raw ionic signals, with a complete step-by-step pipeline covering basecalling, alignment, and BAM file processing.</p></td>
+<td><p><a class="reference external" href="https://github.com/RouhanifardLab/PsiNanopore">https://github.com/RouhanifardLab/PsiNanopore</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p>CHEUI</p></td>
+<td><p>Deep learning–based m6A and m5C detection framework from nanopore DRS data.</p></td>
+<td><p><a class="reference external" href="https://github.com/comprna/CHEUI">https://github.com/comprna/CHEUI</a></p></td>
+<td><p>m6A, m5C</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>IL-AD</p></td>
+<td><p>Integrated learning-based RNA modification detection framework (exact scope unclear).</p></td>
+<td><p><a class="reference external" href="https://github.com/wangziyuan66/IL-AD">https://github.com/wangziyuan66/IL-AD</a></p></td>
+<td><p>m1A, m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>iForest</p></td>
+<td><p>Isolation Forest–based anomaly detection approach for identifying RNA editing events.</p></td>
+<td><p><a class="reference external" href="https://github.com/F0nz0/C_to_U_classifier">https://github.com/F0nz0/C_to_U_classifier</a></p></td>
+<td><p>C-to-U</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>ModQuant</p></td>
+<td><p>Quantification framework for RNA modification stoichiometry from nanopore reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/wanunulab/ModQuant">https://github.com/wanunulab/ModQuant</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>m6ATM</p></td>
+<td><p>m6A detection tool based on feature engineering and supervised learning.</p></td>
+<td><p><a class="reference external" href="https://github.com/poigit/m6ATM">https://github.com/poigit/m6ATM</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>m1a-prediction</p></td>
+<td><p>Tool for m1A modification prediction from nanopore DRS data.</p></td>
+<td><p><a class="reference external" href="https://github.com/BernieeeX/m1a-prediction">https://github.com/BernieeeX/m1a-prediction</a></p></td>
+<td><p>m1A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>mAFiA</p></td>
+<td><p>Modification-aware basecalling framework integrating sequence decoding and RNA modification detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/dieterich-lab/mAFiA">https://github.com/dieterich-lab/mAFiA</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>NanoML-5moU</p></td>
+<td><p>Machine learning tool for detecting 5-methoxyuridine (5moU) modifications.</p></td>
+<td><p><a class="reference external" href="https://github.com/JiayiLi21/NanoML-5moU">https://github.com/JiayiLi21/NanoML-5moU</a></p></td>
+<td><p>5moU</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>NanoMUD</p></td>
+<td><p>Multi-mark deep learning framework for RNA modification detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/ABOMSBI/NanoMUD">https://github.com/ABOMSBI/NanoMUD</a></p></td>
+<td><p>Ψ, m1Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>NanoPsiPy</p></td>
+<td><p>Tool for pseudouridine detection using nanopore signal and basecalling features.</p></td>
+<td><p><a class="reference external" href="http://github.com/vetmohit89/NanoPsiPy.git">http://github.com/vetmohit89/NanoPsiPy.git</a></p></td>
+<td><p>Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>NanoSPA</p></td>
+<td><p>Deep learning–based pseudouridine detection framework from nanopore signals.</p></td>
+<td><p><a class="reference external" href="https://github.com/sihaohuanguc/NanoSPA">https://github.com/sihaohuanguc/NanoSPA</a></p></td>
+<td><p>m6A, Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>Nm-Nano</p></td>
+<td><p>Supervised learning framework for detecting 2′-O-methylation (Nm) from nanopore data.</p></td>
+<td><p><a class="reference external" href="https://github.com/Janga-Lab/Nm-Nano">https://github.com/Janga-Lab/Nm-Nano</a></p></td>
+<td><p>Nm</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>RNAkinet</p></td>
+<td><p>RNA kinetic modeling tool from nanopore DRS signal data.</p></td>
+<td><p><a class="reference external" href="https://github.com/maragkakislab/rnakinet">https://github.com/maragkakislab/rnakinet</a></p></td>
+<td><p>5EU</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>RedNano</p></td>
+<td><p>Deep residual neural network integrating signal and basecalling features for m6A detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/Derryxu/RedNano">https://github.com/Derryxu/RedNano</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p>TandemMod</p></td>
+<td><p>Multi-label deep learning framework for simultaneous detection of multiple RNA modifications.</p></td>
+<td><p><a class="reference external" href="https://github.com/yulab2021/TandemMod">https://github.com/yulab2021/TandemMod</a></p></td>
+<td><p>m6A, m5C, hm5C, m7G, Ψ, A-to-I</p></td>
+<td><p>RNA002</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p>DEMINERS</p></td>
+<td><p>Deep learning framework for nanopore signal decoding and RNA modification detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/LuChenLab/DEMINERS">https://github.com/LuChenLab/DEMINERS</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>DirecRM</p></td>
+<td><p>Deep learning–based direct RNA modification detection framework.</p></td>
+<td><p><a class="reference external" href="https://github.com/yuxinPenny/DirectRM">https://github.com/yuxinPenny/DirectRM</a></p></td>
+<td><p>ac4C, m1A, m5C, m6A, m7G, Ψ</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>DRAP3R</p></td>
+<td><p>Custom nanopore direct RNA sequencing method and analysis framework for capturing nascent Pol III-derived RNAs and a small subset of Pol II-derived ncRNAs.</p></td>
+<td><p><a class="reference external" href="https://github.com/DepledgeLab/DRAP3R">https://github.com/DepledgeLab/DRAP3R</a></p></td>
+<td><p>tRNA modifications</p></td>
+<td><p>RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>MoDorado</p></td>
+<td><p>Light-weight algorithm that detects modification by off-label use of pre-trained modification-specific models in nanopore direct RNA sequencing (SQK-RNA004).</p></td>
+<td><p><a class="reference external" href="https://github.com/KleistLab/MoDorado">https://github.com/KleistLab/MoDorado</a></p></td>
+<td><p>tRNA modifications</p></td>
+<td><p>RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>ModiDeC</p></td>
+<td><p>Personalized two-input neural network designed to identify RNA modifications from direct RNA sequencing using RNA002 or RNA004 Oxford Nanopore technology kits.</p></td>
+<td><p><a class="reference external" href="https://github.com/mem3nto0/ModiDeC-RNA-modification-classifier">https://github.com/mem3nto0/ModiDeC-RNA-modification-classifier</a></p></td>
+<td><p>m6A, Gm, A-to-I, Ψ</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>NanoNM</p></td>
+<td><p>Ensemble machine learning–based tool for transcriptome-wide Nm detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/YanqiangLi/NanoNm">https://github.com/YanqiangLi/NanoNm</a></p></td>
+<td><p>Nm</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>NanoRL</p></td>
+<td><p>Reinforcement learning–based RNA modification detection framework.</p></td>
+<td><p><a class="reference external" href="https://github.com/wangziyuan66/NanoRL">https://github.com/wangziyuan66/NanoRL</a></p></td>
+<td><p>m1A, m6A, ac4C, m5C, hm5C, m5U, Ψ, m1Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>ORCA</p></td>
+<td><p>Multi-modification deep learning detection framework for nanopore RNA.</p></td>
+<td><p><a class="reference external" href="https://github.com/bioinfo-biols/ORCA">https://github.com/bioinfo-biols/ORCA</a></p></td>
+<td><p>m1A, m6A, Ψ, m5C, hm5C, f5C</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>RMNet</p></td>
+<td><p>Neural network model for RNA modification detection from nanopore signals.</p></td>
+<td><p><a class="reference external" href="https://github.com/liqingwen98/RMNet">https://github.com/liqingwen98/RMNet</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>RNANO</p></td>
+<td><p>Deep learning tool for RNA modification detection from Nanopore direct RNA sequencing data.</p></td>
+<td><p><a class="reference external" href="https://github.com/abhhba999/RNANO">https://github.com/abhhba999/RNANO</a></p></td>
+<td><p>m6A, m5C, m1A, Ψ, Nm, ac4C, m7G</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>SingleMod</p></td>
+<td><p>Attention-based deep learning model for single-molecule RNA modification detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/xieyy46/SingleMod-v1">https://github.com/xieyy46/SingleMod-v1</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>Uncalled4</p></td>
+<td><p>Signal-level nanopore analysis framework for modification detection and event alignment.</p></td>
+<td><p><a class="reference external" href="https://github.com/skovaka/uncalled4">https://github.com/skovaka/uncalled4</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>Xron</p></td>
+<td><p>Neural network–based methylation-aware basecaller for simultaneous sequence and m6A detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/haotianteng/Xron">https://github.com/haotianteng/Xron</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002, RNA004</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>modCnet</p></td>
+<td><p>Neural network–based multi-modification detection model for nanopore data.</p></td>
+<td><p><a class="reference external" href="https://github.com/yulab2021/modCnet">https://github.com/yulab2021/modCnet</a></p></td>
+<td><p>m5C, ac4C</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>m6Aiso</p></td>
+<td><p>Isoform-level m6A detection and quantification tool for long-read RNA sequencing.</p></td>
+<td><p><a class="reference external" href="https://github.com/SYSU-Wang-LAB/m6Aiso">https://github.com/SYSU-Wang-LAB/m6Aiso</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>m6ABasecaller</p></td>
+<td><p>Basecaller-integrated m6A detection tool for real-time nanopore modification calling.</p></td>
+<td><p><a class="reference external" href="https://github.com/novoalab/m6ABasecaller">https://github.com/novoalab/m6ABasecaller</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>pum6A</p></td>
+<td><p>Positive-unlabeled learning framework for m6A identification from nanopore reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/liuchuwei/pum6a">https://github.com/liuchuwei/pum6a</a></p></td>
+<td><p>m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ψ-co-mAFiA</p></td>
+<td><p>Joint Ψ and m6A detection framework integrating signal features.</p></td>
+<td><p><a class="reference external" href="https://github.com/dieterich-lab/psi-co-mAFiA">https://github.com/dieterich-lab/psi-co-mAFiA</a></p></td>
+<td><p>m6A, Ψ</p></td>
+<td><p>RNA002</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p>CircRM</p></td>
+<td><p>Circular RNA modification detection framework from nanopore data.</p></td>
+<td><p><a class="reference external" href="https://github.com/jiayiAnnie17/CircRM">https://github.com/jiayiAnnie17/CircRM</a></p></td>
+<td><p>m1A, m5C, m6A</p></td>
+<td><p>RNA002</p></td>
+<td><p>2026</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p><strong>Modification abbreviations</strong>: m6A (N6-methyladenosine), m5C (5-methylcytosine), Ψ (pseudouridine), m1A (1-methyladenosine), hm5C (5-hydroxymethylcytosine), f5C (5-formylcytosine), ac4C (N4-acetylcytidine), m7G (7-methylguanosine), Nm (2’-O-methylation), 5EU (5-ethynyluridine), 5moU (5-methoxyuridine), A-to-I (adenosine-to-inosine editing), C-to-U (cytidine-to-uridine editing), m1Ψ (1-methylpseudouridine), m5U (5-methyluridine), Gm (2’-O-methylguanosine)</p></li>
+<li><p><strong>Pore chemistry</strong>: RNA002 refers to the SQK-RNA002 kit, RNA004 refers to the SQK-RNA004 kit</p></li>
+<li><p>Tools are listed chronologically by year of publication, with multiple entries for the same year sorted alphabetically</p></li>
+</ul>
+</div>
+</section>
+<section id="computational-tools-for-oxford-nanopore-drs-data-analysis-beyond-rna-modification-detection">
+<h2>Computational tools for Oxford Nanopore DRS data analysis beyond RNA modification detection.<a class="headerlink" href="#computational-tools-for-oxford-nanopore-drs-data-analysis-beyond-rna-modification-detection" title="Permalink to this heading"></a></h2>
+<p>This table summarizes representative computational tools and pipelines for analyzing ONT DRS and related long-read transcriptome data. Tools are organized by functional categories, including basecalling, isoform identification, isoform quantification, poly(A) tail analysis, allele-specific expression analysis, data simulation, fusion gene detection, and integrated data analysis pipelines. For each tool, we provide a brief functional description, GitHub repository, whether it is specifically designed for DRS (DRS-specific), and year of release. While many tools were originally developed for general long-read sequencing, they are widely applied to DRS data.</p>
+<table class="docutils align-default" id="id2">
+<caption><span class="caption-text">Comprehensive list of RNA analysis tools for nanopore DRS</span><a class="headerlink" href="#id2" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 7.8%" />
+<col style="width: 19.4%" />
+<col style="width: 34.0%" />
+<col style="width: 24.3%" />
+<col style="width: 9.7%" />
+<col style="width: 4.9%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Category</p></th>
+<th class="head"><p>Tool</p></th>
+<th class="head"><p>Functional description</p></th>
+<th class="head"><p>GitHub</p></th>
+<th class="head"><p>DRS-specific</p></th>
+<th class="head"><p>Year</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Basecalling</strong></p></td>
+<td><p>Albacore</p></td>
+<td><p>ONT’s early offline basecaller for nanopore data, converting raw ionic current signals into nucleotide sequences using HMM-based models; now deprecated and replaced by Guppy/Dorado.</p></td>
+<td></td>
+<td><p>No</p></td>
+<td><p>2017</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Basecalling</strong></p></td>
+<td><p>Guppy</p></td>
+<td><p>A C++-based closed-source ONT basecaller that replaced Albacore, supporting GPU-accelerated high-accuracy basecalling for DNA and RNA (RNA002 chemistry for DRS).</p></td>
+<td></td>
+<td><p>No</p></td>
+<td><p>2018</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Basecalling</strong></p></td>
+<td><p>Bonito</p></td>
+<td><p>An open-source research basecaller developed by ONT based on PyTorch, enabling customizable neural network architectures and training for experimental nanopore basecalling models.</p></td>
+<td><p><a class="reference external" href="https://github.com/nanoporetech/bonito">https://github.com/nanoporetech/bonito</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Basecalling</strong></p></td>
+<td><p>RODAN</p></td>
+<td><p>A deep learning–based nanopore basecaller employing advanced neural network architectures to improve raw signal decoding accuracy.</p></td>
+<td><p><a class="reference external" href="https://github.com/biodlab/RODAN">https://github.com/biodlab/RODAN</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Basecalling</strong></p></td>
+<td><p>Dorado</p></td>
+<td><p>ONT’s current production basecaller with GPU acceleration, supporting high-accuracy RNA and DNA basecalling, duplex calling, and integrated modification-aware models for simultaneous sequence and RNA modification detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/nanoporetech/dorado">https://github.com/nanoporetech/dorado</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Basecalling</strong></p></td>
+<td><p>GCRTcall</p></td>
+<td><p>A neural network–based nanopore basecaller optimized for improved accuracy and robustness in decoding ionic current signals from ONT sequencing data.</p></td>
+<td><p><a class="reference external" href="https://github.com/liqingwen98/GCRTcall">https://github.com/liqingwen98/GCRTcall</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Basecalling</strong></p></td>
+<td><p>DEMINERS</p></td>
+<td><p>A deep learning framework for nanopore signal decoding that enhances basecalling performance and supports modification-aware sequence interpretation.</p></td>
+<td><p><a class="reference external" href="https://github.com/LuChenLab/DEMINERS">https://github.com/LuChenLab/DEMINERS</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Basecalling</strong></p></td>
+<td><p>Coral</p></td>
+<td><p>A neural network–based nanopore basecaller designed to improve signal-to-sequence translation accuracy, particularly for challenging signal regions such as homopolymers.</p></td>
+<td><p><a class="reference external" href="https://github.com/BioinfoSZU/Coral">https://github.com/BioinfoSZU/Coral</a></p></td>
+<td><p>No</p></td>
+<td><p>2026</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>StringTie2</p></td>
+<td><p>Transcript assembly from long-read alignments based on reference genome and annotation (DRS may rely more heavily on high-quality alignment and annotation due to 3′ bias).</p></td>
+<td><p><a class="reference external" href="https://github.com/gpertea/stringtie">https://github.com/gpertea/stringtie</a></p></td>
+<td><p>No</p></td>
+<td><p>2019</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>rnaSPAdes</p></td>
+<td><p>De novo transcriptome assembly (DRS-compatible but often combined with other read types or strategies) to recover transcripts absent from reference annotations.</p></td>
+<td><p><a class="reference external" href="https://github.com/ablab/spades">https://github.com/ablab/spades</a></p></td>
+<td><p>No</p></td>
+<td><p>2019</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>FLAIR</p></td>
+<td><p>Post-alignment splice site correction and transcript assembly for ONT long reads (including DRS), mitigating the impact of ONT sequencing errors on splice junction detection.</p></td>
+<td><p><a class="reference external" href="https://github.com/BrooksLabUCSC/flair">https://github.com/BrooksLabUCSC/flair</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>TALON</p></td>
+<td><p>Classification and annotation summarization of known and novel transcripts from long reads (including DRS), generating transcript sets suitable for downstream quantification.</p></td>
+<td><p><a class="reference external" href="https://github.com/dewyman/TALON">https://github.com/dewyman/TALON</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>TAMA</p></td>
+<td><p>Merging, filtering, and annotation refinement tools for long-read transcript structures, supporting the standardization and curation of DRS-derived transcript models.</p></td>
+<td><p><a class="reference external" href="https://github.com/GenomeRIK/tama">https://github.com/GenomeRIK/tama</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>Pinfish</p></td>
+<td><p>Nanopore transcriptome toolkits (clustering, error correction, modeling) applicable to DRS reads for transcript candidate generation and structural organization.</p></td>
+<td><p><a class="reference external" href="https://github.com/nanoporetech/pinfish">https://github.com/nanoporetech/pinfish</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>FLAMES</p></td>
+<td><p>Isoform identification and organization for long-read transcriptomes (including DRS), commonly used to standardize long-read transcript sets for comparative analysis.</p></td>
+<td><p><a class="reference external" href="https://github.com/LuyiTian/FLAMES">https://github.com/LuyiTian/FLAMES</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>IsoSplitter</p></td>
+<td><p>Partitioning and classification of long reads by splicing and structural features, facilitating the dissection of complex isoforms and alternative splicing patterns in DRS data.</p></td>
+<td><p><a class="reference external" href="https://github.com/Hengfu-Yin/IsoSplitter">https://github.com/Hengfu-Yin/IsoSplitter</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>LyRic</p></td>
+<td><p>Transcript identification and expression analysis tools or pipelines tailored to ONT DRS characteristics (directionality, 3′ signal, poly(A)-related features).</p></td>
+<td><p><a class="reference external" href="https://github.com/guigolab/LyRic">https://github.com/guigolab/LyRic</a></p></td>
+<td><p>Yes</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>RATTLE</p></td>
+<td><p>Reference-free clustering of DRS/ONT reads to generate transcript consensus sequences, enabling isoform reconstruction without reliable reference genomes.</p></td>
+<td><p><a class="reference external" href="https://github.com/comprna/RATTLE">https://github.com/comprna/RATTLE</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>Bambu</p></td>
+<td><p>Reconstruction and merging of transcript structures from long reads (applicable to DRS), with identification of novel isoforms to accommodate uneven full-length coverage in DRS data.</p></td>
+<td><p><a class="reference external" href="https://github.com/GoekeLab/bambu">https://github.com/GoekeLab/bambu</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>IsoTools</p></td>
+<td><p>Analytical framework for transcript classification, novel isoform discovery, and splicing event summarization in long-read transcriptomes (including DRS).</p></td>
+<td><p><a class="reference external" href="https://github.com/MatthiasLienhard/isotools">https://github.com/MatthiasLienhard/isotools</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>Mandalorion</p></td>
+<td><p>Identification of splice isoforms and generation of transcript models from ONT long reads (including DRS), suitable for rapid isoform catalog generation within the ONT ecosystem.</p></td>
+<td><p><a class="reference external" href="https://github.com/mandalorion-evidence/mandalorion">https://github.com/mandalorion-evidence/mandalorion</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>ESPRESSO</p></td>
+<td><p>Splice site error correction in long reads prior to isoform identification, reducing false splice junctions caused by higher DRS error rates.</p></td>
+<td><p><a class="reference external" href="https://github.com/Xinglab/espresso">https://github.com/Xinglab/espresso</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>Freddie</p></td>
+<td><p>Clustering long reads (including DRS) by splicing structure and inferring isoforms under weak or absent annotation, suitable for exploratory DRS datasets.</p></td>
+<td><p><a class="reference external" href="https://github.com/vpc-ccg/freddie">https://github.com/vpc-ccg/freddie</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>RNA-Bloom2</p></td>
+<td><p>De novo or weak-reference transcript assembly tools that support DRS, useful for constructing transcript sequence sets when annotation is incomplete or reference genomes are limited.</p></td>
+<td><p><a class="reference external" href="https://github.com/bcgsc/RNA-Bloom">https://github.com/bcgsc/RNA-Bloom</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>isONform</p></td>
+<td><p>Reference-free clustering and reconstruction of ONT transcripts (including DRS), improving structural consistency under high sequencing error rates.</p></td>
+<td><p><a class="reference external" href="https://github.com/ksahlin/isONform">https://github.com/ksahlin/isONform</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>rMATS-long</p></td>
+<td><p>Differential isoform analysis between sample groups, as well as classification and visualization of isoform structure and abundance.</p></td>
+<td><p><a class="reference external" href="https://github.com/Xinglab/rMATS-long">https://github.com/Xinglab/rMATS-long</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>Isosceles</p></td>
+<td><p>ONT-oriented isoform clustering and integration approaches, suitable for consolidating DRS reads into high-confidence transcript structure sets.</p></td>
+<td><p><a class="reference external" href="https://github.com/Genentech/Isosceles">https://github.com/Genentech/Isosceles</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Identification</strong></p></td>
+<td><p>isoSeQL</p></td>
+<td><p>Database tool for comparing across many Iso-Seq runs analyzed through SQANTI3.</p></td>
+<td><p><a class="reference external" href="https://github.com/christine-liu/isoSeQL">https://github.com/christine-liu/isoSeQL</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>Salmon</p></td>
+<td><p>Rapid transcript expression estimation (for long reads/DRS, requiring attention to 3′ bias and alignment/indexing strategies).</p></td>
+<td><p><a class="reference external" href="https://github.com/COMBINE-lab/salmon">https://github.com/COMBINE-lab/salmon</a></p></td>
+<td><p>No</p></td>
+<td><p>2015</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>FLAIR</p></td>
+<td><p>Isoform-level counting of DRS reads based on corrected splice sites and transcript sets, reducing the impact of mismatches and mis-splicing on quantification.</p></td>
+<td><p><a class="reference external" href="https://github.com/BrooksLabUCSC/flair">https://github.com/BrooksLabUCSC/flair</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>TALON</p></td>
+<td><p>Classification and counting of DRS reads within a known/novel transcript framework, producing consistent transcript expression matrices.</p></td>
+<td><p><a class="reference external" href="https://github.com/dewyman/TALON">https://github.com/dewyman/TALON</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>tappAS</p></td>
+<td><p>Functional interpretation based on isoform-level expression (DRS-derived transcript expression can inform differences in protein domains, UTRs, etc.).</p></td>
+<td><p><a class="reference external" href="https://github.com/ConesaLab/tappAS">https://github.com/ConesaLab/tappAS</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>HBA-DEALS</p></td>
+<td><p>Joint modeling of gene expression and isoform usage changes, suitable for differential analysis using DRS-derived transcript counts.</p></td>
+<td><p><a class="reference external" href="https://github.com/TheJacksonLaboratory/HBA-DEALS">https://github.com/TheJacksonLaboratory/HBA-DEALS</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>NanoCount</p></td>
+<td><p>Direct assignment of ONT/DRS reads to transcripts or genes based on alignment results for baseline long-read quantification.</p></td>
+<td><p><a class="reference external" href="https://github.com/a-slide/NanoCount">https://github.com/a-slide/NanoCount</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>LIQA</p></td>
+<td><p>Estimation of isoform expression and detection of differential isoform usage, leveraging DRS long reads to distinguish closely related isoforms.</p></td>
+<td><p><a class="reference external" href="https://github.com/WGLab/LIQA">https://github.com/WGLab/LIQA</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>ScisorseqR</p></td>
+<td><p>Isoform usage analysis frameworks for single-cell long-read data (adaptable if DRS is extended to single-cell or low-input scenarios).</p></td>
+<td><p><a class="reference external" href="https://github.com/noush-joglekar/scisorseqr">https://github.com/noush-joglekar/scisorseqr</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>HTSeq</p></td>
+<td><p>Feature-based counting from DRS alignments to generate count matrices for differential expression or differential usage analysis.</p></td>
+<td><p><a class="reference external" href="https://github.com/htseq/htseq">https://github.com/htseq/htseq</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>TAGET</p></td>
+<td><p>Integration of long-read (including DRS) transcript annotation and quantification outputs for isoform-level expression and splicing analysis.</p></td>
+<td><p><a class="reference external" href="https://github.com/XiDsLab/TAGET">https://github.com/XiDsLab/TAGET</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>Bambu</p></td>
+<td><p>Simultaneous transcript construction/integration and isoform quantification from DRS, suitable when unannotated transcripts are present.</p></td>
+<td><p><a class="reference external" href="https://github.com/GoekeLab/bambu">https://github.com/GoekeLab/bambu</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>IsoQuant</p></td>
+<td><p>Transcript identification and quantification from long reads (including DRS) with consistency assessment, suitable for robust estimation under uneven full-length coverage.</p></td>
+<td><p><a class="reference external" href="https://github.com/ablab/IsoQuant">https://github.com/ablab/IsoQuant</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>IsoTools</p></td>
+<td><p>Quantification of DRS/long-read transcripts with support for splicing and isoform usage change summarization.</p></td>
+<td><p><a class="reference external" href="https://github.com/MatthiasLienhard/isotools">https://github.com/MatthiasLienhard/isotools</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>Mandalorion</p></td>
+<td><p>Integrated ONT workflow outputs of isoform counts and expression estimates, serving as unified solutions for DRS isoform quantification.</p></td>
+<td><p><a class="reference external" href="https://github.com/christopher-vollmers/Mandalorion">https://github.com/christopher-vollmers/Mandalorion</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>DELongSeq</p></td>
+<td><p>Long-read–oriented differential transcript and differential splicing analysis methods, using DRS isoform counts as input.</p></td>
+<td><p><a class="reference external" href="https://github.com/WGLab/DELongSeq">https://github.com/WGLab/DELongSeq</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>Isosceles</p></td>
+<td><p>Isoform-level expression estimation within the ONT ecosystem, consolidating DRS reads at the transcript level.</p></td>
+<td><p><a class="reference external" href="https://github.com/Genentech/Isosceles">https://github.com/Genentech/Isosceles</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>miniQuant</p></td>
+<td><p>Rapid transcript- or gene-level counting from long reads (including DRS), aligned with the “read-as-molecule” direct counting paradigm of DRS.</p></td>
+<td><p><a class="reference external" href="https://github.com/Augroup/miniQuant">https://github.com/Augroup/miniQuant</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Isoform Quantification</strong></p></td>
+<td><p>lr-kallisto</p></td>
+<td><p>Long-read–oriented transcript quantification applicable to DRS, though sensitive to read errors and coverage bias; often used as a comparison method.</p></td>
+<td><p><a class="reference external" href="https://github.com/pachterlab/kallisto">https://github.com/pachterlab/kallisto</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>Nanopolish</p></td>
+<td><p>Signal-level analysis of Oxford Nanopore sequencing data. Can calculate improved consensus sequence, detect base modifications, call SNPs and indels with respect to a reference genome.</p></td>
+<td><p><a class="reference external" href="https://github.com/jts/nanopolish">https://github.com/jts/nanopolish</a></p></td>
+<td><p>No</p></td>
+<td><p>2019</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>tailfindr</p></td>
+<td><p>R package for estimating poly(A)-tail lengths in Oxford Nanopore reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/adnaniazi/tailfindr">https://github.com/adnaniazi/tailfindr</a></p></td>
+<td><p>No</p></td>
+<td><p>2019</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>PolyAcaller</p></td>
+<td><p>Predicate potential poly(A) regions from Nanopore fast5 file which has been basecalled by guppy with flipflop mode.</p></td>
+<td><p><a class="reference external" href="https://github.com/zhailab/polyACaller">https://github.com/zhailab/polyACaller</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>PolyaID</p></td>
+<td><p>Convolutional neural network models that predict the classification and cleavage profile surrounding a putative polyA site.</p></td>
+<td><p><a class="reference external" href="https://github.com/zhejilab/PolyaModelsHuman">https://github.com/zhejilab/PolyaModelsHuman</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>modr</p></td>
+<td><p>Estimate known and novel transcript expression, predict poly-A tail lengths, and detect RNA modifications in Oxford Nanopore direct RNA-sequencing data like no pipeline before!</p></td>
+<td><p><a class="reference external" href="https://github.com/OpenOmics/modr">https://github.com/OpenOmics/modr</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>PT_identify_polyA_sites</p></td>
+<td><p>Python-based tool designed to identify and analyze poly(A) sites in RNA-seq data.</p></td>
+<td><p><a class="reference external" href="https://github.com/bartongroup/PT_identify_polyA_sites">https://github.com/bartongroup/PT_identify_polyA_sites</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>NanoTail</p></td>
+<td><p>A set of functions to manipulate and analyze data coming from polyA lengths estimations done using Oxford Nanopore Direct RNA sequencing and Nanopolish software.</p></td>
+<td><p><a class="reference external" href="https://github.com/smaegol/nanotail">https://github.com/smaegol/nanotail</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>TAILcaller</p></td>
+<td><p>R package for analyzing polyA tails after dorado basecalling.</p></td>
+<td><p><a class="reference external" href="https://github.com/Mordziarz/TAILcaller">https://github.com/Mordziarz/TAILcaller</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>BoostNano</p></td>
+<td><p>A tool for preprocessing ONT-Nanopore RNA sequencing reads (before basecalling), it segments/trims the adapter, polyA stall, and the transcription from the raw signal before basecalling.</p></td>
+<td><p><a class="reference external" href="https://github.com/haotianteng/BoostNano">https://github.com/haotianteng/BoostNano</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Poly(A) Tail Analysis</strong></p></td>
+<td><p>Ninetails</p></td>
+<td><p>An R package for finding non-adenosine poly(A) residues in Oxford Nanopore direct RNA sequencing reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/LRB-IIMCB/ninetails">https://github.com/LRB-IIMCB/ninetails</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>phASER</p></td>
+<td><p>Estimates haplotype-level expression and allele-specific expression (ASE) based on phased variants (DRS long reads improve connectivity between phased sites and ASE resolution).</p></td>
+<td><p><a class="reference external" href="https://github.com/secastel/phaser">https://github.com/secastel/phaser</a></p></td>
+<td><p>No</p></td>
+<td><p>2016</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>PEPPER</p></td>
+<td><p>Variant detection component designed for ONT reads (applicable to DRS but requiring consideration of RNA-specific biases), often integrated with phasing and genotyping workflows.</p></td>
+<td><p><a class="reference external" href="https://github.com/kishwarshafin/pepper">https://github.com/kishwarshafin/pepper</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>LORALS</p></td>
+<td><p>Performs allele-specific expression and allele-specific splicing analysis using long reads, enabling direct association of haplotypes with transcripts through DRS data.</p></td>
+<td><p><a class="reference external" href="https://github.com/LappalainenLab/lorals">https://github.com/LappalainenLab/lorals</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>WhatsHap</p></td>
+<td><p>Uses long reads (including DRS) spanning multiple heterozygous sites to perform phasing inference, providing the foundation for haplotype-specific and allele-specific expression analysis in DRS.</p></td>
+<td><p><a class="reference external" href="https://github.com/whatshap/whatshap">https://github.com/whatshap/whatshap</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>RPVG</p></td>
+<td><p>Aligns RNA reads to variation graphs or pangenomes and estimates allele-specific expression, suitable for reducing reference bias in highly polymorphic regions when using DRS.</p></td>
+<td><p><a class="reference external" href="https://github.com/jonassibbesen/rpvg">https://github.com/jonassibbesen/rpvg</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>IsoLaser</p></td>
+<td><p>Integrates long-read splicing structures with variant information to infer allele-specific expression and splicing (the long span of DRS facilitates linking variants to isoforms).</p></td>
+<td><p><a class="reference external" href="https://github.com/gxiaolab/isoLASER">https://github.com/gxiaolab/isoLASER</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Allele-Specific Expression Analysis</strong></p></td>
+<td><p>Clair3-RNA</p></td>
+<td><p>A small variant caller for long-read RNA sequencing (lrRNA-seq) data.</p></td>
+<td><p><a class="reference external" href="https://github.com/HKU-BAL/Clair3-RNA">https://github.com/HKU-BAL/Clair3-RNA</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>NanoSim</p></td>
+<td><p>A fast and scalable read simulator that captures the technology-specific features of ONT data, and allows for adjustments upon improvement of nanopore sequencing technology.</p></td>
+<td><p><a class="reference external" href="https://github.com/bcgsc/NanoSim">https://github.com/bcgsc/NanoSim</a></p></td>
+<td><p>No</p></td>
+<td><p>2017</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>DeepSimulator</p></td>
+<td><p>The first deep learning based Nanopore simulator which can simulate the process of Nanopore sequencing.</p></td>
+<td><p><a class="reference external" href="https://github.com/liyu95/DeepSimulator">https://github.com/liyu95/DeepSimulator</a></p></td>
+<td><p>No</p></td>
+<td><p>2018</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>PBSIM3</p></td>
+<td><p>A simulator for all types of Pacific Biosciences (PacBio) and Oxford Nanopore Technologies (ONT) long reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/yukiteruono/pbsim3">https://github.com/yukiteruono/pbsim3</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>Squigulator</p></td>
+<td><p>A tool for simulating nanopore raw signal data. Uses traditional pore models and gaussian noise for simulation.</p></td>
+<td><p><a class="reference external" href="https://github.com/hasindu2008/squigulator">https://github.com/hasindu2008/squigulator</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>TKSM</p></td>
+<td><p>A modular software for simulating long-read sequencing.</p></td>
+<td><p><a class="reference external" href="https://github.com/vpc-ccg/tksm">https://github.com/vpc-ccg/tksm</a></p></td>
+<td><p>No</p></td>
+<td><p>2024</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>Seq2squiggle</p></td>
+<td><p>A deep learning-based tool for generating artifical nanopore signals from DNA sequence data.</p></td>
+<td><p><a class="reference external" href="https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle">https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data Simulation</strong></p></td>
+<td><p>AsaruSim</p></td>
+<td><p>An automated Nextflow workflow designed for simulating 10x single-cell long read data from the count matrix level to the sequence level. Creates a gold standard dataset for assessment and optimization of single-cell long-read methods.</p></td>
+<td><p><a class="reference external" href="https://github.com/GenomiqueENS/AsaruSim">https://github.com/GenomiqueENS/AsaruSim</a></p></td>
+<td><p>No</p></td>
+<td><p>2025</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Fusion Gene Detection</strong></p></td>
+<td><p>LongGF</p></td>
+<td><p>A computational algorithm and software tool for fast and accurate detection of gene fusion by long-read transcriptome sequencing.</p></td>
+<td><p><a class="reference external" href="https://github.com/WGLab/LongGF">https://github.com/WGLab/LongGF</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Fusion Gene Detection</strong></p></td>
+<td><p>JAFFAL</p></td>
+<td><p>A multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions.</p></td>
+<td><p><a class="reference external" href="https://github.com/Oshlack/JAFFA">https://github.com/Oshlack/JAFFA</a></p></td>
+<td><p>No</p></td>
+<td><p>2021</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Fusion Gene Detection</strong></p></td>
+<td><p>FusionSeeker</p></td>
+<td><p>A gene fusion caller for long-read single-molecular sequencing data.</p></td>
+<td><p><a class="reference external" href="https://github.com/Maggi-Chen/FusionSeeker">https://github.com/Maggi-Chen/FusionSeeker</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Fusion Gene Detection</strong></p></td>
+<td><p>CTAT-LR-fusion</p></td>
+<td><p>Find fusion transcripts using minimap2 and FusionInspector for long (and optionally additional short) RNA-seq reads.</p></td>
+<td><p><a class="reference external" href="https://github.com/TrinityCTAT/CTAT-LR-fusion">https://github.com/TrinityCTAT/CTAT-LR-fusion</a></p></td>
+<td><p>No</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Data Analysis Pipelines</strong></p></td>
+<td><p>NanoPipe</p></td>
+<td><p>A web-based software for analyzing Oxford Nanopore sequencing reads, providing alignments, statistics, and polymorphism information, available online or as a downloadable script for local use.</p></td>
+<td><p><a class="reference external" href="https://github.com/IOB-Muenster/nanopipe2">https://github.com/IOB-Muenster/nanopipe2</a></p></td>
+<td><p>No</p></td>
+<td><p>2019</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data Analysis Pipelines</strong></p></td>
+<td><p>MasterOfPores</p></td>
+<td><p>A pipeline written in Nextflow DSL2 to analyze Nanopore data. It can handle reads from direct RNAseq, cDNAseq, DNAseq etc.</p></td>
+<td><p><a class="reference external" href="https://github.com/biocorecrg/master_of_pores">https://github.com/biocorecrg/master_of_pores</a></p></td>
+<td><p>No</p></td>
+<td><p>2020</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Data Analysis Pipelines</strong></p></td>
+<td><p>L-RAPiT</p></td>
+<td><p>A Cloud-Based Computing Pipeline for the Analysis of Long-Read RNA Sequencing Data.</p></td>
+<td><p><a class="reference external" href="https://github.com/Theo-Nelson/long-read-sequencing-pipeline">https://github.com/Theo-Nelson/long-read-sequencing-pipeline</a></p></td>
+<td><p>No</p></td>
+<td><p>2022</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Data Analysis Pipelines</strong></p></td>
+<td><p>FASTdRNA</p></td>
+<td><p>FastdRNA is a pipeline written in snakemake to handle ONT direct RNA seq database.</p></td>
+<td><p><a class="reference external" href="https://github.com/Tomcxf/FASTdRNA">https://github.com/Tomcxf/FASTdRNA</a></p></td>
+<td><p>Yes</p></td>
+<td><p>2023</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Data Analysis Pipelines</strong></p></td>
+<td><p>NanoTrans</p></td>
+<td><p>An integrated computational framework for comprehensive transcriptome analysis with Nanopore direct-RNA sequencing.</p></td>
+<td><p><a class="reference external" href="https://github.com/yjx1217/NanoTrans">https://github.com/yjx1217/NanoTrans</a></p></td>
+<td><p>Yes</p></td>
+<td><p>2024</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p><strong>DRS-specific</strong>: Indicates whether the tool was specifically designed for or particularly suited to Direct RNA Sequencing data. “No” means the tool can be applied to DRS but was not specifically designed for it.</p></li>
+<li><p><strong>Basecallers</strong>: Tools that convert raw electrical signals from nanopore sequencing into nucleotide sequences.</p></li>
+<li><p><strong>Isoform identification</strong>: Tools for reconstructing and identifying transcript isoforms from long-read sequencing data.</p></li>
+<li><p><strong>Isoform quantification</strong>: Tools for estimating expression levels of transcript isoforms.</p></li>
+<li><p><strong>Poly(A) tail analysis</strong>: Tools for analyzing poly(A) tail lengths and characteristics from nanopore RNA data.</p></li>
+<li><p><strong>Allele-specific expression analysis</strong>: Tools for detecting and quantifying expression from specific alleles or haplotypes.</p></li>
+<li><p><strong>Data simulation</strong>: Tools for generating simulated nanopore sequencing data for benchmarking and development.</p></li>
+<li><p><strong>Fusion gene detection</strong>: Tools for identifying gene fusion events from long-read transcriptome data.</p></li>
+<li><p><strong>Data analysis pipelines</strong>: Integrated workflows that combine multiple analysis steps for comprehensive data processing.</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="conclusions.html" class="btn btn-neutral float-left" title="Conclusions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="code.html" class="btn btn-neutral float-right" title="Personalized Plotting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

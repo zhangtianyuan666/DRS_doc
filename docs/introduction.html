@@ -1,0 +1,134 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Introduction &mdash; Nanopore DRS guide 1.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=175ac1d5" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=def9ab29"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Nanopore direct RNA sequencing: fundamental principles and developmental trajectory" href="fundamental_principles.html" />
+    <link rel="prev" title="Preface" href="preface.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Nanopore DRS guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fundamental_principles.html">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparative_analysis.html">Comparative analysis of DRS technology and traditional sequencing technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biological_landscape.html">The biological landscape from a DRS perspective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="typical_application.html">Typical application scenarios and breakthrough discoveries of DRS technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="design.html">Design, standardization and optimization of DRS workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_analysis.html">DRS data analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">Designing, validating, and benchmarking DRS: an integrated framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiomics.html">Application-oriented integration of nanopore DRS with multi-omics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Challenges and technical improvements of DRS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="outlook.html">Outlook: toward integrative, haplotype-aware RNA biology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table.html">Supplementary tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code.html">Personalized Plotting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nanopore DRS guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Introduction</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading"></a></h1>
+<p>With the accumulation of experimental and computational evidence, the multilayered and intricate roles of RNA in gene-expression control have come into focus: from non coding to coding RNAs, from transcriptional to post transcriptional regulation, and from epigenetic modulation to RNA editing. Together, diverse RNA species weave a finely tuned and highly dynamic regulatory network that safeguards the spatiotemporal precision and functional versatility of gene expression <a class="reference internal" href="references.html#ref1"><span class="std std-ref">[1]</span></a>, <a class="reference internal" href="references.html#ref2"><span class="std std-ref">[2]</span></a>. In parallel, a growing repertoire of RNA modifications, typified by N⁶ methyladenosine (m⁶A), has been identified as epitranscriptomic marks, and their key contributions to transcript stability, splicing, nuclear export, translational efficiency, and RNA decay have been progressively elucidated <a class="reference internal" href="references.html#ref3"><span class="std std-ref">[3]</span></a>, <a class="reference internal" href="references.html#ref4"><span class="std std-ref">[4]</span></a>. Analogous to DNA methylation and histone modifications, RNA modifications are highly dynamic and reversible, offering an additional layer of regulation that provides new perspectives and mechanistic links for understanding the precise spatiotemporal programming of gene expression <a class="reference internal" href="references.html#ref5"><span class="std std-ref">[5]</span></a>, <a class="reference internal" href="references.html#ref6"><span class="std std-ref">[6]</span></a>.</p>
+<p>Over the past three decades, RNA sequencing technologies have undergone rapid evolution, propelled by continual breakthroughs in sequencing platforms (Figure 1). This evolution has followed a trajectory from short read RNA seq (srRNA-seq) represented by Illumina platforms <a class="reference internal" href="references.html#ref7"><span class="std std-ref">[7]</span></a>, to long read cDNA sequencing represented by PacBio and ONT <a class="reference internal" href="references.html#ref8"><span class="std std-ref">[8]</span></a>, and, in the last decade, to the advent of nanopore direct RNA sequencing (DRS) <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>. Before the next throughput sequencing (NGS) era, Venter and colleagues in 1991 introduced and implemented the expressed sequence tag (EST) strategy, in which short cDNA fragments were sequenced to rapidly capture gene expression information <a class="reference internal" href="references.html#ref10"><span class="std std-ref">[10]</span></a>. Building on this, in 1997 Velculescu, Kinzler and co-workers coined the term “transcriptome” and used ESTs to systematically chart the full set of cellular transcripts, thereby laying essential conceptual and theoretical groundwork for subsequent high throughput RNA sequencing technologies <a class="reference internal" href="references.html#ref11"><span class="std std-ref">[11]</span></a>. The first wave of RNA seq freed researchers from the single gene, low throughput constraints of Northern blotting and microarrays, and made genome wide quantification of transcript abundance a routine experimental approach <a class="reference internal" href="references.html#ref12"><span class="std std-ref">[12]</span></a>. Nevertheless, short read sequencing is inherently limited by read length and the complexity of transcript reconstruction. For long transcripts, intricate alternative splicing (AS) events, or tandem repetitive regions, assembly based inference often fails to recover full length structures at single molecule resolution <a class="reference internal" href="references.html#ref13"><span class="std std-ref">[13]</span></a>. These limitations directly catalyzed the rise of long read cDNA seq, in which reverse transcribed cDNAs, frequently enriched or amplified by reverse transcription PCR (RT PCR) or targeted capture, are sequenced in a single molecule, thereby allowing the transcriptome to be characterized at isoform resolution <a class="reference internal" href="references.html#ref14"><span class="std std-ref">[14]</span></a>.</p>
+<figure class="align-center" id="figure1">
+<a class="reference internal image-reference" href="_images/Figure1-1.png"><img alt="_images/Figure1-1.png" src="_images/Figure1-1.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text"><strong>Figure 1. Timeline of major innovations in RNA sequencing and RNA modification technologies.</strong> Chronological overview of key methodological advances in (A) RNA modification detection and (B) RNA sequencing technologies. (A) Development of RNA modification analysis, from early qualitative and quantitative thin layer chromatography in the mid 20th century, through high sensitivity LC-MS/MS and RT-PCR-based approaches in the 1980s, to transcriptome wide antibody based mapping methods (e.g. MeRIP seq/m⁶A seq, m⁶A LAIC seq) established from 2012 onwards, together with more recent full transcriptome enzymatic and chemical labeling strategies (e.g. DART FISH, MAZTER seq, m⁶A SEAL seq, m⁶A SAC seq). (B) Evolution of RNA sequencing platforms, beginning with Sanger sequencing in 1977, followed by next generation sequencing (NGS) and single cell transcriptome sequencing in the 2000s, third generation long read platforms (e.g. PacBio RS) in the 2010s, and the advent of nanopore sequencing in 2014. The widespread application of nanopore direct RNA sequencing (DRS) to plant, animal and microbial transcriptomes from 2016 marks a key milestone, bridging RNA sequencing and epitranscriptomic profiling.</span><a class="headerlink" href="#figure1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>In step with the iteration of sequencing platforms, technologies for detecting and mapping RNA modifications have progressed from measuring global modification abundance to achieving nucleotide level resolution. The central themes of this evolution have been improving spatial resolution, increasing throughput, enabling precise site localization, and accommodating rare samples. Early approaches, including paper chromatography, ion exchange column chromatography, thin layer chromatography (TLC), and dot blot assays <a class="reference internal" href="references.html#ref15"><span class="std std-ref">[15]</span></a>, <a class="reference internal" href="references.html#ref16"><span class="std std-ref">[16]</span></a>, provided the first evidence for the existence and approximate levels of major modifications such as m⁶A in eukaryotic mRNA. However, these methods lacked site specificity and had limited sensitivity, making them inadequate for detailed mechanistic studies. Subsequently, high performance liquid chromatography coupled with tandem mass spectrometry (LC-MS/MS) enabled femtomole level quantification, while RT PCR combined with Sanger sequencing allowed low throughput validation of candidate sites. Yet LC-MS/MS inevitably discards information on transcript identity and modification position, and RT PCR/Sanger verification is constrained by throughput, so neither readily scales to the whole transcriptome level. With the advent of NGS, antibody based methods such as m⁶A seq and MeRIP-seq <a class="reference internal" href="references.html#ref17"><span class="std std-ref">[17]</span></a>, <a class="reference internal" href="references.html#ref18"><span class="std std-ref">[18]</span></a> generated the first transcriptome wide maps of RNA modifications by combining RNA fragmentation with immunoprecipitation. However, these approaches typically localize modifications only to enriched regions of about 100-200 nucleotides (nt), rather than to single bases. Crosslinking-enhanced strategies such as PA m⁶A seq and miCLIP <a class="reference internal" href="references.html#ref19"><span class="std std-ref">[19]</span></a>, <a class="reference internal" href="references.html#ref20"><span class="std std-ref">[20]</span></a>，pushed resolution down to the single nucleotide scale, yet remained subject to the intrinsic specificity limits and false positive risks associated with antibody dependence. To circumvent these bottlenecks, non-antibody-based strategies have emerged since around 2018 along two main directions. The first relies on chemical derivatization or modification induced reverse transcription (RT) signatures, exemplified by GLORI seq and m⁶A-SEAL-seq <a class="reference internal" href="references.html#ref21"><span class="std std-ref">[21]</span></a>, <a class="reference internal" href="references.html#ref22"><span class="std std-ref">[22]</span></a>. The second uses nuclease- or fusion-protein-mediated approaches, such as MAZTER-seq and DART-seq <a class="reference internal" href="references.html#ref23"><span class="std std-ref">[23]</span></a>, <a class="reference internal" href="references.html#ref24"><span class="std std-ref">[24]</span></a>, In parallel, related chemistries and workflows have been established for additional marks, including 5-methylcytosine (m⁵C) and pseudouridine (Ψ). Although these techniques have greatly improved the visibility and quantitative comparability of modification sites, they generally rely on additional chemical or enzymatic treatments and often target only one or a few modification types. More fundamentally, most readouts are still anchored at the cDNA level, making it difficult to simultaneously resolve full length transcript structures, modification landscapes, and poly(A) tail features at the single RNA molecule resolution.</p>
+<p>Consequently, both srRNA seq and long read cDNA sequencing share a critical premise: what is actually being sequenced is cDNA, not the native RNA molecule. This introduces three fundamental categories of discrepancy and bias. First, they differ at the template level. In cDNA based sequencing, reverse transcribed products serve as the sequencig templates. Consequently, any biases introduced during RT, PCR amplification, or library preparation, such as template switching, 3′ end bias, GC content-related bias, and amplification noise, are irreversibly embedded in the final sequencing data <a class="reference internal" href="references.html#ref25"><span class="std std-ref">[25]</span></a>. Second, the information content is restricted. Conventional RNA seq can only infer RNA modifications or poly(A) tail properties indirectly, for instrance, by leveraging chemical or enzymatic enrichment or depth of coverage patterns to deduce a limited set of marks such as m⁶A or m⁵C <a class="reference internal" href="references.html#ref26"><span class="std std-ref">[26]</span></a>, <a class="reference internal" href="references.html#ref27"><span class="std std-ref">[27]</span></a>. It cannot directly and simultaneously read “sequence, modification, and poly(A) tail” on the same individual molecule. Third, the observable level is intrinsically incomplete. Transcripts truly exist as RNA molecules, whereas cDNA represents only a copied derivative. Under conditions such as disease, stress, or aging, RT efficiency can be differentially affected by complex secondary structures <a class="reference internal" href="references.html#ref28"><span class="std std-ref">[28]</span></a>, <a class="reference internal" href="references.html#ref29"><span class="std std-ref">[29]</span></a> or modification dense regions <a class="reference internal" href="references.html#ref30"><span class="std std-ref">[30-32]</span></a>, leading to systematic under‑representation of certain functionally important transcripts at the cDNA level <a class="reference internal" href="references.html#ref33"><span class="std std-ref">[33]</span></a>. DRS based on nanopore platforms has, for the first time at scale, enabled single molecule, long read sequencing directly on native RNA templates. In this setup, RNA molecules are threaded through nanopores under the control of a motor protein. Their nucleotide sequence and modification status jointly shape the ionic current trace, which is then decoded by basecalling algorithms into sequence and can be further interrogated to infer modification events <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>, <a class="reference internal" href="references.html#ref34"><span class="std std-ref">[34]</span></a>. As a result, nanopore based DRS opens up unprecedented opportunities for studying RNA molecules in their native biochemical and structural context.</p>
+<p>Against this backdrop, one shot measurement of “full length transcript, poly(A) tail features, and RNA modifications” on the same molecule is rapidly emerging as a central goal for the next phase of RNA biology. The traditional strategy of layering multiple experiments across different platforms struggles to simultaneously meet the demands of sample throughput, cost control, and quantitative consistency. DRS offers a conceptually appealing “one shot, multi layer readout” solution, creating new space for what can be regarded as a truly integrated “RNA centric biology” that unifies the transcriptome, epitranscriptome, and poly(A) tail dynamics. Building on the substantial body of methodological and applied studies on DRS published in recent years, we here provide a systematic overview of this technology, covering its physical principles, experimental features, cutting edge applications, data analysis strategies, and method development. Our goal is to connect the full pipeline “from biophysical principle to experimental design, from data processing to algorithmic innovation, and from basic discovery to clinical translation,” thereby offering researchers in RNA biology and a practically oriented and readily actionable review of DRS.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="preface.html" class="btn btn-neutral float-left" title="Preface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="fundamental_principles.html" class="btn btn-neutral float-right" title="Nanopore direct RNA sequencing: fundamental principles and developmental trajectory" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

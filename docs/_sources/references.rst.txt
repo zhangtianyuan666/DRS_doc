@@ -1,0 +1,2810 @@
+References
+==========
+
+.. _ref1:
+
+1. Dai, Xiaofeng, Shuo Zhang, Kathia Zaleta-Rivera. 2020. “RNA: interactions drive functionalities.” Molecular Biology Reports 47: 1413-1434. 
+
+.. _ref2:
+
+2. Spitale, Robert C, Danny Incarnato. 2023. “Probing the dynamic RNA structurome and its functions.” Nature Reviews Genetics 24: 178-196. 
+
+.. _ref3:
+
+3. Hao, Jin-Dong, Qian-Lan Liu, Meng-Xia Liu, Xing Yang, Liu-Ming Wang, Si-Yi Su, Wen Xiao, et al. 2024. “DDX21 mediates co-transcriptional RNA m6A modification to promote transcription termination and genome stability.” Molecular Cell 84: 1711-1726.e1711. https://doi.org/10.1016/j.molcel.2024.03.006
+
+.. _ref4:
+
+4. Xia, Zhen, Min Tang, Jiayan Ma, Hongyan Zhang, Ryan C. Gimple, Briana C. Prager, Hongzhen Tang, et al. 2021. “Epitranscriptomic editing of the RNA N6-methyladenosine modification by dCasRx conjugated methyltransferase and demethylase.” Nucleic Acids Research 49: 7361-7374. https://doi.org/10.1093/nar/gkab517
+
+.. _ref5:
+
+5. Huang, Huilin, Hengyou Weng, Keren Zhou, Tong Wu, Boxuan Simen Zhao, Mingli Sun, Zhenhua Chen, et al. 2019. “Histone H3 trimethylation at lysine 36 guides m6A RNA modification co-transcriptionally.” Nature 567: 414-419. https://doi.org/10.1038/s41586-019-1016-7
+
+.. _ref6:
+
+6. Gu, Xiang, Ai Zhuang, Jie Yu, Ludi Yang, Shengfang Ge, Jing Ruan, Renbing Jia, Xianqun Fan, Peiwei Chai. 2024. “Histone lactylation-boosted ALKBH3 potentiates tumor progression and diminished promyelocytic leukemia protein nuclear condensates by m1A demethylation of SP100A.” Nucleic Acids Research 52: 2273-2289. https://doi.org/10.1093/nar/gkad1193
+
+.. _ref7:
+
+7. Birzele, Fabian, Jochen Schaub, Werner Rust, Christoph Clemens, Patrick Baum, Hitto Kaufmann, Andreas Weith, Torsten W. Schulz, Tobias Hildebrandt. 2010. “Into the unknown: expression profiling without genome sequence information in CHO by next generation sequencing.” Nucleic Acids Research 38: 3999-4010. https://doi.org/10.1093/nar/gkq116
+
+.. _ref8:
+
+8. Shi, Zhuo-Xing, Zhi-Chao Chen, Jia-Yong Zhong, Kun-Hua Hu, Ying-Feng Zheng, Ying Chen, Shang-Qian Xie, et al. 2023. “High-throughput and high-accuracy single-cell RNA isoform analysis using PacBio circular consensus sequencing.” Nature Communications 14: https://doi.org/10.1038/s41467-023-38324-9
+
+.. _ref9:
+
+9. Garalde, D. R., E. A. Snell, D. Jachimowicz, B. Sipos, J. H. Lloyd, M. Bruce, N. Pantic, et al. 2018. “Highly parallel direct RNA sequencing on an array of nanopores.” Nature Methods 15: 201-206. https://doi.org/10.1038/nmeth.4577
+
+.. _ref10:
+
+10. Adams, Mark D, Jenny M Kelley, Jeannine D Gocayne, Mark Dubnick, Mihael H Polymeropoulos, Hong Xiao, Carl R Merril, Andrew Wu, Bjorn Olde, Ruben F Moreno. 1991. “Complementary DNA sequencing: expressed sequence tags and human genome project.” Science 252: 1651-1656. 
+
+.. _ref11:
+
+11. Velculescu, Victor E, Lin Zhang, Wei Zhou, Jacob Vogelstein, Munira A Basrai, Douglas E Bassett, Phil Hieter, Bert Vogelstein, Kenneth W Kinzler. 1997. “Characterization of the yeast transcriptome.” Cell 88: 243-251. 
+
+.. _ref12:
+
+12. Wang, Zhong, Mark Gerstein, Michael Snyder. 2009. “RNA-Seq: a revolutionary tool for transcriptomics.” Nature Reviews Genetics 10: 57-63. 
+
+.. _ref13:
+
+13. Steijger, Tamara, J. Abril, P. Engström, F. Kokocinski, T. Hubbard, R. Guigó, J. Harrow, Paul Bertone. 2013. “Assessment of transcript reconstruction methods for RNA-seq.” Nature Methods 10: 1177-1184. https://doi.org/10.1038/nmeth.2714
+
+.. _ref14:
+
+14. Stark, Rory, Marta Grzelak, James Hadfield. 2019. “RNA sequencing: the teenage years.” Nature Reviews Genetics 20: 631-656. https://doi.org/10.1038/s41576-019-0150-2
+
+.. _ref15:
+
+15. Stanley, John, Stanislav Vassilenko. 1978. “A different approach to RNA sequencing.” Nature 274: 87-89. https://doi.org/10.1038/274087a0
+
+.. _ref16:
+
+16. Grosjean, Henri, Gérard Keith, Louis Droogmans. 2004. Detection and Quantification of Modified Nucleotides in RNA Using Thin-Layer Chromatography. Humana Press, 357-391. https://doi.org/10.1385/1-59259-775-0:357
+
+.. _ref17:
+
+17. Dominissini, D., S. Moshitch-Moshkovitz, S. Schwartz, M. Salmon-Divon, L. Ungar, S. Osenberg, K. Cesarkas, et al. 2012. “Topology of the human and mouse m6A RNA methylomes revealed by m6A-seq.” Nature 485: 201-206. https://doi.org/10.1038/nature11112
+
+.. _ref18:
+
+18. Meyer, K. D., Y. Saletore, P. Zumbo, O. Elemento, C. E. Mason, S. R. Jaffrey. 2012. “Comprehensive analysis of mRNA methylation reveals enrichment in 3' UTRs and near stop codons.” Cell 149: 1635-1646. https://doi.org/10.1016/j.cell.2012.05.003
+
+.. _ref19:
+
+19. Zhou, Wanding, Tenghui Chen, Zechen Chong, Mary A. Rohrdanz, James M. Melott, Chris Wakefield, Jia Zeng, et al. 2015. “TransVar: a multilevel variant annotator for precision genomics.” Nature Methods 12: 1002-1003. https://doi.org/10.1038/nmeth.3622
+
+.. _ref20:
+
+20. Linder, B., A. V. Grozhik, A. O. Olarerin-George, C. Meydan, C. E. Mason, S. R. Jaffrey. 2015. “Single-nucleotide-resolution mapping of m6A and m6Am throughout the transcriptome.” Nature Methods 12: 767-772. https://doi.org/10.1038/nmeth.3453
+
+.. _ref21:
+
+21. Liu, C., H. Sun, Y. Yi, W. Shen, K. Li, Y. Xiao, F. Li, et al. 2023. “Absolute quantification of single-base m(6)A methylation in the mammalian transcriptome using GLORI.” Nat Biotechnol 41: 355-366. https://doi.org/10.1038/s41587-022-01487-9
+
+.. _ref22:
+
+22. Wang, Y., Y. Xiao, S. Dong, Q. Yu, G. Jia. 2020. “Antibody-free enzyme-assisted chemical approach for detection of N(6)-methyladenosine.” Nature Chemical Biology 16: 896-903. https://doi.org/10.1038/s41589-020-0525-x
+
+.. _ref23:
+
+23. Meyer, K. D. 2019. “DART-seq: an antibody-free method for global m(6)A detection.” Nature Methods 16: 1275-1280. https://doi.org/10.1038/s41592-019-0570-0
+
+.. _ref24:
+
+24. Garcia-Campos, M. A., S. Edelheit, U. Toth, M. Safra, R. Shachar, S. Viukov, R. Winkler, et al. 2019. “Deciphering the "m(6)A Code" via Antibody-Independent Quantitative Profiling.” Cell 178: 731-747 e716. https://doi.org/10.1016/j.cell.2019.06.013
+
+.. _ref25:
+
+25. Verwilt, Jasper, Pieter Mestdagh, Jo Vandesompele. 2023. “Artifacts and biases of the reverse transcription reaction in RNA sequencing.” RNA 29: 889-897. 
+
+.. _ref26:
+
+26. Diensthuber, Gregor, Eva Maria Novoa. 2025. “Charting the epitranscriptomic landscape across RNA biotypes using native RNA nanopore sequencing.” Molecular Cell 85: 276-289. 
+
+.. _ref27:
+
+27. Helm, Mark, Yuri Motorin. 2017. “Detecting RNA modifications in the epitranscriptome: predict and validate.” Nature Reviews Genetics 18: 275-291. 
+
+.. _ref28:
+
+28. Sessegolo, C., C. Cruaud, C. Da Silva, A. Cologne, M. Dubarry, T. Derrien, V. Lacroix, J. M. Aury. 2019. “Transcriptome profiling of mouse samples using nanopore sequencing of cDNA and RNA molecules.” Scientific Reports 9: 14908. https://doi.org/10.1038/s41598-019-51470-9
+
+.. _ref29:
+
+29. Rachinger, Nicole, Stefan Fischer, Ines Böhme, Lisa Linck-Paulus, Silke Kuphal, Melanie Kappelmann-Fenzl, Anja K Bosserhoff. 2021. “Loss of gene information: Discrepancies between RNA sequencing, cDNA microarray, and qRT-PCR.” International Journal of Molecular Sciences 22: 9349. 
+
+.. _ref30:
+
+30. Guo, Li-Tao, Rebecca L Adams, Han Wan, Nicholas C Huston, Olga Potapova, Sara Olson, Christian M Gallardo, Brenton R Graveley, Bruce E Torbett, Anna Marie Pyle. 2020. “Sequencing and structure probing of long RNAs using MarathonRT: a next-generation reverse transcriptase.” Journal of Molecular Biology 432: 3338-3352. 
+
+.. _ref31:
+
+31. Werner, Stephan, Lukas Schmidt, Virginie Marchand, Thomas Kemmer, Christoph Falschlunger, Maksim V Sednev, Guillaume Bec, Eric Ennifar, Claudia Höbartner, Ronald Micura. 2020. “Machine learning of reverse transcription signatures of variegated polymerases allows mapping and discrimination of methylated purines in limited transcriptomes.” Nucleic Acids Research 48: 3734-3746. 
+
+.. _ref32:
+
+32. Zheng, Ya Ying, Kaalak Reddy, Sweta Vangaveti, Jia Sheng. 2024. “Inosine-induced base pairing diversity during reverse transcription.” ACS Chemical Biology 19: 348-356. 
+
+.. _ref33:
+
+33. Yu, F., H. Qi, L. Gao, S. Luo, R. Njeri Damaris, Y. Ke, W. Wu, P. Yang. 2023. “Identifying RNA modifications by direct RNA sequencing reveals complexity of epitranscriptomic dynamics in rice.” Genomics, Proteomics & Bioinformatics 21: 788-804. https://doi.org/10.1016/j.gpb.2023.02.002
+
+.. _ref34:
+
+34. Leger, A., P. P. Amaral, L. Pandolfini, C. Capitanchik, F. Capraro, V. Miano, V. Migliori, et al. 2021. “RNA modifications detection by comparative Nanopore direct RNA sequencing.” Nature Communications 12: 7198. https://doi.org/10.1038/s41467-021-27393-3
+
+.. _ref35:
+
+35. Workman, R. E., A. D. Tang, P. S. Tang, M. Jain, J. R. Tyson, R. Razaghi, P. C. Zuzarte, et al. 2019. “Nanopore native RNA sequencing of a human poly(A) transcriptome.” Nature Methods 16: 1297-1305. https://doi.org/10.1038/s41592-019-0617-2
+
+.. _ref36:
+
+36. Thomas, Niki K, Vinay C Poodari, Miten Jain, Hugh E Olsen, Mark Akeson, Robin L Abu-Shumays. 2021. “Direct nanopore sequencing of individual full length tRNA strands.” ACS nano 15: 16642-16653. 
+
+.. _ref37:
+
+37. Smith, M. A., T. Ersavas, J. M. Ferguson, H. Liu, M. C. Lucas, O. Begik, L. Bojarski, K. Barton, E. M. Novoa. 2020. Molecular barcoding of native RNAs using nanopore sequencing and deep learning. Genome Research 1345-1353. https://doi.org/10.1101/gr.260836.120
+
+.. _ref38:
+
+38. Wan, Y. K., C. Hendra, P. N. Pratanwanich, J. Goke. 2022. “Beyond sequencing: machine learning algorithms extract biology hidden in Nanopore signal data.” Trends in Genetics 38: 246-257. https://doi.org/10.1016/j.tig.2021.09.001
+
+.. _ref39:
+
+39. Wang, Yunhao, Yue Zhao, Audrey Bollas, Yuru Wang, K. Au. 2021. “Nanopore sequencing technology, bioinformatics and applications.” Nature Biotechnology 39: 1348-1365. https://doi.org/10.1038/s41587-021-01108-x
+
+.. _ref40:
+
+40. Wick, R. R., L. M. Judd, K. E. Holt. 2019. “Performance of neural network basecalling tools for Oxford Nanopore sequencing.” Genome Biology 20: 129. https://doi.org/10.1186/s13059-019-1727-y
+
+.. _ref41:
+
+41. Pages-Gallego, M., J. de Ridder. 2023. “Comprehensive benchmark and architectural analysis of deep learning models for nanopore sequencing basecalling.” Genome Biology 24: 71. https://doi.org/10.1186/s13059-023-02903-2
+
+.. _ref42:
+
+42. Jain, M., H. E. Olsen, B. Paten, M. Akeson. 2016. “The Oxford Nanopore MinION: delivery of nanopore sequencing to the genomics community.” Genome Biology 17: 239. https://doi.org/10.1186/s13059-016-1103-0
+
+.. _ref43:
+
+43. Deamer, D., M. Akeson, D. Branton. 2016. “Three decades of nanopore sequencing.” Nature Biotechnology 34: 518-524. https://doi.org/10.1038/nbt.3423
+
+.. _ref44:
+
+44. Gu, L. Q., O. Braha, S. Conlan, S. Cheley, H. Bayley. 1999. “Stochastic sensing of organic analytes by a pore-forming protein containing a molecular adapter.” Nature 398: 686-690. https://doi.org/10.1038/19491
+
+.. _ref45:
+
+45. Bayley, H., P. S. Cremer. 2001. “Stochastic sensors inspired by biology.” Nature 413: 226-230. https://doi.org/10.1038/35093038
+
+.. _ref46:
+
+46. Lechevalier, B., J. C. Andersson, P. Morin. 1977. “Hemispheric disconnection syndrome with a "crossed avoiding" reaction in a case of Marchiafava-Bignami disease.” Journal of Neurology, Neurosurgery and Psychiatry 40: 483-497. https://doi.org/10.1136/jnnp.40.5.483
+
+.. _ref47:
+
+47. Meller, A., L. Nivon, E. Brandin, J. Golovchenko, D. Branton. 2000. “Rapid nanopore discrimination between single polynucleotide molecules.” Proc Natl Acad Sci U S A 97: 1079-1084. https://doi.org/10.1073/pnas.97.3.1079
+
+.. _ref48:
+
+48. Akeson, M., D. Branton, J. J. Kasianowicz, E. Brandin, D. W. Deamer. 1999. “Microsecond time-scale discrimination among polycytidylic acid, polyadenylic acid, and polyuridylic acid as homopolymers or as segments within single RNA molecules.” Biophysical Journal 77: 3227-3233. https://doi.org/10.1016/S0006-3495(99)77153-5
+
+.. _ref49:
+
+49. Magi, A., R. Semeraro, A. Mingrino, B. Giusti, R. D'Aurizio. 2018. “Nanopore sequencing data analysis: state of the art, applications and challenges.” Briefings in Bioinformatics 19: 1256-1272. https://doi.org/10.1093/bib/bbx062
+
+.. _ref50:
+
+50. Istace, B., A. Friedrich, L. d'Agata, S. Faye, E. Payen, O. Beluche, C. Caradec, et al. 2017. “de novo assembly and population genomic survey of natural yeast isolates with the Oxford Nanopore MinION sequencer.” Gigascience 6: 1-13. https://doi.org/10.1093/gigascience/giw018
+
+.. _ref51:
+
+51. Sun, K., J. Li, C. Chen, X. Zhou, G. Ma, L. Mao, Q. Tang, et al. 2025. “Advances in nanopore direct RNA sequencing and its impact on biological research.” Biotechnology Advances 85: 108710. https://doi.org/10.1016/j.biotechadv.2025.108710
+
+.. _ref52:
+
+52. Parker, M. T., K. Knop, A. V. Sherwood, N. J. Schurch, K. Mackinnon, P. D. Gould, A. J. Hall, G. J. Barton, G. G. Simpson. 2020. “Nanopore direct RNA sequencing maps the complexity of Arabidopsis mRNA processing and m(6)A modification.” Elife 9: e49658. https://doi.org/10.7554/eLife.49658
+
+.. _ref53:
+
+53. Esfahani, N. G., A. J. Stein, S. Akeson, T. Tzadikario, M. Jain. 2025. “Evaluation of Nanopore direct RNA sequencing updates for modification detection.” bioRxiv https://doi.org/10.1101/2025.05.01.651717
+
+.. _ref54:
+
+54. Sirotiuk, L. V. 1973. “Standardization of serological diagnosis of tularemia.” Lab Delo 11: 686-689. https://www.ncbi.nlm.nih.gov/pubmed/4132577
+
+.. _ref55:
+
+55. Liu, Huanle, Oguzhan Begik, M. Lucas, J. Ramirez, C. Mason, David Wiener, Schraga Schwartz, J. Mattick, Martin Smith, E. Novoa. 2019. “Accurate detection of m6A RNA modifications in native RNA sequences.” Nature Communications 10: https://doi.org/10.1038/s41467-019-11713-9
+
+.. _ref56:
+
+56. Huang, S., W. Zhang, C. D. Katanski, D. Dersh, Q. Dai, K. Lolans, J. Yewdell, A. M. Eren, T. Pan. 2021. “Interferon inducible pseudouridine modification in human mRNA by quantitative nanopore profiling.” Genome Biology 22: 330. https://doi.org/10.1186/s13059-021-02557-y
+
+.. _ref57:
+
+57. Tavakoli, Sepideh, M. Nabizadeh, Amr Makhamreh, Howard Gamper, Caroline McCormick, Neda Rezapour, Ya-Ming Hou, M. Wanunu, Sara Rouhanifard. 2023. “Semi-quantitative detection of pseudouridine modifications and type I/II hypermodifications in human mRNAs using direct long-read sequencing.” Nature Communications 14: https://doi.org/10.1038/s41467-023-35858-w
+
+.. _ref58:
+
+58. Wang, Y., K. M. Patil, S. Yan, P. Zhang, W. Guo, Y. Wang, H. Y. Chen, D. Gillingham, S. Huang. 2019. “Nanopore Sequencing Accurately Identifies the Mutagenic DNA Lesion O(6) -Carboxymethyl Guanine and Reveals Its Behavior in Replication.” Angew Chem Int Ed Engl 58: 8432-8436. https://doi.org/10.1002/anie.201902521
+
+.. _ref59:
+
+59. Kim, Y., L. Saville, K. O'Neill, J. M. Garant, Y. Liu, S. Haile-Merhu, M. Ghashghaei, et al. 2025. “Nanopore direct RNA sequencing of human transcriptomes reveals the complexity of mRNA modifications and crosstalk between regulatory features.” Cell Genom 5: 100872. https://doi.org/10.1016/j.xgen.2025.100872
+
+.. _ref60:
+
+60. Rubsam, F. N. M., W. Liu-Wei, Y. Sun, B. I. Patel, W. van der Toorn, M. Piechotta, C. Dieterich, M. V. Kleist, A. E. Ehrenhofer-Murray. 2025. “MoDorado: enhanced detection of tRNA modifications in nanopore sequencing by off-label use of modification callers.” Nucleic Acids Research 53: https://doi.org/10.1093/nar/gkaf795
+
+.. _ref61:
+
+61. Zou, Yongji, Mian Umair Ahsan, Joe Chan, Wen Meng, Shou-Jiang Gao, Yufei Huang, Kai Wang. 2025. “A comparative evaluation of computational models for RNA modification detection using nanopore sequencing with RNA004 chemistry.” Briefings in Bioinformatics 26: https://doi.org/10.1093/bib/bbaf404
+
+.. _ref62:
+
+62. Katopodi, X. L., O. Begik, E. M. Novoa. 2025. “Toward the use of nanopore RNA sequencing technologies in the clinic: challenges and opportunities.” Nucleic Acids Research 53: https://doi.org/10.1093/nar/gkaf128
+
+.. _ref63:
+
+63. Draper, B. J., M. J. Dunning, D. C. James. 2025. “Selecting differential splicing methods: Practical considerations for short-read RNA sequencing.” F1000Res 14: 47. https://doi.org/10.12688/f1000research.155223.2
+
+.. _ref64:
+
+64. Aird, D., M. G. Ross, W. S. Chen, M. Danielsson, T. Fennell, C. Russ, D. B. Jaffe, C. Nusbaum, A. Gnirke. 2011. “Analyzing and minimizing PCR amplification bias in Illumina sequencing libraries.” Genome Biology 12: R18. https://doi.org/10.1186/gb-2011-12-2-r18
+
+.. _ref65:
+
+65. Jiang, Hui, Wing Hung Wong. 2009. “Statistical inferences for isoform expression in RNA-Seq.” Bioinformatics 25: 1026-1032. https://doi.org/10.1093/bioinformatics/btp113
+
+.. _ref66:
+
+66. Liu, Tianyuan, Ana Conesa. 2025. “Profiling the epigenome using long-read sequencing.” Nature Genetics 57: 27-41. https://doi.org/10.1038/s41588-024-02038-5
+
+.. _ref67:
+
+67. Alfonso-Gonzalez, Carlos, Valérie Hilgers. 2025. “Elucidating the coordination of RNA processing using short-read and long-read RNA-sequencing methods.” Nature Reviews Molecular Cell Biology https://doi.org/10.1038/s41580-025-00895-4
+
+.. _ref68:
+
+68. Monzo, C., T. Liu, A. Conesa. 2025. “Transcriptomics in the era of long-read sequencing.” Nat Rev Genet 26: 681-701. https://doi.org/10.1038/s41576-025-00828-z
+
+.. _ref69:
+
+69. Gong, B., D. Li, P. P. Łabaj, B. Pan, N. Novoradovskaya, D. Thierry-Mieg, J. Thierry-Mieg, et al. 2024. “Targeted DNA-seq and RNA-seq of Reference Samples with Short-read and Long-read Sequencing.” Sci Data 11: 892. https://doi.org/10.1038/s41597-024-03741-y
+
+.. _ref70:
+
+70. Dobin, Alexander, Carrie A Davis, Felix Schlesinger, Jorg Drenkow, Chris Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, Thomas R Gingeras. 2013. “STAR: ultrafast universal RNA-seq aligner.” Bioinformatics 29: 15-21. 
+
+.. _ref71:
+
+71. Kim, Daehwan, Joseph M. Paggi, Chanhee Park, Christopher Bennett, Steven L. Salzberg. 2019. “Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype.” Nature Biotechnology 37: 907-915. https://doi.org/10.1038/s41587-019-0201-4
+
+.. _ref72:
+
+72. Liao, Yang, Gordon K. Smyth, Wei Shi. 2014. “featureCounts: an efficient general purpose program for assigning sequence reads to genomic features.” Bioinformatics 30: 923-930. https://doi.org/10.1093/bioinformatics/btt656
+
+.. _ref73:
+
+73. Anders, Simon, Paul Theodor Pyl, Wolfgang Huber. 2015. “HTSeq—a Python framework to work with high-throughput sequencing data.” Bioinformatics 31: 166. 
+
+.. _ref74:
+
+74. Love, Michael I., Wolfgang Huber, Simon Anders. 2014. “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology 15: https://doi.org/10.1186/s13059-014-0550-8
+
+.. _ref75:
+
+75. Robinson, Mark D., Davis J. McCarthy, Gordon K. Smyth. 2010. “edgeR: a Bioconductor package for differential expression analysis of digital gene expression data.” Bioinformatics 26: 139-140. https://doi.org/10.1093/bioinformatics/btp616
+
+.. _ref76:
+
+76. Law, Charity W., Yunshun Chen, Wei Shi, Gordon K. Smyth. 2014. “voom: precision weights unlock linear model analysis tools for RNA-seq read counts.” Genome Biology 15: https://doi.org/10.1186/gb-2014-15-2-r29
+
+.. _ref77:
+
+77. Patro, Rob, Geet Duggal, Michael I Love, Rafael A Irizarry, Carl Kingsford. 2017. “Salmon provides fast and bias-aware quantification of transcript expression.” Nature Methods 14: 417-419. 
+
+.. _ref78:
+
+78. Bray, Nicolas L., Harold Pimentel, Páll Melsted, Lior Pachter. 2016. “Near-optimal probabilistic RNA-seq quantification.” Nature Biotechnology 34: 525-527. https://doi.org/10.1038/nbt.3519
+
+.. _ref79:
+
+79. Li, Bo, Colin N Dewey. 2011. “RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome.” BMC Bioinformatics 12: 323. 
+
+.. _ref80:
+
+80. Chen, Y., N. M. Davidson, Y. K. Wan, F. Yao, Y. Su, H. Gamaarachchi, A. Sim, et al. 2025. “A systematic benchmark of Nanopore long-read RNA sequencing for transcript-level analysis in human cell lines.” Nature Methods 22: 801-812. https://doi.org/10.1038/s41592-025-02623-4
+
+.. _ref81:
+
+81. De Paoli-Iseppi, R., J. Gleeson, M. B. Clark. 2021. “Isoform Age - Splice Isoform Profiling Using Long-Read Technologies.” Front Mol Biosci 8: 711733. https://doi.org/10.3389/fmolb.2021.711733
+
+.. _ref82:
+
+82. Dong, Xueyi, Meihong Du, Quentin Gouil, L. Tian, Jafar Jabbari, R. Bowden, Pedro Baldoni, et al. 2023. “Benchmarking long-read RNA-sequencing analysis tools using in silico mixtures.” Nature Methods 20: 1810-1821. https://doi.org/10.1038/s41592-023-02026-3
+
+.. _ref83:
+
+83. Pardo-Palacios, Francisco J., Dingjie Wang, Fairlie Reese, Mark Diekhans, Sílvia Carbonell-Sala, Brian Williams, Jane E. Loveland, et al. 2024. “Systematic assessment of long-read RNA-seq methods for transcript identification and quantification.” Nature Methods 21: 1349-1363. https://doi.org/10.1038/s41592-024-02298-3
+
+.. _ref84:
+
+84. Wyman, Dana, Ali Mortazavi, Bonnie Berger. 2019. “TranscriptClean: variant-aware correction of indels, mismatches and splice junctions in long-read transcripts.” Bioinformatics 35: 340-342. https://doi.org/10.1093/bioinformatics/bty483
+
+.. _ref85:
+
+85. Gleeson, J., A. Leger, Y. D. J. Prawer, T. A. Lane, P. J. Harrison, W. Haerty, M. B. Clark. 2022. “Accurate expression quantification from nanopore direct RNA sequencing with NanoCount.” Nucleic Acids Research 50: e19. https://doi.org/10.1093/nar/gkab1129
+
+.. _ref86:
+
+86. Li, Heng, Inanc Birol. 2018. “Minimap2: pairwise alignment for nucleotide sequences.” Bioinformatics 34: 3094-3100. https://doi.org/10.1093/bioinformatics/bty191
+
+.. _ref87:
+
+87. Tang, Alison D., Cameron M. Soulette, Marijke J. van Baren, Kevyn Hart, Eva Hrabeta-Robinson, Catherine J. Wu, Angela N. Brooks. 2020. “Full-length transcript characterization of SF3B1 mutation in chronic lymphocytic leukemia reveals downregulation of retained introns.” Nature Communications 11: 1438. https://doi.org/10.1038/s41467-020-15171-6
+
+.. _ref88:
+
+88. Kovaka, S., A. V. Zimin, G. M. Pertea, R. Razaghi, S. L. Salzberg, M. Pertea. 2019. “Transcriptome assembly from long-read RNA-seq alignments with StringTie2.” Genome Biology 20: 278. https://doi.org/10.1186/s13059-019-1910-1
+
+.. _ref89:
+
+89. Prjibelski, Andrey D, Alla Mikheenko, Anoushka Joglekar, Alexander Smetanin, Julien Jarroux, Alla L Lapidus, Hagen U Tilgner. 2023. “Accurate isoform discovery with IsoQuant using long reads.” Nature Biotechnology 41: 915-918. 
+
+.. _ref90:
+
+90. Chen, Ying, Andre Sim, Yuk Kei Wan, Keith Yeo, Joseph Jing Xian Lee, Min Hao Ling, Michael I. Love, Jonathan Göke. 2023. “Context-aware transcript quantification from long-read RNA-seq data with Bambu.” Nature Methods 20: 1187-1195. https://doi.org/10.1038/s41592-023-01908-w
+
+.. _ref91:
+
+91. Li, Haoran, Dingjie Wang, Qi Gao, Puwen Tan, Yunhao Wang, Xiaoyu Cai, Aifu Li, et al. 2025. “Improving gene isoform quantification with miniQuant.” Nature Biotechnology https://doi.org/10.1038/s41587-025-02633-9
+
+.. _ref92:
+
+92. Shen, Shihao, Juw Won Park, Zhi-xiang Lu, Lan Lin, Michael D. Henry, Ying Nian Wu, Qing Zhou, Yi Xing. 2014. “rMATS: Robust and flexible detection of differential alternative splicing from replicate RNA-Seq data.” Proceedings of the National Academy of Sciences 111: https://doi.org/10.1073/pnas.1419161111
+
+.. _ref93:
+
+93. Trincado, Juan L., Juan C. Entizne, Gerald Hysenaj, Babita Singh, Miha Skalic, David J. Elliott, Eduardo Eyras. 2018. “SUPPA2: fast, accurate, and uncertainty-aware differential splicing analysis across multiple conditions.” Genome Biology 19: https://doi.org/10.1186/s13059-018-1417-1
+
+.. _ref94:
+
+94. Vaquero-Garcia, Jorge, Alejandro Barrera, Matthew R. Gazzara, Juan González-Vallinas, Nicholas F. Lahens, John B. Hogenesch, Kristen W. Lynch, Yoseph Barash. 2016. “A new view of transcriptome complexity and regulation through the lens of local splicing variations.” Elife 5: https://doi.org/10.7554/eLife.11752
+
+.. _ref95:
+
+95. Anders, Simon, Alejandro Reyes, Wolfgang Huber. 2012. “Detecting differential usage of exons from RNA-seq data.” Genome Research 22: 2008-2017. https://doi.org/10.1101/gr.133744.111
+
+.. _ref96:
+
+96. Montanes, J. C., M. Huertas, S. G. Moro, W. R. Blevins, M. Carmona, J. Ayte, E. Hidalgo, M. M. Alba. 2022. “Native RNA sequencing in fission yeast reveals frequent alternative splicing isoforms.” Genome Research 32: 1215-1227. https://doi.org/10.1101/gr.276516.121
+
+.. _ref97:
+
+97. Nukaga, S., K. Shiraishi, K. Hamabe, A. Mochizuki, Y. Hamaguchi, E. Ogawa, N. T. Le, et al. 2025. “Mutation of CMTR2 in Lung Adenocarcinoma Alters RNA Alternative Splicing and Reveals Therapeutic Vulnerabilities.” Nature Communications 16: 9754. https://doi.org/10.1038/s41467-025-64821-0
+
+.. _ref98:
+
+98. Nowicka, Malgorzata, Mark D. Robinson. 2016. “DRIMSeq: a Dirichlet-multinomial framework for multivariate count outcomes in genomics.” F1000Res 5: https://doi.org/10.12688/f1000research.8900.1
+
+.. _ref99:
+
+99. Van den Berge, Koen, Charlotte Soneson, Mark D. Robinson, Lieven Clement. 2017. “stageR: a general stage-wise method for controlling the gene-level false discovery rate in differential expression and differential transcript usage.” Genome Biology 18: https://doi.org/10.1186/s13059-017-1277-0
+
+.. _ref100:
+
+100. Vitting-Seerup, Kristoffer, Albin Sandelin, Bonnie Berger. 2019. “IsoformSwitchAnalyzeR: analysis of changes in genome-wide patterns of alternative splicing and its functional consequences.” Bioinformatics 35: 4469-4471. https://doi.org/10.1093/bioinformatics/btz247
+
+.. _ref101:
+
+101. Wissel, David, Madison M Mehlferber, Khue M Nguyen, Vasilii Pavelko, Elizabeth Tseng, Mark D Robinson, Gloria M Sheynkman. 2025. “A systematic benchmark of high-accuracy PacBio long-read RNA sequencing for transcript-level quantification.” bioRxiv https://doi.org/10.1101/2025.05.30.656561
+
+.. _ref102:
+
+102. Udaondo, Zulema, Kanchana Sittikankaew, Tanaporn Uengwetwanit, Thidathip Wongsurawat, Chutima Sonthirod, Piroon Jenjaroenpun, Wirulda Pootakham, Nitsara Karoonuthaisiri, Intawat Nookaew. 2021. “Comparative analysis of PacBio and Oxford nanopore sequencing technologies for transcriptomic landscape identification of Penaeus monodon.” Life 11: 862. 
+
+.. _ref103:
+
+103. Wang, Bo, Elizabeth Tseng, Michael Regulski, Tyson A Clark, Ting Hon, Yinping Jiao, Zhenyuan Lu, Andrew Olson, Joshua C Stein, Doreen Ware. 2016. “Unveiling the complexity of the maize transcriptome by single-molecule long-read sequencing.” Nature Communications 7: 11708. 
+
+.. _ref104:
+
+104. Zhong, Yuanyuan, Yuhong Luo, Jinliang Sun, Xuemei Qin, Ping Gan, Zuwen Zhou, Yongqing Qian, Rupeng Zhao, Zhiyuan Zhao, Wenguo Cai. 2024. “Pan-transcriptomic analysis reveals alternative splicing control of cold tolerance in rice.” The Plant Cell 36: 2117-2139. 
+
+.. _ref105:
+
+105. Oquendo, Carolina Jaramillo, Federico Ferraro, Htoo Wai, Heather Ferrao, Herma van der Linde, Evita Karelioti, Liz Tseng, Harsharan Dhillon, Sam Holt, David Bunyan. 2025. “HiFi Long-Read RNA Sequencing Enhances Clinical Diagnostics in Rare Disorders.” American Society of Human Genetics, 
+
+.. _ref106:
+
+106. Mikheenko, Alla, Andrey D Prjibelski, Anoushka Joglekar, Hagen U Tilgner. 2022. “Sequencing of individual barcoded cDNAs using Pacific Biosciences and Oxford Nanopore Technologies reveals platform-specific error patterns.” Genome Research 32: 726-737. 
+
+.. _ref107:
+
+107. Al’Khafaji, Aziz M, Jonathan T Smith, Kiran V Garimella, Mehrtash Babadi, Victoria Popic, Moshe Sade-Feldman, Michael Gatzen, Siranush Sarkizova, Marc A Schwartz, Emily M Blaum. 2024. “High-throughput RNA isoform sequencing using programmed cDNA concatenation.” Nature Biotechnology 42: 582-586. 
+
+.. _ref108:
+
+108. Soneson, Charlotte, Yao Yao, Anna Bratus-Neuenschwander, Andrea Patrignani, Mark D Robinson, Shobbir Hussain. 2019. “A comprehensive examination of Nanopore native RNA sequencing for characterization of complex transcriptomes.” Nature Communications 10: 3359. 
+
+.. _ref109:
+
+109. Lahens, Nicholas F, Ibrahim Halil Kavakli, Ray Zhang, Katharina Hayer, Michael B Black, Hannah Dueck, Angel Pizarro, Junhyong Kim, Rafael Irizarry, Russell S Thomas. 2014. “IVT-seq reveals extreme bias in RNA sequencing.” Genome Biology 15: R86. 
+
+.. _ref110:
+
+110. Cocquet, Julie, Allen Chong, Guanglan Zhang, Reiner A Veitia. 2006. “Reverse transcriptase template switching and false alternative transcripts.” Genomics 88: 127-131. 
+
+.. _ref111:
+
+111. Coon, Steven L, Tianwei Li, James R Iben, Sandy Mattijssen, Richard J Maraia. 2021. “Single-molecule polyadenylated tail sequencing (SM-PAT-Seq) to measure polyA tail lengths transcriptome-wide.” Methods in Enzymology 655: 119-137. 
+
+.. _ref112:
+
+112. Schulz, Laura, Manuel Torres-Diz, Mariela Cortés-López, Katharina E Hayer, Mukta Asnani, Sarah K Tasian, Yoseph Barash, Elena Sotillo, Kathi Zarnack, Julian König. 2021. “Direct long-read RNA sequencing identifies a subset of questionable exitrons likely arising from reverse transcription artifacts.” Genome Biology 22: 190. 
+
+.. _ref113:
+
+113. Diensthuber, Gregor, Leszek P. Pryszcz, Laia Llovera, Morghan C. Lucas, Anna Delgado-Tejedor, Sonia Cruciani, Jean-Yves Roignant, Oguzhan Begik, Eva Maria Novoa. 2024. “Enhanced detection of RNA modifications and read mapping with high-accuracy nanopore RNA basecalling models.” Genome Research 34: 1865-1877. https://doi.org/10.1101/gr.278849.123
+
+.. _ref114:
+
+114. Thuring, K., K. Schmid, P. Keller, M. Helm. 2016. “Analysis of RNA modifications by liquid chromatography-tandem mass spectrometry.” Methods 107: 48-56. https://doi.org/10.1016/j.ymeth.2016.03.019
+
+.. _ref115:
+
+115. Zhang, Yan, Liang Lu, Xiaoyu Li. 2022. “Detection technologies for RNA modifications.” Experimental & Molecular Medicine 54: 1601-1616. https://doi.org/10.1038/s12276-022-00821-0
+
+.. _ref116:
+
+116. Huang, G., F. Zhang, D. Xie, Y. Ma, P. Wang, G. Cao, L. Chen, S. Lin, Z. Zhao, Z. Cai. 2023. “High-throughput profiling of RNA modifications by ultra-performance liquid chromatography coupled to complementary mass spectrometry: Methods, quality control, and applications.” Talanta 263: 124697. https://doi.org/10.1016/j.talanta.2023.124697
+
+.. _ref117:
+
+117. Stephenson, W., R. Razaghi, S. Busan, K. M. Weeks, W. Timp, P. Smibert. 2022. “Direct detection of RNA modifications and structure using single-molecule nanopore sequencing.” Cell Genom 2: https://doi.org/10.1016/j.xgen.2022.100097
+
+.. _ref118:
+
+118. Furlan, Mattia, Anna Delgado-Tejedor, Logan Mulroney, Mattia Pelizzola, E. Novoa, T. Leonardi. 2021. “Computational methods for RNA modification detection from nanopore direct RNA sequencing data.” RNA Biology 18: 31-40. https://doi.org/10.1080/15476286.2021.1978215
+
+.. _ref119:
+
+119. Jain, M., R. Abu-Shumays, H. E. Olsen, M. Akeson. 2022. “Advances in nanopore direct RNA sequencing.” Nature Methods 19: 1160-1164. https://doi.org/10.1038/s41592-022-01633-w
+
+.. _ref120:
+
+120. Liu, N., M. Parisien, Q. Dai, G. Zheng, C. He, T. Pan. 2013. “Probing N6-methyladenosine RNA modification status at single nucleotide resolution in mRNA and long noncoding RNA.” RNA 19: 1848-1856. https://doi.org/10.1261/rna.041178.113
+
+.. _ref121:
+
+121. Su, D., C. T. Chan, C. Gu, K. S. Lim, Y. H. Chionh, M. E. McBee, B. S. Russell, I. R. Babu, T. J. Begley, P. C. Dedon. 2014. “Quantitative analysis of ribonucleoside modifications in tRNA by HPLC-coupled mass spectrometry.” Nature Protocols 9: 828-841. https://doi.org/10.1038/nprot.2014.047
+
+.. _ref122:
+
+122. Ross, R., X. Cao, N. Yu, P. A. Limbach. 2016. “Sequence mapping of transfer RNA chemical modifications by liquid chromatography tandem mass spectrometry.” Methods 107: 73-78. https://doi.org/10.1016/j.ymeth.2016.03.016
+
+.. _ref123:
+
+123. Jora, M., P. A. Lobue, R. L. Ross, B. Williams, B. Addepalli. 2019. “Detection of ribonucleoside modifications by liquid chromatography coupled with mass spectrometry.” Biochim Biophys Acta Gene Regul Mech 1862: 280-290. https://doi.org/10.1016/j.bbagrm.2018.10.012
+
+.. _ref124:
+
+124. Zhang, R., H. Liu, B. Bai, H. Wang. 2025. “Quantification of Epigenetic DNA and RNA Modifications by UHPLC-MS/MS Technologies: New Concepts and New Improvements for the Special Collections.” J Sep Sci 48: e70159. https://doi.org/10.1002/jssc.70159
+
+.. _ref125:
+
+125. Ammann, G., M. Berg, J. F. Dalwigk, S. M. Kaiser. 2023. “Pitfalls in RNA Modification Quantification Using Nucleoside Mass Spectrometry.” Acc Chem Res 56: 3121-3131. https://doi.org/10.1021/acs.accounts.3c00402
+
+.. _ref126:
+
+126. Yuan, X., Y. Su, B. Johnson, M. Kirchner, X. Zhang, S. Xu, S. Jiang, et al. 2024. “Mass Spectrometry-Based Direct Sequencing of tRNAs De Novo and Quantitative Mapping of Multiple RNA Modifications.” Journal of the American Chemical Society 146: 25600-25613. https://doi.org/10.1021/jacs.4c07280
+
+.. _ref127:
+
+127. Chen, K., Z. Lu, X. Wang, Y. Fu, G. Z. Luo, N. Liu, D. Han, et al. 2015. “High-resolution N(6) -methyladenosine (m(6) A) map using photo-crosslinking-assisted m(6) A sequencing.” Angew Chem Int Ed Engl 54: 1587-1590. https://doi.org/10.1002/anie.201410647
+
+.. _ref128:
+
+128. Ke, S., E. A. Alemu, C. Mertens, E. C. Gantman, J. J. Fak, A. Mele, B. Haripal, et al. 2015. “A majority of m6A residues are in the last exons, allowing the potential for 3' UTR regulation.” Genes & Development 29: 2037-2053. https://doi.org/10.1101/gad.269415.115
+
+.. _ref129:
+
+129. Molinie, B., J. Wang, K. S. Lim, R. Hillebrand, Z. X. Lu, N. Van Wittenberghe, B. D. Howard, et al. 2016. “m(6)A-LAIC-seq reveals the census and complexity of the m(6)A epitranscriptome.” Nature Methods 13: 692-698. https://doi.org/10.1038/nmeth.3898
+
+.. _ref130:
+
+130. Edelheit, S., S. Schwartz, M. R. Mumbach, O. Wurtzel, R. Sorek. 2013. “Transcriptome-wide mapping of 5-methylcytidine RNA modifications in bacteria, archaea, and yeast reveals m5C within archaeal mRNAs.” PLoS Genetics 9: e1003602. https://doi.org/10.1371/journal.pgen.1003602
+
+.. _ref131:
+
+131. Hussain, S., A. A. Sajini, S. Blanco, S. Dietmann, P. Lombard, Y. Sugimoto, M. Paramor, et al. 2013. “NSun2-mediated cytosine-5 methylation of vault noncoding RNA determines its processing into regulatory small RNAs.” Cell Reports 4: 255-261. https://doi.org/10.1016/j.celrep.2013.06.029
+
+.. _ref132:
+
+132. Delatte, B., F. Wang, L. V. Ngoc, E. Collignon, E. Bonvin, R. Deplus, E. Calonne, et al. 2016. “RNA biochemistry. Transcriptome-wide distribution and function of RNA hydroxymethylcytosine.” Science 351: 282-285. https://doi.org/10.1126/science.aac5253
+
+.. _ref133:
+
+133. Munns, T. W., R. J. Oberst, H. F. Sims, M. K. Liszewski. 1979. “Antibody-nucleic acid complexes. Immunospecific recognition of 7-methylguanine- and N6-methyladenine-containing 5'-terminal oligonucleotides of mRNA.” Journal of Biological Chemistry 254: 4327-4330. https://www.ncbi.nlm.nih.gov/pubmed/438189
+
+.. _ref134:
+
+134. Schwartz, S., M. R. Mumbach, M. Jovanovic, T. Wang, K. Maciag, G. G. Bushkin, P. Mertins, et al. 2014. “Perturbation of m6A writers reveals two distinct classes of mRNA methylation at internal and 5' sites.” Cell Reports 8: 284-296. https://doi.org/10.1016/j.celrep.2014.05.048
+
+.. _ref135:
+
+135. Arango, D., D. Sturgill, N. Alhusaini, A. A. Dillman, T. J. Sweet, G. Hanson, M. Hosogane, et al. 2018. “Acetylation of Cytidine in mRNA Promotes Translation Efficiency.” Cell 175: 1872-1886 e1824. https://doi.org/10.1016/j.cell.2018.10.030
+
+.. _ref136:
+
+136. Dominissini, D., S. Nachtergaele, S. Moshitch-Moshkovitz, E. Peer, N. Kol, M. S. Ben-Haim, Q. Dai, et al. 2016. “The dynamic N(1)-methyladenosine methylome in eukaryotic messenger RNA.” Nature 530: 441-446. https://doi.org/10.1038/nature16998
+
+.. _ref137:
+
+137. Li, X., X. Xiong, K. Wang, L. Wang, X. Shu, S. Ma, C. Yi. 2016. “Transcriptome-wide mapping reveals reversible and dynamic N(1)-methyladenosine methylome.” Nature Chemical Biology 12: 311-316. https://doi.org/10.1038/nchembio.2040
+
+.. _ref138:
+
+138. Zhang, Y., M. Hamada. 2020. “MoAIMS: efficient software for detection of enriched regions of MeRIP-Seq.” BMC Bioinformatics 21: 103. https://doi.org/10.1186/s12859-020-3430-0
+
+.. _ref139:
+
+139. Xia, W., L. Guo, H. Su, J. Li, J. Lu, H. Li, B. Huang. 2024. “A low-cost, low-input method establishment for m6A MeRIP-seq.” Biosci Rep 44: https://doi.org/10.1042/BSR20231430
+
+.. _ref140:
+
+140. Shi, Y., Z. Wu, W. Zhang, J. Qu, W. Ci, G. H. Liu. 2023. “An experimental workflow for identifying RNA m(6)A alterations in cellular senescence by methylated RNA immunoprecipitation sequencing.” J Biol Methods 10: e99010004. https://doi.org/10.14440/jbm.2023.403
+
+.. _ref141:
+
+141. McIntyre, A. B. R., N. S. Gokhale, L. Cerchietti, S. R. Jaffrey, S. M. Horner, C. E. Mason. 2020. “Limits in the detection of m(6)A changes using MeRIP/m(6)A-seq.” Scientific Reports 10: 6590. https://doi.org/10.1038/s41598-020-63355-3
+
+.. _ref142:
+
+142. Li, Y., Y. Wang, M. Vera-Rodriguez, L. C. Lindeman, L. E. Skuggen, E. M. K. Rasmussen, I. Jermstad, et al. 2024. “Single-cell m(6)A mapping in vivo using picoMeRIP-seq.” Nat Biotechnol 42: 591-596. https://doi.org/10.1038/s41587-023-01831-7
+
+.. _ref143:
+
+143. Zhang, M., Y. Xiao, Z. Jiang, C. Yi. 2023. “Quantifying m(6)A and Psi Modifications in the Transcriptome via Chemical-Assisted Approaches.” Acc Chem Res 56: 2980-2991. https://doi.org/10.1021/acs.accounts.3c00436
+
+.. _ref144:
+
+144. Kong, Yimeng, E. Mead, Gang Fang. 2023. “Navigating the pitfalls of mapping DNA and RNA modifications.” Nature Reviews Genetics 24: 363-381. https://doi.org/10.1038/s41576-022-00559-5
+
+.. _ref145:
+
+145. Hartstock, K., N. A. Kueck, P. Spacek, A. Ovcharenko, S. Huwel, N. V. Cornelissen, A. Bollu, C. Dieterich, A. Rentmeister. 2023. “MePMe-seq: antibody-free simultaneous m(6)A and m(5)C mapping in mRNA by metabolic propargyl labeling and sequencing.” Nature Communications 14: 7154. https://doi.org/10.1038/s41467-023-42832-z
+
+.. _ref146:
+
+146. Khoddami, V., A. Yerra, T. L. Mosbruger, A. M. Fleming, C. J. Burrows, B. R. Cairns. 2019. “Transcriptome-wide profiling of multiple RNA modifications simultaneously at single-base resolution.” Proc Natl Acad Sci U S A 116: 6784-6789. https://doi.org/10.1073/pnas.1817334116
+
+.. _ref147:
+
+147. Lin, S., Q. Liu, Y. Z. Jiang, R. I. Gregory. 2019. “Nucleotide resolution profiling of m(7)G tRNA modification by TRAC-Seq.” Nature Protocols 14: 3220-3242. https://doi.org/10.1038/s41596-019-0226-7
+
+.. _ref148:
+
+148. Amort, T., M. F. Souliere, A. Wille, X. Y. Jia, H. Fiegl, H. Worle, R. Micura, A. Lusser. 2013. “Long non-coding RNAs as targets for cytosine methylation.” RNA Biol 10: 1003-1008. https://doi.org/10.4161/rna.24454
+
+.. _ref149:
+
+149. Schaefer, M., T. Pollex, K. Hanna, F. Lyko. 2009. “RNA cytosine methylation analysis by bisulfite sequencing.” Nucleic Acids Research 37: e12. https://doi.org/10.1093/nar/gkn954
+
+.. _ref150:
+
+150. Squires, J. E., H. R. Patel, M. Nousch, T. Sibbritt, D. T. Humphreys, B. J. Parker, C. M. Suter, T. Preiss. 2012. “Widespread occurrence of 5-methylcytosine in human coding and non-coding RNA.” Nucleic Acids Research 40: 5023-5033. https://doi.org/10.1093/nar/gks144
+
+.. _ref151:
+
+151. Burgess, A. L., R. David, I. R. Searle. 2015. “Conservation of tRNA and rRNA 5-methylcytosine in the kingdom Plantae.” BMC Plant Biology 15: 199. https://doi.org/10.1186/s12870-015-0580-8
+
+.. _ref152:
+
+152. Militello, K. T., L. M. Chen, S. E. Ackerman, A. H. Mandarano, E. L. Valentine. 2014. “A map of 5-methylcytosine residues in Trypanosoma brucei tRNA revealed by sodium bisulfite sequencing.” Molecular and Biochemical Parasitology 193: 122-126. https://doi.org/10.1016/j.molbiopara.2013.12.003
+
+.. _ref153:
+
+153. Schaefer, M. 2015. “RNA 5-Methylcytosine Analysis by Bisulfite Sequencing.” Methods in Enzymology 560: 297-329. https://doi.org/10.1016/bs.mie.2015.03.007
+
+.. _ref154:
+
+154. Shen, W., H. Sun, C. Liu, Y. Yi, Y. Hou, Y. Xiao, Y. Hu, et al. 2024. “GLORI for absolute quantification of transcriptome-wide m(6)A at single-base resolution.” Nature Protocols 19: 1252-1287. https://doi.org/10.1038/s41596-023-00937-1
+
+.. _ref155:
+
+155. Schwartz, S., D. A. Bernstein, M. R. Mumbach, M. Jovanovic, R. H. Herbst, B. X. Leon-Ricardo, J. M. Engreitz, et al. 2014. “Transcriptome-wide mapping reveals widespread dynamic-regulated pseudouridylation of ncRNA and mRNA.” Cell 159: 148-162. https://doi.org/10.1016/j.cell.2014.08.028
+
+.. _ref156:
+
+156. Carlile, T. M., M. F. Rojas-Duran, B. Zinshteyn, H. Shin, K. M. Bartoli, W. V. Gilbert. 2014. “Pseudouridine profiling reveals regulated mRNA pseudouridylation in yeast and human cells.” Nature 515: 143-146. https://doi.org/10.1038/nature13802
+
+.. _ref157:
+
+157. Lovejoy, A. F., D. P. Riordan, P. O. Brown. 2014. “Transcriptome-wide mapping of pseudouridines: pseudouridine synthases modify specific mRNAs in S. cerevisiae.” Plos One 9: e110799. https://doi.org/10.1371/journal.pone.0110799
+
+.. _ref158:
+
+158. Li, X., P. Zhu, S. Ma, J. Song, J. Bai, F. Sun, C. Yi. 2015. “Chemical pulldown reveals dynamic pseudouridylation of the mammalian transcriptome.” Nature Chemical Biology 11: 592-597. https://doi.org/10.1038/nchembio.1836
+
+.. _ref159:
+
+159. Arango, D., D. Sturgill, R. Yang, T. Kanai, P. Bauer, J. Roy, Z. Wang, M. Hosogane, S. Schiffers, S. Oberdoerffer. 2022. “Direct epitranscriptomic regulation of mammalian translation initiation through N4-acetylcytidine.” Molecular Cell 82: 2797-2814 e2711. https://doi.org/10.1016/j.molcel.2022.05.016
+
+.. _ref160:
+
+160. Sas-Chen, A., J. M. Thomas, D. Matzov, M. Taoka, K. D. Nance, R. Nir, K. M. Bryson, et al. 2020. “Dynamic RNA acetylation revealed by quantitative cross-evolutionary mapping.” Nature 583: 638-643. https://doi.org/10.1038/s41586-020-2418-2
+
+.. _ref161:
+
+161. Hu, Lulu, Shun Liu, Yong Peng, Ruiqi Ge, R. Su, Chamara Senevirathne, Bryan Harada, et al. 2022. “m6A RNA modifications are measured at single-base resolution across the mammalian transcriptome.” Nature Biotechnology 40: 1210-1219. https://doi.org/10.1038/s41587-022-01243-z
+
+.. _ref162:
+
+162. Zhong, Zhengjie, Yingyuan Xie, Hong-Xuan Chen, Ye-Lin Lan, Xue-Hong Liu, Jing-Yun Ji, Fu Wu, et al. 2023. “Systematic comparison of tools used for m6A mapping from nanopore direct RNA sequencing.” Nature Communications 14: 1906. https://doi.org/10.1038/s41467-023-37596-5
+
+.. _ref163:
+
+163. Anreiter, Ina, Quoseena Mir, J. Simpson, S. Janga, M. Soller. 2021. “New Twists in Detecting mRNA Modification Dynamics.” Trends in Biotechnology 39: 72-89. https://doi.org/10.1016/j.tibtech.2020.06.002
+
+.. _ref164:
+
+164. Lu, L., X. Zhang, Y. Zhou, Z. Shi, X. Xie, X. Zhang, L. Gao, et al. 2024. “Base-resolution m(5)C profiling across the mammalian transcriptome by bisulfite-free enzyme-assisted chemical labeling approach.” Molecular Cell 84: 2984-3000 e2988. https://doi.org/10.1016/j.molcel.2024.06.021
+
+.. _ref165:
+
+165. Ju, C. W., R. Lyu, H. Li, J. Wei, A. J. Parra Vitela, U. Dougherty, A. Kwesi, et al. 2025. “Modifications of microbiome-derived cell-free RNA in plasma discriminates colorectal cancer samples.” Nat Biotechnol https://doi.org/10.1038/s41587-025-02731-8
+
+.. _ref166:
+
+166. Zhang, Z., L. Q. Chen, Y. L. Zhao, C. G. Yang, I. A. Roundtree, Z. Zhang, J. Ren, W. Xie, C. He, G. Z. Luo. 2019. “Single-base mapping of m(6)A by an antibody-independent method.” Sci Adv 5: eaax0250. https://doi.org/10.1126/sciadv.aax0250
+
+.. _ref167:
+
+167. Khoddami, V., B. R. Cairns. 2013. “Identification of direct targets and modified bases of RNA cytosine methyltransferases.” Nat Biotechnol 31: 458-464. https://doi.org/10.1038/nbt.2566
+
+.. _ref168:
+
+168. Zheng, G., Y. Qin, W. C. Clark, Q. Dai, C. Yi, C. He, A. M. Lambowitz, T. Pan. 2015. “Efficient and quantitative high-throughput tRNA sequencing.” Nature Methods 12: 835-837. https://doi.org/10.1038/nmeth.3478
+
+.. _ref169:
+
+169. Cozen, A. E., E. Quartley, A. D. Holmes, E. Hrabeta-Robinson, E. M. Phizicky, T. M. Lowe. 2015. “ARM-seq: AlkB-facilitated RNA methylation sequencing reveals a complex landscape of modified tRNA fragments.” Nature Methods 12: 879-884. https://doi.org/10.1038/nmeth.3508
+
+.. _ref170:
+
+170. Shi, J., Y. Zhang, D. Tan, X. Zhang, M. Yan, Y. Zhang, R. Franklin, et al. 2021. “PANDORA-seq expands the repertoire of regulatory small RNAs by overcoming RNA modifications.” Nature Cell Biology 23: 424-436. https://doi.org/10.1038/s41556-021-00652-7
+
+.. _ref171:
+
+171. Birkedal, U., M. Christensen-Dalsgaard, N. Krogh, R. Sabarinathan, J. Gorodkin, H. Nielsen. 2015. “Profiling of ribose methylations in RNA by high-throughput sequencing.” Angew Chem Int Ed Engl 54: 451-455. https://doi.org/10.1002/anie.201408362
+
+.. _ref172:
+
+172. Gao, Y., X. Liu, B. Wu, H. Wang, F. Xi, M. V. Kohnen, A. S. N. Reddy, L. Gu. 2021. “Quantitative profiling of N(6)-methyladenosine at single-base resolution in stem-differentiating xylem of Populus trichocarpa using Nanopore direct RNA sequencing.” Genome Biology 22: 22. https://doi.org/10.1186/s13059-020-02241-7
+
+.. _ref173:
+
+173. Qin, H., L. Ou, J. Gao, L. Chen, J. W. Wang, P. Hao, X. Li. 2022. “DENA: training an authentic neural network model using Nanopore sequencing data of Arabidopsis transcripts for detection and quantification of N(6)-methyladenosine on RNA.” Genome Biology 23: 25. https://doi.org/10.1186/s13059-021-02598-3
+
+.. _ref174:
+
+174. Hendra, C., P. N. Pratanwanich, Y. K. Wan, W. S. S. Goh, A. Thiery, J. Goke. 2022. “Detection of m6A from direct RNA sequencing using a multiple instance learning framework.” Nature Methods 19: 1590-1598. https://doi.org/10.1038/s41592-022-01666-1
+
+.. _ref175:
+
+175. Lorenz, D. A., S. Sathe, J. M. Einstein, G. W. Yeo. 2020. “Direct RNA sequencing enables m(6)A detection in endogenous transcript isoforms at base-specific resolution.” RNA 26: 19-28. https://doi.org/10.1261/rna.072785.119
+
+.. _ref176:
+
+176. Wu, You, Wenna Shao, Mengxiao Yan, Yuqin Wang, Pengfei Xu, Guoqiang Huang, Xiaofei Li, Brian D Gregory, Jun Yang, Hongxia Wang. 2024. “Transfer learning enables identification of multiple types of RNA modifications using nanopore direct RNA sequencing.” Nature Communications 15: 4049. 
+
+.. _ref177:
+
+177. Li, Y., Y. Yi, X. Gao, X. Wang, D. Zhao, R. Wang, L. S. Zhang, et al. 2024. “2'-O-methylation at internal sites on mRNA promotes mRNA stability.” Molecular Cell 84: 2320-2336.e2326. https://doi.org/10.1016/j.molcel.2024.04.011
+
+.. _ref178:
+
+178. Xie, Y. Y., Z. D. Zhong, H. X. Chen, Z. H. Ren, Y. T. Qiu, Y. L. Lan, F. Wu, et al. 2025. “Single-molecule direct RNA sequencing reveals the shaping of epitranscriptome across multiple species.” Nature Communications 16: 5119. https://doi.org/10.1038/s41467-025-60447-4
+
+.. _ref179:
+
+179. Zhang, Y., Y. Wu, J. Ma, Y. Wu, L. Li, H. Wang, G. Jia, et al. 2025. “DirectRM: integrated detection of landscape and crosstalk between multiple RNA modifications using direct RNA sequencing.” Nature Communications 16: 9450. https://doi.org/10.1038/s41467-025-64495-8
+
+.. _ref180:
+
+180. Chan, Adrian, Isabel Naarmann-De Vries, Carolin Scheitl, Claudia Höbartner, C. Dieterich. 2024. “Detecting m6A at single-molecular resolution via direct RNA sequencing and realistic training data.” Nature Communications 15: https://doi.org/10.1038/s41467-024-47661-2
+
+.. _ref181:
+
+181. Mateos, Acera, A. Sethi, A. Ravindran, A. Srivastava, K. Woodward, S. Mahmud, M. Kanchi, et al. 2024. “Prediction of m6A and m5C at single-molecule resolution reveals a transcriptome-wide co-occurrence of RNA modifications.” Nature Communications 15: https://doi.org/10.1038/s41467-024-47953-7
+
+.. _ref182:
+
+182. Huang, S., A. C. Wylder, T. Pan. 2024. “Simultaneous nanopore profiling of mRNA m(6)A and pseudouridine reveals translation coordination.” Nat Biotechnol 42: 1831-1835. https://doi.org/10.1038/s41587-024-02135-0
+
+.. _ref183:
+
+183. Price, A. M., K. E. Hayer, A. B. R. McIntyre, N. S. Gokhale, J. S. Abebe, A. N. Della Fera, C. E. Mason, et al. 2020. “Direct RNA sequencing reveals m(6)A modifications on adenovirus RNA are necessary for efficient splicing.” Nature Communications 11: 6016. https://doi.org/10.1038/s41467-020-19787-6
+
+.. _ref184:
+
+184. Jenjaroenpun, P., T. Wongsurawat, T. D. Wadley, T. M. Wassenaar, J. Liu, Q. Dai, V. Wanchai, et al. 2021. “Decoding the epitranscriptional landscape from native RNA sequences.” Nucleic Acids Research 49: e7. https://doi.org/10.1093/nar/gkaa620
+
+.. _ref185:
+
+185. Pratanwanich, Ploy, Fei Yao, Ying Chen, C. Koh, Y. Wan, Christopher Hendra, P. Poon, et al. 2021. “Identification of differential RNA modifications from nanopore direct RNA sequencing with xPore.” Nature Biotechnology 39: 1394-1402. https://doi.org/10.1038/s41587-021-00949-w
+
+.. _ref186:
+
+186. Begik, Oguzhan, M. Lucas, Leszek Pryszcz, J. Ramirez, Rebeca Medina Amezcua, I. Milenkovic, S. Cruciani, et al. 2021. “Quantitative profiling of pseudouridylation dynamics in native RNAs with nanopore sequencing.” Nature Biotechnology 39: 1278-1291. https://doi.org/10.1038/s41587-021-00915-6
+
+.. _ref187:
+
+187. Hassan, D., D. Acevedo, S. V. Daulatabad, Q. Mir, S. C. Janga. 2022. “Penguin: A tool for predicting pseudouridine sites in direct RNA nanopore sequencing data.” Methods 203: 478-487. https://doi.org/10.1016/j.ymeth.2022.02.005
+
+.. _ref188:
+
+188. Wu, Y., W. Shao, S. Liu, L. Wang, P. Xu, X. Zhang, H. Song, X. Li, J. Wang, X. Yu. 2025. “Simultaneous profiling of ac(4)C and m(5)C modifications from nanopore direct RNA sequencing.” Int J Biol Macromol 305: 140863. https://doi.org/10.1016/j.ijbiomac.2025.140863
+
+.. _ref189:
+
+189. Hewel, C., A. Wierczeiko, J. Miedema, J. Friedrich, F. Hofmann, S. Weissbach, V. Dietrich, et al. 2025. “Direct RNA sequencing enables improved transcriptome assessment and tracking of RNA modifications for medical applications.” Nucleic Acids Research 53: https://doi.org/10.1093/nar/gkaf1314
+
+.. _ref190:
+
+190. Cozzuto, L., H. Liu, L. P. Pryszcz, T. H. Pulido, A. Delgado-Tejedor, J. Ponomarenko, E. M. Novoa. 2020. “MasterOfPores: A Workflow for the Analysis of Oxford Nanopore Direct RNA Sequencing Datasets.” Frontiers in Genetics 11: 211. https://doi.org/10.3389/fgene.2020.00211
+
+.. _ref191:
+
+191. Grünberger, Felix, Sébastien Ferreira-Cerca, Dina Grohmann. 2022. “Nanopore sequencing of RNA and cDNA molecules in Escherichia coli.” RNA 28: 400-417. 
+
+.. _ref192:
+
+192. Lucas, M., Leszek Pryszcz, Rebeca Medina Amezcua, Ivan Milenkovic, Noelia Camacho, V. Marchand, Y. Motorin, Ribas De Pouplana, E. Novoa. 2023. “Quantitative analysis of tRNA abundance and modifications by nanopore RNA sequencing.” Nature Biotechnology 42: 72-86. https://doi.org/10.1038/s41587-023-01743-6
+
+.. _ref193:
+
+193. Vo, J. M., L. Mulroney, J. Quick-Cleveland, M. Jain, M. Akeson, M. Ares, Jr. 2021. “Synthesis of modified nucleotide polymers by the poly(U) polymerase Cid1: application to direct RNA sequencing on nanopores.” RNA 27: 1497-1511. https://doi.org/10.1261/rna.078898.121
+
+.. _ref194:
+
+194. Saville, Luke, Li Wu, Jemaneh Habtewold, Yubo Cheng, Babita Gollen, Liam Mitchell, Matthew Stuart-Edwards, Travis Haight, Majid Mohajerani, Athanasios Zovoilis. 2024. “NERD-seq: a novel approach of Nanopore direct RNA sequencing that expands representation of non-coding RNAs.” Genome Biology 25: 233. 
+
+.. _ref195:
+
+195. Mulroney, L., M. G. Wulf, I. Schildkraut, G. Tzertzinis, J. Buswell, M. Jain, H. Olsen, et al. 2022. “Identification of high-confidence human poly(A) RNA isoform scaffolds using nanopore sequencing.” RNA 28: 162-176. https://doi.org/10.1261/rna.078703.121
+
+.. _ref196:
+
+196. Putzeys, L., M. Boon, E. M. Lammens, K. Kuznedelov, K. Severinov, R. Lavigne. 2022. “Development of ONT-cappable-seq to unravel the transcriptional landscape of Pseudomonas phages.” Comput Struct Biotechnol J 20: 2624-2638. https://doi.org/10.1016/j.csbj.2022.05.034
+
+.. _ref197:
+
+197. Drexler, H. L., K. Choquet, L. S. Churchman. 2020. “Splicing Kinetics and Coordination Revealed by Direct Nascent RNA Sequencing through Nanopores.” Molecular Cell 77: 985-998 e988. https://doi.org/10.1016/j.molcel.2019.11.017
+
+.. _ref198:
+
+198. Long, Y., J. Jia, W. Mo, X. Jin, J. Zhai. 2021. “FLEP-seq: simultaneous detection of RNA polymerase II position, splicing status, polyadenylation site and poly(A) tail length at genome-wide scale by single-molecule nascent RNA sequencing.” Nature Protocols 16: 4355-4381. https://doi.org/10.1038/s41596-021-00581-7
+
+.. _ref199:
+
+199. Dioken, D. N., I. Ozgul, I. Yilmazbilek, E. Almeric, I. C. Eroglu, M. Cicek, U. C. Yilmaz, et al. 2025. “E2-regulated transcriptome complexity revealed by long-read direct RNA sequencing: from isoform discovery to truncated proteins.” RNA Biol 22: 1-21. https://doi.org/10.1080/15476286.2025.2563860
+
+.. _ref200:
+
+200. Fahmi, N. A., S. Saha, Q. Song, Q. Lou, J. Yong, W. Zhang. 2025. “Computational methods for alternative polyadenylation and splicing in post-transcriptional gene regulation.” Exp Mol Med 57: 1631-1640. https://doi.org/10.1038/s12276-025-01496-z
+
+.. _ref201:
+
+201. Li, Runsheng, Xiaoliang Ren, Qiutao Ding, Yu Bi, Dongying Xie, Zhongying Zhao. 2020. “Direct full-length RNA sequencing reveals unexpected transcriptome complexity during Caenorhabditis elegans development.” Genome Research 30: 287-298. https://doi.org/10.1101/gr.251512.119
+
+.. _ref202:
+
+202. Zhu, Xi-Tong, Pablo Sanz-Jimenez, Xiao-Tong Ning, Muhammad Tahir ul Qamar, Ling-Ling Chen. 2024. “Direct RNA sequencing in plants: Practical applications and future perspectives.” Plant Communications 5: 101064. https://doi.org/https://doi.org/10.1016/j.xplc.2024.101064
+
+.. _ref203:
+
+203. Reyes, A., W. Huber. 2018. “Alternative start and termination sites of transcription drive most transcript isoform differences across human tissues.” Nucleic Acids Research 46: 582-592. https://doi.org/10.1093/nar/gkx1165
+
+.. _ref204:
+
+204. Pelechano, V., W. Wei, L. M. Steinmetz. 2013. “Extensive transcriptional heterogeneity revealed by isoform profiling.” Nature 497: 127-131. https://doi.org/10.1038/nature12121
+
+.. _ref205:
+
+205. Yang, L., X. Zhang, F. Wang, L. Zhang, J. Li, J. X. Yue. 2024. “NanoTrans: an integrated computational framework for comprehensive transcriptome analysis with nanopore direct RNA sequencing.” J Genet Genomics 51: 1300-1309. https://doi.org/10.1016/j.jgg.2024.07.007
+
+.. _ref206:
+
+206. Zhao, L., H. Zhang, M. V. Kohnen, Kvsk Prasad, L. Gu, A. S. N. Reddy. 2019. “Analysis of Transcriptome and Epitranscriptome in Plants Using PacBio Iso-Seq and Nanopore-Based Direct RNA Sequencing.” Frontiers in Genetics 10: 253. https://doi.org/10.3389/fgene.2019.00253
+
+.. _ref207:
+
+207. Zhang, S., R. Li, L. Zhang, S. Chen, M. Xie, L. Yang, Y. Xia, C. H. Foyer, Z. Zhao, H. M. Lam. 2020. “New insights into Arabidopsis transcriptome complexity revealed by direct sequencing of native RNAs.” Nucleic Acids Research 48: 7700-7711. https://doi.org/10.1093/nar/gkaa588
+
+.. _ref208:
+
+208. Dioken, D. N., I. Ozgul, A. E. Erson-Bensan. 2025. “The 3' end of the tale-neglected isoforms in cancer.” FEBS Letters 599: 3029-3046. https://doi.org/10.1002/1873-3468.70122
+
+.. _ref209:
+
+209. Tan, L., Z. Guo, Y. Shao, L. Ye, M. Wang, X. Deng, S. Chen, R. Li. 2024. “Analysis of bacterial transcriptome and epitranscriptome using nanopore direct RNA sequencing.” Nucleic Acids Research 52: 8746-8762. https://doi.org/10.1093/nar/gkae601
+
+.. _ref210:
+
+210. Abebe, J. S., Y. Alwie, E. Fuhrmann, J. Leins, J. Mai, R. Verstraten, S. Schreiner, A. C. Wilson, D. P. Depledge. 2024. “Nanopore guided annotation of transcriptome architectures.” mSystems 9: e0050524. https://doi.org/10.1128/msystems.00505-24
+
+.. _ref211:
+
+211. Liang, Q., J. Zhang, H. M. Lam, T. F. Chan. 2024. “Nanopore direct RNA sequencing reveals N(6)-methyladenosine and polyadenylation landscapes on long non-coding RNAs in Arabidopsis thaliana.” BMC Plant Biology 24: 1126. https://doi.org/10.1186/s12870-024-05845-4
+
+.. _ref212:
+
+212. Chua, B. A., I. Van Der Werf, C. Jamieson, R. A. J. Signer. 2020. “Post-Transcriptional Regulation of Homeostatic, Stressed, and Malignant Stem Cells.” Cell Stem Cell 26: 138-159. https://doi.org/10.1016/j.stem.2020.01.005
+
+.. _ref213:
+
+213. Pal, S., R. Gupta, H. Kim, P. Wickramasinghe, V. Baubet, L. C. Showe, N. Dahmane, R. V. Davuluri. 2011. “Alternative transcription exceeds alternative splicing in generating the transcriptome diversity of cerebellar development.” Genome Research 21: 1260-1272. https://doi.org/10.1101/gr.120535.111
+
+.. _ref214:
+
+214. Sharma, Y., K. Vo, S. Shila, A. Paul, V. Dahiya, P. E. Fields, M. A. K. Rumi. 2025. “mRNA Transcript Variants Expressed in Mammalian Cells.” Int J Mol Sci 26: https://doi.org/10.3390/ijms26031052
+
+.. _ref215:
+
+215. Wang, E. T., R. Sandberg, S. Luo, I. Khrebtukova, L. Zhang, C. Mayr, S. F. Kingsmore, G. P. Schroth, C. B. Burge. 2008. “Alternative isoform regulation in human tissue transcriptomes.” Nature 456: 470-476. https://doi.org/10.1038/nature07509
+
+.. _ref216:
+
+216. Su, Yaqi, Zhejian Yu, Siqian Jin, Zhipeng Ai, Ruihong Yuan, Xinyi Chen, Ziwei Xue, et al. 2024. “Comprehensive assessment of mRNA isoform detection methods for long-read sequencing data.” Nature Communications 15: 3972. https://doi.org/10.1038/s41467-024-48117-3
+
+.. _ref217:
+
+217. Tao, Y., Q. Zhang, H. Wang, X. Yang, H. Mu. 2024. “Alternative splicing and related RNA binding proteins in human health and disease.” Signal Transduct Target Ther 9: 26. https://doi.org/10.1038/s41392-024-01734-2
+
+.. _ref218:
+
+218. Alhabsi, Abdulrahman, Yu Ling, Martin Crespi, Anireddy SN Reddy, Magdy Mahfouz. 2025. “Alternative splicing dynamics in plant adaptive responses to stress.” Annual Review of Plant Biology 76: https://doi.org/10.1146/annurev-arplant-083123-090055
+
+.. _ref219:
+
+219. Zhu, Chenchen, Jingyan Wu, Hanice Sun, Francesca Briganti, B. Meder, Wu Wei, L. Steinmetz. 2021. “Single-molecule, full-length transcript isoform sequencing reveals disease-associated RNA isoforms in cardiomyocytes.” Nature Communications 12: https://doi.org/10.1038/s41467-021-24484-z
+
+.. _ref220:
+
+220. Cui, Jiawen, Nan Shen, Zhaogeng Lu, Guolu Xu, Yuyao Wang, Biao Jin. 2020. “Analysis and comprehensive comparison of PacBio and nanopore-based RNA sequencing of the Arabidopsis transcriptome.” Plant Methods 16: 85. 
+
+.. _ref221:
+
+221. Hu, Y., L. Fang, X. Chen, J. F. Zhong, M. Li, K. Wang. 2021. “LIQA: long-read isoform quantification and analysis.” Genome Biology 22: 182. https://doi.org/10.1186/s13059-021-02399-8
+
+.. _ref222:
+
+222. Chothani, S., E. Adami, J. F. Ouyang, S. Viswanathan, N. Hubner, S. A. Cook, S. Schafer, O. J. L. Rackham. 2019. “deltaTE: Detection of Translationally Regulated Genes by Integrative Analysis of Ribo-seq and RNA-seq Data.” Curr Protoc Mol Biol 129: e108. https://doi.org/10.1002/cpmb.108
+
+.. _ref223:
+
+223. Wang, B., E. Tseng, P. Baybayan, K. Eng, M. Regulski, Y. Jiao, L. Wang, et al. 2020. “Variant phasing and haplotypic expression from long-read sequencing in maize.” Communications Biology 3: 78. https://doi.org/10.1038/s42003-020-0805-8
+
+.. _ref224:
+
+224. Deonovic, B., Y. Wang, J. Weirather, X. J. Wang, K. F. Au. 2017. “IDP-ASE: haplotyping and quantifying allele-specific expression at the gene and gene isoform level by hybrid sequencing.” Nucleic Acids Research 45: e32. https://doi.org/10.1093/nar/gkw1076
+
+.. _ref225:
+
+225. Mangul, S., T. H. Yang, F. Hormozdiari, A. M. Dainis, E. Tseng, E. A. Ashley, A. Zelikovsky, E. Eskin. 2017. “HapIso: An Accurate Method for the Haplotype- Specific Isoforms Reconstruction From Long Single-Molecule Reads.” IEEE Trans Nanobioscience 16: 108-115. https://doi.org/10.1109/TNB.2017.2675981
+
+.. _ref226:
+
+226. Brouze, A., P. S. Krawczyk, A. Dziembowski, S. Mroczek. 2023. “Measuring the tail: Methods for poly(A) tail profiling.” Wiley Interdiscip Rev RNA 14: e1737. https://doi.org/10.1002/wrna.1737
+
+.. _ref227:
+
+227. Fernandez, M., R. Mendez. 2025. “Cytoplasmic regulation of the poly(A) tail length as a potential therapeutic target.” RNA 31: 402-415. https://doi.org/10.1261/rna.080333.124
+
+.. _ref228:
+
+228. Krause, M., A. M. Niazi, K. Labun, Y. N. Torres Cleuren, F. S. Muller, E. Valen. 2019. “tailfindr: alignment-free poly(A) length measurement for Oxford Nanopore RNA and DNA sequencing.” RNA 25: 1229-1241. https://doi.org/10.1261/rna.071332.119
+
+.. _ref229:
+
+229. Guminska, N., K. Matylla-Kulinska, P. S. Krawczyk, M. Maj, W. Orzel, Z. Mackiewicz, A. Brouze, S. Mroczek, A. Dziembowski. 2025. “Direct profiling of non-adenosines in poly(A) tails of endogenous and therapeutic mRNAs with Ninetails.” Nature Communications 16: 2664. https://doi.org/10.1038/s41467-025-57787-6
+
+.. _ref230:
+
+230. Liu, M., L. Hao, S. Yang, X. Wu. 2022. “PolyAtailor: measuring poly(A) tail length from short-read and long-read sequencing data.” Brief Bioinform 23: https://doi.org/10.1093/bib/bbac271
+
+.. _ref231:
+
+231. Jia, J., W. Lu, B. Liu, H. Fang, Y. Yu, W. Mo, H. Zhang, et al. 2022. “An atlas of plant full-length RNA reveals tissue-specific and monocots-dicots conserved regulation of poly(A) tail length.” Nature Plants 8: 1118–1126. https://doi.org/10.1038/s41477-022-01224-9
+
+.. _ref232:
+
+232. Chang, H., J. Lim, M. Ha, V. N. Kim. 2014. “TAIL-seq: genome-wide determination of poly(A) tail length and 3' end modifications.” Molecular Cell 53: 1044-1052. https://doi.org/10.1016/j.molcel.2014.02.007
+
+.. _ref233:
+
+233. Yu, F., Y. Zhang, C. Cheng, W. Wang, Z. Zhou, W. Rang, H. Yu, Y. Wei, Q. Wu, Y. Zhang. 2020. “Poly(A)-seq: A method for direct sequencing and analysis of the transcriptomic poly(A)-tails.” Plos One 15: e0234696. https://doi.org/10.1371/journal.pone.0234696
+
+.. _ref234:
+
+234. Nicholson, A. L., A. E. Pasquinelli. 2019. “Tales of Detailed Poly(A) Tails.” Trends in Cell Biology 29: 191-200. https://doi.org/10.1016/j.tcb.2018.11.002
+
+.. _ref235:
+
+235. Lima, S. A., L. B. Chipman, A. L. Nicholson, Y. H. Chen, B. A. Yee, G. W. Yeo, J. Coller, A. E. Pasquinelli. 2017. “Short poly(A) tails are a conserved feature of highly expressed genes.” Nature Structural & Molecular Biology 24: 1057-1063. https://doi.org/10.1038/nsmb.3499
+
+.. _ref236:
+
+236. Subtelny, A. O., S. W. Eichhorn, G. R. Chen, H. Sive, D. P. Bartel. 2014. “Poly(A)-tail profiling reveals an embryonic switch in translational control.” Nature 508: 66-71. https://doi.org/10.1038/nature13007
+
+.. _ref237:
+
+237. Zhang, X., F. Liu, Y. Zhou. 2024. “Coupling of alternative splicing and alternative polyadenylation.” Acta Biochim Biophys Sin (Shanghai) 57: 22-32. https://doi.org/10.3724/abbs.2024211
+
+.. _ref238:
+
+238. Liu, Y., Y. Zhang, J. Wang, F. Lu. 2022. “Transcriptome-wide measurement of poly(A) tail length and composition at subnanogram total RNA sensitivity by PAIso-seq.” Nature Protocols 17: 1980-2007. https://doi.org/10.1038/s41596-022-00704-8
+
+.. _ref239:
+
+239. Liu, Yaran, Yang Li, Qiang Sun. 2025. “Advances in Detecting RNA Modifications Using Direct RNA Nanopore Sequencing.” Advanced Genetics 6: e00041. https://doi.org/10.1002/ggn2.202500041
+
+.. _ref240:
+
+240. Zhang, Y., J. Jiang, J. Ma, Z. Wei, Y. Wang, B. Song, J. Meng, et al. 2023. “DirectRMDB: a database of post-transcriptional RNA modifications unveiled from direct RNA sequencing technology.” Nucleic Acids Research 51: D106-D116. https://doi.org/10.1093/nar/gkac1061
+
+.. _ref241:
+
+241. Diensthuber, Gregor, Ivan Milenkovic, Laia Llovera, Ana Milovanovic, Francesco Pelizzari, Eva Maria Novoa. 2025. “Systematic benchmarking of basecalling models for RNA modification detection with highly-multiplexed nanopore sequencing.” bioRxiv https://doi.org/10.1101/2025.07.11.663424
+
+.. _ref242:
+
+242. Sethi, A. J., P. Acera Mateos, R. Hayashi, N. E. Shirokikh, E. Eyras. 2024. “R2Dtool: integration and visualization of isoform-resolved RNA features.” Bioinformatics 40: https://doi.org/10.1093/bioinformatics/btae495
+
+.. _ref243:
+
+243. Shi, H., P. Chai, R. Jia, X. Fan. 2020. “Novel insight into the regulatory roles of diverse RNA modifications: Re-defining the bridge between transcription and translation.” Mol Cancer 19: 78. https://doi.org/10.1186/s12943-020-01194-6
+
+.. _ref244:
+
+244. Gilbert, W. V., T. A. Bell, C. Schaening. 2016. “Messenger RNA modifications: Form, distribution, and function.” Science 352: 1408-1412. https://doi.org/10.1126/science.aad8711
+
+.. _ref245:
+
+245. Akhtar, J., M. Lugoboni, G. Junion. 2021. “m(6)A RNA modification in transcription regulation.” Transcription 12: 266-276. https://doi.org/10.1080/21541264.2022.2057177
+
+.. _ref246:
+
+246. Fanari, Oleksandra, Michele Meseonznik, Dylan Bloch, Sara H Rouhanifard. 2025. “Protocol for differential analysis of pseudouridine modifications using nanopore DRS and unmodified transcriptome control.” STAR protocols 6, 
+
+.. _ref247:
+
+247. Zhu, Y., L. Chen, X. Hong, H. Shi, X. Li. 2022. “Revealing the novel complexity of plant long non-coding RNA by strand-specific and whole transcriptome sequencing for evolutionarily representative plant species.” BMC Genomics 23: 381. https://doi.org/10.1186/s12864-022-08602-9
+
+.. _ref248:
+
+248. Mattick, J. S., P. P. Amaral, P. Carninci, S. Carpenter, H. Y. Chang, L. L. Chen, R. Chen, et al. 2023. “Long non-coding RNAs: definitions, functions, challenges and recommendations.” Nature Reviews: Molecular Cell Biology 24: 430-447. https://doi.org/10.1038/s41580-022-00566-8
+
+.. _ref249:
+
+249. Kopp, F., J. T. Mendell. 2018. “Functional Classification and Experimental Dissection of Long Noncoding RNAs.” Cell 172: 393-407. https://doi.org/10.1016/j.cell.2018.01.011
+
+.. _ref250:
+
+250. Choudhari, R., M. J. Sedano, A. L. Harrison, R. Subramani, K. Y. Lin, E. I. Ramos, R. Lakshmanaswamy, S. S. Gadad. 2020. “Long noncoding RNAs in cancer: From discovery to therapeutic targets.” Adv Clin Chem 95: 105-147. https://doi.org/10.1016/bs.acc.2019.08.003
+
+.. _ref251:
+
+251. Zhang, J., F. Zhao. 2025. “Circular RNA discovery with emerging sequencing and deep learning technologies.” Nature Genetics 57: 1089-1102. https://doi.org/10.1038/s41588-025-02157-7
+
+.. _ref252:
+
+252. Zhang, J., L. Hou, Z. Zuo, P. Ji, X. Zhang, Y. Xue, F. Zhao. 2021. “Comprehensive profiling of circular RNAs with nanopore sequencing and CIRI-long.” Nat Biotechnol 39: 836–845. https://doi.org/10.1038/s41587-021-00842-6
+
+.. _ref253:
+
+253. Kristensen, L. S., M. S. Andersen, L. V. W. Stagsted, K. K. Ebbesen, T. B. Hansen, J. Kjems. 2019. “The biogenesis, biology and characterization of circular RNAs.” Nat Rev Genet 20: 675-691. https://doi.org/10.1038/s41576-019-0158-7
+
+.. _ref254:
+
+254. Lin, H., V. M. Conn, S. J. Conn. 2025. “Past, present, and future strategies for detecting and quantifying circular RNA variants.” FEBS Journal 292: 4073-4085. https://doi.org/10.1111/febs.70012
+
+.. _ref255:
+
+255. Vo, J. N., M. Cieslik, Y. Zhang, S. Shukla, L. Xiao, Y. Zhang, Y. M. Wu, et al. 2019. “The Landscape of Circular RNA in Cancer.” Cell 176: 869-881 e813. https://doi.org/10.1016/j.cell.2018.12.021
+
+.. _ref256:
+
+256. Shaw, E. A., N. K. Thomas, J. D. Jones, R. L. Abu-Shumays, A. L. Vaaler, M. Akeson, K. S. Koutmou, M. Jain, D. M. Garcia. 2024. “Combining Nanopore direct RNA sequencing with genetics and mass spectrometry for analysis of T-loop base modifications across 42 yeast tRNA isoacceptors.” Nucleic Acids Research 52: 12074-12092. https://doi.org/10.1093/nar/gkae796
+
+.. _ref257:
+
+257. Jones, J. D., K. M. Simcox, R. T. Kennedy, K. S. Koutmou. 2023. “Direct sequencing of total Saccharomyces cerevisiae tRNAs by LC-MS/MS.” RNA 29: 1201-1214. https://doi.org/10.1261/rna.079656.123
+
+.. _ref258:
+
+258. White, L. K., K. Dobson, S. Del Pozo, J. M. Bilodeaux, S. E. Andersen, A. Baldwin, C. Barrington, et al. 2024. “Comparative analysis of 43 distinct RNA modifications by nanopore tRNA sequencing.” bioRxiv https://doi.org/10.1101/2024.07.23.604651
+
+.. _ref259:
+
+259. Alan, Shaw, M. Craig Jonathan, Amiri Hossein, Kim Jeonghoon, E. Upton Heather, C. Pimentel Sydney, R. Huang Jesse, et al. 2023. “Secondary structure detection through direct nanopore RNA sequencing.” Preprint at bioRxiv DOI: 10.1101/2023.1104.1105.535757. https://doi.org/10.1101/2023.04.05.535757
+
+.. _ref260:
+
+260. Aw, J. G. A., S. W. Lim, J. X. Wang, F. R. P. Lambert, W. T. Tan, Y. Shen, Y. Zhang, et al. 2021. “Determination of isoform-specific RNA structure with nanopore long reads.” Nat Biotechnol 39: 336-346. https://doi.org/10.1038/s41587-020-0712-z
+
+.. _ref261:
+
+261. Fleming, A. M., N. J. Mathewson, S. A. Howpay Manage, C. J. Burrows. 2021. “Nanopore Dwell Time Analysis Permits Sequencing and Conformational Assignment of Pseudouridine in SARS-CoV-2.” ACS Cent Sci 7: 1707-1717. https://doi.org/10.1021/acscentsci.1c00788
+
+.. _ref262:
+
+262. Fleming, Aaron M, Praneeth Bommisetti, Songjun Xiao, Vahe Bandarian, Cynthia J Burrows. 2023. “Direct nanopore sequencing for the 17 RNA modification types in 36 locations in the E. coli ribosome enables monitoring of stress-dependent changes.” ACS Chemical Biology 18: 2211-2223. 
+
+.. _ref263:
+
+263. Saldi, T., K. Riemondy, B. Erickson, D. L. Bentley. 2021. “Alternative RNA structures formed during transcription depend on elongation rate and modify RNA processing.” Molecular Cell 81: 1789-1801 e1785. https://doi.org/10.1016/j.molcel.2021.01.040
+
+.. _ref264:
+
+264. Lewis, C. J., T. Pan, A. Kalsotra. 2017. “RNA modifications and structures cooperate to guide RNA-protein interactions.” Nature Reviews: Molecular Cell Biology 18: 202-210. https://doi.org/10.1038/nrm.2016.163
+
+.. _ref265:
+
+265. Waldern, J. M., J. Kumar, A. Laederach. 2022. “Disease-associated human genetic variation through the lens of precursor and mature RNA structure.” Human Genetics 141: 1659-1672. https://doi.org/10.1007/s00439-021-02395-9
+
+.. _ref266:
+
+266. Taylor, K., K. Sobczak. 2020. “Intrinsic Regulatory Role of RNA Structural Arrangement in Alternative Splicing Control.” Int J Mol Sci 21: https://doi.org/10.3390/ijms21145161
+
+.. _ref267:
+
+267. Ciesiolka, A., M. Jazurek, K. Drazkowska, W. J. Krzyzosiak. 2017. “Structural Characteristics of Simple RNA Repeats Associated with Disease and their Deleterious Protein Interactions.” Front Cell Neurosci 11: 97. https://doi.org/10.3389/fncel.2017.00097
+
+.. _ref268:
+
+268. Zhang, Huakun, Yiliang Ding. 2021. “Novel insights into the pervasive role of RNA structure in post-transcriptional regulation of gene expression in plants.” Biochemical Society Transactions 49: 1829-1839. https://doi.org/10.1042/BST20210318
+
+.. _ref269:
+
+269. Kramer, Marianne C, Kevin A Janssen, Kyle Palos, Andrew DL Nelson, Lee E Vandivier, Benjamin A Garcia, Eric Lyons, Mark A Beilstein, Brian D Gregory. 2020. “N6‐methyladenosine and RNA secondary structure affect transcript stability and protein abundance during systemic salt stress in Arabidopsis.” Plant Direct 4: e00239. https://doi.org/10.1002/pld3.239
+
+.. _ref270:
+
+270. Bao, N., Z. Wang, J. Fu, H. Dong, Y. Jin. 2024. “RNA structure in alternative splicing regulation: from mechanism to therapy.” Acta Biochim Biophys Sin (Shanghai) 57: 3-21. https://doi.org/10.3724/abbs.2024119
+
+.. _ref271:
+
+271. Delaunay, S., M. Helm, M. Frye. 2024. “RNA modifications in physiology and disease: towards clinical applications.” Nat Rev Genet 25: 104-122. https://doi.org/10.1038/s41576-023-00645-2
+
+.. _ref272:
+
+272. Singh, A., S. Zahra, D. Das, S. Kumar. 2019. “AtFusionDB: a database of fusion transcripts in Arabidopsis thaliana.” Database (Oxford) 2019: bay135. https://doi.org/10.1093/database/bay135
+
+.. _ref273:
+
+273. Cong, Jia, Sinan Zhang, Qi Zhang, Xiting Yu, Jiazhi Huang, Xin Wei, Xuehui Huang, Jie Qiu, Xiaoyi Zhou. 2024. “Conserved features and diversity attributes of chimeric RNAs across accessions in four plants.” Plant Biotechnology Journal 22: 3151-3163. https://doi.org/https://doi.org/10.1111/pbi.14437
+
+.. _ref274:
+
+274. Davidson, Nadia M., Ying Chen, Teresa Sadras, Georgina L. Ryland, Piers Blombery, Paul G. Ekert, Jonathan Göke, Alicia Oshlack. 2022. “JAFFAL: detecting fusion genes with long-read transcriptome sequencing.” Genome Biology 23: 10. https://doi.org/10.1186/s13059-021-02588-5
+
+.. _ref275:
+
+275. Berthelier, Jérémy, Leonardo Furci, Shuta Asai, Munissa Sadykova, Tomoe Shimazaki, Ken Shirasu, Hidetoshi Saze. 2023. “Long-read direct RNA sequencing reveals epigenetic regulation of chimeric gene-transposon transcripts in Arabidopsis thaliana.” Nature Communications 14: 3248. https://doi.org/10.1038/s41467-023-38954-z
+
+.. _ref276:
+
+276. Hong, A., D. Kim, V. N. Kim, H. Chang. 2022. “Analyzing viral epitranscriptomes using nanopore direct RNA sequencing.” J Microbiol 60: 867-876. https://doi.org/10.1007/s12275-022-2324-4
+
+.. _ref277:
+
+277. Viehweger, A., S. Krautwurst, K. Lamkiewicz, R. Madhugiri, J. Ziebuhr, M. Holzer, M. Marz. 2019. “Direct RNA nanopore sequencing of full-length coronavirus genomes provides novel insights into structural variants and enables modification analysis.” Genome Research 29: 1545-1554. https://doi.org/10.1101/gr.247064.118
+
+.. _ref278:
+
+278. Kim, D., J. Y. Lee, J. S. Yang, J. W. Kim, V. N. Kim, H. Chang. 2020. “The Architecture of SARS-CoV-2 Transcriptome.” Cell 181: 914-921.e910. https://doi.org/10.1016/j.cell.2020.04.011
+
+.. _ref279:
+
+279. Thompson, M. G., M. T. Sacco, S. M. Horner. 2021. “How RNA modifications regulate the antiviral response.” Immunological Reviews 304: 169-180. https://doi.org/10.1111/imr.13020
+
+.. _ref280:
+
+280. Tan, Lu, Zhihao Guo, Xiaoming Wang, Dal Young Kim, Runsheng Li. 2024. “Utilization of nanopore direct RNA sequencing to analyze viral RNA modifications.” mSystems 9: https://doi.org/10.1128/msystems.01163-23
+
+.. _ref281:
+
+281. Li, Xiangrong, Lin Wu, Huihui Wang, Jun Zhang, Xiaoxia Jing, Zeyu Zhang, Yuhua Wang, et al. 2025. “N6‐methyladenosine and poly(A) tail‐mediated posttranscriptional regulation in bamboo mosaic virus–Dendrocalamus latiflorus interactions.” The Plant Journal 124: https://doi.org/10.1111/tpj.70604
+
+.. _ref282:
+
+282. Liu, J. H., Y. Lin, Y. X. Li, Z. Lang, Z. Zhang, C. G. Duan. 2025. “A mutually antagonistic mechanism mediated by RNA m(6)A modification in plant-virus interactions.” Nature Communications 16: 10378. https://doi.org/10.1038/s41467-025-65355-1
+
+.. _ref283:
+
+283. Li, N., H. Hui, B. Bray, G. M. Gonzalez, M. Zeller, K. G. Anderson, R. Knight, et al. 2021. “METTL3 regulates viral m6A RNA modification and host cell innate immune responses during SARS-CoV-2 infection.” Cell Reports 35: 109091. https://doi.org/10.1016/j.celrep.2021.109091
+
+.. _ref284:
+
+284. Duru, I. C., Z. Plavec, A. Ylinen, P. Laine, M. James, L. Riihimaki, S. J. Butcher, M. Anastasina, P. Auvinen. 2025. “Direct RNA sequencing reveals m6A modifications and isoform changes in SARS-CoV-2-infected HEK cells.” Access Microbiol 7: https://doi.org/10.1099/acmi.0.001019.v3
+
+.. _ref285:
+
+285. Baek, A., G. E. Lee, S. Golconda, A. Rayhan, A. A. Manganaris, S. Chen, N. Tirumuru, et al. 2024. “Single-molecule epitranscriptomic analysis of full-length HIV-1 RNAs reveals functional roles of site-specific m(6)As.” Nature Microbiology 9: 1340-1355. https://doi.org/10.1038/s41564-024-01638-5
+
+.. _ref286:
+
+286. Naquin, D., S. Blanchet, E. van Dijk, L. Bertrand, S. Gregoire, B. C. Ramirez, R. Ouazahrou, et al. 2025. “High-resolution HIV-1 m(6)A epitranscriptome reveals isoform-dependent methylation clusters and unique 2-LTR transcript modifications.” NAR Genom Bioinform 7: lqaf200. https://doi.org/10.1093/nargab/lqaf200
+
+.. _ref287:
+
+287. Ding, S., H. Liu, L. Liu, L. Ma, Z. Chen, M. Zhu, L. Liu, et al. 2024. “Epigenetic addition of m(5)C to HBV transcripts promotes viral replication and evasion of innate antiviral responses.” Cell Death Dis 15: 39. https://doi.org/10.1038/s41419-023-06412-9
+
+.. _ref288:
+
+288. Giambruno, R., E. Zacco, C. Ugolini, A. Vandelli, L. Mulroney, M. D'Onghia, B. Giuliani, et al. 2023. “Unveiling the role of PUS7-mediated pseudouridylation in host protein interactions specific for the SARS-CoV-2 RNA genome.” Mol Ther Nucleic Acids 34: 102052. https://doi.org/10.1016/j.omtn.2023.102052
+
+.. _ref289:
+
+289. Perlas, A., T. Reska, G. Croville, F. Tarres-Freixas, J. L. Guerin, N. Majo, L. Urban. 2025. “Improvements in RNA and DNA nanopore sequencing allow for rapid genetic characterization of avian influenza.” Virus Evol 11: veaf010. https://doi.org/10.1093/ve/veaf010
+
+.. _ref290:
+
+290. Wu, K., Y. Li, Y. Yi, Y. Yu, Y. Wang, L. Zhang, Q. Cao, K. Chen. 2025. “The detection, function, and therapeutic potential of RNA 2'-O-methylation.” Innov Life 3: https://doi.org/10.59717/j.xinn-life.2024.100112
+
+.. _ref291:
+
+291. Baquero-Perez, B., I. D. Yonchev, A. Delgado-Tejedor, R. Medina, M. Puig-Torrents, I. Sudbery, O. Begik, S. A. Wilson, E. M. Novoa, J. Diez. 2024. “N(6)-methyladenosine modification is not a general trait of viral RNA genomes.” Nature Communications 15: 1964. https://doi.org/10.1038/s41467-024-46278-9
+
+.. _ref292:
+
+292. Pan, F., J. Jing, Y. Qiu, M. Li, X. Zhou, S. Li. 2025. “Epi-transcriptome analysis reveals the lack of N(6)-methyladenosine modifications in two RNA viruses infecting watermelon.” Sci Bull (Beijing) 70: 3960-3963. https://doi.org/10.1016/j.scib.2025.07.019
+
+.. _ref293:
+
+293. Abebe, Jonathan S, Ruth Verstraten, Daniel P Depledge. 2022. “Nanopore-based detection of viral RNA modifications.” mBio 13: e03702-03721. 
+
+.. _ref294:
+
+294. Sztuba-Solinska, J., V. Stollar, J. J. Bujarski. 2011. “Subgenomic messenger RNAs: mastering regulation of (+)-strand RNA virus life cycle.” Virology 412: 245-255. https://doi.org/10.1016/j.virol.2011.02.007
+
+.. _ref295:
+
+295. Depledge, D. P., K. P. Srinivas, T. Sadaoka, D. Bready, Y. Mori, D. G. Placantonakis, I. Mohr, A. C. Wilson. 2019. “Direct RNA sequencing on nanopore arrays redefines the transcriptional complexity of a viral pathogen.” Nature Communications 10: 754. https://doi.org/10.1038/s41467-019-08734-9
+
+.. _ref296:
+
+296. Ugolini, C., L. Mulroney, A. Leger, M. Castelli, E. Criscuolo, M. K. Williamson, A. D. Davidson, et al. 2022. “Nanopore ReCappable sequencing maps SARS-CoV-2 5' capping sites and provides new insights into the structure of sgRNAs.” Nucleic Acids Research 50: 3475-3489. https://doi.org/10.1093/nar/gkac144
+
+.. _ref297:
+
+297. Zhang, R., P. Wang, X. Ma, Y. Wu, C. Luo, L. Qiu, B. Zeshan, Z. Yang, Y. Zhou, X. Wang. 2021. “Nanopore-Based Direct RNA-Sequencing Reveals a High-Resolution Transcriptional Landscape of Porcine Reproductive and Respiratory Syndrome Virus.” Viruses 13: https://doi.org/10.3390/v13122531
+
+.. _ref298:
+
+298. Hawes, K., B. Greene, Z. A. Weishampel, P. A. Beare, S. van Tol, P. Schaughency, S. Kuhn, A. J. Peel, V. J. Munster, C. K. Yinda. 2025. “Evaluation of a Probe-Based Enrichment Protocol for Nanopore Sequencing of Zoonotic Viruses.” Viruses 17: https://doi.org/10.3390/v17111465
+
+.. _ref299:
+
+299. Bravo, J. E., K. J. Newsom, N. Noyes, C. Boucher. 2025. “Methods, applications, and computational challenges in bait capture enrichment.” Cell Rep Methods 5: 101174. https://doi.org/10.1016/j.crmeth.2025.101174
+
+.. _ref300:
+
+300. Guo, Z., Y. Shao, L. Tan, R. Li. 2025. “Protocol for generating native and unmodified bacterial RNA for nanopore direct RNA sequencing and downstream analysis.” STAR Protoc 7: 104279. https://doi.org/10.1016/j.xpro.2025.104279
+
+.. _ref301:
+
+301. Naarmann-de Vries, Isabel S., Enio Gjerga, Catharina L. A. Gandor, Christoph Dieterich. 2023. “Adaptive sampling for nanopore direct RNA-sequencing.” RNA (New York, N.Y.) 29: 1939-1949. https://doi.org/10.1261/rna.079727.123
+
+.. _ref302:
+
+302. Martin, S., D. Heavens, Y. Lan, S. Horsfield, M. D. Clark, R. M. Leggett. 2022. “Nanopore adaptive sampling: a tool for enrichment of low abundance species in metagenomic samples.” Genome Biology 23: 11. https://doi.org/10.1186/s13059-021-02582-x
+
+.. _ref303:
+
+303. DeBruyne, N., F. Wang, Y. Xu, L. Lin. 2025. “Evaluating the potential and limitations of nanopore adaptive sampling for targeted transcriptome sequencing.” Genome Biology 26: 349. https://doi.org/10.1186/s13059-025-03813-1
+
+.. _ref304:
+
+304. Yang, L., Y. Lin, P. Li, K. Wang, J. Li, Y. Liu, X. Bo, M. Ni, P. Li, H. Song. 2025. “A comprehensive benchmarking of adaptive sampling tools for nanopore sequencing.” Genome Biology 26: 281. https://doi.org/10.1186/s13059-025-03729-w
+
+.. _ref305:
+
+305. Kovaka, S., Y. Fan, B. Ni, W. Timp, M. C. Schatz. 2021. “Targeted nanopore sequencing by real-time mapping of raw electrical signal with UNCALLED.” Nat Biotechnol 39: 431-441. https://doi.org/10.1038/s41587-020-0731-9
+
+.. _ref306:
+
+306. Zhang, H., H. Li, C. Jain, H. Cheng, K. F. Au, H. Li, S. Aluru. 2021. “Real-time mapping of nanopore raw signals.” Bioinformatics 37: i477-i483. https://doi.org/10.1093/bioinformatics/btab264
+
+.. _ref307:
+
+307. Payne, A., N. Holmes, T. Clarke, R. Munro, B. J. Debebe, M. Loose. 2021. “Readfish enables targeted nanopore sequencing of gigabase-sized genomes.” Nat Biotechnol 39: 442-450. https://doi.org/10.1038/s41587-020-00746-x
+
+.. _ref308:
+
+308. Ulrich, J. U., A. Lutfi, K. Rutzen, B. Y. Renard. 2022. “ReadBouncer: precise and scalable adaptive sampling for nanopore sequencing.” Bioinformatics 38: i153-i160. https://doi.org/10.1093/bioinformatics/btac223
+
+.. _ref309:
+
+309. Edwards, H. S., R. Krishnakumar, A. Sinha, S. W. Bird, K. D. Patel, M. S. Bartsch. 2019. “Real-Time Selective Sequencing with RUBRIC: Read Until with Basecall and Reference-Informed Criteria.” Scientific Reports 9: 11475. https://doi.org/10.1038/s41598-019-47857-3
+
+.. _ref310:
+
+310. Bao, Y., J. Wadden, J. R. Erb-Downward, P. Ranjan, W. Zhou, T. L. McDonald, R. E. Mills, et al. 2021. “SquiggleNet: real-time, direct classification of nanopore signals.” Genome Biology 22: 298. https://doi.org/10.1186/s13059-021-02511-y
+
+.. _ref311:
+
+311. Wang, J., L. Yang, A. Cheng, C. Y. Tham, W. Tan, J. Darmawan, P. F. de Sessions, Y. Wan. 2024. “Direct RNA sequencing coupled with adaptive sampling enriches RNAs of interest in the transcriptome.” Nature Communications 15: 481. https://doi.org/10.1038/s41467-023-44656-3
+
+.. _ref312:
+
+312. Loose, M., S. Malla, M. Stout. 2016. “Real-time selective sequencing using nanopore technology.” Nature Methods 13: 751-754. https://doi.org/10.1038/nmeth.3930
+
+.. _ref313:
+
+313. Tan, S., C. M. T. Dvorak, M. P. Murtaugh. 2019. “Rapid, Unbiased PRRSV Strain Detection Using MinION Direct RNA Sequencing and Bioinformatics Tools.” Viruses 11: https://doi.org/10.3390/v11121132
+
+.. _ref314:
+
+314. Ji, C. M., X. Y. Feng, Y. W. Huang, R. A. Chen. 2024. “The Applications of Nanopore Sequencing Technology in Animal and Human Virus Research.” Viruses 16: https://doi.org/10.3390/v16050798
+
+.. _ref315:
+
+315. Maździarz, Mateusz A., Katarzyna Krawczyk, Ewa Lepiarczyk, Łukasz Paukszto, Jakub Sawicki, Marta Majewska. 2025. “Epitranscriptomic signatures of m5C, m6A, and pseudouridine in COVID-19 reveal host RNA modifications involved in viral pathogenesis.” Microbiology Spectrum e02561-02525. https://doi.org/https://doi.org/10.1128/spectrum.02561-25
+
+.. _ref316:
+
+316. Chen, P., Z. Sun, J. Wang, X. Liu, Y. Bai, J. Chen, A. Liu, et al. 2023. “Portable nanopore-sequencing technology: Trends in development and applications.” Front Microbiol 14: 1043967. https://doi.org/10.3389/fmicb.2023.1043967
+
+.. _ref317:
+
+317. Zheng, P., C. Zhou, Y. Ding, B. Liu, L. Lu, F. Zhu, S. Duan. 2023. “Nanopore sequencing technology and its applications.” MedComm 4: e316. https://doi.org/10.1002/mco2.316
+
+.. _ref318:
+
+318. Marcolungo, L., A. Passera, S. Maestri, E. Segala, M. Alfano, F. Gaffuri, G. Marturano, P. Casati, P. A. Bianco, M. Delledonne. 2022. “Real-Time On-Site Diagnosis of Quarantine Pathogens in Plant Tissues by Nanopore-Based Sequencing.” Pathogens 11: https://doi.org/10.3390/pathogens11020199
+
+.. _ref319:
+
+319. Al Kadi, Mohamad, Eiji Ishii, Dang Tat Truong, Daisuke Motooka, Shigeaki Matsuda, Tetsuya Iida, Toshio Kodama, Daisuke Okuzaki. 2021. “Direct RNA sequencing unfolds the complex transcriptome of Vibrio parahaemolyticus.” mSystems 6: e00996-00921. 
+
+.. _ref320:
+
+320. Pitt, M. E., S. H. Nguyen, T. P. S. Duarte, H. Teng, M. A. T. Blaskovich, M. A. Cooper, L. J. M. Coin. 2020. “Evaluating the genome and resistome of extensively drug-resistant Klebsiella pneumoniae using native DNA and RNA Nanopore sequencing.” Gigascience 9: https://doi.org/10.1093/gigascience/giaa002
+
+.. _ref321:
+
+321. Forquet, Raphaël, Xuejiao Jiang, William Nasser, Florence Hommais, Sylvie Reverchon, Sam Meyer. 2022. “Mapping the complex transcriptional landscape of the phytopathogenic bacterium Dickeya dadantii.” mBio 13: e00524-00522. 
+
+.. _ref322:
+
+322. Iturbe, Pablo, Alvaro San Martín, Hiroshi Hamamoto, Marina Marcet-Houben, Toni Galbaldón, Cristina Solano, Iñigo Lasa. 2024. “Noncontiguous operon atlas for the Staphylococcus aureus genome.” Microlife 5: uqae007. 
+
+.. _ref323:
+
+323. Mattick, John SA, Robin E Bromley, Kaylee J Watson, Ricky S Adkins, Christopher I Holt, Jarrett F Lebov, Benjamin C Sparklin, Tyonna S Tyson, David A Rasko, Julie C Dunning Hotopp. 2024. “Deciphering transcript architectural complexity in bacteria and archaea.” mBio 15: e02359-02324. 
+
+.. _ref324:
+
+324. Smith, Andrew M, Miten Jain, Logan Mulroney, Daniel R Garalde, Mark Akeson. 2019. “Reading canonical and modified nucleobases in 16S ribosomal RNA using nanopore native RNA sequencing.” Plos One 14: e0216709. 
+
+.. _ref325:
+
+325. Delgado-Tejedor, Anna, Rebeca Medina, Oguzhan Begik, Luca Cozzuto, Judith López, Sandra Blanco, Julia Ponomarenko, Eva Maria Novoa. 2024. “Native RNA nanopore sequencing reveals antibiotic-induced loss of rRNA modifications in the A-and P-sites.” Nature Communications 15: 10054. 
+
+.. _ref326:
+
+326. Riquelme-Barrios, Sebastián, Leonardo Vásquez-Camus, Siobhan A Cusack, Korinna Burdack, Dimitar Plamenov Petrov, G Nur Yeşiltaç-Tosun, Stefanie Kaiser, Pascal Giehr, Kirsten Jung. 2025. “Direct RNA sequencing of the Escherichia coli epitranscriptome uncovers alterations under heat stress.” Nucleic Acids Research 53: gkaf175. 
+
+.. _ref327:
+
+327. Guo, Zhihao, Yanwen Shao, Lu Tan, Beifang Lu, Xin Deng, Sheng Chen, Runsheng Li. 2025. “Enhanced detection of RNA modifications in Escherichia coli utilizing direct RNA sequencing.” Cell reports methods 5, 
+
+.. _ref328:
+
+328. Grünberger, Felix, Michael Jüttner, Robert Knüppel, Sébastien Ferreira-Cerca, Dina Grohmann. 2023. “Nanopore-based RNA sequencing deciphers the formation, processing, and modification steps of rRNA intermediates in archaea.” RNA 29: 1255-1273. 
+
+.. _ref329:
+
+329. Pust, Marie-Madlen, Colin Francis Davenport, Lutz Wiehlmann, Burkhard Tümmler. 2022. “Direct RNA nanopore sequencing of Pseudomonas aeruginosa clone C transcriptomes.” Journal of Bacteriology 204: e00418-00421. 
+
+.. _ref330:
+
+330. Frommeyer, Yannick N, Nicolas O Gomez, Matthias Preusse, Alejandro Arce-Rodriguez, Kerstin Neubauer, Benedikt Kennepohl, Julius Witte, Safaa Bouheraoua, Pierina Cetraro, Jelena Erdmann. 2025. “tRNA hydroxylation is an epitranscriptomic modulator of metabolic states affecting Pseudomonas aeruginosa pathogenicity.” Nucleic Acids Research 53: gkaf719. 
+
+.. _ref331:
+
+331. Zhang, Hailei, Huan Zhong, Xufeng Wang, Shoudong Zhang, Xiaojian Shao, Hao Hu, Zhiling Yu, Zongwei Cai, Xuemei Chen, Yiji Xia. 2021. “Use of NAD tagSeq II to identify growth phase-dependent alterations in E. coli RNA NAD+ capping.” Proceedings of the National Academy of Sciences 118: e2026183118. 
+
+.. _ref332:
+
+332. Dmytrenko, Oleg, Biao Yuan, Kadin T Crosby, Max Krebel, Xiye Chen, Jakub S Nowak, Andrzej Chramiec-Głąbik, Bamidele Filani, Anne-Sophie Gribling-Burrer, Wiep van der Toorn. 2026. “RNA-triggered Cas12a3 cleaves tRNA tails to execute bacterial immunity.” Nature 1-10. 
+
+.. _ref333:
+
+333. Song, Junwei, Li-an Lin, Chao Tang, Chuan Chen, Qingxin Yang, Dan Zhang, Yuancun Zhao, Han-cheng Wei, Kepan Linghu, Zijie Xu. 2025. “DEMINERS enables clinical metagenomics and comparative transcriptomic analysis by increasing throughput and accuracy of nanopore direct RNA sequencing.” Genome Biology 26: 76. 
+
+.. _ref334:
+
+334. Yang, Manyun, Alyssa Cousineau, Xiaobo Liu, Yaguang Luo, Daniel Sun, Shaohua Li, Tingting Gu, Luo Sun, Hayden Dillow, Jack Lepine. 2020. “Direct metatranscriptome RNA-seq and multiplex RT-PCR amplicon sequencing on Nanopore MinION–promising strategies for multiplex identification of viable pathogens in food.” Frontiers in Microbiology 11: 514. 
+
+.. _ref335:
+
+335. Poursalavati, Abdonaser, Vahid J Javaran, Isabelle Laforest-Lapointe, Mamadou L Fall. 2023. “Soil metatranscriptomics: an improved rna extraction method toward functional analysis using nanopore direct RNA sequencing.” Phytobiomes Journal 7: 42-54. 
+
+.. _ref336:
+
+336. Semmouri, Ilias, Karel AC De Schamphelaere, Jan Mees, Colin R Janssen, Jana Asselman. 2020. “Evaluating the potential of direct RNA nanopore sequencing: Metatranscriptomics highlights possible seasonal differences in a marine pelagic crustacean zooplankton community.” Marine Environmental Research 153: 104836. 
+
+.. _ref337:
+
+337. Zhang, Huakun, Yiliang Ding. 2025. “RNA Structure: Function and Application in Plant Biology.” Annual Review of Plant Biology 76: https://doi.org/doi.org/10.1146/annurev-arplant-083123-055521
+
+.. _ref338:
+
+338. Reddy, A. S., Y. Marquez, M. Kalyna, A. Barta. 2013. “Complexity of the alternative splicing landscape in plants.” Plant Cell 25: 3657–3683. https://doi.org/10.1105/tpc.113.117523
+
+.. _ref339:
+
+339. Reddy, Anireddy SN, Jie Huang, Naeem H Syed, Asa Ben-Hur, Suomeng Dong, Lianfeng Gu. 2020. “Decoding co-/post-transcriptional complexities of plant transcriptomes and epitranscriptome using next-generation sequencing technologies.” Biochemical Society Transactions 48: 2399-2414. https://doi.org/10.1042/BST20190492
+
+.. _ref340:
+
+340. Wang, Wei, Haosong Guo, Jianxin Bian, Fa Cui, Xiaoqin Liu. 2025. “Identification of post-transcriptional regulation reveals complexity in peanut pod development by Direct RNA.” Abiotech 6: 554-568. https://doi.org/doi.org/10.1007/s42994-025-00224-5
+
+.. _ref341:
+
+341. Kollist, Hannes, Sara I Zandalinas, Soham Sengupta, Maris Nuhkat, Jaakko Kangasjärvi, Ron Mittler. 2019. “Rapid responses to abiotic stress: priming the landscape for the signal transduction network.” Trends in Plant Science 24: 25-37. https://doi.org/doi.org/10.1016/j.tplants.2018.10.003
+
+.. _ref342:
+
+342. Wang, Xiaojuan, Na Li, Wei Li, Xinlei Gao, Muha Cha, Lijin Qin, Lihong Liu. 2020. “Advances in transcriptomics in the response to stress in plants.” Global Medical Genetics 7: 030-034. https://doi.org/10.1055/s-0040-1714414
+
+.. _ref343:
+
+343. Hu, Jianzhong, Jing Cai, Su Jung Park, Kwanuk Lee, Yuxia Li, Yao Chen, Jae‐Young Yun, Tao Xu, Hunseung Kang. 2021. “N 6‐Methyladenosine mRNA methylation is important for salt stress tolerance in Arabidopsis.” The Plant Journal 106: 1759-1775. https://doi.org/10.1111/tpj.15270
+
+.. _ref344:
+
+344. Zhang, Shoudong, Zhixia Xiao, Ailin Liu, Dongpeng Ren, Shengjie Chen, Hanxue Zhang, Li Zhang, Zhili Wang, Jun Yang, Hon‐Ming Lam. 2025. “Salt Stress Adaptations in Soybean Involve Alterations in Pre‐mRNA Processing.” Plant, Cell & Environment https://doi.org/doi.org/10.1111/pce.15515Digital
+
+.. _ref345:
+
+345. Qian, Qian, Yiming Zhou, Yuli Gan, Yongqing Ling, Jiantao Tan, Mengyuan Sheng, Xin Peng, Degui Zhou, Zhonghui Zhang, Qi Liu. 2025. “Comprehensive profiling of the epitranscriptome and translatome in rice seedlings under salt stress.” Plant Physiology 199: kiaf481. https://doi.org/doi.org/10.1093/plphys/kiaf481
+
+.. _ref346:
+
+346. He, Shidong, Hui Wang, Minghao Lv, Shun Li, Junhui Song, Rongxin Wang, Shaolong Jiang, Lijun Jiang, Shuxin Zhang, Xiang Li. 2024. “Nanopore direct RNA sequencing reveals the short-term salt stress response in maize roots.” Plants 13: 405. https://www.mdpi.com/2223-7747/13/3/405
+
+.. _ref347:
+
+347. Song, Zhihua, Qing Yang, Biying Dong, Shengjie Wang, Jingyi Xue, Ni Liu, Xiaomiao Zhou, Na Li, Abhaya M Dandekar, Lailiang Cheng. 2025. “Nanopore RNA direct sequencing identifies that m6A modification is essential for sorbitol-controlled resistance to Alternaria alternata in apple.” Developmental Cell 60: 1439-1453. e1435. https://doi.org/doi.org/10.1016/j.devcel.2024.12.033
+
+.. _ref348:
+
+348. Furci, Leonardo, Jérémy Berthelier, Hidetoshi Saze. 2024. “RNA N6-adenine methylation dynamics impact Hyaloperonospora arabidopsidis resistance in Arabidopsis.” Plant Physiology 196: 745-753. https://doi.org/10.1093/plphys/kiae373
+
+.. _ref349:
+
+349. Lee, Sung-Il, Nam-Soo Kim. 2014. “Transposable elements and genome size variations in plants.” Genomics & informatics 12: 87. https://doi.org/10.5808/GI.2014.12.3.87
+
+.. _ref350:
+
+350. Negi, Pooja, Archana N Rai, Penna Suprasanna. 2016. “Moving through the stressed genome: emerging regulatory roles for transposons in plant stress response.” Frontiers in Plant Science 7: 1448. https://doi.org/10.3389/fpls.2016.01448
+
+.. _ref351:
+
+351. Tao, Xiao-Yuan, Shou-Li Feng, Lu Yuan, Yan-Jun Li, Xin-Jia Li, Xue-Ying Guan, Zhong-Hua Chen, Sheng-Chun Xu. 2025. “Harnessing transposable elements for plant functional genomics and genome engineering.” Trends in Plant Science https://doi.org/10.1016/j.tplants.2025.03.007
+
+.. _ref352:
+
+352. Tian, Xuehan, Ruipeng Wang, Zhenping Liu, Sifan Lu, Xinyuan Chen, Zeyu Zhang, Fang Liu, Hongbin Li, Xianlong Zhang, Maojun Wang. 2025. “Widespread impact of transposable elements on the evolution of post-transcriptional regulation in the cotton genus Gossypium.” Genome Biology 26: 60. https://doi.org/10.1186/s13059-025-03534-5
+
+.. _ref353:
+
+353. Hassan, Asmaa H, Morad M Mokhtar, Achraf El Allali. 2024. “Transposable elements: multifunctional players in the plant genome.” Frontiers in Plant Science 14: 1330127. https://doi.org/10.3389/fpls.2023.1330127
+
+.. _ref354:
+
+354. Botet, Ramon, Joost JB Keurentjes. 2020. “The role of transcriptional regulation in hybrid vigor.” Frontiers in Plant Science 11: 410. https://doi.org/doi.org/10.3389/fpls.2020.00410
+
+.. _ref355:
+
+355. Aufiero, Gaetano, Carmine Fruggiero, Davide D’Angelo, Nunzio D’Agostino. 2024. “Homoeologs in Allopolyploids: Navigating Redundancy as Both an Evolutionary Opportunity and a Technical Challenge—A Transcriptomics Perspective.” Genes (Basel) 15: 977. https://doi.org/10.3390/genes15080977
+
+.. _ref356:
+
+356. Li, M., M. Hu, Y. Xiao, X. Wu, J. Wang. 2022. “The activation of gene expression and alternative splicing in the formation and evolution of allopolyploid Brassica napus.” Hortic. Res. 9: uhab075. https://doi.org/10.1093/hr/uhab075
+
+.. _ref357:
+
+357. Yan, X., X. Chen, Y. Li, Y. Li, F. Wang, J. Zhang, G. Ning, M. Bao. 2023. “The abundant and unique transcripts and alternative splicing of the artificially autododecaploid london plane (platanus x acerifolia).” Int. J. Mol. Sci. 24: 14486. https://doi.org/10.3390/ijms241914486
+
+.. _ref358:
+
+358. Wu, Guangliang, Shangwei Yu, Junru Fu, Linjuan Ouyang, Lifang Hu, Jianmin Bian, Xiaorong Chen, Jie Xu, Dahu Zhou, Haohua He. 2025. “Alternative polyadenylation and metabolic profiling in young panicle development of hybrid rice and its parents.” Rice 18: 80. https://doi.org/doi.org/10.1186/s12284-025-00834-z
+
+.. _ref359:
+
+359. Park, Dayea, Can Cenik. 2025. “Long-read RNA sequencing reveals allele-specific N6-methyladenosine modifications.” Genome Research 35: 999-1011. https://doi.org/10.1101/2024.07.08.602538
+
+.. _ref360:
+
+360. Wu, Zhe, Xiaofeng Fang, Danling Zhu, Caroline Dean. 2020. “Autonomous pathway: FLOWERING LOCUS C repression through an antisense-mediated chromatin-silencing mechanism.” Plant Physiology 182: 27-37. https://doi.org/doi.org/10.1104/pp.19.01009
+
+.. _ref361:
+
+361. Nielsen, Mathias, Govind Menon, Yusheng Zhao, Eduardo Mateo-Bonmati, Philip Wolff, Shaoli Zhou, Martin Howard, Caroline Dean. 2024. “COOLAIR and PRC2 function in parallel to silence FLC during vernalization.” Proceedings of the National Academy of Sciences 121: e2311474121. https://doi.org/10.1073/pnas.2311474121
+
+.. _ref362:
+
+362. Parker, Matthew T., Katarzyna Knop, Vasiliki Zacharaki, Anna V. Sherwood, Daniel Tomé, Xuhong Yu, Pascal G. P. Martin, et al. 2021. “Widespread premature transcription termination of Arabidopsis thaliana NLR genes by the spen protein FPA.” Elife 10: e65537. https://doi.org/10.7554/eLife.65537
+
+.. _ref363:
+
+363. Xu, T., X. Wu, C. E. Wong, S. Fan, Y. Zhang, S. Zhang, Z. Liang, H. Yu, L. Shen. 2022. “FIONA1-Mediated m(6) A Modification Regulates the Floral Transition in Arabidopsis.” Advanced Science (Weinheim, Baden-Wurttemberg, Germany) 9: e2103628. https://doi.org/10.1002/advs.202103628
+
+.. _ref364:
+
+364. Sun, B., K. K. Bhati, P. Song, A. Edwards, L. Petri, V. Kruusvee, A. Blaakmeer, et al. 2022. “FIONA1-mediated methylation of the 3'UTR of FLC affects FLC transcript levels and flowering in Arabidopsis.” PLoS Genetics 18: e1010386. https://doi.org/10.1371/journal.pgen.1010386
+
+.. _ref365:
+
+365. Schiksnis, Erin C., Ian A. Nicastro, Amy E. Pasquinelli. 2024. “Full-length direct RNA sequencing reveals extensive remodeling of RNA expression, processing and modification in aging Caenorhabditis elegans.” Nucleic Acids Research 52: 13896-13913. https://doi.org/10.1093/nar/gkae1064
+
+.. _ref366:
+
+366. Bo, Jing, Wenyu Fang, Jing Wang, Shunping He, Liandong Yang. 2025. “High resolution of full-length RNA sequencing deciphers massive transcriptome complexity during zebrafish embryogenesis.” BMC Biology 23: 155. https://doi.org/10.1186/s12915-025-02271-2
+
+.. _ref367:
+
+367. Jiang, Chengfei, Ping Li, Haiming Cao. 2024. “Unveiling Tissue-Specific RNA Landscapes in Mouse Organs During Fasting and Feeding Using Nanopore Direct RNA Sequencing.” Advanced Science (Weinheim, Baden-Wurttemberg, Germany) 12: e2408054. https://doi.org/10.1002/advs.202408054
+
+.. _ref368:
+
+368. Guo, Wenbing, Zhijun Ren, Xiang Huang, Jiayin Liu, Jingwen Shao, Xiaojun Ma, Chuanchuan Wei, et al. 2025. “Single-molecule m6A detection empowered by endogenous labeling unveils complexities across RNA isoforms.” Molecular Cell 85: https://doi.org/10.1016/j.molcel.2025.01.014
+
+.. _ref369:
+
+369. Liao, Yaya, Zifeng Ding, Xiaoyun Chen, Chao Yin, Bin Yang, Qiang Yang, Yuyun Xing. 2025. “Transcriptome-wide m6A landscape across diverse porcine tissues revealed by nanopore direct RNA sequencing.” Frontiers in Genetics 16: 1725608. https://doi.org/10.3389/fgene.2025.1725608
+
+.. _ref370:
+
+370. Choquet, Karine, Louis-Philippe Chaumont, Simon Bache, Autum R. Baxter-Koenigs, L. Stirling Churchman. 2025. “Genetic regulation of nascent RNA maturation revealed by direct RNA nanopore sequencing.” Genome Research 35: 712-724. https://doi.org/10.1101/gr.279203.124
+
+.. _ref371:
+
+371. Cruciani, Sonia, Anna Delgado-Tejedor, Leszek P Pryszcz, Rebeca Medina, Laia Llovera, Eva Maria Novoa. 2025. “De novo basecalling of RNA modifications at single molecule and nucleotide resolution.” Genome Biology 26: 38. 
+
+.. _ref372:
+
+372. Teng, Haotian, Marcus Stoiber, Ziv Bar-Joseph, Carl Kingsford. 2024. “Detecting m6A RNA modification from nanopore sequencing using a semisupervised learning framework.” Genome Research 34: 1987-1999. https://doi.org/10.1101/gr.278960.124
+
+.. _ref373:
+
+373. Naarmann-de Vries, Isabel S., Jessica Eschenbach, Christoph Dieterich. 2021. “Improved nanopore direct RNA sequencing of cardiac myocyte samples by selective mt-RNA depletion.” Journal of Molecular and Cellular Cardiology 163: 175-186. https://doi.org/10.1016/j.yjmcc.2021.10.010
+
+.. _ref374:
+
+374. Müller, Torsten, Etienne Boileau, Sweta Talyan, Dorothea Kehr, Karl Varadi, Martin Busch, Patrick Most, Jeroen Krijgsveld, Christoph Dieterich. 2020. “Updated and enhanced pig cardiac transcriptome based on long-read RNA sequencing and proteomics.” Journal of Molecular and Cellular Cardiology 150: 23-31. https://doi.org/10.1016/j.yjmcc.2020.10.005
+
+.. _ref375:
+
+375. Leshkowitz, D., M. Kedmi, Yael Fried, D. Pilzer, Hadas Keren-Shaul, E. Ainbinder, B. Dassa. 2022. “Exploring differential exon usage via short- and long-read RNA sequencing strategies.” Open Biology 12: https://doi.org/10.1098/rsob.220206
+
+.. _ref376:
+
+376. Roach, N. P., N. Sadowski, A. F. Alessi, W. Timp, J. Taylor, J. K. Kim. 2020. “The full-length transcriptome of C. elegans using direct RNA sequencing.” Genome Research 30: 299-312. https://doi.org/10.1101/gr.251314.119
+
+.. _ref377:
+
+377. Bohn, P., A. S. Gribling-Burrer, U. B. Ambi, R. P. Smyth. 2023. “Nano-DMS-MaP allows isoform-specific RNA structure determination.” Nature Methods 20: 849-859. https://doi.org/10.1038/s41592-023-01862-7
+
+.. _ref378:
+
+378. de Jong, L. C., S. Cree, V. Lattimore, G. A. R. Wiggins, A. B. Spurdle, Investigators kConFab, A. Miller, M. A. Kennedy, L. C. Walker. 2017. “Nanopore sequencing of full-length BRCA1 mRNA transcripts reveals co-occurrence of known exon skipping events.” Breast Cancer Res 19: 127. https://doi.org/10.1186/s13058-017-0919-1
+
+.. _ref379:
+
+379. Maggi, J., S. Feil, J. Gloggnitzer, K. Maggi, R. Bachmann-Gagescu, C. Gerth-Kahlert, S. Koller, W. Berger. 2024. “Nanopore Deep Sequencing as a Tool to Characterize and Quantify Aberrant Splicing Caused by Variants in Inherited Retinal Dystrophy Genes.” Int J Mol Sci 25: https://doi.org/10.3390/ijms25179569
+
+.. _ref380:
+
+380. Ozaki, K., T. Irioka, S. Noma, A. Machida, M. Fukunaga, T. Murano, C. Takahashi, et al. 2025. “Isoform analysis of heterozygous putative splicing variants at the allele level using nanopore long-read sequencing.” Scientific Reports 15: 29001. https://doi.org/10.1038/s41598-025-14566-z
+
+.. _ref381:
+
+381. He, J., D. Ganesamoorthy, J. J. Chang, J. Zhang, S. L. Trevor, K. S. Gibbons, S. J. McPherson, et al. 2025. “Utilizing Nanopore direct RNA sequencing of blood from patients with sepsis for discovery of co- and post-transcriptional disease biomarkers.” BMC Infectious Diseases 25: 692. https://doi.org/10.1186/s12879-025-11078-z
+
+.. _ref382:
+
+382. Tian, L., J. S. Jabbari, R. Thijssen, Q. Gouil, S. L. Amarasinghe, O. Voogd, H. Kariyawasam, et al. 2021. “Comprehensive characterization of single-cell full-length isoforms in human and mouse with long-read sequencing.” Genome Biology 22: 310. https://doi.org/10.1186/s13059-021-02525-6
+
+.. _ref383:
+
+383. Begik, O., G. Diensthuber, H. Liu, A. Delgado-Tejedor, C. Kontur, A. M. Niazi, E. Valen, et al. 2023. “Nano3P-seq: transcriptome-wide analysis of gene expression and tail dynamics using end-capture nanopore cDNA sequencing.” Nature Methods 20: 75-85. https://doi.org/10.1038/s41592-022-01714-w
+
+.. _ref384:
+
+384. Passmore, L. A., J. Coller. 2022. “Roles of mRNA poly(A) tails in regulation of eukaryotic gene expression.” Nature Reviews: Molecular Cell Biology 23: 93-106. https://doi.org/10.1038/s41580-021-00417-y
+
+.. _ref385:
+
+385. Begik, O., L. P. Pryszcz, A. M. Niazi, E. Valen, E. M. Novoa. 2025. “Nano3P-seq: charting the coding and noncoding transcriptome at single-molecule resolution.” Nature Protocols 20: 3607-3628. https://doi.org/10.1038/s41596-025-01205-0
+
+.. _ref386:
+
+386. Abebe, J. S., A. M. Price, K. E. Hayer, I. Mohr, M. D. Weitzman, A. C. Wilson, D. P. Depledge. 2022. “DRUMMER-rapid detection of RNA modifications through comparative nanopore sequencing.” Bioinformatics 38: 3113-3115. https://doi.org/10.1093/bioinformatics/btac274
+
+.. _ref387:
+
+387. Begik, Oguzhan, J. Mattick, E. Novoa. 2022. “Exploring the epitranscriptome by native RNA sequencing.” RNA 28: 1430-1439. https://doi.org/10.1261/rna.079404.122
+
+.. _ref388:
+
+388. Mulroney, L., E. Birney, T. Leonardi, F. Nicassio. 2023. “Using Nanocompore to Identify RNA Modifications from Direct RNA Nanopore Sequencing Data.” Curr Protoc 3: e683. https://doi.org/10.1002/cpz1.683
+
+.. _ref389:
+
+389. Makhamreh, A., S. Tavakoli, A. Fallahi, X. Kang, H. Gamper, M. Nabizadehmashhadtoroghi, M. Jain, Y. M. Hou, S. H. Rouhanifard, M. Wanunu. 2024. “Nanopore signal deviations from pseudouridine modifications in RNA are sequence-specific: quantification requires dedicated synthetic controls.” Scientific Reports 14: 22457. https://doi.org/10.1038/s41598-024-72994-9
+
+.. _ref390:
+
+390. Mitschka, S., C. Mayr. 2022. “Context-specific regulation and function of mRNA alternative polyadenylation.” Nature Reviews: Molecular Cell Biology 23: 779-796. https://doi.org/10.1038/s41580-022-00507-5
+
+.. _ref391:
+
+391. Ren, F., N. Zhang, L. Zhang, E. Miller, J. J. Pu. 2020. “Alternative Polyadenylation: a new frontier in post transcriptional regulation.” Biomark Res 8: 67. https://doi.org/10.1186/s40364-020-00249-6
+
+.. _ref392:
+
+392. Gruber, A. J., M. Zavolan. 2019. “Alternative cleavage and polyadenylation in health and disease.” Nat Rev Genet 20: 599-614. https://doi.org/10.1038/s41576-019-0145-z
+
+.. _ref393:
+
+393. Zhang, Y., Z. Huang, W. Lu, Z. Liu. 2025. “Alternative cleavage and polyadenylation: key regulatory mechanisms in health and disease.” RNA Biol 22: 1-33. https://doi.org/10.1080/15476286.2025.2529033
+
+.. _ref394:
+
+394. Blake, D., K. W. Lynch. 2021. “The three as: Alternative splicing, alternative polyadenylation and their impact on apoptosis in immune function.” Immunological Reviews 304: 30-50. https://doi.org/10.1111/imr.13018
+
+.. _ref395:
+
+395. Vlasenok, M., S. Margasyuk, D. D. Pervouchine. 2023. “Transcriptome sequencing suggests that pre-mRNA splicing counteracts widespread intronic cleavage and polyadenylation.” NAR Genom Bioinform 5: lqad051. https://doi.org/10.1093/nargab/lqad051
+
+.. _ref396:
+
+396. Obeng, E. A., C. Stewart, O. Abdel-Wahab. 2019. “Altered RNA Processing in Cancer Pathogenesis and Therapy.” Cancer Discov 9: 1493-1510. https://doi.org/10.1158/2159-8290.CD-19-0399
+
+.. _ref397:
+
+397. Masamha, C. P., E. J. Wagner. 2018. “The contribution of alternative polyadenylation to the cancer phenotype.” Carcinogenesis 39: 2-10. https://doi.org/10.1093/carcin/bgx096
+
+.. _ref398:
+
+398. Stopa, V., D. Dafou, K. Karagianni, A. Y. Nossent, R. Farrugia, Y. Devaux, M. Sopic, N. E. T. Cost Action C. A. Athero. 2025. “Epitranscriptomics in atherosclerosis: Unraveling RNA modifications, editing and splicing and their implications in vascular disease.” Vascul Pharmacol 159: 107496. https://doi.org/10.1016/j.vph.2025.107496
+
+.. _ref399:
+
+399. Huang, S., Z. Li, W. Lin, R. Xie, H. Huang. 2025. “RNA Epigenetics in Cancer: Current Knowledge and Therapeutic Implications.” MedComm 6: e70322. https://doi.org/10.1002/mco2.70322
+
+.. _ref400:
+
+400. Barbieri, I., T. Kouzarides. 2020. “Role of RNA modifications in cancer.” Nature Reviews: Cancer 20: 303-322. https://doi.org/10.1038/s41568-020-0253-2
+
+.. _ref401:
+
+401. Qiu, L., Q. Jing, Y. Li, J. Han. 2023. “RNA modification: mechanisms and therapeutic targets.” Mol Biomed 4: 25. https://doi.org/10.1186/s43556-023-00139-x
+
+.. _ref402:
+
+402. Pilala, K. M., K. Panoutsopoulou, M. A. Papadimitriou, K. Soureas, A. Scorilas, M. Avgeris. 2025. “Exploring the methyl-verse: Dynamic interplay of epigenome and m6A epitranscriptome.” Molecular Therapy 33: 447-464. https://doi.org/10.1016/j.ymthe.2024.12.003
+
+.. _ref403:
+
+403. Teng, P. C., Y. Liang, A. A. Yarmishyn, Y. J. Hsiao, T. Y. Lin, T. W. Lin, Y. C. Teng, et al. 2021. “RNA Modifications and Epigenetics in Modulation of Lung Cancer and Pulmonary Diseases.” Int J Mol Sci 22: https://doi.org/10.3390/ijms221910592
+
+.. _ref404:
+
+404. Liu, C., H. Liang, A. H. Wan, M. Xiao, L. Sun, Y. Yu, S. Yan, et al. 2025. “Decoding the m(6)A epitranscriptomic landscape for biotechnological applications using a direct RNA sequencing approach.” Nature Communications 16: 798. https://doi.org/10.1038/s41467-025-56173-6
+
+.. _ref405:
+
+405. Vries, Isabel S Naarmann-de, Enio Gjerga, Catharina LA Gandor, Christoph Dieterich. 2023. “Adaptive sampling for nanopore direct RNA-sequencing.” RNA 29: 1939–1949. https://doi.org/https://10.1261/rna.079727.123
+
+.. _ref406:
+
+406. van der Toorn, W., P. Bohn, W. Liu-Wei, M. Olguin-Nava, A. S. Gribling-Burrer, R. P. Smyth, M. von Kleist. 2025. “Demultiplexing and barcode-specific adaptive sampling for nanopore direct RNA sequencing.” Nature Communications 16: 3742. https://doi.org/10.1038/s41467-025-59102-9
+
+.. _ref407:
+
+407. Yi, Y., Y. Li, Q. Meng, Q. Li, F. Li, B. Lu, J. Shen, et al. 2021. “A PRC2-independent function for EZH2 in regulating rRNA 2'-O methylation and IRES-dependent translation.” Nature Cell Biology 23: 341-354. https://doi.org/10.1038/s41556-021-00653-6
+
+.. _ref408:
+
+408. Frietze, L. R., T. Pan. 2024. “Internal mRNA 2'-O-methyl mapping by nanopore sequencing and consequence on mRNA stability and role in cancer.” Molecular Cell 84: 2215-2217. https://doi.org/10.1016/j.molcel.2024.05.020
+
+.. _ref409:
+
+409. Wang, L., L. Shi, Y. Liang, J. K. Ng, C. H. Yin, L. Wang, J. Hou, et al. 2023. “Dissecting the effects of METTL3 on alternative splicing in prostate cancer.” Front Oncol 13: 1227016. https://doi.org/10.3389/fonc.2023.1227016
+
+.. _ref410:
+
+410. Yi, Y., J. Fry, C. Yum, R. Wang, S. Wu, S. Narayan, Q. Liu, et al. 2026. “EZH2 crosstalk with RNA methylation promotes prostate cancer progression through modulation of m6A autoregulation pathway.” Journal of Clinical Investigation 136: https://doi.org/10.1172/jci195840
+
+.. _ref411:
+
+411. Petri, B. J., K. M. Piell, B. L. Avila-Valdes, C. G. Stanley, L. J. Winkler, J. T. Brown, R. Ulett, et al. 2025. “Integrated Nanopore and short-read RNA sequencing identifies dysregulation of METTL3- m6A modifications in endocrine therapy- sensitive and resistant breast cancer cells.” Funct Integr Genomics 25: 149. https://doi.org/10.1007/s10142-025-01658-2
+
+.. _ref412:
+
+412. Athanasopoulou, K., P. G. Adamopoulos, P. Tsiakanikas, G. N. Daneva, I. Prassas, G. M. Yousef, E. P. Diamandis, A. Scorilas. 2025. “Deciphering the m6A Epitranscriptomic Landscape of mRNAs in Breast Cancer Cells.” Molecular and Cellular Biology 45: 660-679. https://doi.org/10.1080/10985549.2025.2560956
+
+.. _ref413:
+
+413. Athanasopoulou, K., P. G. Adamopoulos, P. Tsiakanikas, A. Scorilas. 2025. “Exploring the m(5)C epitranscriptome of mRNAs in breast cancer cells through genome engineering and long-read sequencing approaches.” Funct Integr Genomics 25: 136. https://doi.org/10.1007/s10142-025-01648-4
+
+.. _ref414:
+
+414. Chen, Z., Y. Guo, Z. Zhang, C. Li, L. Zhang, Y. Liu, G. Sun, F. Xiao, R. Feng, C. Zhang. 2025. “mRNA m5C Alteration in Azacitidine Demethylation Treatment of Acute Myeloid Leukemia.” Molecular Carcinogenesis 64: 502-512. https://doi.org/10.1002/mc.23864
+
+.. _ref415:
+
+415. Zhang, Z., L. Zhang, J. Li, R. Feng, C. Li, Y. Liu, G. Sun, F. Xiao, C. Zhang. 2024. “Comprehensive analysis of m(6)A methylome alterations after azacytidine plus venetoclax treatment for acute myeloid leukemia by nanopore sequencing.” Comput Struct Biotechnol J 23: 1144-1153. https://doi.org/10.1016/j.csbj.2024.02.029
+
+.. _ref416:
+
+416. Asnani, M., K. E. Hayer, A. S. Naqvi, S. Zheng, S. Y. Yang, D. Oldridge, F. Ibrahim, et al. 2020. “Retention of CD19 intron 2 contributes to CART-19 resistance in leukemias with subclonal frameshift mutations in CD19.” Leukemia 34: 1202-1207. https://doi.org/10.1038/s41375-019-0580-z
+
+.. _ref417:
+
+417. Ang, Z., L. Paruzzo, K. E. Hayer, C. Schmidt, M. Torres Diz, F. Xu, U. Zankharia, et al. 2023. “Alternative splicing of its 5'-UTR limits CD20 mRNA translation and enables resistance to CD20-directed immunotherapies.” Blood 142: 1724-1739. https://doi.org/10.1182/blood.2023020400
+
+.. _ref418:
+
+418. Li, Y., P. Jiao, D. Li, Y. Tian, H. Li, G. Sun, X. Wu, et al. 2025. “Comprehensive Analysis of Aberrant m6A RNA Modifications Identifies Prognostic Biomarkers in Non-Small Cell Lung Cancer.” Int J Med Sci 22: 4396-4405. https://doi.org/10.7150/ijms.119651
+
+.. _ref419:
+
+419. Sanchez-Delgado, M., M. Frank, T. Šišmiš, M. Kahraman, A. Daniel-Moreno, E. Mummery, J. Ceiler, et al. 2025. “Nanopore based RNA methylation profiling of a circulating lung cancer biomarker.” Commun Med (Lond) 5: 521. https://doi.org/10.1038/s43856-025-01235-5
+
+.. _ref420:
+
+420. Krusnauskas, R., R. Stakaitis, G. Steponaitis, K. Almstrup, P. Vaitkiene. 2023. “Identification and comparison of m6A modifications in glioblastoma non-coding RNAs with MeRIP-seq and Nanopore dRNA-seq.” Epigenetics 18: 2163365. https://doi.org/10.1080/15592294.2022.2163365
+
+.. _ref421:
+
+421. Steponaitis, G., R. Dragunaite, R. Stakaitis, A. Sharma, A. Tamasauskas, D. Skiriute. 2025. “m6A-lncRNA landscape highlights reduced levels of m6A modification in glioblastoma as compared to low-grade glioma.” Mol Med 31: 195. https://doi.org/10.1186/s10020-025-01254-x
+
+.. _ref422:
+
+422. Širvinskas, D., G. Steponaitis, R. Stakaitis, A. Tamašauskas, P. Vaitkienė, D. Skiriutė. 2023. “Antisense lncRNA CHROMR is linked to glioma patient survival.” Front Mol Biosci 10: 1101953. https://doi.org/10.3389/fmolb.2023.1101953
+
+.. _ref423:
+
+423. Liu, S. J., M. Malatesta, B. V. Lien, P. Saha, S. S. Thombare, S. J. Hong, L. Pedraza, et al. 2020. “CRISPRi-based radiation modifier screen identifies long non-coding RNA therapeutic targets in glioma.” Genome Biology 21: 83. https://doi.org/10.1186/s13059-020-01995-4
+
+.. _ref424:
+
+424. Lin, G., H. Cai, Y. Hong, M. Yao, W. Ye, W. Li, W. Liang, et al. 2024. “Implications of m(5)C modifications in ribosomal proteins on oxidative stress, metabolic reprogramming, and immune responses in patients with mid-to-late-stage head and neck squamous cell carcinoma: Insights from nanopore sequencing.” Heliyon 10: e34529. https://doi.org/10.1016/j.heliyon.2024.e34529
+
+.. _ref425:
+
+425. Li, H., C. Li, Y. Zhang, W. Jiang, F. Zhang, X. Tang, G. Sun, et al. 2024. “Comprehensive analysis of m(6) A methylome and transcriptome by Nanopore sequencing in clear cell renal carcinoma.” Molecular Carcinogenesis 63: 677-687. https://doi.org/10.1002/mc.23680
+
+.. _ref426:
+
+426. Lee, J., E. A. Snell, J. Brown, C. E. Booth, R. E. Banks, D. J. Turner, N. S. Vasudev, D. Lagos. 2024. “Long-read RNA sequencing of archival tissues reveals novel genes and transcripts associated with clear cell renal cell carcinoma recurrence and immune evasion.” Genome Research 34: 1849-1864. https://doi.org/10.1101/gr.278801.123
+
+.. _ref427:
+
+427. Crooks, D. R., G. M. Cawthon, C. M. Fitzsimmons, M. Perez, C. J. Ricketts, C. D. Vocke, Y. Yang, et al. 2023. “Cryptic splice mutation in the fumarate hydratase gene in patients with clinical manifestations of Hereditary Leiomyomatosis and Renal Cell Cancer.” Human Molecular Genetics 32: 3135-3145. https://doi.org/10.1093/hmg/ddad131
+
+.. _ref428:
+
+428. Zhang, L., L. Zhou, W. Xu, P. Wu, W. Chen, H. Li, G. Sun, et al. 2025. “RNA m(5)C Modifications in the Development and Prognosis of Muscle-Invasive Bladder Cancer.” Molecular Carcinogenesis 64: 2017-2025. https://doi.org/10.1002/mc.70042
+
+.. _ref429:
+
+429. Zhang, L., Z. Chen, G. Sun, C. Li, P. Wu, W. Xu, H. Zhu, et al. 2024. “Dynamic landscape of m6A modifications and related post-transcriptional events in muscle-invasive bladder cancer.” J Transl Med 22: 912. https://doi.org/10.1186/s12967-024-05701-x
+
+.. _ref430:
+
+430. Fang, Y., G. Chen, F. Chen, E. Hu, X. Dong, Z. Li, L. He, et al. 2021. “Accurate transcriptome assembly by Nanopore RNA sequencing reveals novel functional transcripts in hepatocellular carcinoma.” Cancer Science 112: 3555-3568. https://doi.org/10.1111/cas.15058
+
+.. _ref431:
+
+431. Yoo, Y., S. Y. Park, E. B. Jo, M. Choi, K. W. Lee, D. Hong, S. Lee, et al. 2021. “Overexpression of Replication-Dependent Histone Signifies a Subset of Dedifferentiated Liposarcoma with Increased Aggressiveness.” Cancers (Basel) 13: https://doi.org/10.3390/cancers13133122
+
+.. _ref432:
+
+432. Zhou, B., N. Chen, Z. Chen, S. Chen, J. Yang, Y. Zheng, L. Shen. 2023. “Prmt5 deficient mouse B cells display RNA processing complexity and slower colorectal tumor progression.” European Journal of Immunology 53: e2250226. https://doi.org/10.1002/eji.202250226
+
+.. _ref433:
+
+433. Adamopoulos, P. G., K. Athanasopoulou, P. Tsiakanikas, A. Scorilas. 2022. “A comprehensive nanopore sequencing methodology deciphers the complete transcriptional landscape of cyclin-dependent kinase 4 (CDK4) in human malignancies.” FEBS Journal 289: 712-729. https://doi.org/10.1111/febs.16201
+
+.. _ref434:
+
+434. Chen, Y., Y. Wang, W. Chen, Z. Tan, Y. Song, H. Chen, Z. Chong. 2023. “Gene Fusion Detection and Characterization in Long-Read Cancer Transcriptome Sequencing Data with FusionSeeker.” Cancer Research 83: 28-33. https://doi.org/10.1158/0008-5472.Can-22-1628
+
+.. _ref435:
+
+435. Yi, H., S. Zhang, J. Swinderman, Y. Wang, V. Kanakaveti, K. L. Hung, I. Tsz-Lo Wong, et al. 2026. “EcDNA-borne structural variants drive oncogenic fusion transcript amplification.” Cell https://doi.org/10.1016/j.cell.2025.12.009
+
+.. _ref436:
+
+436. Li, Q., Z. Li, B. Chen, J. Zhao, H. Yu, J. Hu, H. Lai, et al. 2024. “RNA splicing junction landscape reveals abundant tumor-specific transcripts in human cancer.” Cell Reports 43: 114893. https://doi.org/10.1016/j.celrep.2024.114893
+
+.. _ref437:
+
+437. Milenkovic, I., S. Cruciani, L. Llovera, M. C. Lucas, R. Medina, C. Pauli, D. Heid, et al. 2025. “Epitranscriptomic rRNA fingerprinting reveals tissue-of-origin and tumor-specific signatures.” Molecular Cell 85: 177-190.e177. https://doi.org/10.1016/j.molcel.2024.11.014
+
+.. _ref438:
+
+438. Li, J., X. Wang, H. Wang. 2024. “RNA modifications in long non-coding RNAs and their implications in cancer biology.” Bioorganic and Medicinal Chemistry 113: 117922. https://doi.org/10.1016/j.bmc.2024.117922
+
+.. _ref439:
+
+439. Yang, L., L. Tang, Q. Min, H. Tian, L. Li, Y. Zhao, X. Wu, et al. 2024. “Emerging role of RNA modification and long noncoding RNA interaction in cancer.” Cancer Gene Therapy 31: 816-830. https://doi.org/10.1038/s41417-024-00734-2
+
+.. _ref440:
+
+440. Wei, Y., Y. Li, C. Lu. 2023. “Exploring the role of m6A modification in cancer.” Proteomics 23: e2200208. https://doi.org/10.1002/pmic.202200208
+
+.. _ref441:
+
+441. Fanari, O., D. Bloch, Y. Qiu, M. Meseonznik, D. Boyko, A. Makhamreh, M. Wanunu, S. H. Rouhanifard. 2025. “Pseudouridine reprogramming in the human T-cell epitranscriptome: from primary to immortalized states.” RNA 31: 1320-1334. https://doi.org/10.1261/rna.080633.125
+
+.. _ref442:
+
+442. Jonkhout, N., J. Tran, M. A. Smith, N. Schonrock, J. S. Mattick, E. M. Novoa. 2017. “The RNA modification landscape in human disease.” RNA 23: 1754-1769. https://doi.org/10.1261/rna.063503.117
+
+.. _ref443:
+
+443. Zhang, J., S. Xie, J. Xu, H. Liu, S. Wan. 2021. “Cancer Biomarkers Discovery of Methylation Modification With Direct High-Throughput Nanopore Sequencing.” Frontiers in Genetics 12: 672804. https://doi.org/10.3389/fgene.2021.672804
+
+.. _ref444:
+
+444. Guo, S., S. Lin. 2023. “mRNA alternative polyadenylation (APA) in regulation of gene expression and diseases.” Genes Dis 10: 165-174. https://doi.org/10.1016/j.gendis.2021.09.005
+
+.. _ref445:
+
+445. Ogami, K., Y. Oishi, S. I. Hoshino. 2023. “Protocol for analyzing intact mRNA poly(A) tail length using nanopore direct RNA sequencing.” STAR Protoc 4: 102340. https://doi.org/10.1016/j.xpro.2023.102340
+
+.. _ref446:
+
+446. Mitsuhashi, S., S. Nakagawa, M. Sasaki-Honda, H. Sakurai, M. C. Frith, H. Mitsuhashi. 2021. “Nanopore direct RNA sequencing detects DUX4-activated repeats and isoforms in human muscle cells.” Human Molecular Genetics 30: 552-563. https://doi.org/10.1093/hmg/ddab063
+
+.. _ref447:
+
+447. Jacob, M., H. Kölbel, P. Harrer, R. Kopajtich, P. Munot, M. T. Achleitner, S. Badmann, et al. 2025. “Deciphering DST-associated disorders: biallelic variants affecting DST-b cause a congenital myopathy.” Brain https://doi.org/10.1093/brain/awaf227
+
+.. _ref448:
+
+448. Schwartz, M., M. Filser, K. Merchadou, E. Lemaitre, K. Abidallah, H. Tenreiro, C. Dubois D'enghien, et al. 2025. “Author Correction: A founder BRCA1 exonic duplication involving breakpoint in T2T reference genome-specific region results in constitutional fusion transcript.” NPJ Genom Med 10: 62. https://doi.org/10.1038/s41525-025-00522-3
+
+.. _ref449:
+
+449. Bryce-Smith, S., A. L. Brown, Mzyj Chien, D. Dattilo, P. R. Mehta, F. Mattedi, S. Barattucci, et al. 2025. “TDP-43 loss induces cryptic polyadenylation in ALS/FTD.” Nature Neuroscience 28: 2190-2200. https://doi.org/10.1038/s41593-025-02050-w
+
+.. _ref450:
+
+450. Dermentzaki, G., M. Furlan, I. Tanaka, T. Leonardi, P. Rinchetti, P. M. S. Passos, A. Bastos, et al. 2024. “Depletion of Mettl3 in cholinergic neurons causes adult-onset neuromuscular degeneration.” Cell Reports 43: 113999. https://doi.org/10.1016/j.celrep.2024.113999
+
+.. _ref451:
+
+451. Yen, Y. P., T. H. Lung, E. S. Liau, C. C. Wu, G. L. Huang, F. Y. Hsu, M. Chang, et al. 2025. “The motor neuron m6A repertoire governs neuronal homeostasis and FTO inhibition mitigates ALS symptom manifestation.” Nature Communications 16: 4063. https://doi.org/10.1038/s41467-025-59117-2
+
+.. _ref452:
+
+452. Bilinovich, S. M., K. L. Uhl, K. Lewis, X. Soehnlen, M. Williams, D. Vogt, J. W. Prokop, D. B. Campbell. 2020. “Integrated RNA Sequencing Reveals Epigenetic Impacts of Diesel Particulate Matter Exposure in Human Cerebral Organoids.” Developmental Neuroscience 42: 195-207. https://doi.org/10.1159/000513536
+
+.. _ref453:
+
+453. Xu, Z., H. Li, X. Li, J. Lu, C. Cao, L. Peng, L. Li, J. Zhang, G. Chen. 2025. “Fto-dependent Vdac3 m6A Modification Regulates Neuronal Ferroptosis Induced by the Post-ICH Mass Effect and Transferrin.” Neurosci Bull 41: 970-986. https://doi.org/10.1007/s12264-025-01355-x
+
+.. _ref454:
+
+454. Xin, H., X. He, J. Li, X. Guan, X. Liu, Y. Wang, L. Niu, D. Qiu, X. Wu, H. Wang. 2022. “Profiling of the full-length transcriptome in abdominal aortic aneurysm using nanopore-based direct RNA sequencing.” Open Biol 12: 210172. https://doi.org/10.1098/rsob.210172
+
+.. _ref455:
+
+455. Chen, Y. S., X. P. Ouyang, X. H. Yu, P. Novák, L. Zhou, P. P. He, K. Yin. 2021. “N6-Adenosine Methylation (m(6)A) RNA Modification: an Emerging Role in Cardiovascular Diseases.” J Cardiovasc Transl Res 14: 857-872. https://doi.org/10.1007/s12265-021-10108-w
+
+.. _ref456:
+
+456. Draper, I., W. Huang, S. Pande, A. Zou, T. D. Calamaras, R. H. Choe, A. Correia-Branco, et al. 2024. “The splicing factor hnRNPL demonstrates conserved myocardial regulation across species and is altered in heart failure.” FEBS Letters 598: 2670-2682. https://doi.org/10.1002/1873-3468.15020
+
+.. _ref457:
+
+457. He, J., D. Ganesamoorthy, J. J. Chang, J. Zhang, S. L. Trevor, K. S. Gibbons, S. J. McPherson, et al. 2025. “Utilizing Nanopore direct RNA sequencing of blood from patients with sepsis for discovery of co- and post-transcriptional disease biomarkers.” BMC Infectious Diseases 25: 692. https://doi.org/10.1186/s12879-025-11078-z
+
+.. _ref458:
+
+458. Reis, A. L. M., J. M. Hammond, I. Stevanovski, J. C. Arnold, I. S. McGregor, I. W. Deveson, A. Gururajan. 2022. “Sex-specific transcriptomic and epitranscriptomic signatures of PTSD-like fear acquisition.” iScience 25: 104861. https://doi.org/10.1016/j.isci.2022.104861
+
+.. _ref459:
+
+459. Saju, A. F., A. Mukundan, Ms Divyashree, R. Chandrashekhar, A. Mahadev Rao. 2025. “RNA diagnostics and therapeutics: a comprehensive review.” RNA Biol 22: 1-11. https://doi.org/10.1080/15476286.2024.2449277
+
+.. _ref460:
+
+460. Huang, H., H. Weng, J. Chen. 2020. “m(6)A Modification in Coding and Non-coding RNAs: Roles and Therapeutic Implications in Cancer.” Cancer Cell 37: 270-288. https://doi.org/10.1016/j.ccell.2020.02.004
+
+.. _ref461:
+
+461. He, B., Y. Fan, J. Liu, Y. Chen, J. Yang, H. Xiang, J. Peng, C. Yi. 2025. “Advancing DNA and RNA Modification Detection via Nanopore Sequencing.” ACS nano 19: 37468-37483. https://doi.org/10.1021/acsnano.5c11784
+
+.. _ref462:
+
+462. Paval, N. E., O. A. Caliman-Sturdza, A. Lobiuc, M. Dimian, I. O. Sirbu, M. Covasa. 2025. “MicroRNAs in long COVID: roles, diagnostic biomarker potential and detection.” Hum Genomics 19: 90. https://doi.org/10.1186/s40246-025-00810-0
+
+.. _ref463:
+
+463. Zhang, J., S. Yan, L. Chang, W. Guo, Y. Wang, Y. Wang, P. Zhang, H. Y. Chen, S. Huang. 2020. “Direct microRNA Sequencing Using Nanopore-Induced Phase-Shift Sequencing.” iScience 23: 100916. https://doi.org/10.1016/j.isci.2020.100916
+
+.. _ref464:
+
+464. Song, J., L. A. Lin, C. Tang, C. Chen, Q. Yang, D. Zhang, Y. Zhao, et al. 2025. “DEMINERS enables clinical metagenomics and comparative transcriptomic analysis by increasing throughput and accuracy of nanopore direct RNA sequencing.” Genome Biology 26: 76. https://doi.org/10.1186/s13059-025-03536-3
+
+.. _ref465:
+
+465. Pelletier, D., B. Rivera, M. R. Fabian, W. D. Foulkes. 2023. “miRNA biogenesis and inherited disorders: clinico-molecular insights.” Trends in Genetics 39: 401-414. https://doi.org/10.1016/j.tig.2023.01.009
+
+.. _ref466:
+
+466. Sahin, U., P. Oehm, E. Derhovanessian, R. A. Jabulowsky, M. Vormehr, M. Gold, D. Maurus, et al. 2020. “An RNA vaccine drives immunity in checkpoint-inhibitor-treated melanoma.” Nature 585: 107-112. https://doi.org/10.1038/s41586-020-2537-9
+
+.. _ref467:
+
+467. Carvalho, T. 2023. “Personalized anti-cancer vaccine combining mRNA and immunotherapy tested in melanoma trial.” Nature Medicine 29: 2379-2380. https://doi.org/10.1038/d41591-023-00072-0
+
+.. _ref468:
+
+468. Vormehr, M., O. Tureci, U. Sahin. 2019. “Harnessing Tumor Mutations for Truly Individualized Cancer Vaccines.” Annual Review of Medicine 70: 395-407. https://doi.org/10.1146/annurev-med-042617-101816
+
+.. _ref469:
+
+469. Zak, M. M., L. Zangi. 2025. “Clinical development of therapeutic mRNA applications.” Molecular Therapy 33: 2583-2609. https://doi.org/10.1016/j.ymthe.2025.03.034
+
+.. _ref470:
+
+470. Gunter, H. M., S. Idrisoglu, S. Singh, D. J. Han, E. Ariens, J. R. Peters, T. Wong, et al. 2023. “mRNA vaccine quality analysis using RNA sequencing.” Nature Communications 14: 5663. https://doi.org/10.1038/s41467-023-41354-y
+
+.. _ref471:
+
+471. Xiao, Y. L., S. Liu, R. Ge, Y. Wu, C. He, M. Chen, W. Tang. 2023. “Transcriptome-wide profiling and quantification of N(6)-methyladenosine by enzyme-assisted adenosine deamination.” Nat Biotechnol 41: 993-1003. https://doi.org/10.1038/s41587-022-01587-6
+
+.. _ref472:
+
+472. Winkler, R., E. Gillis, L. Lasman, M. Safra, S. Geula, C. Soyris, A. Nachshon, et al. 2019. “Publisher Correction: m6A modification controls the innate immune response to infection by targeting type I interferons.” Nature Immunology 20: 243. https://doi.org/10.1038/s41590-019-0314-4
+
+.. _ref473:
+
+473. Shi, H., X. Zhang, Y. L. Weng, Z. Lu, Y. Liu, Z. Lu, J. Li, et al. 2018. “m(6)A facilitates hippocampus-dependent learning and memory through YTHDF1.” Nature 563: 249-253. https://doi.org/10.1038/s41586-018-0666-1
+
+.. _ref474:
+
+474. Zhang, C., Y. Chen, B. Sun, L. Wang, Y. Yang, D. Ma, J. Lv, et al. 2017. “m(6)A modulates haematopoietic stem and progenitor cell specification.” Nature 549: 273-276. https://doi.org/10.1038/nature23883
+
+.. _ref475:
+
+475. Zhang, L. S., C. Liu, H. Ma, Q. Dai, H. L. Sun, G. Luo, Z. Zhang, et al. 2019. “Transcriptome-wide Mapping of Internal N(7)-Methylguanosine Methylome in Mammalian mRNA.” Molecular Cell 74: 1304-1316 e1308. https://doi.org/10.1016/j.molcel.2019.03.036
+
+.. _ref476:
+
+476. Zhang, L., J. Wei, Z. Zou, C. He. 2026. “RNA modification systems as therapeutic targets.” Nature Reviews: Drug Discovery 25: 59-78. https://doi.org/10.1038/s41573-025-01280-8
+
+.. _ref477:
+
+477. August, A., H. Z. Attarwala, S. Himansu, S. Kalidindi, S. Lu, R. Pajon, S. Han, et al. 2021. “A phase 1 trial of lipid-encapsulated mRNA encoding a monoclonal antibody with neutralizing activity against Chikungunya virus.” Nature Medicine 27: 2224-2233. https://doi.org/10.1038/s41591-021-01573-6
+
+.. _ref478:
+
+478. Stadler, C. R., U. Ellinghaus, L. Fischer, H. Bahr-Mahmud, M. Rao, C. Lindemann, A. Chaturvedi, et al. 2024. “Preclinical efficacy and pharmacokinetics of an RNA-encoded T cell-engaging bispecific antibody targeting human claudin 6.” Sci Transl Med 16: eadl2720. https://doi.org/10.1126/scitranslmed.adl2720
+
+.. _ref479:
+
+479. Stadler, C. R., H. Bahr-Mahmud, L. Celik, B. Hebich, A. S. Roth, R. P. Roth, K. Kariko, O. Tureci, U. Sahin. 2017. “Erratum: Elimination of large tumors in mice by mRNA-encoded bispecific antibodies.” Nature Medicine 23: 1241. https://doi.org/10.1038/nm1017-1241d
+
+.. _ref480:
+
+480. Wierczeiko, A., S. Pastore, S. Mundnich, A. M. Busch, V. Dietrich, M. Helm, T. Butto, S. Gerber. 2023. “NanopoReaTA: a user-friendly tool for nanopore-seq real-time transcriptional analysis.” Bioinformatics 39: https://doi.org/10.1093/bioinformatics/btad492
+
+.. _ref481:
+
+481. Nesselbush, M. C., B. A. Luca, Y. J. Jeon, I. Jabara, C. B. Meador, A. Garofalo, M. S. Binkley, et al. 2025. “An ultrasensitive method for detection of cell-free RNA.” Nature 641: 759-768. https://doi.org/10.1038/s41586-025-08834-1
+
+.. _ref482:
+
+482. Smith, M. A., T. Ersavas, J. M. Ferguson, H. Liu, M. C. Lucas, O. Begik, L. Bojarski, K. Barton, E. M. Novoa. 2020. “Molecular barcoding of native RNAs using nanopore sequencing and deep learning.” Genome Research 30: 1345-1353. https://doi.org/10.1101/gr.260836.120
+
+.. _ref483:
+
+483. Ibrahim, F., J. Oppelt, M. Maragkakis, Z. Mourelatos. 2021. “TERA-Seq: true end-to-end sequencing of native RNA molecules for transcriptome characterization.” Nucleic Acids Research 49: e115. https://doi.org/10.1093/nar/gkab713
+
+.. _ref484:
+
+484. Prawer, Yair DJ, Josie Gleeson, Ricardo De Paoli-Iseppi, Michael B Clark. 2023. “Pervasive effects of RNA degradation on Nanopore direct RNA sequencing.” NAR Genomics and Bioinformatics 5: lqad060. 
+
+.. _ref485:
+
+485. Kusmirek, Wiktor, Natalia Strozynska, P Martin-Arroyo Cerpa, Agnieszka Dziergowska, Grazyna Leszczynska, Robert Nowak, Malgorzata Adamczyk. 2025. “Direct RNA Oxford Nanopore sequencing distinguishes between modifications in tRNA at the U(34) position.” International Journal of Biological Macromolecules 320: 145877. https://doi.org/10.1016/j.ijbiomac.2025.145877
+
+.. _ref486:
+
+486. Kochavi, Adva, Arno Velds, Maya Suzuki, Shinichiro Akichika, Tsutomu Suzuki, Roderick L Beijersbergen, Reuven Agami. 2025. “Exploiting nanopore sequencing advances for tRNA sequencing of human cancer models.” NAR Cancer 7: https://doi.org/10.1093/narcan/zcaf044
+
+.. _ref487:
+
+487. Sun, Yu, Michael Piechotta, Isabel Naarmann-de Vries, Christoph Dieterich, Ann E Ehrenhofer-Murray. 2023. “Detection of queuosine and queuosine precursors in tRNAs by direct RNA sequencing.” Nucleic Acids Research 51: 11197-11212. 
+
+.. _ref488:
+
+488. Wang, Yongsheng, Huihui Wang, Feihu Xi, Huiyuan Wang, Ximei Han, Wentao Wei, Hangxiao Zhang, Qianyue Zhang, Yushan Zheng, Qiang Zhu. 2020. “Profiling of circular RNA N6‐methyladenosine in moso bamboo (Phyllostachys edulis) using nanopore‐based direct RNA sequencing.” Journal of integrative plant biology 62: 1823-1838. 
+
+.. _ref489:
+
+489. Xiao, Mei-Sheng, Jeremy E Wilusz. 2024. Purification of Circular RNAs Using Poly (A) Tailing Followed by RNase R Digestion. Springer, 
+
+.. _ref490:
+
+490. Xiao, Mei-Sheng, Jeremy E Wilusz. 2019. “An improved method for circular RNA purification using RNase R that efficiently removes linear RNAs containing G-quadruplexes or structured 3′ ends.” Nucleic Acids Research 47: 8755-8769. 
+
+.. _ref491:
+
+491. Rafiq, Aleena, Anastassia Kanavarioti. 2025. “The Potential and Limitations of the MinION/Yenos Platform for miRNA-Enabled Early Cancer Detection.” International Journal of Molecular Sciences 26: 3822. 
+
+.. _ref492:
+
+492. Zhang, T., H. Li, M. Jiang, H. Hou, Y. Gao, Y. Li, F. Wang, J. Wang, K. Peng, Y. X. Liu. 2024. “Nanopore sequencing: flourishing in its teenage years.” J Genet Genomics 51: 1361-1374. https://doi.org/10.1016/j.jgg.2024.09.007
+
+.. _ref493:
+
+493. Timp, Winston, Jeffrey Comer, Aleksei Aksimentiev. 2013. “Nanopore Sequencing using a Hidden Markov Model for Base-Calling.” Biophysical Journal 104: https://doi.org/10.1016/j.bpj.2012.11.1195
+
+.. _ref494:
+
+494. Simpson, J. T., R. E. Workman, P. C. Zuzarte, M. David, L. J. Dursi, W. Timp. 2017. “Detecting DNA cytosine methylation using nanopore sequencing.” Nature Methods 14: 407-410. https://doi.org/10.1038/nmeth.4184
+
+.. _ref495:
+
+495. Teng, H., M. D. Cao, M. B. Hall, T. Duarte, S. Wang, L. J. M. Coin. 2018. “Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning.” Gigascience 7: https://doi.org/10.1093/gigascience/giy037
+
+.. _ref496:
+
+496. Boza, V., B. Brejova, T. Vinar. 2017. “DeepNano: Deep recurrent neural networks for base calling in MinION nanopore reads.” Plos One 12: e0178751. https://doi.org/10.1371/journal.pone.0178751
+
+.. _ref497:
+
+497. Huang, Neng, Fan Nie, Peng Ni, Feng Luo, Jianxin Wang. 2022. “SACall: A Neural Network Basecaller for Oxford Nanopore Sequencing Data Based on Self-Attention Mechanism.” IEEE/ACM Transactions on Computational Biology and Bioinformatics 19: 614-623. https://doi.org/10.1109/tcbb.2020.3039244
+
+.. _ref498:
+
+498. Li, Q., C. Sun, D. Wang, J. Lou. 2024. “BaseNet: A transformer-based toolkit for nanopore sequencing signal decoding.” Comput Struct Biotechnol J 23: 3430-3444. https://doi.org/10.1016/j.csbj.2024.09.016
+
+.. _ref499:
+
+499. Sahlin, K., P. Medvedev. 2021. “Error correction enables use of Oxford Nanopore technology for reference-free transcriptome analysis.” Nature Communications 12: 2. https://doi.org/10.1038/s41467-020-20340-8
+
+.. _ref500:
+
+500. Wang, L., L. Qu, L. Yang, Y. Wang, H. Zhu. 2020. “NanoReviser: An Error-Correction Tool for Nanopore Sequencing Based on a Deep Learning Algorithm.” Frontiers in Genetics 11: 900. https://doi.org/10.3389/fgene.2020.00900
+
+.. _ref501:
+
+501. Xie, S., A. W. Leung, Z. Zheng, D. Zhang, C. Xiao, R. Luo, M. Luo, S. Zhang. 2021. “Applications and potentials of nanopore sequencing in the (epi)genome and (epi)transcriptome era.” Innovation (Camb) 2: 100153. https://doi.org/10.1016/j.xinn.2021.100153
+
+.. _ref502:
+
+502. Zhang, Y., H. Yan, Z. Wei, H. Hong, D. Huang, G. Liu, Q. Qin, et al. 2024. “NanoMUD: Profiling of pseudouridine and N1-methylpseudouridine using Oxford Nanopore direct RNA sequencing.” Int J Biol Macromol 270: 132433. https://doi.org/10.1016/j.ijbiomac.2024.132433
+
+.. _ref503:
+
+503. Oxford Nanopore Technologies. 2024. 'Dorado'.
+
+.. _ref504:
+
+504. De Coster, W., S. D'Hert, D. T. Schultz, M. Cruts, C. Van Broeckhoven. 2018. “NanoPack: visualizing and processing long-read sequencing data.” Bioinformatics 34: 2666-2669. https://doi.org/10.1093/bioinformatics/bty149
+
+.. _ref505:
+
+505. Chen, S. 2023. “Ultrafast one-pass FASTQ data preprocessing, quality control, and deduplication using fastp.” iMeta 2: e107. https://doi.org/10.1002/imt2.107
+
+.. _ref506:
+
+506. Dong, H., Y. Gao, Z. Cai, Y. Li, X. Li, F. Zhao, J. Zhang. 2026. “Comprehensive mapping of RNA modification dynamics and crosstalk via deep learning and nanopore direct RNA-sequencing.” Nature Communications https://doi.org/10.1038/s41467-026-68419-y
+
+.. _ref507:
+
+507. Neumann, D., A. S. N. Reddy, A. Ben-Hur. 2022. “RODAN: a fully convolutional architecture for basecalling nanopore RNA sequencing data.” BMC Bioinformatics 23: 142. https://doi.org/10.1186/s12859-022-04686-y
+
+.. _ref508:
+
+508. Li, Q., C. Sun, D. Wang, J. Lou. 2024. “GCRTcall: a transformer based basecaller for nanopore RNA sequencing enhanced by gated convolution and relative position embedding via joint loss training.” Frontiers in Genetics 15: 1443532. https://doi.org/10.3389/fgene.2024.1443532
+
+.. _ref509:
+
+509. Xie, S., L. Ding, Y. Yu, L. Liu, Y. Sun, J. Li, J. Ruan, Z. Zhu. 2026. “A dual context-aware basecaller for nanopore direct RNA sequencing.” Nature Communications https://doi.org/10.1038/s41467-026-68566-2
+
+.. _ref510:
+
+510. Stoiber, Marcus, Joshua Quick, Rob Egan, Ji Eun Lee, Susan Celniker, Robert K. Neely, Nicholas Loman, Len A. Pennacchio, James Brown. 2017. “De novo Identification of DNA Modifications Enabled by Genome-Guided Nanopore Signal Processing.” Preprint at https://www.biorxiv.org/content/10.1101/094672v2 https://doi.org/10.1101/094672
+
+.. _ref511:
+
+511. Bansal, M., A. Kundu, A. Gupta, J. Ding, A. Gibson, S. V. RudraRaju, S. Sudarshan, H. F. Ding. 2024. “Integrative analysis of nanopore direct RNA sequencing data reveals a role of PUS7-dependent pseudouridylation in regulation of m (6) A and m (5) C modifications.” preprint at  https://www.biorxiv.org/content/10.1101/2024.01.31.578250v3 https://doi.org/https://10.1101/2024.01.31.578250
+
+.. _ref512:
+
+512. Ni, Peng, Jinrui Xu, Zeyu Zhong, Feng Luo, Jianxin Wang. 2024. “RNA m6A detection using raw current signals and basecalling errors from Nanopore direct RNA sequencing reads.” Bioinformatics 40: https://doi.org/10.1093/bioinformatics/btae375
+
+.. _ref513:
+
+513. Ramasamy, S., S. Mishra, S. Sharma, S. S. Parimalam, T. Vaijayanthi, Y. Fujita, B. Kovi, H. Sugiyama, G. N. Pandian. 2022. “An informatics approach to distinguish RNA modifications in nanopore direct RNA sequencing.” Genomics 114: 110372. https://doi.org/10.1016/j.ygeno.2022.110372
+
+.. _ref514:
+
+514. Heng, J. W. J., M. H. Tan. 2025. “Nanopore sequencing to detect A-to-I editing sites.” Methods in Enzymology 710: 187-205. https://doi.org/10.1016/bs.mie.2024.11.028
+
+.. _ref515:
+
+515. Fonzino, A., C. Manzari, P. Spadavecchia, U. Munagala, S. Torrini, S. Conticello, G. Pesole, E. Picardi. 2024. “Unraveling C-to-U RNA editing events from direct RNA sequencing.” RNA Biol 21: 1-14. https://doi.org/10.1080/15476286.2023.2290843
+
+.. _ref516:
+
+516. Hassan, D., A. Ariyur, S. V. Daulatabad, Q. Mir, S. C. Janga. 2024. “Nm-Nano: a machine learning framework for transcriptome-wide single-molecule mapping of 2 -O-methylation (Nm) sites in nanopore direct RNA sequencing datasets.” RNA Biol 21: 1-15. https://doi.org/10.1080/15476286.2024.2352192
+
+.. _ref517:
+
+517. Li, Y., J. Chen, Y. Wang, D. Li, J. Li, Y. Yi, L. Zhang, Q. Cao, K. Chen. 2025. “Protocol for mapping 2'-O-methylation using nanopore direct RNA-seq data with NanoNm.” STAR Protoc 6: 104003. https://doi.org/10.1016/j.xpro.2025.104003
+
+.. _ref518:
+
+518. Wang, Z., Z. Liu, Y. Fang, H. H. Zhang, X. Sun, N. Hao, J. Que, H. Ding. 2025. “Training data diversity enhances the basecalling of novel RNA modification-induced nanopore sequencing readouts.” Nature Communications 16: 679. https://doi.org/10.1038/s41467-025-55974-z
+
+.. _ref519:
+
+519. Li, J., S. Chen, Z. Wu, H. Wang, R. Xia, J. Meng, Y. Zhang. 2026. “CircRM: profiling circular RNA modifications from nanopore direct RNA sequencing.” Brief Bioinform 27: https://doi.org/10.1093/bib/bbaf726
+
+.. _ref520:
+
+520. Oxford Nanopore Technologies. 2021. 'Remora'.
+
+.. _ref521:
+
+521. Wang, Z., Y. Fang, Z. Liu, N. Hao, H. H. Zhang, X. Sun, J. Que, H. Ding. 2024. “Adapting nanopore sequencing basecalling models for modification detection via incremental learning and anomaly detection.” Nature Communications 15: 7148. https://doi.org/10.1038/s41467-024-51639-5
+
+.. _ref522:
+
+522. Xuan, J., L. Chen, Z. Chen, J. Pang, J. Huang, J. Lin, L. Zheng, B. Li, L. Qu, J. Yang. 2024. “RMBase v3.0: decode the landscape, mechanisms and functions of RNA modifications.” Nucleic Acids Research 52: D273-D284. https://doi.org/10.1093/nar/gkad1070
+
+.. _ref523:
+
+523. Bao, X., Q. Jiang, W. Chen, H. Li, X. Li, X. Zuo, Z. Lin, et al. 2026. “RM2Target v2.0: an updated database for the target genes of writers, erasers, and readers of RNA modifications.” Nucleic Acids Research 54: D279-D290. https://doi.org/10.1093/nar/gkaf1206
+
+.. _ref524:
+
+524. Liu, H., H. Wang, Z. Wei, S. Zhang, G. Hua, S. W. Zhang, L. Zhang, et al. 2018. “MeT-DB V2.0: elucidating context-specific functions of N6-methyl-adenosine methyltranscriptome.” Nucleic Acids Research 46: D281-D287. https://doi.org/10.1093/nar/gkx1080
+
+.. _ref525:
+
+525. Liu, S., A. Zhu, C. He, M. Chen. 2020. “REPIC: a database for exploring the N(6)-methyladenosine methylome.” Genome Biology 21: 100. https://doi.org/10.1186/s13059-020-02012-4
+
+.. _ref526:
+
+526. Lang, X., C. Yu, M. Shen, L. Gu, Q. Qian, D. Zhou, J. Tan, et al. 2024. “PRMD: an integrated database for plant RNA modifications.” Nucleic Acids Research 52: D1597-D1613. https://doi.org/10.1093/nar/gkad851
+
+.. _ref527:
+
+527. Dai, Q., C. Ye, I. Irkliyenko, Y. Wang, H. L. Sun, Y. Gao, Y. Liu, et al. 2024. “Ultrafast bisulfite sequencing detection of 5-methylcytosine in DNA and RNA.” Nat Biotechnol 42: 1559-1570. https://doi.org/10.1038/s41587-023-02034-w
+
+.. _ref528:
+
+528. Lichinchi, G., S. Gao, Y. Saletore, G. M. Gonzalez, V. Bansal, Y. Wang, C. E. Mason, T. M. Rana. 2016. “Dynamics of the human and viral m(6)A RNA methylomes during HIV-1 infection of T cells.” Nature Microbiology 1: 16011. https://doi.org/10.1038/nmicrobiol.2016.11
+
+.. _ref529:
+
+529. Ozsolak, F., P. M. Milos. 2011. “Transcriptome profiling using single-molecule direct RNA sequencing.” Methods in Molecular Biology 733: 51-61. https://doi.org/10.1007/978-1-61779-089-8_4
+
+.. _ref530:
+
+530. Orabi, B., N. Xie, B. McConeghy, X. Dong, C. Chauve, F. Hach. 2023. “Freddie: annotation-independent detection and discovery of transcriptomic alternative splicing isoforms using long-read sequencing.” Nucleic Acids Research 51: e11. https://doi.org/10.1093/nar/gkac1112
+
+.. _ref531:
+
+531. Gao, Yuan, Feng Wang, Robert Wang, Eric Kutschera, Yang Xu, Stephan Xie, Yuanyuan Wang, Kathryn E. Kadash-Edmondson, Lan Lin, Yi Xing. 2023. “ESPRESSO: Robust discovery and quantification of transcript isoforms from error-prone long-read RNA-seq data.” Science Advances 9: eabq5072. https://doi.org/https://doi.org/10.1126/sciadv.abq5072
+
+.. _ref532:
+
+532. Wyman, Dana, Gabriela Balderrama-Gutierrez, Fairlie Reese, Shan Jiang, Sorena Rahmanian, Stefania Forner, Dina Matheos, et al. 2020. “A technology-agnostic long-read analysis pipeline for transcriptome discovery and quantification.” preprint at  bioRxiv https://doi.org/https://doi.org/10.1101/672931
+
+.. _ref533:
+
+533. Holmqvist, I., A. Backerholm, Y. Tian, G. Xie, K. Thorell, K. W. Tang. 2021. “FLAME: long-read bioinformatics tool for comprehensive spliceome characterization.” RNA 27: 1127-1139. https://doi.org/10.1261/rna.078800.121
+
+.. _ref534:
+
+534. Pardo-Palacios, F. J., A. Arzalluz-Luque, L. Kondratova, P. Salguero, J. Mestre-Tomas, R. Amorin, E. Estevan-Morio, et al. 2024. “SQANTI3: curation of long-read transcriptomes for accurate identification of known and novel isoforms.” Nature Methods 21: 793-797. https://doi.org/10.1038/s41592-024-02229-2
+
+.. _ref535:
+
+535. Fu, Yuntian, Heonseok Kim, Sharmili Roy, Sijia Huang, Jenea I. Adams, Susan M. Grimes, Billy T. Lau, Anuja Sathe, Hanlee P. Ji, Nancy R. Zhang. 2025. “Single cell and spatial alternative splicing analysis with Nanopore long read sequencing.” Nature Communications 16: https://doi.org/10.1038/s41467-025-60902-2
+
+.. _ref536:
+
+536. Sagniez, Mélanie, Anshul Budhraja, Bastien Paré, Shawn M. Simpson, Clément Vinet-Ouellette, Marieke Rozendaal, Martin A. Smith. 2024. “Assembly Arena: Benchmarking RNA isoform reconstruction algorithms for nanopore sequencing.” Preprint at https://www.biorxiv.org/content/10.1101/2024.03.21.586080v1 https://doi.org/https://doi.org/10.1101/2024.03.21.586080
+
+.. _ref537:
+
+537. Gallie, D. R. 1991. “The cap and poly(A) tail function synergistically to regulate mRNA translational efficiency.” Genes & Development 5: 2108-2116. https://doi.org/10.1101/gad.5.11.2108
+
+.. _ref538:
+
+538. Chang, J. J., X. Yang, H. Teng, J. Zhang, B. Reames, S. Zhang, V. Corbin, L. J. M. Coin. 2025. “Using synthetic RNA to benchmark poly(A) length inference from direct RNA sequencing.” Gigascience 14: https://doi.org/10.1093/gigascience/giaf098
+
+.. _ref539:
+
+539. Maździarz, Mateusz, Łukasz Paukszto, Jakub Sawicki. 2025. “TAILcaller: an R package for analyzing differences in poly(A) tail length for Oxford Nanopore RNA sequencing.” Bioinformatics Advances 5: vbaf235. https://doi.org/https://doi.org/10.1093/bioadv/vbaf235
+
+.. _ref540:
+
+540. Zhang, Z., H. Glatt-Deeley, L. Zou, D. Song, P. Miura. 2025. “APALORD: An R-based tool for differential alternative polyadenylation analysis of long-read RNA-seq data.” bioRxiv https://doi.org/10.1101/2025.06.11.658931
+
+.. _ref541:
+
+541. Çelik, Muhammed Hasan, Ali Mortazavi. 2022. “Analysis of alternative polyadenylation from long-read or short-read RNA-seq with LAPA.” bioRxiv 2022.2011.2008.515683. https://doi.org/10.1101/2022.11.08.515683
+
+.. _ref542:
+
+542. Balazs, Z., D. Tombacz, Z. Csabai, N. Moldovan, M. Snyder, Z. Boldogkoi. 2019. “Template-switching artifacts resemble alternative polyadenylation.” BMC Genomics 20: 824. https://doi.org/10.1186/s12864-019-6199-7
+
+.. _ref543:
+
+543. Liao, Z., Y. Wan, S. N. Thomas, A. J. Yang. 2012. “IsoQuant: a software tool for stable isotope labeling by amino acids in cell culture-based mass spectrometry quantitation.” Anal Chem 84: 4535-4543. https://doi.org/10.1021/ac300510t
+
+.. _ref544:
+
+544. Lienhard, M., T. van den Beucken, B. Timmermann, M. Hochradel, S. Borno, F. Caiment, M. Vingron, R. Herwig. 2023. “IsoTools: a flexible workflow for long-read transcriptome sequencing analysis.” Bioinformatics 39: https://doi.org/10.1093/bioinformatics/btad364
+
+.. _ref545:
+
+545. Bi, Y., T. L. Lankenau, M. Lienhard, R. Herwig. 2025. “IsoTools 2.0: Software for Comprehensive Analysis of Long-read Transcriptome Sequencing Data.” Journal of Molecular Biology 437: 169049. https://doi.org/10.1016/j.jmb.2025.169049
+
+.. _ref546:
+
+546. Kakuk, B., D. Tombacz, Z. Balazs, N. Moldovan, Z. Csabai, G. Torma, K. Megyeri, M. Snyder, Z. Boldogkoi. 2021. “Combined nanopore and single-molecule real-time sequencing survey of human betaherpesvirus 5 transcriptome.” Scientific Reports 11: 14487. https://doi.org/10.1038/s41598-021-93593-y
+
+.. _ref547:
+
+547. Ivanov, M., A. Sandelin, S. Marquardt. 2021. “TrancriptomeReconstructoR: data-driven annotation of complex transcriptomes.” BMC Bioinformatics 22: 290. https://doi.org/10.1186/s12859-021-04208-2
+
+.. _ref548:
+
+548. Khan, I. M., X. C. Zang, A. Teng, T. Zahin, M. Shao. 2025. “Boosting Transcript Assembly via Delineating Transcript Start and End Sites.” bioRxiv https://doi.org/10.1101/2025.10.13.682211
+
+.. _ref549:
+
+549. Gimenez, G., P. A. Stockwell, E. J. Rodger, A. Chatterjee. 2023. “Strategy for RNA-Seq Experimental Design and Data Analysis.” Methods in Molecular Biology 2588: 249-278. https://doi.org/10.1007/978-1-0716-2780-8_16
+
+.. _ref550:
+
+550. Williams, A. G., S. Thomas, S. K. Wyman, A. K. Holloway. 2014. “RNA-seq Data: Challenges in and Recommendations for Experimental Design and Analysis.” Curr Protoc Hum Genet 83: 11 13 11-20. https://doi.org/10.1002/0471142905.hg1113s83
+
+.. _ref551:
+
+551. Lafzi, A., C. Moutinho, S. Picelli, H. Heyn. 2018. “Tutorial: guidelines for the experimental design of single-cell RNA sequencing studies.” Nature Protocols 13: 2742-2757. https://doi.org/10.1038/s41596-018-0073-y
+
+.. _ref552:
+
+552. Conesa, A., P. Madrigal, S. Tarazona, D. Gomez-Cabrero, A. Cervera, A. McPherson, M. W. Szczesniak, et al. 2016. “Erratum to: A survey of best practices for RNA-seq data analysis.” Genome Biology 17: 181. https://doi.org/10.1186/s13059-016-1047-4
+
+.. _ref553:
+
+553. Deng, E., Q. Shen, J. Zhang, Y. Fang, L. Chang, G. Luo, X. Fan. 2025. “Systematic evaluation of single-cell RNA-seq analyses performance based on long-read sequencing platforms.” J Adv Res 71: 141-153. https://doi.org/10.1016/j.jare.2024.05.020
+
+.. _ref554:
+
+554. Qin, Rui, Wei Fan, Feng Ding, Sen Wang, Bing He, Mingming Hou, Qiang Lin, Peng Cui, Wanfei Liu. 2025. “Synthesizing human-specific spike-in standards for RNA-seq experiments and assessing their technical performance.” bioRxiv https://doi.org/10.1101/2025.04.01.646725
+
+.. _ref555:
+
+555. Paul, L., P. Kubala, G. Horner, M. Ante, Igor Hollaender, S. Alexander, Torsten Reda. 2016. “SIRVs: Spike-In RNA Variants as External Isoform Controls in RNA-Sequencing.” bioRxiv https://doi.org/10.1101/080747
+
+.. _ref556:
+
+556. Zhang, Zhang, Tao Chen, Hong-Xuan Chen, Yingyuan Xie, Li-Qian Chen, Yuli Zhao, Biao-Di Liu, et al. 2021. “Systematic calibration of epitranscriptomic maps using a synthetic modification-free RNA library.” Nature Methods 18: 1213-1222. https://doi.org/10.1038/s41592-021-01280-7
+
+.. _ref557:
+
+557. Das, Saumya, K. Ansel, M. Bitzer, X. Breakefield, A. Charest, D. Galas, M. Gerstein, et al. 2019. “The Extracellular RNA Communication Consortium: Establishing Foundational Knowledge and Technologies for Extracellular RNA Research.” Cell 177: 231-242. https://doi.org/10.1016/j.cell.2019.03.023
+
+.. _ref558:
+
+558. Qu, L., Andrew Lemire, K. Lea, D. Batten, S. Heater, Jian Gu, P. Whitley, Joel Brockman, J. Schageman, K. Bramlett. 2011. “Development of ERCC RNA Spike-In Control Mixes.” Journal of biomolecular techniques 22, https://consensus.app/papers/development-of-ercc-rna-spikein-control-mixes-qu-lemire/6569222719b25cc8837000989ab0067a/
+
+.. _ref559:
+
+559. Lee, H., P. S. Pine, J. McDaniel, M. Salit, B. Oliver. 2016. “External RNA Controls Consortium Beta Version Update.” J Genomics 4: 19-22. https://doi.org/10.7150/jgen.16082
+
+.. _ref560:
+
+560. Pine, P., S. Munro, Jerod Parsons, Jennifer McDaniel, Anne Bergstrom Lucas, J. Lozach, Timothy Myers, Q. Su, S. Jacobs-Helber, M. Salit. 2016. “Evaluation of the External RNA Controls Consortium (ERCC) reference material using a modified Latin square design.” BMC Biotechnology 16: https://doi.org/10.1186/s12896-016-0281-x
+
+.. _ref561:
+
+561. Consortium, External Rna Controls. 2005. “Proposed methods for testing and selecting the ERCC external RNA controls.” BMC Genomics 6: 150-150. https://doi.org/10.1186/1471-2164-6-150
+
+.. _ref562:
+
+562. Ding, Bo, Lina Zheng, Wei Wang. 2016. “Assessment of Single Cell RNA-Seq Normalization Methods.” G3: Genes|Genomes|Genetics 7: 2039-2045. https://doi.org/10.1534/g3.117.040683
+
+.. _ref563:
+
+563. Jiang, Lichun, F. Schlesinger, Carrie Davis, Yu Zhang, Renhua Li, M. Salit, T. Gingeras, Brian Oliver. 2011. “Synthetic spike-in standards for RNA-seq experiments.” Genome Research 21 9: 1543-1551. https://doi.org/10.1101/gr.121095.111
+
+.. _ref564:
+
+564. Lun, A., F. Calero-Nieto, Liora Haim-Vilmovsky, B. Göttgens, J. Marioni. 2017. “Assessing the reliability of spike-in normalization for analyses of single-cell RNA sequencing data.” Genome Research 27: 1795-1806. https://doi.org/10.1101/119784
+
+.. _ref565:
+
+565. Hardwick, S., W. Chen, Ted Wong, I. Deveson, J. Blackburn, Stacey Andersen, L. Nielsen, J. Mattick, T. Mercer. 2016. “Spliced synthetic genes as internal controls in RNA sequencing experiments.” Nature Methods 13: 792-798. https://doi.org/10.1038/nmeth.3958
+
+.. _ref566:
+
+566. Tong, L., Cheng Yang, P. Wu, May Wang. 2016. “Evaluating the impact of sequencing error correction for RNA-seq data with ERCC RNA spike-in controls.” 2016 IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) 74-77. https://doi.org/10.1109/bhi.2016.7455838
+
+.. _ref567:
+
+567. Oikonomopoulos, Spyros, Y. Wang, H. Djambazian, D. Badescu, J. Ragoussis. 2016. “Benchmarking of the Oxford Nanopore MinION sequencing for quantitative and qualitative assessment of cDNA populations.” Scientific Reports 6: https://doi.org/10.1038/srep31602
+
+.. _ref568:
+
+568. Grandi, Carmen, Martin Emmaneel, F. Nelissen, Maike Hansen. 2024. “Protocol for in vitro transcribing mRNAs with defined poly(A)-tail lengths and visualizing sequential PABP binding.” STAR protocols 5: https://doi.org/10.1016/j.xpro.2024.103284
+
+.. _ref569:
+
+569. Kwon, Hyokyoung, MinJeong Kim, Y. Seo, Yae Seul Moon, H. Lee, Kyuri Lee, Hyukjin Lee. 2018. “Emergence of synthetic mRNA: In vitro synthesis of mRNA and its applications in regenerative medicine.” Biomaterials 156: 172-193. https://doi.org/10.1016/j.biomaterials.2017.11.034
+
+.. _ref570:
+
+570. Tarnowski, M., T. Gorochowski. 2021. “Massively parallel characterization of engineered transcript isoforms using direct RNA sequencing.” Nature Communications 13: https://doi.org/10.1038/s41467-022-28074-5
+
+.. _ref571:
+
+571. He, Wei, Xinya Zhang, Yangxiaoyu Zou, Ji Li, Chong Wang, Yucai He, Qiuheng Jin, Jianren Ye. 2024. “Effective Synthesis of High-Integrity mRNA Using In Vitro Transcription.” Molecules 29: https://doi.org/10.3390/molecules29112461
+
+.. _ref572:
+
+572. Leshkowitz, D., E. Feldmesser, G. Friedlander, G. Jona, E. Ainbinder, Y. Parmet, S. Horn-Saban. 2016. “Using Synthetic Mouse Spike-In Transcripts to Evaluate RNA-Seq Analysis Tools.” Plos One 11: https://doi.org/10.1371/journal.pone.0153782
+
+.. _ref573:
+
+573. McCormick, Caroline, Stuart Akeson, Sepideh Tavakoli, Dylan Bloch, Isabel Klink, Miten Jain, Sara Rouhanifard. 2023. “Multicellular, IVT-derived, unmodified human transcriptome for nanopore-direct RNA analysis.” GigaByte 2024: https://doi.org/10.46471/gigabyte.129
+
+.. _ref574:
+
+574. Tzadikario, Talia, Stuart Akeson, Neda Ghohabi Esfahani, Andrew Stein, Urja Choudhary, Kshitij Amar, Miten Jain. 2025. “Genomic in vitro transcription and Nanopore direct RNA sequencing of a human B-Lymphocyte cell line.” bioRxiv https://doi.org/10.1101/2025.04.25.650674
+
+.. _ref575:
+
+575. Seo, Jina, Hyo‐Jung Park, Ayoung Oh, Chang Beom Jeong, Sohee Kim, Sojeong Lee, Chuna Kim, Hyeshik Chang, Jae-Hwan Nam, Deachan Park. 2025. “3AIM-seq: quality assessment of mRNA therapeutics using sequencing for 3' polyA tails of in vitro transcribed mRNA.” Molecular therapy : the journal of the American Society of Gene Therapy https://doi.org/10.1016/j.ymthe.2025.06.033
+
+.. _ref576:
+
+576. Medjmedj, Ayoub, Hugo Genon, Dounia Hezili, Albert Ngalle Loth, Rudy Clémençon, Cyril Guimpied, Lucile Mollet, et al. 2025. “Evaluation of synthetic mRNA with selected UTR sequences and alternative poly(A) tail, in vitro and in vivo.” Molecular Therapy. Nucleic Acids 36: https://doi.org/10.1016/j.omtn.2025.102648
+
+.. _ref577:
+
+577. Beverly, M., Caitlin Hagen, Olga Slack. 2018. “Poly A tail length analysis of in vitro transcribed mRNA by LC-MS.” Analytical and Bioanalytical Chemistry 410: 1667-1677. https://doi.org/10.1007/s00216-017-0840-6
+
+.. _ref578:
+
+578. Kabza, Michal, Alexander Ritter, Ashley Byrne, Kostianna Sereti, Daniel Le, William Stephenson, Tim Sterne-Weiler. 2024. “Accurate long-read transcript discovery and quantification at single-cell, pseudo-bulk and bulk resolution with Isosceles.” Nature Communications 15: https://doi.org/10.1038/s41467-024-51584-3
+
+.. _ref579:
+
+579. Kralj, J., M. Salit. 2012. “Characterization of in vitro transcription amplification linearity and variability in the low copy number regime using External RNA Control Consortium (ERCC) spike-ins.” Analytical and Bioanalytical Chemistry 405: 315-320. https://doi.org/10.1007/s00216-012-6445-1
+
+.. _ref580:
+
+580. Tan, Jazlynn Xiu Min, Lurong Wang, W. Seow, Jeeranan Boonruangkan, Mike Huang, Jiamin Toh, Kok Hao Chen, Nigel Chou. 2025. “Guidestar: a spike-in approach to improve RNA detection accuracy in imaging-based spatial transcriptomics.” bioRxiv https://doi.org/10.1101/2025.01.09.632272
+
+.. _ref581:
+
+581. Zheng, Hong-Xiang, Xian-Sheng Zhang, N. Sui. 2020. “Advances in the profiling of N6-methyladenosine (m6A) modifications.” Biotechnology Advances 107656. https://doi.org/10.1016/j.biotechadv.2020.107656
+
+.. _ref582:
+
+582. Spangenberg, Jannes, Stefan Mündnich, Anne Busch, Stefan Pastore, Anna Wierczeiko, Winfried Goettsch, Vincent Dietrich, et al. 2025. “The RMaP challenge of predicting RNA modifications by nanopore sequencing.” Communications Chemistry 8: https://doi.org/10.1038/s42004-025-01507-0
+
+.. _ref583:
+
+583. Maestri, Simone, Mattia Furlan, Logan Mulroney, Lucia Coscujuela Tarrero, Camilla Ugolini, Fabio Dalla Pozza, Tommaso Leonardi, E. Birney, F. Nicassio, Mattia Pelizzola. 2024. “Benchmarking of computational methods for m6A profiling with Nanopore direct RNA sequencing.” Briefings in Bioinformatics 25: https://doi.org/10.1093/bib/bbae001
+
+.. _ref584:
+
+584. Moradian, Hanieh, T. Roch, Larissa Anthofer, A. Lendlein, M. Gossen. 2022. “Chemical modification of uridine modulates mRNA-mediated proinflammatory and antiviral response in primary human macrophages.” Molecular Therapy. Nucleic Acids 27: 854-869. https://doi.org/10.1016/j.omtn.2022.01.004
+
+.. _ref585:
+
+585. Chen, Tien-Hao, V. Potapov, Nan Dai, J. Ong, Bijoyita Roy. 2022. “N1-methyl-pseudouridine is incorporated with higher fidelity than pseudouridine in synthetic RNAs.” Scientific Reports 12: https://doi.org/10.1038/s41598-022-17249-1
+
+.. _ref586:
+
+586. Mulroney, T., Tuija Pöyry, J. Yam-Puc, Maria Rust, Robert Harvey, Lajos Kalmár, E. Horner, et al. 2023. “N1-methylpseudouridylation of mRNA causes +1 ribosomal frameshifting.” Nature 625: 189-194. https://doi.org/10.1038/s41586-023-06800-3
+
+.. _ref587:
+
+587. Shen, Yuan, Dong-Qi Yang, Yuan Liu, Jia-En Lao, Chun-Qing Liu, Xing Gao, Yun-Ru He, Heng Xia. 2025. “A review of advances in in vitro RNA preparation by ssRNAP.” International Journal of Biological Macromolecules 141002. https://doi.org/10.1016/j.ijbiomac.2025.141002
+
+.. _ref588:
+
+588. Bornewasser, Lisa, Christof Domnick, S. Kath‐Schorr. 2022. “Stronger together for in-cell translation: natural and unnatural base modified mRNA.” Chemical Science 13: 4753-4761. https://doi.org/10.1039/d2sc00670g
+
+.. _ref589:
+
+589. Henderson, Jordana, Andrew Ujita, Elizabeth Hill, Sally Yousif-Rosales, Cory Smith, Nicholas Ko, Taylor McReynolds, Charles Cabral, Julie Escamilla-Powers, M. Houston. 2021. “Cap 1 Messenger RNA Synthesis with Co‐transcriptional CleanCap® Analog by In Vitro Transcription.” Current Protocols 1: https://doi.org/10.1002/cpz1.39
+
+.. _ref590:
+
+590. Mandell, Zachary, Andrew Ujita, Jordana Henderson, Anthony Truong, Coleen Vo, Farinaz Rezvani, Nona Abolhassani, et al. 2025. “CleanCap M6 inhibits decapping of exogenously delivered IVT mRNA.” Molecular Therapy. Nucleic Acids 36: https://doi.org/10.1016/j.omtn.2025.102456
+
+.. _ref591:
+
+591. Brunderová, Mária, Vojtěch Havlíček, Ján Matyašovský, R. Pohl, Lenka Poštová Slavětínská, Matouš Krömer, Michal Hocek. 2024. “Expedient production of site specifically nucleobase-labelled or hypermodified RNA with engineered thermophilic DNA polymerases.” Nature Communications 15: https://doi.org/10.1038/s41467-024-47444-9
+
+.. _ref592:
+
+592. Wilson, Christopher, Peter Chen, Z. Miao, David Liu. 2020. “Programmable m6A modification of cellular RNAs with a Cas13-directed methyltransferase.” Nature Biotechnology 38: 1431-1440. https://doi.org/10.1038/s41587-020-0572-6
+
+.. _ref593:
+
+593. Vlatkovic, Irena, J. Ludwig, G. Boros, G. Szabó, Julia Reichert, Maximilian Buff, M. Baiersdörfer, et al. 2022. “Ribozyme Assays to Quantify the Capping Efficiency of In Vitro-Transcribed mRNA.” Pharmaceutics 14: https://doi.org/10.3390/pharmaceutics14020328
+
+.. _ref594:
+
+594. Lyon, Seth, Tien-Hao Chen, Andrew Wallace, K. Adib, V. Gopalan. 2018. “An RNase P‐Based Assay for Accurate Determination of the 5′‐Deoxy‐5′‐azidoguanosine‐Modified Fraction of in Vitro‐Transcribed RNAs.” ChemBioChem 19: https://doi.org/10.1002/cbic.201800447
+
+.. _ref595:
+
+595. Scheitl, Carolin, Mohammad Ghaem Maghami, Ann-Kathrin Lenz, C. Höbartner. 2020. “Site-specific RNA methylation by a methyltransferase ribozyme.” Nature 587: 663-667. https://doi.org/10.1038/s41586-020-2854-z
+
+.. _ref596:
+
+596. Cong, Deyuan, Kfir Steinbuch, Ryosuke Koyama, Tyler Lam, Jamie Lam, Y. Tor. 2024. “Site-specific RNA modification via initiation of in vitro transcription reactions with m6A and isomorphic emissive adenosine analogs.” RSC Chemical Biology 5: 454-458. https://doi.org/10.1039/d4cb00045e
+
+.. _ref597:
+
+597. Li, Jiayi, Feiyang Sun, Kunyang He, Lin Zhang, Jia Meng, Daiyun Huang, Yu-Xin Zhang. 2024. “Detection and Quantification of 5moU RNA Modification from Direct RNA Sequencing Data.” Current Genomics 25: 212-225. https://doi.org/10.2174/0113892029288843240402042529
+
+.. _ref598:
+
+598. Zhang, Meiling, Xiaoting Zhang, Yichen, C. Yi. 2024. “New directions for Ψ and m1A decoding in mRNA: deciphering the stoichiometry and function.” RNA 30: 537-547. https://doi.org/10.1261/rna.079950.124
+
+.. _ref599:
+
+599. Li, Yu, Renmin Han, C. Bi, Mo Li, Sheng Wang, Xin Gao. 2017. “DeepSimulator: a deep simulator for Nanopore sequencing.” Bioinformatics 34: 2899-2908. https://doi.org/10.1101/238683
+
+.. _ref600:
+
+600. Beslic, Denis, Martin Kucklick, Susanne Engelmann, S. Fuchs, Bernhard Renard, Nils Körber. 2024. “End-to-end simulation of nanopore sequencing signals with feed-forward transformers.” Bioinformatics 41: https://doi.org/10.1093/bioinformatics/btae744
+
+.. _ref601:
+
+601. Rohrandt, C., Nadine Kraft, Pay Giesselmann, B. Brandl, Bernhard Schuldt, U. Jetzek, F. Müller. 2018. “Nanopore SimulatION – a raw data simulator for Nanopore Sequencing.” 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 1-8. https://doi.org/10.1109/bibm.2018.8621253
+
+.. _ref602:
+
+602. Gamaarachchi, Hasindu, James Ferguson, Hiruna Samarakoon, Kisaru Liyanage, Sri Parameswaran, I. Deveson. 2024. “Simulation of nanopore sequencing signal data with tunable parameters.” Genome Research 34: 778-783. https://doi.org/10.1101/gr.278730.123
+
+.. _ref603:
+
+603. Gamaarachchi, Hasindu, James Ferguson, Hiruna Samarakoon, Kisaru Liyanage, I. Deveson. 2023. “Squigulator: simulation of nanopore sequencing signal data with tunable noise parameters.” bioRxiv https://doi.org/10.1101/2023.05.09.539953
+
+.. _ref604:
+
+604. Hafezqorani, Saber, Chen Yang, Theodora Lo, K. Nip, R. Warren, I. Birol. 2020. “Trans-NanoSim characterizes and simulates nanopore RNA-sequencing data.” Gigascience 9: https://doi.org/10.1093/gigascience/giaa061
+
+.. _ref605:
+
+605. Yang, C., J. Chu, R. L. Warren, I. Birol. 2017. “NanoSim: nanopore sequence read simulator based on statistical characterization.” Gigascience 6: 1-6. https://doi.org/10.1093/gigascience/gix010
+
+.. _ref606:
+
+606. Ono, Yukiteru, Michiaki Hamada, Kiyoshi Asai. 2022. “PBSIM3: a simulator for all types of PacBio and ONT long reads.” NAR Genomics and Bioinformatics 4: lqac092. 
+
+.. _ref607:
+
+607. Wick, Ryan R. 2019. “Badread: simulation of error-prone long reads.” Journal of Open Source Software 4: https://doi.org/10.21105/joss.01316
+
+.. _ref608:
+
+608. Goldfarb, T., V. K. Kodali, S. Pujar, V. Brover, B. Robbertse, C. M. Farrell, D. H. Oh, et al. 2025. “NCBI RefSeq: reference sequence standards through 25 years of curation and annotation.” Nucleic Acids Research 53: D243-d257. https://doi.org/10.1093/nar/gkae1038
+
+.. _ref609:
+
+609. Dyer, S. C., O. Austine-Orimoloye, A. G. Azov, M. Barba, I. Barnes, V. P. Barrera-Enriquez, A. Becker, et al. 2025. “Ensembl 2025.” Nucleic Acids Research 53: D948-D957. https://doi.org/10.1093/nar/gkae1071
+
+.. _ref610:
+
+610. Mudge, Jonathan M, Sílvia Carbonell-Sala, Mark Diekhans, Jose Gonzalez Martinez, Toby Hunt, Irwin Jungreis, Jane E Loveland, et al. 2024. “GENCODE 2025: reference gene annotation for human and mouse.” Nucleic Acids Research 53: D966-D975. https://doi.org/10.1093/nar/gkae1078
+
+.. _ref611:
+
+611. Abugessaisa, I., S. Noguchi, A. Hasegawa, A. Kondo, H. Kawaji, P. Carninci, T. Kasukawa. 2019. “refTSS: A Reference Data Set for Human and Mouse Transcription Start Sites.” Journal of Molecular Biology 431: 2407-2422. https://doi.org/10.1016/j.jmb.2019.04.045
+
+.. _ref612:
+
+612. Yu, S., W. C. Chen, L. Wang, S. Jewell, A. Mammedova, S. W. Han, J. Wickramasinghe, Y. Barash, B. Tian. 2026. “PolyA_DB v4: systematic polyA site identification and isoform annotation in human and mouse genomes using 3' end and long-read sequencing data.” Nucleic Acids Research 54: D247-D254. https://doi.org/10.1093/nar/gkaf1212
+
+.. _ref613:
+
+613. Boccaletto, P., F. Stefaniak, A. Ray, A. Cappannini, S. Mukherjee, E. Purta, M. Kurkowska, et al. 2022. “MODOMICS: a database of RNA modification pathways. 2021 update.” Nucleic Acids Research 50: D231-D235. https://doi.org/10.1093/nar/gkab1083
+
+.. _ref614:
+
+614. Picardi, E., A. M. D'Erchia, C. Lo Giudice, G. Pesole. 2017. “REDIportal: a comprehensive database of A-to-I RNA editing events in humans.” Nucleic Acids Research 45: D750-D757. https://doi.org/10.1093/nar/gkw767
+
+.. _ref615:
+
+615. Hwang, H., H. R. Chang, D. Baek. 2023. “Determinants of Functional MicroRNA Targeting.” Mol Cells 46: 21-32. https://doi.org/10.14348/molcells.2023.2157
+
+.. _ref616:
+
+616. Shumate, Alaina, Brandon Wong, G. Pertea, M. Perțea. 2021. “Improved transcriptome assembly using a hybrid of long and short reads with StringTie.” PLoS Computational Biology 18: https://doi.org/10.1371/journal.pcbi.1009730
+
+.. _ref617:
+
+617. Kainth, Amoldeep, Gabriela Haddad, Johnathon Hall, A. Ruthenburg. 2022. “Merging short and stranded long reads improves transcript assembly.” PLoS Computational Biology 19: https://doi.org/10.1101/2022.12.13.520317
+
+.. _ref618:
+
+618. Han, S., San Jewell, A. Thomas-Tikhonenko, Yoseph Barash. 2024. “Contrasting and combining transcriptome complexity captured by short and long RNA sequencing reads.” Genome Research 34: 1624-1635. https://doi.org/10.1101/gr.278659.123
+
+.. _ref619:
+
+619. Dong, Xueyi, L. Tian, Quentin Gouil, Hasaru Kariyawasam, Shian Su, Ricardo De Paoli-Iseppi, Yair Prawer, et al. 2021. “The long and the short of it: unlocking nanopore long-read RNA sequencing data with short-read differential expression analysis tools.” NAR Genomics and Bioinformatics 3: https://doi.org/10.1093/nargab/lqab028
+
+.. _ref620:
+
+620. David, Julianne, Sean Maden, Mary Wood, Reid Thompson, Abhinav Nellore. 2022. “Retained introns in long RNA-seq reads are not reliably detected in sample-matched short reads.” Genome Biology 23: https://doi.org/10.1186/s13059-022-02789-6
+
+.. _ref621:
+
+621. Shiraki, T., S. Kondo, S. Katayama, K. Waki, T. Kasukawa, H. Kawaji, R. Kodzius, et al. 2003. “Cap analysis gene expression for high-throughput analysis of transcriptional starting point and identification of promoter usage.” Proc Natl Acad Sci U S A 100: 15776-15781. https://doi.org/10.1073/pnas.2136655100
+
+.. _ref622:
+
+622. Cvetesic, N., H. G. Leitch, M. Borkowska, F. Muller, P. Carninci, P. Hajkova, B. Lenhard. 2018. “SLIC-CAGE: high-resolution transcription start site mapping using nanogram-levels of total RNA.” Genome Research 28: 1943-1956. https://doi.org/10.1101/gr.235937.118
+
+.. _ref623:
+
+623. Yan, B., G. Tzertzinis, I. Schildkraut, L. Ettwiller. 2022. “Comprehensive determination of transcription start sites derived from all RNA polymerases using ReCappable-seq.” Genome Research 32: 162-174. https://doi.org/10.1101/gr.275784.121
+
+.. _ref624:
+
+624. Duttke, S. H., M. W. Chang, S. Heinz, C. Benner. 2019. “Identification and dynamic quantification of regulatory elements using total RNA.” Genome Research 29: 1836-1846. https://doi.org/10.1101/gr.253492.119
+
+.. _ref625:
+
+625. Elgood Hunt, Eleanor, Claudia Vivori, Folkert J. van Werven. 2025. “Mapping and quantifying nascent transcript start sites using TT-TSS-seq.” bioRxiv 2025.2003.2025.645230. https://doi.org/10.1101/2025.03.25.645230
+
+.. _ref626:
+
+626. Shepard, P. J., E. A. Choi, J. Lu, L. A. Flanagan, K. J. Hertel, Y. Shi. 2011. “Complex and dynamic landscape of RNA polyadenylation revealed by PAS-Seq.” RNA 17: 761-772. https://doi.org/10.1261/rna.2581711
+
+.. _ref627:
+
+627. Dar, D., M. Shamir, J. R. Mellin, M. Koutero, N. Stern-Ginossar, P. Cossart, R. Sorek. 2016. “Term-seq reveals abundant ribo-regulation of antibiotics resistance in bacteria.” Science 352: aad9822. https://doi.org/10.1126/science.aad9822
+
+.. _ref628:
+
+628. Mai, L., Y. Qiu, Z. Lian, C. Chen, L. Wang, Y. Yin, S. Wang, et al. 2021. “MustSeq, an alternative approach for multiplexible strand-specific 3' end sequencing of mRNA transcriptome confers high efficiency and practicality.” RNA Biology 18: 232-243. https://doi.org/10.1080/15476286.2021.1974208
+
+.. _ref629:
+
+629. Moll, Pamela, Michael Ante, Alexander Seitz, Torsten Reda. 2014. “QuantSeq 3′ mRNA sequencing for RNA quantification.” Nature Methods 11: i-iii. https://doi.org/10.1038/nmeth.f.376
+
+.. _ref630:
+
+630. Tang, Y., K. Chen, B. Song, J. Ma, X. Wu, Q. Xu, Z. Wei, et al. 2021. “m6A-Atlas: a comprehensive knowledgebase for unraveling the N6-methyladenosine (m6A) epitranscriptome.” Nucleic Acids Research 49: D134-D143. https://doi.org/10.1093/nar/gkaa692
+
+.. _ref631:
+
+631. Zheng, G., J. A. Dahl, Y. Niu, P. Fedorcsak, C. M. Huang, C. J. Li, C. B. Vagbo, et al. 2013. “ALKBH5 is a mammalian RNA demethylase that impacts RNA metabolism and mouse fertility.” Molecular Cell 49: 18-29. https://doi.org/10.1016/j.molcel.2012.10.015
+
+.. _ref632:
+
+632. Liu, J., X. Dou, C. Chen, C. Chen, C. Liu, M. M. Xu, S. Zhao, et al. 2020. “N (6)-methyladenosine of chromosome-associated regulatory RNA regulates chromatin state and transcription.” Science 367: 580-586. https://doi.org/10.1126/science.aay6018
+
+.. _ref633:
+
+633. Zhang, Yu-Xin, Yuxuan Wu, Di Zhen, Kunqi Chen, Jia Meng. 2021. “A Meta-analysis: Evaluating the Effect of METTL3/METTL14 on m6A Level Based on Knockdown Samples.” The Fifth International Conference on Biological Information and Biomedical Engineering https://doi.org/10.1145/3469678.3469715
+
+.. _ref634:
+
+634. Poh, Hui Xian, Aashiq Mirza, Brian Pickering, S. Jaffrey. 2022. “Alternative splicing of METTL3 explains apparently METTL3-independent m6A modifications in mRNA.” PLoS Biology 20: https://doi.org/10.1371/journal.pbio.3001683
+
+.. _ref635:
+
+635. Vries, Isabel Naarmann-De, C. Zorbas, A. Lemsara, Maja Bencun, Sarah Schudy, B. Meder, J. Eschenbach, D. Lafontaine, C. Dieterich. 2021. “Deep assessment of human disease-associated ribosomal RNA modifications using Nanopore direct RNA sequencing.” bioRxiv https://doi.org/10.1101/2021.11.10.467884
+
+.. _ref636:
+
+636. Naarmann-de Vries, I. S., C. Zorbas, A. Lemsara, M. Piechotta, F. G. M. Ernst, L. Wacheul, D. L. J. Lafontaine, C. Dieterich. 2023. “Comprehensive identification of diverse ribosomal RNA modifications by targeted nanopore direct RNA sequencing and JACUSA2.” RNA Biol 20: 652-665. https://doi.org/10.1080/15476286.2023.2248752
+
+.. _ref637:
+
+637. Motorin, Y., V. Marchand. 2021. “Analysis of RNA Modifications by Second- and Third-Generation Deep Sequencing: 2020 Update.” Genes (Basel) 12: https://doi.org/10.3390/genes12020278
+
+.. _ref638:
+
+638. Lebret-Kogey, V., L. Ayadi, S. Maenner, Y. Motorin, I. Behm-Ansmant, C. Aigueperse. 2025. “Quantitative detection of 2'-O-methylated residues in non-coding RNAs using DNAzymes and quantitative RT-PCR.” Biochimie 237: 26-39. https://doi.org/10.1016/j.biochi.2025.07.006
+
+.. _ref639:
+
+639. Rang, F. J., W. P. Kloosterman, J. de Ridder. 2018. “From squiggle to basepair: computational approaches for improving nanopore sequencing read accuracy.” Genome Biology 19: 90. https://doi.org/10.1186/s13059-018-1462-9
+
+.. _ref640:
+
+640. Liu-Wei, W., W. van der Toorn, P. Bohn, M. Holzer, R. P. Smyth, M. von Kleist. 2024. “Sequencing accuracy and systematic errors of nanopore direct RNA sequencing.” BMC Genomics 25: 528. https://doi.org/10.1186/s12864-024-10440-w
+
+.. _ref641:
+
+641. Viscardi, M. J., J. A. Arribere. 2022. “Poly(a) selection introduces bias and undue noise in direct RNA-sequencing.” BMC Genomics 23: 530. https://doi.org/10.1186/s12864-022-08762-8
+
+.. _ref642:
+
+642. Lane, Rebecca E, Eleanor Calcutt, Anandagopal Srinivasan, Vicki Gamble, Udo Oppermann, Jianfeng Sun, Adam P Cribbs. 2025. “Distinct 5′ and 3′ Coverage Biases Shape Transcriptome Interpretation in Nanopore Direct RNA versus PCR-cDNA Sequencing.” bioRxiv 2025.2010.2013.681987. https://doi.org/10.1101/2025.10.13.681987
+
+.. _ref643:
+
+643. Naumenko, F., I. Abnizova, N. Beka, M. Genaev, Y. Orlov. 2018. “Novel read density distribution score shows possible aligner artefacts, when mapping a single chromosome.” BMC Genomics 19: https://doi.org/10.1186/s12864-018-4475-6
+
+.. _ref644:
+
+644. Musich, Ryan, L. Cadle-Davidson, M. Osier. 2021. “Comparison of Short-Read Sequence Aligners Indicates Strengths and Weaknesses for Biologists to Consider.” Frontiers in Plant Science 12: https://doi.org/10.3389/fpls.2021.657240
+
+.. _ref645:
+
+645. Carter, J., Harlan Stevens, P. Ridge, Steven Johnson. 2023. “Short Sequence Aligner Benchmarking for Chromatin Research.” International Journal of Molecular Sciences 24: https://doi.org/10.3390/ijms241814074
+
+.. _ref646:
+
+646. Amarasinghe, S. L., S. Su, X. Dong, L. Zappia, M. E. Ritchie, Q. Gouil. 2020. “Opportunities and challenges in long-read sequencing data analysis.” Genome Biology 21: 30. https://doi.org/10.1186/s13059-020-1935-5
+
+.. _ref647:
+
+647. Weirather, J. L., M. de Cesare, Y. Wang, P. Piazza, V. Sebastiano, X. J. Wang, D. Buck, K. F. Au. 2017. “Comprehensive comparison of Pacific Biosciences and Oxford Nanopore Technologies and their applications to transcriptome analysis.” F1000Res 6: 100. https://doi.org/10.12688/f1000research.10571.2
+
+.. _ref648:
+
+648. Zook, J., D. Samarov, Jennifer McDaniel, S. Sen, M. Salit. 2012. “Synthetic Spike-in Standards Improve Run-Specific Systematic Error Analysis for DNA and RNA Sequencing.” Plos One 7: https://doi.org/10.1371/journal.pone.0041356
+
+.. _ref649:
+
+649. Sims, David, Robin Harrington, E. Polley, Thomas Forbes, M. Mehaffey, Paul McGregor, C. Camalier, et al. 2016. “Plasmid-Based Materials as Multiplex Quality Controls and Calibrators for Clinical Next-Generation Sequencing Assays.” The Journal of molecular diagnostics : JMD 18 3: 336-349. https://doi.org/10.1016/j.jmoldx.2015.11.008
+
+.. _ref650:
+
+650. Hardwick, S., I. Deveson, T. Mercer. 2017. “Reference standards for next-generation sequencing.” Nature Reviews Genetics 18: 473-484. https://doi.org/10.1038/nrg.2017.44
+
+.. _ref651:
+
+651. Engström, P., Tamara Steijger, Botond Sipos, G. Grant, A. Kahles, G. Rätsch, N. Goldman, et al. 2013. “Systematic evaluation of spliced alignment programs for RNA-seq data.” Nature Methods 10: 1185-1191. https://doi.org/10.1038/nmeth.2722
+
+.. _ref652:
+
+652. Calvo-Roitberg, Ezequiel, Rachel Daniels, A. Pai. 2024. “Challenges in identifying mRNA transcript starts and ends from long-read sequencing data.” Genome Research 34: 1719-1734. https://doi.org/10.1101/gr.279559.124
+
+.. _ref653:
+
+653. Baruzzo, Giacomo, Katharina Hayer, Eun Ji Kim, Barbara Di Camillo, G. FitzGerald, G. Grant. 2016. “Simulation-based comprehensive benchmarking of RNA-seq aligners.” Nature Methods 14: 135-139. https://doi.org/10.1038/nmeth.4106
+
+.. _ref654:
+
+654. Grant, G., M. Farkas, A. Pizarro, N. Lahens, J. Schug, B. Brunk, C. Stoeckert, J. Hogenesch, E. Pierce. 2011. “Comparative analysis of RNA-Seq alignment algorithms and the RNA-Seq unified mapper (RUM).” Bioinformatics 27 18: 2518-2528. https://doi.org/10.1093/bioinformatics/btr427
+
+.. _ref655:
+
+655. Seki, M., Yuta Kuze, Xiang Zhang, Ken-Ichi Kurotani, Michitaka Notaguchi, Haruki Nishio, H. Kudoh, et al. 2023. “An improved method for the highly specific detection of transcription start sites.” Nucleic Acids Research 52: https://doi.org/10.1093/nar/gkad1116
+
+.. _ref656:
+
+656. Policastro, Robert, D. McDonald, V. Brendel, G. Zentner. 2021. “Flexible analysis of TSS mapping data and detection of TSS shifts with TSRexploreR.” NAR Genomics and Bioinformatics 3: https://doi.org/10.1093/nargab/lqab051
+
+.. _ref657:
+
+657. Hunt, Eleanor Elgood, Claudia Vivori, F. Van Werven. 2025. “Mapping and quantifying nascent transcript start sites using TT-TSS-seq.” bioRxiv https://doi.org/10.1101/2025.03.25.645230
+
+.. _ref658:
+
+658. Adiconis, Xian, Adam Haber, Sean Simmons, Ami Levy Moonshine, Zhe Ji, Michele Busby, Xi Shi, et al. 2018. “Comprehensive comparative analysis of 5’ end RNA sequencing methods.” Nature Methods 15: 505-511. https://doi.org/10.1038/s41592-018-0014-2
+
+.. _ref659:
+
+659. Yan, B., G. Tzertzinis, Ira Schildkraut, L. Ettwiller. 2021. “Comprehensive determination of transcription start sites derived from all RNA polymerases using ReCappable-seq.” Genome Research 32: 162-174. https://doi.org/10.1101/gr.275784.121
+
+.. _ref660:
+
+660. Grigoriadis, Dimitris, Nikos Perdikopanis, G. Georgakilas, A. Hatzigeorgiou. 2022. “DeepTSS: multi-branch convolutional neural network for transcription start site identification from CAGE data.” BMC Bioinformatics 23: https://doi.org/10.1186/s12859-022-04945-y
+
+.. _ref661:
+
+661. Petri, Alexander, Kristoffer Sahlin. 2023. “isONform: reference-free transcriptome reconstruction from Oxford Nanopore data.” Bioinformatics 39: https://doi.org/10.1093/bioinformatics/btad264
+
+.. _ref662:
+
+662. Kasianova, Alexandra, A. Klepikova, Oleg Gusev, G. Gazizova, M. Logacheva, A. Penin. 2025. “Full-length isoform constructor (FLIC) – a tool for isoform discovery based on long reads.” Bioinformatics 41: https://doi.org/10.1101/2025.05.27.656444
+
+.. _ref663:
+
+663. Zhao, Xichen, Yu-Xin Zhang, Daiyun Hang, Jia Meng, Zhen Wei. 2022. “Detecting RNA modification using direct RNA sequencing: A systematic review.” Computational and Structural Biotechnology Journal 20: 5740-5749. https://doi.org/10.1016/j.csbj.2022.10.023
+
+.. _ref664:
+
+664. Wyss, Luis, Vincent Mallet, Wissam Karroucha, Karsten Borgwardt, C. Oliver. 2025. “A Comprehensive Benchmark for RNA 3D Structure-Function Modeling.” ArXiv abs/2503.21681: https://doi.org/10.48550/arxiv.2503.21681
+
+.. _ref665:
+
+665. Vromman, Marieke, J. Anckaert, S. Bortoluzzi, Alessia Buratin, Chia-Ying Chen, Qinjie Chu, Trees-Juen Chuang, et al. 2023. “Large-scale benchmarking of circRNA detection tools reveals large differences in sensitivity but not in precision.” Nature Methods 20: 1159-1169. https://doi.org/10.1038/s41592-023-01944-6
+
+.. _ref666:
+
+666. Szabo, L., J. Salzman. 2016. “Detecting circular RNAs: bioinformatic and experimental challenges.” Nature Reviews Genetics 17: 679-692. https://doi.org/10.1038/nrg.2016.114
+
+.. _ref667:
+
+667. Arora, Rohit, Murphy Angelo, Christian Choe, Courtney Shearer, Aaron Kollasch, Fiona Qu, Ruben Weitzman, et al. 2025. “RNAGym: Large-scale Benchmarks for RNA Fitness and Structure Prediction.” bioRxiv https://doi.org/10.1101/2025.06.16.660049
+
+.. _ref668:
+
+668. Jenjaroenpun, P., T. Wongsurawat, R. Pereira, P. Patumcharoenpol, D. W. Ussery, J. Nielsen, I. Nookaew. 2018. “Complete genomic and transcriptional landscape analysis using third-generation sequencing: a case study of Saccharomyces cerevisiae CEN.PK113-7D.” Nucleic Acids Research 46: e38. https://doi.org/10.1093/nar/gky014
+
+.. _ref669:
+
+669. Maier, K. C., S. Gressel, P. Cramer, B. Schwalb. 2020. “Native molecule sequencing by nano-ID reveals synthesis and stability of RNA isoforms.” Genome Research 30: 1332-1344. https://doi.org/10.1101/gr.257857.119
+
+.. _ref670:
+
+670. Drexler, H. L., K. Choquet, H. E. Merens, P. S. Tang, J. T. Simpson, L. S. Churchman. 2021. “Revealing nascent RNA processing dynamics with nano-COP.” Nature Protocols 16: 1343-1375. https://doi.org/10.1038/s41596-020-00469-y
+
+.. _ref671:
+
+671. Martinek, V., J. Martin, C. Belair, M. J. Payea, S. Malla, P. Alexiou, M. Maragkakis. 2024. “Deep learning and direct sequencing of labeled RNA captures transcriptome dynamics.” NAR Genom Bioinform 6: lqae116. https://doi.org/10.1093/nargab/lqae116
+
+.. _ref672:
+
+672. Choquet, K., L. P. Chaumont, S. Bache, A. R. Baxter-Koenigs, L. S. Churchman. 2025. “Genetic regulation of nascent RNA maturation revealed by direct RNA nanopore sequencing.” Genome Research 35: 712-724. https://doi.org/10.1101/gr.279203.124
+
+.. _ref673:
+
+673. Ietswaart, R., B. M. Smalec, A. Xu, K. Choquet, E. McShane, Z. M. Jowhar, C. K. Guegler, et al. 2024. “Genome-wide quantification of RNA flow across subcellular compartments reveals determinants of the mammalian transcript life cycle.” Molecular Cell 84: 2765-2784 e2716. https://doi.org/10.1016/j.molcel.2024.06.008
+
+.. _ref674:
+
+674. Garcia-Campa, L., L. Valledor, J. Pascual. 2023. “The Integration of Data from Different Long-Read Sequencing Platforms Enhances Proteoform Characterization in Arabidopsis.” Plants (Basel) 12: https://doi.org/10.3390/plants12030511
+
+.. _ref675:
+
+675. Anvar, S. Y., G. Allard, E. Tseng, G. M. Sheynkman, E. de Klerk, M. Vermaat, R. H. Yin, et al. 2018. “Full-length mRNA sequencing uncovers a widespread coupling between transcription initiation and mRNA processing.” Genome Biology 19: 46. https://doi.org/10.1186/s13059-018-1418-0
+
+.. _ref676:
+
+676. Bagherian, M., G. Harris, P. Sathishkumar, J. P. B. Lloyd. 2025. “Start Right to End Right: Authentic Open Reading Frame Selection Matters for Nonsense-Mediated Decay Target Identification.” Genes (Basel) 16: https://doi.org/10.3390/genes16111297
+
+.. _ref677:
+
+677. Filichkin, S. A., H. D. Priest, S. A. Givan, R. Shen, D. W. Bryant, S. E. Fox, W. K. Wong, T. C. Mockler. 2010. “Genome-wide mapping of alternative splicing in Arabidopsis thaliana.” Genome Research 20: 45-58. https://doi.org/10.1101/gr.093302.109
+
+.. _ref678:
+
+678. Orr, M. W., Y. Mao, G. Storz, S. B. Qian. 2020. “Alternative ORFs and small ORFs: shedding light on the dark proteome.” Nucleic Acids Research 48: 1029-1042. https://doi.org/10.1093/nar/gkz734
+
+.. _ref679:
+
+679. Kuo, R. I., Y. Cheng, R. Zhang, J. W. S. Brown, J. Smith, A. L. Archibald, D. W. Burt. 2020. “Illuminating the dark side of the human transcriptome with long read transcript sequencing.” BMC Genomics 21: 751. https://doi.org/10.1186/s12864-020-07123-7
+
+.. _ref680:
+
+680. Tay, A. P., J. J. Hamey, G. E. Martyn, L. O. W. Wilson, M. R. Wilkins. 2022. “Identification of Protein Isoforms Using Reference Databases Built from Long and Short Read RNA-Sequencing.” J Proteome Res 21: 1628-1639. https://doi.org/10.1021/acs.jproteome.1c00968
+
+.. _ref681:
+
+681. Monzo, C., A. Frankish, A. Conesa. 2025. “Notable challenges posed by long-read sequencing for the study of transcriptional diversity and genome annotation.” Genome Research 35: 583-592. https://doi.org/10.1101/gr.279865.124
+
+.. _ref682:
+
+682. Calvo-Roitberg, E., R. F. Daniels, A. A. Pai. 2024. “Challenges in identifying mRNA transcript starts and ends from long-read sequencing data.” Genome Research 34: 1719-1734. https://doi.org/10.1101/gr.279559.124
+
+.. _ref683:
+
+683. Han, S. W., S. Jewell, A. Thomas-Tikhonenko, Y. Barash. 2024. “Contrasting and combining transcriptome complexity captured by short and long RNA sequencing reads.” Genome Research 34: 1624-1635. https://doi.org/10.1101/gr.278659.123
+
+.. _ref684:
+
+684. Kainth, A. S., G. A. Haddad, J. M. Hall, A. J. Ruthenburg. 2023. “Merging short and stranded long reads improves transcript assembly.” PLoS Comput Biol 19: e1011576. https://doi.org/10.1371/journal.pcbi.1011576
+
+.. _ref685:
+
+685. Delahaye, C., J. Nicolas. 2021. “Sequencing DNA with nanopores: Troubles and biases.” Plos One 16: e0257521. https://doi.org/10.1371/journal.pone.0257521
+
+.. _ref686:
+
+686. Singh, N., S. Lane, T. Yu, J. Lu, A. Ramos, H. Cui, H. Zhao. 2025. “A generalized platform for artificial intelligence-powered autonomous enzyme engineering.” Nature Communications 16: 5648. https://doi.org/10.1038/s41467-025-61209-y
+
+.. _ref687:
+
+687. MacKenzie, M., C. Argyropoulos. 2023. “An Introduction to Nanopore Sequencing: Past, Present, and Future Considerations.” Micromachines (Basel) 14: https://doi.org/10.3390/mi14020459
+
+.. _ref688:
+
+688. Sun, Ke, Mengze Wu, Yu Xin, Yue Li, Minghan Li, Jinna Wang, Yuan Ju, Shengli Zhang, Jia Geng. 2026. “Functionalized protein nanopores: Strategies and applications.” Nano Research 19: 94908343. https://doi.org/10.26599/NR.2026.94908343
+
+.. _ref689:
+
+689. Luo, T., M. Xu, M. Wang, F. Chen, J. Shi. 2025. “Systematic evaluation of computational tools for multitype RNA modification detection using nanopore direct RNA sequencing.” Nature Methods https://doi.org/10.1038/s41592-025-02974-y
+
+.. _ref690:
+
+690. You, N., C. Liu, H. Lin, S. Wu, G. Chen, N. Shen. 2025. “Benchmarking pre-trained genomic language models for RNA sequence-related predictive applications.” Nature Communications 17: 223. https://doi.org/10.1038/s41467-025-66899-y
+
+.. _ref691:
+
+691. Yang, Fan, Huanjun Kong, Jie Ying, Zihong Chen, Tao Luo, Wanli Jiang, Zhonghang Yuan, et al. 2025. “SeedLLM·Rice: A large language model integrated with rice biological knowledge graph.” Molecular Plant 18: 1118-1129. https://doi.org/10.1016/j.molp.2025.05.013
+
+.. _ref692:
+
+692. Long, Yanping, Zhijian Liu, Jinbu Jia, Weipeng Mo, Liang Fang, Dongdong Lu, Bo Liu, Hong Zhang, Wei Chen, Jixian Zhai. 2021. “FlsnRNA-seq: protoplasting-free full-length single-nucleus RNA profiling in plants.” Genome Biology 22: 66. https://doi.org/doi.org/10.1186/s13059-021-02288-0
+
+.. _ref693:
+
+693. Tang, Jun, Shuyan Chen, Guifang Jia. 2023. “Detection, regulation, and functions of RNA N6-methyladenosine modification in plants.” Plant Communications 4: https://doi.org/10.1016/j.xplc.2023.100546
+
+.. _ref694:
+
+694. Yao, Jiayu, Guiyu Xiao, Xuan Ma, Shugang Hui, Heyang Shang, Jisen Zhang, Qiutao Xu. 2025. “The emerging epitranscriptomic modification ac4C regulates plant development and stress adaptation.” Nature Plants 11: 2200-2203. https://doi.org/doi.org/10.1038/s41477-025-02140-4
+
+.. _ref695:
+
+695. Wang, Silu, Judith E. Mank, Daniel Ortiz-Barrientos, Loren H. Rieseberg. 2025. “Genome Architecture and Speciation in Plants and Animals.” Molecular Ecology 34: e70004. https://doi.org/https://doi.org/10.1111/mec.70004
+
+.. _ref696:
+
+696. Yépez, Vicente A, Mirjana Gusic, Robert Kopajtich, Christian Mertes, Nicholas H Smith, Charlotte L Alston, Rui Ban, Skadi Beblo, Riccardo Berutti, Holger Blessing. 2022. “Clinical implementation of RNA sequencing for Mendelian disease diagnostics.” Genome Medicine 14: 38. 
+
+.. _ref697:
+
+697. Shuja, Arslan. 2025. “Advances in RNA-Seq Data Analysis: Towards More Reliable Clinical Translation: Advances in RNA-Seq Data Analysis: Towards Reliable Clinical Translation.” DEVELOPMENTAL MEDICO-LIFE-SCIENCES 2: 1-2. 
+
+.. _ref698:
+
+698. Deveson, Ira W, Binsheng Gong, Kevin Lai, Jennifer S LoCoco, Todd A Richmond, Jeoffrey Schageman, Zhihong Zhang, Natalia Novoradovskaya, James C Willey, Wendell Jones. 2021. “Evaluating the analytical validity of circulating tumor DNA sequencing assays for precision oncology.” Nature Biotechnology 39: 1115-1128. 
+
+.. _ref699:
+
+699. Uhrig, Sebastian, Julia Ellermann, Tatjana Walther, Pauline Burkhardt, Martina Fröhlich, Barbara Hutter, Umut H Toprak, Olaf Neumann, Albrecht Stenzinger, Claudia Scholl. 2021. “Accurate and efficient detection of gene fusions from RNA sequencing data.” Genome Research 31: 448-460. 
+
+.. _ref700:
+
+700. Sikosek, Tobias, Marco Heuvelman, Jagoda Mika, Mustafa Kahraman, Julia Jehn, Maurice Frank, Alberto Daniel-Moreno, Jessika Ceiler, Jasmin Skottke, Marta Sanchez-Delgado. 2025. “Early detection of Alzheimer’s disease using small RNAs. Results from the EPAD cohort.” The Journal of Prevention of Alzheimer's Disease 100257. 
+
+.. _ref701:
+
+701. Paz, Sean, Janet D Robishaw, Massimo Caputi. 2026. “An RNA biomarker panel for the diagnosis of Alzheimer’s disease from whole blood.” Alzheimer's Research & Therapy, 
+
+.. _ref702:
+
+702. Gao, Y., X. Liu, Y. Jin, J. Wu, S. Li, Y. Li, B. Chen, et al. 2022. “Drought induces epitranscriptome and proteome changes in stem-differentiating xylem of Populus trichocarpa.” Plant Physiology 190: 459–479. https://doi.org/10.1093/plphys/kiac272

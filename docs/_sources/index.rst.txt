@@ -1,0 +1,37 @@
+.. this is a comment, it is not rendered
+   when adding new *.rst files, reference them here
+   in this index.rst for them to be rendered and added to the
+   table of contents
+
+Nanopore Direct RNA Sequencing and the Epitranscriptome: Toward a Complete Map of RNA Regulation
+================================================================================================
+
+**An Encyclopedic Guide to Nanopore DRS**
+
+
+Nanopore direct RNA sequencing (DRS) has transformed transcriptomics by enabling single-molecule, long-read sequencing of native RNA without reverse transcription or amplification. Unlike short-read RNA-seq and cDNA-based long-read approaches, DRS simultaneously captures multiple RNA modifications, full-length transcript architecture, alternative splicing patterns, and poly(A) tail features within individual molecules, providing an integrated view of transcriptomic and epitranscriptomic regulation. In this systematic and comprehensive review, we outline the biophysical principles and technological evolution of nanopore DRS. We compare its performance with short-read RNA sequencing, long-read cDNA sequencing, and conventional RNA-modification mapping strategies, emphasizing its advantages in isoform-resolved quantification and multi-layer RNA feature integration. We further summarize optimized experimental workflows, including library construction strategies tailored to diverse RNA biotypes (mRNA, rRNA, tRNA, circRNA, miRNA, and non-poly(A) transcripts), as well as recommended quality-control procedures and sequencing optimization practices. Focusing on the computational advances and translational applications of DRS, we cover state-of-the-art algorithms for transcript reconstruction and isoform quantification, analytical pipelines for poly(A) tail length estimation and RNA modification detection, and integrative frameworks that jointly analyze these regulatory layers. Practical implementation examples are included to facilitate reproducible analysis. Finally, we highlight emerging applications of integrated DRS, such as resolving complex transcriptomes, uncovering coordinated epitranscriptomic regulation, and identifying disease-associated RNA signatures. We also discuss remaining technical challenges and future directions toward multi-omics integration and the clinical deployment of DRS in precision medicine.
+
+For more information, please refer to our manuscript: [******].
+
+Contents
+========
+
+.. toctree::
+   :maxdepth: 2
+
+   preface.rst
+   introduction.rst
+   fundamental_principles.rst
+   comparative_analysis.rst
+   biological_landscape.rst
+   typical_application.rst
+   design.rst
+   data_analysis.rst
+   validation.rst
+   multiomics.rst
+   challenges.rst
+   outlook.rst
+   conclusions.rst
+   table.rst
+   code.rst
+   references.rst

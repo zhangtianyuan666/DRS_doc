@@ -1,0 +1,179 @@
+Supplementary tables
+====================
+
+Computational tools for RNA modification detection and analysis using Oxford DRS.
+---------------------------------------------------------------------------------
+
+This table summarizes currently available computational methods developed for detecting, quantifying, or modeling RNA modifications from Oxford Nanopore Technologies (ONT) direct RNA sequencing data. For each tool, we list the functional description, GitHub repository, targeted RNA modification(s), supported pore chemistry (RNA002 and/or RNA004), and year of publication or release.
+
+.. csv-table:: Comprehensive list of RNA modification–related tools for nanopore DRS
+   :header: "Tool","Functional description","GitHub","Modification","Pore chemistry","Year"
+   :widths: 12 35 30 25 25 6
+
+   "Tombo","Signal-level statistical framework for detecting RNA and DNA modifications from nanopore reads.","https://github.com/nanoporetech/tombo","m6A, m5C","RNA002","2017"
+   "EpiNano","Machine learning–based framework for detecting RNA modifications (e.g., m6A) from basecalling error features in nanopore data.","https://github.com/enovoa/EpiNano","m6A","RNA002","2019"
+   "DiffErr","Differential error-based method for detecting RNA modifications by comparing mismatch profiles between conditions.","https://github.com/bartongroup/differr_nanopore_DRS","m6A","RNA002","2020"
+   "MINES","Supervised learning tool for m6A detection from nanopore signal features using motif constraints.","https://github.com/YeoLab/MINES","m6A","RNA002","2020"
+   "Nano-ID","A method that detects newly synthesized RNA isoforms and monitors isoform metabolism. Combines metabolic RNA labeling, long-read nanopore sequencing of native RNA molecules and machine learning.","https://github.com/birdumbrella/nano-ID","5EU","RNA002","2020"
+   "ELIGOS","Statistical model for identifying RNA modifications based on systematic basecalling errors.","https://gitlab.com/piroonj/eligos2","m6A, m1A, 5moU, Ψ, m7G, A-to-I, hm5C, f5C, m5C","RNA002","2021"
+   "Nanocompore","Statistical framework for detecting differential RNA modifications by comparing signal distributions across conditions.","https://github.com/tleonardi/nanocompore","m6A","RNA002","2021"
+   "NanoPsu","Supervised machine learning tool for pseudouridine (Ψ) detection from nanopore signals.","https://github.com/sihaohuanguc/Nanopore_psU","Ψ","RNA002","2021"
+   "nanoRMS","Single-molecule RNA modification stoichiometry estimation framework using signal clustering.","https://github.com/novoalab/nanoRMS","Ψ","RNA002","2021"
+   "Sequoia","Visualization and signal exploration tool for nanopore current data.","https://github.com/dnonatar/Sequoia","m6A, m5C","RNA002","2021"
+   "xPore","Probabilistic mixture model for estimating RNA modification stoichiometry and differential modification from nanopore signals.","https://github.com/GoekeLab/xpore","m6A","RNA002","2021"
+   "Yanocomp","Tool for identifying RNA modification sites using nanopore signal clustering and statistical modeling.","https://github.com/bartongroup/yanocomp","m6A","RNA002","2021"
+   "nanom6A","Machine learning–based m6A detection tool using signal-derived features from nanopore DRS data.","https://github.com/gaoyubang/nanom6A","m6A","RNA002","2021"
+   "DENA","Recurrent neural network–based framework for m6A detection from nanopore signals.","https://github.com/weir12/DENA","m6A","RNA002","2022"
+   "Dinopore","CNN-based model for detecting RNA editing directly from ionic current traces.","https://github.com/darelab2014/Dinopore","A-to-I","RNA002","2022"
+   "IndoC","Machine learning framework for pseudouridine detection from nanopore signal and alignment features.","https://github.com/geno-verse/indoC","Ψ","RNA002","2022"
+   "JACUSA2","Variant and RNA modification detection framework using statistical comparison of aligned read features.","https://github.com/dieterich-lab/JACUSA2","m6A","RNA002","2022"
+   "ModPhred","Modification-aware post-processing tool for annotating basecalled reads with modification tags.","https://github.com/novoalab/modPhred","m6A, m5C","RNA002","2022"
+   "Penguin","Supervised ML-based tool for Ψ detection from nanopore data.","https://github.com/Janga-Lab/Penguin","Ψ","RNA002","2022"
+   "DRUMMER","Differential RNA modification detection tool based on basecalling error comparison.","https://github.com/DepledgeLab/DRUMMER","rRNA modifications","RNA002","2022"
+   "nanoSHAPE","Signal-based RNA structural probing tool (SHAPE-like) using nanopore data.","https://github.com/physnano/rRNA_nanoSHAPE","rRNA modifications","RNA002","2022"
+   "m6Anet","Deep learning (MIL-based) framework for m6A site detection and stoichiometry estimation from nanopore reads.","https://github.com/GoekeLab/m6anet","m6A","RNA002, RNA004","2022"
+   "DeepEdit","Deep learning tool for RNA editing or modification detection (exact scope unclear).","https://github.com/weir12/DeepEdit","A-to-I","RNA002","2023"
+   "Dorado","ONT production basecaller with integrated RNA modification detection models.","https://github.com/nanoporetech/dorado","m6A, m5C, Ψ, A-to-I","RNA004","2023"
+   "PsiNanopore","This package provides computational tools for detecting pseudouridine modification sites in nanopore sequencing data by comparing direct RNA vs IVT samples, calculating p-values to identify candidate positions, and visualizing raw ionic signals, with a complete step-by-step pipeline covering basecalling, alignment, and BAM file processing.","https://github.com/RouhanifardLab/PsiNanopore","Ψ","RNA002","2023"
+   "CHEUI","Deep learning–based m6A and m5C detection framework from nanopore DRS data.","https://github.com/comprna/CHEUI","m6A, m5C","RNA002","2024"
+   "IL-AD","Integrated learning-based RNA modification detection framework (exact scope unclear).","https://github.com/wangziyuan66/IL-AD","m1A, m6A","RNA002","2024"
+   "iForest","Isolation Forest–based anomaly detection approach for identifying RNA editing events.","https://github.com/F0nz0/C_to_U_classifier","C-to-U","RNA002","2024"
+   "ModQuant","Quantification framework for RNA modification stoichiometry from nanopore reads.","https://github.com/wanunulab/ModQuant","Ψ","RNA002","2024"
+   "m6ATM","m6A detection tool based on feature engineering and supervised learning.","https://github.com/poigit/m6ATM","m6A","RNA002","2024"
+   "m1a-prediction","Tool for m1A modification prediction from nanopore DRS data.","https://github.com/BernieeeX/m1a-prediction","m1A","RNA002","2024"
+   "mAFiA","Modification-aware basecalling framework integrating sequence decoding and RNA modification detection.","https://github.com/dieterich-lab/mAFiA","m6A","RNA002","2024"
+   "NanoML-5moU","Machine learning tool for detecting 5-methoxyuridine (5moU) modifications.","https://github.com/JiayiLi21/NanoML-5moU","5moU","RNA002","2024"
+   "NanoMUD","Multi-mark deep learning framework for RNA modification detection.","https://github.com/ABOMSBI/NanoMUD","Ψ, m1Ψ","RNA002","2024"
+   "NanoPsiPy","Tool for pseudouridine detection using nanopore signal and basecalling features.","http://github.com/vetmohit89/NanoPsiPy.git","Ψ","RNA002","2024"
+   "NanoSPA","Deep learning–based pseudouridine detection framework from nanopore signals.","https://github.com/sihaohuanguc/NanoSPA","m6A, Ψ","RNA002","2024"
+   "Nm-Nano","Supervised learning framework for detecting 2′-O-methylation (Nm) from nanopore data.","https://github.com/Janga-Lab/Nm-Nano","Nm","RNA002","2024"
+   "RNAkinet","RNA kinetic modeling tool from nanopore DRS signal data.","https://github.com/maragkakislab/rnakinet","5EU","RNA002","2024"
+   "RedNano","Deep residual neural network integrating signal and basecalling features for m6A detection.","https://github.com/Derryxu/RedNano","m6A","RNA002","2024"
+   "TandemMod","Multi-label deep learning framework for simultaneous detection of multiple RNA modifications.","https://github.com/yulab2021/TandemMod","m6A, m5C, hm5C, m7G, Ψ, A-to-I","RNA002","2024"
+   "DEMINERS","Deep learning framework for nanopore signal decoding and RNA modification detection.","https://github.com/LuChenLab/DEMINERS","m6A","RNA002","2025"
+   "DirecRM","Deep learning–based direct RNA modification detection framework.","https://github.com/yuxinPenny/DirectRM","ac4C, m1A, m5C, m6A, m7G, Ψ","RNA002, RNA004","2025"
+   "DRAP3R","Custom nanopore direct RNA sequencing method and analysis framework for capturing nascent Pol III-derived RNAs and a small subset of Pol II-derived ncRNAs.","https://github.com/DepledgeLab/DRAP3R","tRNA modifications","RNA004","2025"
+   "MoDorado","Light-weight algorithm that detects modification by off-label use of pre-trained modification-specific models in nanopore direct RNA sequencing (SQK-RNA004).","https://github.com/KleistLab/MoDorado","tRNA modifications","RNA004","2025"
+   "ModiDeC","Personalized two-input neural network designed to identify RNA modifications from direct RNA sequencing using RNA002 or RNA004 Oxford Nanopore technology kits.","https://github.com/mem3nto0/ModiDeC-RNA-modification-classifier","m6A, Gm, A-to-I, Ψ","RNA002, RNA004","2025"
+   "NanoNM","Ensemble machine learning–based tool for transcriptome-wide Nm detection.","https://github.com/YanqiangLi/NanoNm","Nm","RNA002","2025"
+   "NanoRL","Reinforcement learning–based RNA modification detection framework.","https://github.com/wangziyuan66/NanoRL","m1A, m6A, ac4C, m5C, hm5C, m5U, Ψ, m1Ψ","RNA002","2025"
+   "ORCA","Multi-modification deep learning detection framework for nanopore RNA.","https://github.com/bioinfo-biols/ORCA","m1A, m6A, Ψ, m5C, hm5C, f5C","RNA002, RNA004","2025"
+   "RMNet","Neural network model for RNA modification detection from nanopore signals.","https://github.com/liqingwen98/RMNet","m6A","RNA002","2025"
+   "RNANO","Deep learning tool for RNA modification detection from Nanopore direct RNA sequencing data.","https://github.com/abhhba999/RNANO","m6A, m5C, m1A, Ψ, Nm, ac4C, m7G","RNA002","2025"
+   "SingleMod","Attention-based deep learning model for single-molecule RNA modification detection.","https://github.com/xieyy46/SingleMod-v1","m6A","RNA002, RNA004","2025"
+   "Uncalled4","Signal-level nanopore analysis framework for modification detection and event alignment.","https://github.com/skovaka/uncalled4","m6A","RNA002, RNA004","2025"
+   "Xron","Neural network–based methylation-aware basecaller for simultaneous sequence and m6A detection.","https://github.com/haotianteng/Xron","m6A","RNA002, RNA004","2025"
+   "modCnet","Neural network–based multi-modification detection model for nanopore data.","https://github.com/yulab2021/modCnet","m5C, ac4C","RNA002","2025"
+   "m6Aiso","Isoform-level m6A detection and quantification tool for long-read RNA sequencing.","https://github.com/SYSU-Wang-LAB/m6Aiso","m6A","RNA002","2025"
+   "m6ABasecaller","Basecaller-integrated m6A detection tool for real-time nanopore modification calling.","https://github.com/novoalab/m6ABasecaller","m6A","RNA002","2025"
+   "pum6A","Positive-unlabeled learning framework for m6A identification from nanopore reads.","https://github.com/liuchuwei/pum6a","m6A","RNA002","2025"
+   "Ψ-co-mAFiA","Joint Ψ and m6A detection framework integrating signal features.","https://github.com/dieterich-lab/psi-co-mAFiA","m6A, Ψ","RNA002","2025"
+   "CircRM","Circular RNA modification detection framework from nanopore data.","https://github.com/jiayiAnnie17/CircRM","m1A, m5C, m6A","RNA002","2026"
+
+.. note::
+
+   - **Modification abbreviations**: m6A (N6-methyladenosine), m5C (5-methylcytosine), Ψ (pseudouridine), m1A (1-methyladenosine), hm5C (5-hydroxymethylcytosine), f5C (5-formylcytosine), ac4C (N4-acetylcytidine), m7G (7-methylguanosine), Nm (2'-O-methylation), 5EU (5-ethynyluridine), 5moU (5-methoxyuridine), A-to-I (adenosine-to-inosine editing), C-to-U (cytidine-to-uridine editing), m1Ψ (1-methylpseudouridine), m5U (5-methyluridine), Gm (2'-O-methylguanosine)
+   - **Pore chemistry**: RNA002 refers to the SQK-RNA002 kit, RNA004 refers to the SQK-RNA004 kit
+   - Tools are listed chronologically by year of publication, with multiple entries for the same year sorted alphabetically
+
+
+Computational tools for Oxford Nanopore DRS data analysis beyond RNA modification detection.
+--------------------------------------------------------------------------------------------
+
+This table summarizes representative computational tools and pipelines for analyzing ONT DRS and related long-read transcriptome data. Tools are organized by functional categories, including basecalling, isoform identification, isoform quantification, poly(A) tail analysis, allele-specific expression analysis, data simulation, fusion gene detection, and integrated data analysis pipelines. For each tool, we provide a brief functional description, GitHub repository, whether it is specifically designed for DRS (DRS-specific), and year of release. While many tools were originally developed for general long-read sequencing, they are widely applied to DRS data.
+
+.. csv-table:: Comprehensive list of RNA analysis tools for nanopore DRS
+   :header: "Category","Tool","Functional description","GitHub","DRS-specific","Year"
+   :widths: 8 20 35 25 10 5
+
+   "**Basecalling**","Albacore","ONT's early offline basecaller for nanopore data, converting raw ionic current signals into nucleotide sequences using HMM-based models; now deprecated and replaced by Guppy/Dorado.","","No","2017"
+   "**Basecalling**","Guppy","A C++-based closed-source ONT basecaller that replaced Albacore, supporting GPU-accelerated high-accuracy basecalling for DNA and RNA (RNA002 chemistry for DRS).","","No","2018"
+   "**Basecalling**","Bonito","An open-source research basecaller developed by ONT based on PyTorch, enabling customizable neural network architectures and training for experimental nanopore basecalling models.","https://github.com/nanoporetech/bonito","No","2020"
+   "**Basecalling**","RODAN","A deep learning–based nanopore basecaller employing advanced neural network architectures to improve raw signal decoding accuracy.","https://github.com/biodlab/RODAN","No","2022"
+   "**Basecalling**","Dorado","ONT's current production basecaller with GPU acceleration, supporting high-accuracy RNA and DNA basecalling, duplex calling, and integrated modification-aware models for simultaneous sequence and RNA modification detection.","https://github.com/nanoporetech/dorado","No","2023"
+   "**Basecalling**","GCRTcall","A neural network–based nanopore basecaller optimized for improved accuracy and robustness in decoding ionic current signals from ONT sequencing data.","https://github.com/liqingwen98/GCRTcall","No","2024"
+   "**Basecalling**","DEMINERS","A deep learning framework for nanopore signal decoding that enhances basecalling performance and supports modification-aware sequence interpretation.","https://github.com/LuChenLab/DEMINERS","No","2025"
+   "**Basecalling**","Coral","A neural network–based nanopore basecaller designed to improve signal-to-sequence translation accuracy, particularly for challenging signal regions such as homopolymers.","https://github.com/BioinfoSZU/Coral","No","2026"
+   "**Isoform Identification**","StringTie2","Transcript assembly from long-read alignments based on reference genome and annotation (DRS may rely more heavily on high-quality alignment and annotation due to 3′ bias).","https://github.com/gpertea/stringtie","No","2019"
+   "**Isoform Identification**","rnaSPAdes","De novo transcriptome assembly (DRS-compatible but often combined with other read types or strategies) to recover transcripts absent from reference annotations.","https://github.com/ablab/spades","No","2019"
+   "**Isoform Identification**","FLAIR","Post-alignment splice site correction and transcript assembly for ONT long reads (including DRS), mitigating the impact of ONT sequencing errors on splice junction detection.","https://github.com/BrooksLabUCSC/flair","No","2020"
+   "**Isoform Identification**","TALON","Classification and annotation summarization of known and novel transcripts from long reads (including DRS), generating transcript sets suitable for downstream quantification.","https://github.com/dewyman/TALON","No","2020"
+   "**Isoform Identification**","TAMA","Merging, filtering, and annotation refinement tools for long-read transcript structures, supporting the standardization and curation of DRS-derived transcript models.","https://github.com/GenomeRIK/tama","No","2020"
+   "**Isoform Identification**","Pinfish","Nanopore transcriptome toolkits (clustering, error correction, modeling) applicable to DRS reads for transcript candidate generation and structural organization.","https://github.com/nanoporetech/pinfish","No","2020"
+   "**Isoform Identification**","FLAMES","Isoform identification and organization for long-read transcriptomes (including DRS), commonly used to standardize long-read transcript sets for comparative analysis.","https://github.com/LuyiTian/FLAMES","No","2021"
+   "**Isoform Identification**","IsoSplitter","Partitioning and classification of long reads by splicing and structural features, facilitating the dissection of complex isoforms and alternative splicing patterns in DRS data.","https://github.com/Hengfu-Yin/IsoSplitter","No","2021"
+   "**Isoform Identification**","LyRic","Transcript identification and expression analysis tools or pipelines tailored to ONT DRS characteristics (directionality, 3′ signal, poly(A)-related features).","https://github.com/guigolab/LyRic","Yes","2021"
+   "**Isoform Identification**","RATTLE","Reference-free clustering of DRS/ONT reads to generate transcript consensus sequences, enabling isoform reconstruction without reliable reference genomes.","https://github.com/comprna/RATTLE","No","2022"
+   "**Isoform Identification**","Bambu","Reconstruction and merging of transcript structures from long reads (applicable to DRS), with identification of novel isoforms to accommodate uneven full-length coverage in DRS data.","https://github.com/GoekeLab/bambu","No","2023"
+   "**Isoform Identification**","IsoTools","Analytical framework for transcript classification, novel isoform discovery, and splicing event summarization in long-read transcriptomes (including DRS).","https://github.com/MatthiasLienhard/isotools","No","2023"
+   "**Isoform Identification**","Mandalorion","Identification of splice isoforms and generation of transcript models from ONT long reads (including DRS), suitable for rapid isoform catalog generation within the ONT ecosystem.","https://github.com/mandalorion-evidence/mandalorion","No","2023"
+   "**Isoform Identification**","ESPRESSO","Splice site error correction in long reads prior to isoform identification, reducing false splice junctions caused by higher DRS error rates.","https://github.com/Xinglab/espresso","No","2023"
+   "**Isoform Identification**","Freddie","Clustering long reads (including DRS) by splicing structure and inferring isoforms under weak or absent annotation, suitable for exploratory DRS datasets.","https://github.com/vpc-ccg/freddie","No","2023"
+   "**Isoform Identification**","RNA-Bloom2","De novo or weak-reference transcript assembly tools that support DRS, useful for constructing transcript sequence sets when annotation is incomplete or reference genomes are limited.","https://github.com/bcgsc/RNA-Bloom","No","2023"
+   "**Isoform Identification**","isONform","Reference-free clustering and reconstruction of ONT transcripts (including DRS), improving structural consistency under high sequencing error rates.","https://github.com/ksahlin/isONform","No","2023"
+   "**Isoform Identification**","rMATS-long","Differential isoform analysis between sample groups, as well as classification and visualization of isoform structure and abundance.","https://github.com/Xinglab/rMATS-long","No","2023"
+   "**Isoform Identification**","Isosceles","ONT-oriented isoform clustering and integration approaches, suitable for consolidating DRS reads into high-confidence transcript structure sets.","https://github.com/Genentech/Isosceles","No","2024"
+   "**Isoform Identification**","isoSeQL","Database tool for comparing across many Iso-Seq runs analyzed through SQANTI3.","https://github.com/christine-liu/isoSeQL","No","2025"
+   "**Isoform Quantification**","Salmon","Rapid transcript expression estimation (for long reads/DRS, requiring attention to 3′ bias and alignment/indexing strategies).","https://github.com/COMBINE-lab/salmon","No","2015"
+   "**Isoform Quantification**","FLAIR","Isoform-level counting of DRS reads based on corrected splice sites and transcript sets, reducing the impact of mismatches and mis-splicing on quantification.","https://github.com/BrooksLabUCSC/flair","No","2020"
+   "**Isoform Quantification**","TALON","Classification and counting of DRS reads within a known/novel transcript framework, producing consistent transcript expression matrices.","https://github.com/dewyman/TALON","No","2020"
+   "**Isoform Quantification**","tappAS","Functional interpretation based on isoform-level expression (DRS-derived transcript expression can inform differences in protein domains, UTRs, etc.).","https://github.com/ConesaLab/tappAS","No","2020"
+   "**Isoform Quantification**","HBA-DEALS","Joint modeling of gene expression and isoform usage changes, suitable for differential analysis using DRS-derived transcript counts.","https://github.com/TheJacksonLaboratory/HBA-DEALS","No","2020"
+   "**Isoform Quantification**","NanoCount","Direct assignment of ONT/DRS reads to transcripts or genes based on alignment results for baseline long-read quantification.","https://github.com/a-slide/NanoCount","No","2021"
+   "**Isoform Quantification**","LIQA","Estimation of isoform expression and detection of differential isoform usage, leveraging DRS long reads to distinguish closely related isoforms.","https://github.com/WGLab/LIQA","No","2021"
+   "**Isoform Quantification**","ScisorseqR","Isoform usage analysis frameworks for single-cell long-read data (adaptable if DRS is extended to single-cell or low-input scenarios).","https://github.com/noush-joglekar/scisorseqr","No","2021"
+   "**Isoform Quantification**","HTSeq","Feature-based counting from DRS alignments to generate count matrices for differential expression or differential usage analysis.","https://github.com/htseq/htseq","No","2022"
+   "**Isoform Quantification**","TAGET","Integration of long-read (including DRS) transcript annotation and quantification outputs for isoform-level expression and splicing analysis.","https://github.com/XiDsLab/TAGET","No","2022"
+   "**Isoform Quantification**","Bambu","Simultaneous transcript construction/integration and isoform quantification from DRS, suitable when unannotated transcripts are present.","https://github.com/GoekeLab/bambu","No","2023"
+   "**Isoform Quantification**","IsoQuant","Transcript identification and quantification from long reads (including DRS) with consistency assessment, suitable for robust estimation under uneven full-length coverage.","https://github.com/ablab/IsoQuant","No","2023"
+   "**Isoform Quantification**","IsoTools","Quantification of DRS/long-read transcripts with support for splicing and isoform usage change summarization.","https://github.com/MatthiasLienhard/isotools","No","2023"
+   "**Isoform Quantification**","Mandalorion","Integrated ONT workflow outputs of isoform counts and expression estimates, serving as unified solutions for DRS isoform quantification.","https://github.com/christopher-vollmers/Mandalorion","No","2023"
+   "**Isoform Quantification**","DELongSeq","Long-read–oriented differential transcript and differential splicing analysis methods, using DRS isoform counts as input.","https://github.com/WGLab/DELongSeq","No","2023"
+   "**Isoform Quantification**","Isosceles","Isoform-level expression estimation within the ONT ecosystem, consolidating DRS reads at the transcript level.","https://github.com/Genentech/Isosceles","No","2024"
+   "**Isoform Quantification**","miniQuant","Rapid transcript- or gene-level counting from long reads (including DRS), aligned with the ""read-as-molecule"" direct counting paradigm of DRS.","https://github.com/Augroup/miniQuant","No","2025"
+   "**Isoform Quantification**","lr-kallisto","Long-read–oriented transcript quantification applicable to DRS, though sensitive to read errors and coverage bias; often used as a comparison method.","https://github.com/pachterlab/kallisto","No","2025"
+   "**Poly(A) Tail Analysis**","Nanopolish","Signal-level analysis of Oxford Nanopore sequencing data. Can calculate improved consensus sequence, detect base modifications, call SNPs and indels with respect to a reference genome.","https://github.com/jts/nanopolish","No","2019"
+   "**Poly(A) Tail Analysis**","tailfindr","R package for estimating poly(A)-tail lengths in Oxford Nanopore reads.","https://github.com/adnaniazi/tailfindr","No","2019"
+   "**Poly(A) Tail Analysis**","PolyAcaller","Predicate potential poly(A) regions from Nanopore fast5 file which has been basecalled by guppy with flipflop mode.","https://github.com/zhailab/polyACaller","No","2020"
+   "**Poly(A) Tail Analysis**","PolyaID","Convolutional neural network models that predict the classification and cleavage profile surrounding a putative polyA site.","https://github.com/zhejilab/PolyaModelsHuman","No","2023"
+   "**Poly(A) Tail Analysis**","modr","Estimate known and novel transcript expression, predict poly-A tail lengths, and detect RNA modifications in Oxford Nanopore direct RNA-sequencing data like no pipeline before!","https://github.com/OpenOmics/modr","No","2023"
+   "**Poly(A) Tail Analysis**","PT_identify_polyA_sites","Python-based tool designed to identify and analyze poly(A) sites in RNA-seq data.","https://github.com/bartongroup/PT_identify_polyA_sites","No","2024"
+   "**Poly(A) Tail Analysis**","NanoTail","A set of functions to manipulate and analyze data coming from polyA lengths estimations done using Oxford Nanopore Direct RNA sequencing and Nanopolish software.","https://github.com/smaegol/nanotail","No","2024"
+   "**Poly(A) Tail Analysis**","TAILcaller","R package for analyzing polyA tails after dorado basecalling.","https://github.com/Mordziarz/TAILcaller","No","2025"
+   "**Poly(A) Tail Analysis**","BoostNano","A tool for preprocessing ONT-Nanopore RNA sequencing reads (before basecalling), it segments/trims the adapter, polyA stall, and the transcription from the raw signal before basecalling.","https://github.com/haotianteng/BoostNano","No","2025"
+   "**Poly(A) Tail Analysis**","Ninetails","An R package for finding non-adenosine poly(A) residues in Oxford Nanopore direct RNA sequencing reads.","https://github.com/LRB-IIMCB/ninetails","No","2025"
+   "**Allele-Specific Expression Analysis**","phASER","Estimates haplotype-level expression and allele-specific expression (ASE) based on phased variants (DRS long reads improve connectivity between phased sites and ASE resolution).","https://github.com/secastel/phaser","No","2016"
+   "**Allele-Specific Expression Analysis**","PEPPER","Variant detection component designed for ONT reads (applicable to DRS but requiring consideration of RNA-specific biases), often integrated with phasing and genotyping workflows.","https://github.com/kishwarshafin/pepper","No","2021"
+   "**Allele-Specific Expression Analysis**","LORALS","Performs allele-specific expression and allele-specific splicing analysis using long reads, enabling direct association of haplotypes with transcripts through DRS data.","https://github.com/LappalainenLab/lorals","No","2022"
+   "**Allele-Specific Expression Analysis**","WhatsHap","Uses long reads (including DRS) spanning multiple heterozygous sites to perform phasing inference, providing the foundation for haplotype-specific and allele-specific expression analysis in DRS.","https://github.com/whatshap/whatshap","No","2023"
+   "**Allele-Specific Expression Analysis**","RPVG","Aligns RNA reads to variation graphs or pangenomes and estimates allele-specific expression, suitable for reducing reference bias in highly polymorphic regions when using DRS.","https://github.com/jonassibbesen/rpvg","No","2023"
+   "**Allele-Specific Expression Analysis**","IsoLaser","Integrates long-read splicing structures with variant information to infer allele-specific expression and splicing (the long span of DRS facilitates linking variants to isoforms).","https://github.com/gxiaolab/isoLASER","No","2025"
+   "**Allele-Specific Expression Analysis**","Clair3-RNA","A small variant caller for long-read RNA sequencing (lrRNA-seq) data.","https://github.com/HKU-BAL/Clair3-RNA","No","2025"
+   "**Data Simulation**","NanoSim","A fast and scalable read simulator that captures the technology-specific features of ONT data, and allows for adjustments upon improvement of nanopore sequencing technology.","https://github.com/bcgsc/NanoSim","No","2017"
+   "**Data Simulation**","DeepSimulator","The first deep learning based Nanopore simulator which can simulate the process of Nanopore sequencing.","https://github.com/liyu95/DeepSimulator","No","2018"
+   "**Data Simulation**","PBSIM3","A simulator for all types of Pacific Biosciences (PacBio) and Oxford Nanopore Technologies (ONT) long reads.","https://github.com/yukiteruono/pbsim3","No","2022"
+   "**Data Simulation**","Squigulator","A tool for simulating nanopore raw signal data. Uses traditional pore models and gaussian noise for simulation.","https://github.com/hasindu2008/squigulator","No","2024"
+   "**Data Simulation**","TKSM","A modular software for simulating long-read sequencing.","https://github.com/vpc-ccg/tksm","No","2024"
+   "**Data Simulation**","Seq2squiggle","A deep learning-based tool for generating artifical nanopore signals from DNA sequence data.","https://github.com/ZKI-PH-ImageAnalysis/seq2squiggle","No","2025"
+   "**Data Simulation**","AsaruSim","An automated Nextflow workflow designed for simulating 10x single-cell long read data from the count matrix level to the sequence level. Creates a gold standard dataset for assessment and optimization of single-cell long-read methods.","https://github.com/GenomiqueENS/AsaruSim","No","2025"
+   "**Fusion Gene Detection**","LongGF","A computational algorithm and software tool for fast and accurate detection of gene fusion by long-read transcriptome sequencing.","https://github.com/WGLab/LongGF","No","2020"
+   "**Fusion Gene Detection**","JAFFAL","A multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions.","https://github.com/Oshlack/JAFFA","No","2021"
+   "**Fusion Gene Detection**","FusionSeeker","A gene fusion caller for long-read single-molecular sequencing data.","https://github.com/Maggi-Chen/FusionSeeker","No","2023"
+   "**Fusion Gene Detection**","CTAT-LR-fusion","Find fusion transcripts using minimap2 and FusionInspector for long (and optionally additional short) RNA-seq reads.","https://github.com/TrinityCTAT/CTAT-LR-fusion","No","2023"
+   "**Data Analysis Pipelines**","NanoPipe","A web-based software for analyzing Oxford Nanopore sequencing reads, providing alignments, statistics, and polymorphism information, available online or as a downloadable script for local use.","https://github.com/IOB-Muenster/nanopipe2","No","2019"
+   "**Data Analysis Pipelines**","MasterOfPores","A pipeline written in Nextflow DSL2 to analyze Nanopore data. It can handle reads from direct RNAseq, cDNAseq, DNAseq etc.","https://github.com/biocorecrg/master_of_pores","No","2020"
+   "**Data Analysis Pipelines**","L-RAPiT","A Cloud-Based Computing Pipeline for the Analysis of Long-Read RNA Sequencing Data.","https://github.com/Theo-Nelson/long-read-sequencing-pipeline","No","2022"
+   "**Data Analysis Pipelines**","FASTdRNA","FastdRNA is a pipeline written in snakemake to handle ONT direct RNA seq database.","https://github.com/Tomcxf/FASTdRNA","Yes","2023"
+   "**Data Analysis Pipelines**","NanoTrans","An integrated computational framework for comprehensive transcriptome analysis with Nanopore direct-RNA sequencing.","https://github.com/yjx1217/NanoTrans","Yes","2024"
+
+.. note::
+
+   - **DRS-specific**: Indicates whether the tool was specifically designed for or particularly suited to Direct RNA Sequencing data. "No" means the tool can be applied to DRS but was not specifically designed for it.
+   - **Basecallers**: Tools that convert raw electrical signals from nanopore sequencing into nucleotide sequences.
+   - **Isoform identification**: Tools for reconstructing and identifying transcript isoforms from long-read sequencing data.
+   - **Isoform quantification**: Tools for estimating expression levels of transcript isoforms.
+   - **Poly(A) tail analysis**: Tools for analyzing poly(A) tail lengths and characteristics from nanopore RNA data.
+   - **Allele-specific expression analysis**: Tools for detecting and quantifying expression from specific alleles or haplotypes.
+   - **Data simulation**: Tools for generating simulated nanopore sequencing data for benchmarking and development.
+   - **Fusion gene detection**: Tools for identifying gene fusion events from long-read transcriptome data.
+   - **Data analysis pipelines**: Integrated workflows that combine multiple analysis steps for comprehensive data processing.

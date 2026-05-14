@@ -1,0 +1,136 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nanopore direct RNA sequencing: fundamental principles and developmental trajectory &mdash; Nanopore DRS guide 1.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=175ac1d5" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=def9ab29"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Comparative analysis of DRS technology and traditional sequencing technology" href="comparative_analysis.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Nanopore DRS guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparative_analysis.html">Comparative analysis of DRS technology and traditional sequencing technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biological_landscape.html">The biological landscape from a DRS perspective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="typical_application.html">Typical application scenarios and breakthrough discoveries of DRS technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="design.html">Design, standardization and optimization of DRS workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_analysis.html">DRS data analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">Designing, validating, and benchmarking DRS: an integrated framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiomics.html">Application-oriented integration of nanopore DRS with multi-omics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Challenges and technical improvements of DRS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="outlook.html">Outlook: toward integrative, haplotype-aware RNA biology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table.html">Supplementary tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code.html">Personalized Plotting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nanopore DRS guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="nanopore-direct-rna-sequencing-fundamental-principles-and-developmental-trajectory">
+<h1>Nanopore direct RNA sequencing: fundamental principles and developmental trajectory<a class="headerlink" href="#nanopore-direct-rna-sequencing-fundamental-principles-and-developmental-trajectory" title="Permalink to this heading"></a></h1>
+<p>DRS employs nanopore sequencing technology to perform single-molecule sequencing of native RNA molecules <a class="reference internal" href="references.html#ref34"><span class="std std-ref">[34]</span></a>. Unlike traditional approaches, this method does not require RT of RNA into cDNA, thereby effectively avoiding biases that may be introduced during RT and PCR amplification <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>. Its fundamental principle is that, under an applied electric field, single-stranded RNA molecules pass through a biological nanopore embedded in a membrane. Because RNA molecules carry a negative charge, a motor protein drives the RNA into the nanopore at a controlled speed under voltage. Typically, the motor protein attaches to the poly(A) tail at the 3′ end of mRNA via an adapter sequence, enabling the RNA to translocate through the pore in a 3′-to-5′ direction. When a short segment of the RNA strand (approximately 5 nt) occupies the narrow constriction of the nanopore, it impedes ionic current flow and produces characteristic changes in the electrical signal <a class="reference internal" href="references.html#ref36"><span class="std std-ref">[36]</span></a>, <a class="reference internal" href="references.html#ref37"><span class="std std-ref">[37]</span></a>. Different nucleotide sequence combinations generate current changes of varying magnitudes, allowing the electrical signals to be regarded as “fingerprints” of the corresponding k-mer sequences <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>, <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>, <a class="reference internal" href="references.html#ref38"><span class="std std-ref">[38]</span></a>, <a class="reference internal" href="references.html#ref39"><span class="std std-ref">[39]</span></a>. The sequencing device records these current signals in real time and interprets them into nucleotide sequences using deep learning algorithms, a process known as basecalling <a class="reference internal" href="references.html#ref38"><span class="std std-ref">[38]</span></a>, <a class="reference internal" href="references.html#ref40"><span class="std std-ref">[40]</span></a>. High-accuracy models developed by ONT utilize neural networks to analyze current waveforms, enabling real-time reading of RNA sequences <a class="reference internal" href="references.html#ref41"><span class="std std-ref">[41]</span></a>, <a class="reference internal" href="references.html#ref42"><span class="std std-ref">[42]</span></a>.</p>
+<figure class="align-center" id="figure2">
+<a class="reference internal image-reference" href="_images/Figure2-1.png"><img alt="_images/Figure2-1.png" src="_images/Figure2-1.png" style="width: 80%;" /></a>
+<figcaption>
+<p><span class="caption-text"><strong>Figure 2. Overview of Oxford nanopore direct RNA sequencing (DRS) technology, platforms, and software.</strong> (A) Schematic of the principle of DRS. Native poly(A)+RNA molecules are sequenced directly through a biological nanopore without cDNA synthesis or PCR amplification. As RNA passes through the pore under an applied voltage, nucleotide-specific disruptions in ionic current enable base calling and direct detection of RNA modifications such as N6-methyladenosine (m6A). (B) Current mainstream nanopore platforms and consumables supporting DRS, including MinION Mk1D, GridION, and PromethION instruments, together with corresponding flow cells (Flongle, MinION/GridION, and PromethION). (C) Evolution of DRS technology from early conceptual foundations to mature, high-accuracy workflows. Key milestones include the first commercial DRS kit (SQK RNA001; 2016-2017), establishment of RNA002 as a mainstream workhorse (2019-2023), and recent advances integrating RNA004 chemistry with Dorado basecalling (2024+), resulting in increased accuracy, throughput, and functionality. (D) Timeline of major computational tools developed for DRS data analysis, highlighting methods for RNA modification detection, isoform and splicing analysis, and poly(A) tail length estimation. The progression illustrates rapid expansion and increasing sophistication of the DRS bioinformatics ecosystem from 2017 to the present.</span><a class="headerlink" href="#figure2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>While DRS has only recently matured into a robust platform, the conceptual framework for this technology was established decades prior to its commercial realization. In 1989, the American scientist David Deamer first proposed the idea of driving single-stranded DNA or RNA molecules through nanoscale pores to read their sequence information <a class="reference internal" href="references.html#ref43"><span class="std std-ref">[43]</span></a>. In the mid-1990s, key experimental advances were achieved. Kasianowicz and colleagues observed ionic current blockade events when single-stranded nucleic acids passed through an α-hemolysin biological pore and this discovery laid the foundation for subsequent single-molecule sequencing <a class="reference internal" href="references.html#ref43"><span class="std std-ref">[43]</span></a>. By the late 1990s, “nanopore sequencing” gradually emerged and was adopted as a formal term and technological approach. During the same period, Hagan Bayley and colleagues conducted related technical research. They developed a method to detect molecular characteristics by measuring stochastic fluctuations in nanopore ionic currents, known as stochastic sensing <a class="reference internal" href="references.html#ref44"><span class="std std-ref">[44]</span></a>, <a class="reference internal" href="references.html#ref45"><span class="std std-ref">[45]</span></a>. They also recognized that this approach could be applied to DNA sequencing. The Staphylococcus aureus membrane channel protein α-hemolysin has an inner diameter of approximately 1.4-2.4 nm <a class="reference internal" href="references.html#ref43"><span class="std std-ref">[43]</span></a>, <a class="reference internal" href="references.html#ref46"><span class="std std-ref">[46]</span></a>. It was the first nanopore proven to allow the passage of RNA and DNA homopolymers while producing identifiable ionic current blockade signals <a class="reference internal" href="references.html#ref43"><span class="std std-ref">[43]</span></a>, <a class="reference internal" href="references.html#ref47"><span class="std std-ref">[47]</span></a>, <a class="reference internal" href="references.html#ref48"><span class="std std-ref">[48]</span></a>.</p>
+<p>The founding of ONT by Hagan Bayley and Gordon Sanghera in 2005 greatly accelerated the translation of these fundamental concepts into a practical sequencing platform and the transition of nanopore sequencing from a conceptual stage to real-world application <a class="reference internal" href="references.html#ref43"><span class="std std-ref">[43]</span></a>. In the decade following ONT’s establishment, the company’s research team continuously worked on optimizing biological nanopore materials and sequencing enzymes <a class="reference internal" href="references.html#ref39"><span class="std std-ref">[39]</span></a>. For example, they engineered the protein CsgG to develop the R9 series of nanopores and upgraded sequencing enzymes, gradually enabling high-throughput DNA sequencing <a class="reference internal" href="references.html#ref49"><span class="std std-ref">[49]</span></a>, <a class="reference internal" href="references.html#ref50"><span class="std std-ref">[50]</span></a>.</p>
+<p>This innovation broke the dependence of traditional sequencing on laboratory settings and enabled long-read DNA sequencing to be performed outside conventional laboratories <a class="reference internal" href="references.html#ref43"><span class="std std-ref">[43]</span></a>. In December of 2016, ONT provided the first DRS reagent kits (code: SQK-RNA001) to a small group of researchers for testing (<a class="reference external" href="https://nanoporetech.com/news/news-direct-rna-sequencing-minion-new-paper-preprint">https://nanoporetech.com/news/news-direct-rna-sequencing-minion-new-paper-preprint</a>). In April 2017, ONT further expanded access by officially making RNA direct sequencing kits available to its user community(<a class="reference external" href="https://nanoporetech.com/news/news-direct-rna-sequencing-nanopore-opens-more-users">https://nanoporetech.com/news/news-direct-rna-sequencing-nanopore-opens-more-users</a>), and preliminary experimental results of direct RNA sequencing were presented at the London Calling conference in May of the same year (<a class="reference external" href="https://nanoporetech.com/news/news-london-calling-2017-day-2-updates">https://nanoporetech.com/news/news-london-calling-2017-day-2-updates</a>). In 2018, the ONT research team published the core findings on DRS in Nature Methods <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>. The reported DRS method did not require RT or amplification steps. It successfully determined the full-length sequences of yeast mRNA transcripts. The study also experimentally demonstrated the feasibility of directly identifying RNA base modifications through electrical signal analysis <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>.</p>
+<p>Since the introduction of the first-generation RNA001 kit, DRS has continued to evolve, achieving major upgrades at several key stages <a class="reference internal" href="references.html#ref51"><span class="std std-ref">[51]</span></a> (Figure 2B). Studies based on this kit demonstrated the value of DRS in complex transcriptome analysis, a 2019 study of the human polyadenylated transcriptome used DRS to simultaneously analyze transcript diversity, poly(A) tail length distribution, and RNA modifications <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>. In 2020, a plant transcriptome study showed that DRS could reveal splicing isoforms, alternative polyadenylation (APA) site selection, and m6A modification patterns in A. thaliana mRNA <a class="reference internal" href="references.html#ref52"><span class="std std-ref">[52]</span></a>. Building upon the RNA001 kit, ONT released an improved RNA sequencing kit, SQK-RNA002, in 2019. This updated version substantially improved both data yield and stability, and became the mainstream DRS solution between 2019 and 2023 <a class="reference internal" href="references.html#ref53"><span class="std std-ref">[53]</span></a>. In 2024, ONT launched the fourth-generation direct RNA sequencing kit, SQK-RNA004, representing a major technological upgrade <a class="reference internal" href="references.html#ref54"><span class="std std-ref">[54]</span></a> (Figure 2C). This kit employs nanopore proteins specifically optimized for RNA sequencing.</p>
+<p>Crucially, current DRS enables multidimensional data acquisition beyond simple sequence determination, with its prominent advantage residing in the direct reading of native RNA molecules that facilitates the acquisition of full-length, strand-specific transcript sequences while preserving and accurately detecting RNA base modifications <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>. Due to this approach does not require cDNA conversion, chemical modifications on RNA, such as m6A, Ψ, m5C, and inosine, preserve their subtle influences on ionic current during sequencing and can therefore be effectively identified and analyzed <a class="reference internal" href="references.html#ref34"><span class="std std-ref">[34]</span></a>, <a class="reference internal" href="references.html#ref55"><span class="std std-ref">[55]</span></a>, <a class="reference internal" href="references.html#ref56"><span class="std std-ref">[56]</span></a>, <a class="reference internal" href="references.html#ref57"><span class="std std-ref">[57]</span></a> (Figure 2D). The latest DRS basecalling algorithms incorporate dedicated electrical signal models that enable the simultaneous direct detection of multiple RNA modifications during sequencing and the precise annotation of their positions <a class="reference internal" href="references.html#ref58"><span class="std std-ref">[58]</span></a>. Because the 3′ poly(A) tail of mRNA consists of repeated identical nucleotides, its corresponding segment produces a low-variance signal in the sequencing current. By analyzing this signal and correcting for the translocation speed of the molecule through the nanopore, the poly(A) tail length of each transcript can be accurately estimated <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>. Dedicated software tools, such as nanopolish-polya, have been developed for this purpose. These tools segment the raw electrical signal into poly(A) regions and measure their dwell time. And then the number of adenosines in the tail can be inferred from these measurements <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>, <a class="reference internal" href="references.html#ref52"><span class="std std-ref">[52]</span></a>. In summary, nanopore DRS enables long-read, amplification-free RNA sequencing through the interpretation of electrical current signals. This technology not only provides sequence information but also simultaneously captures multiple layers of transcriptomic features, including splicing variation, transcript structure, base modifications, and poly(A) tail length <a class="reference internal" href="references.html#ref52"><span class="std std-ref">[52]</span></a>, <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>.</p>
+<p>ONT also released a new generation of open-source basecalling software, Dorado (<a class="reference external" href="https://nanoporetech.com/platform/accuracy">https://nanoporetech.com/platform/accuracy</a>), which employs improved deep-learning basecalling models that enhance accuracy and speed. In a head-to-head comparison, RNA004 data basecalled with Dorado achieved a median alignment identity of 98.67% (reads ≥ 200 aligned bases), In a direct comparison, RNA004 reads basecalled with Dorado showed a median alignment identity of 98.67% for reads with at least 200 aligned bases, while RNA002 reads basecalled with Guppy reached 90.65%, highlighting the higher single-read accuracy obtained when using RNA004 together with Dorado <a class="reference internal" href="references.html#ref53"><span class="std std-ref">[53]</span></a>. Deep learning models of Dorado also support de novo detection of multiple RNA modifications, such as 2′‑O‑methylation (Nm), Ψ, m6A, m5C, and inosine, within a single DRS run. In validation experiments with RNA004 data, Dorado’s Ψ and m6A models achieved high performance, with accuracies and F1-scores generally in the mid-90 % range or higher <a class="reference internal" href="references.html#ref53"><span class="std std-ref">[53]</span></a>, <a class="reference internal" href="references.html#ref60"><span class="std std-ref">[60]</span></a>. These improvements mark the entry of nanopore DRS into a high-accuracy era, enabling more reliable characterization of transcript sequences and epitranscriptomic features <a class="reference internal" href="references.html#ref61"><span class="std std-ref">[61]</span></a>. From proof-of-concept to the implementation of RNA001 and RNA002, and now to the maturation of RNA004 combined with Dorado, each technological iteration represents a step toward higher accuracy and broader application of DRS <a class="reference internal" href="references.html#ref53"><span class="std std-ref">[53]</span></a>. These advances provide powerful tools for comprehensive analysis of transcriptional regulation. With continued optimization of algorithms and sequencing chemistries, DRS is expected to play an increasingly important role in transcriptome research, RNA modification mapping, and RNA-based therapeutic development <a class="reference internal" href="references.html#ref53"><span class="std std-ref">[53]</span></a>, <a class="reference internal" href="references.html#ref62"><span class="std std-ref">[62]</span></a>.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="comparative_analysis.html" class="btn btn-neutral float-right" title="Comparative analysis of DRS technology and traditional sequencing technology" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

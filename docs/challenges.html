@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenges and technical improvements of DRS &mdash; Nanopore DRS guide 1.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=175ac1d5" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=def9ab29"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Outlook: toward integrative, haplotype-aware RNA biology" href="outlook.html" />
+    <link rel="prev" title="Application-oriented integration of nanopore DRS with multi-omics" href="multiomics.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Nanopore DRS guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fundamental_principles.html">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparative_analysis.html">Comparative analysis of DRS technology and traditional sequencing technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biological_landscape.html">The biological landscape from a DRS perspective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="typical_application.html">Typical application scenarios and breakthrough discoveries of DRS technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="design.html">Design, standardization and optimization of DRS workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_analysis.html">DRS data analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">Designing, validating, and benchmarking DRS: an integrated framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiomics.html">Application-oriented integration of nanopore DRS with multi-omics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Challenges and technical improvements of DRS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#current-technical-challenges-in-drs">Current technical challenges in DRS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technological-improvement-directions-of-drs">Technological improvement directions of DRS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="outlook.html">Outlook: toward integrative, haplotype-aware RNA biology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table.html">Supplementary tables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code.html">Personalized Plotting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nanopore DRS guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Challenges and technical improvements of DRS</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="challenges-and-technical-improvements-of-drs">
+<h1>Challenges and technical improvements of DRS<a class="headerlink" href="#challenges-and-technical-improvements-of-drs" title="Permalink to this heading"></a></h1>
+<p>DRS revolutionizes transcriptome analysis by enabling direct sequencing of native RNA, eliminating RT and PCR amplification inherent in conventional approaches <a class="reference internal" href="references.html#ref9"><span class="std std-ref">[9]</span></a>, <a class="reference internal" href="references.html#ref34"><span class="std std-ref">[34]</span></a>, <a class="reference internal" href="references.html#ref39"><span class="std std-ref">[39]</span></a>, <a class="reference internal" href="references.html#ref118"><span class="std std-ref">[118]</span></a>. This preserves critical biological information (RNA modifications, AS, poly(A) tail lengths) while avoiding amplification biases <a class="reference internal" href="references.html#ref34"><span class="std std-ref">[34]</span></a>, <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>, <a class="reference internal" href="references.html#ref52"><span class="std std-ref">[52]</span></a>, <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>, <a class="reference internal" href="references.html#ref117"><span class="std std-ref">[117]</span></a>, <a class="reference internal" href="references.html#ref119"><span class="std std-ref">[119]</span></a>. Despite its great potential in epitranscriptomics and clinical research, DRS’s widespread application in high-precision, large-scale studies is hindered by technical limitations <a class="reference internal" href="references.html#ref39"><span class="std std-ref">[39]</span></a>, <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>, <a class="reference internal" href="references.html#ref108"><span class="std std-ref">[108]</span></a>. Here, we elaborate on major challenges (detection sensitivity, stability, standardization, and applicability to specialized samples) and discuss latest improvement directions, which are crucial for unlocking DRS’s potential in basic and translational medicine.</p>
+<section id="current-technical-challenges-in-drs">
+<h2>Current technical challenges in DRS<a class="headerlink" href="#current-technical-challenges-in-drs" title="Permalink to this heading"></a></h2>
+<p><strong>Sample and library preparation limitations</strong></p>
+<p>DRS library preparation requires substantial RNA input (e.g., ONT SQK-RNA004 kit: 300 ng poly(A)-enriched RNA or 1 μg total RNA), posing barriers for low-yield clinical specimens (e.g., plasma/exosome RNA: 10-35 ng from 9 mL plasma) <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>. Although sample multiplexing is explored to meet input thresholds, lack of commercialized, standardized solutions from ONT limits clinical reproducibility and scalability.</p>
+<p>In terms of single-cell and spatial transcriptomics applications, these are severely constrained by ultra-low per-cell RNA (10-30 pg), far below kit requirements. RNA loss, degradation, nonspecific adsorption, and contamination (even trace exogenous RNA) during isolation, extraction, and library construction reduce experimental success and data reliability.</p>
+<p>Additionally, most commercial DRS kits rely on poly(A) enrichment to capture mRNA, neglecting abundant non-poly(A) RNAs (miRNAs, lncRNAs, circRNAs, degraded transcripts) in single cells <a class="reference internal" href="references.html#ref108"><span class="std std-ref">[108]</span></a>, <a class="reference internal" href="references.html#ref119"><span class="std std-ref">[119]</span></a>—molecules critical for regulating cellular heterogeneity. While laboratory-based non-poly(A) enrichment methods exist, their lack of commercialization restricts transcriptome comprehensiveness and highlights the need for inclusive capture strategies.</p>
+<p><strong>Technical detection limitations</strong></p>
+<p>One major issue in technical detection is the inefficient detection of short RNAs: DRS struggles to detect short RNAs shorter than 100-150 nt <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>, which are critical for many biological processes including gene regulation and immune response. While recent updates to the MinKNOW software have improved detection sensitivity for RNA molecules longer than 50 nt, biologically relevant short RNAs, such as 22-45 nt cell-free RNAs in liquid biopsies that serve as potential disease biomarkers, remain largely undetectable. Currently, laboratory-developed protocols for small RNA DRS are not widely adopted due to their complexity and poor reproducibility, leading to the misclassification of short RNAs as adapter sequences and resulting in significant gaps in small RNA transcriptomic profiling.</p>
+<p>Another limitation concerns reduced resolution at RNA 5′ termini. DRS proceeds in the 3′ to 5′ direction, therefore the 5′ end of the molecule is not regulated by the motor protein during the final stage of translocation. As a result, approximately the last 15 nt traverse the nanopore at an accelerated rate, which compromises the stability and fidelity of ionic current measurements and ultimately limits accurate characterization of 5′ terminal sequences <a class="reference internal" href="references.html#ref35"><span class="std std-ref">[35]</span></a>, <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>, <a class="reference internal" href="references.html#ref108"><span class="std std-ref">[108]</span></a>, <a class="reference internal" href="references.html#ref191"><span class="std std-ref">[191]</span></a>. This leads to loss or poor resolution of 5′ regulatory elements (cap structure, promoter-proximal sequences, UTRs), hindering transcript isoform characterization and gene regulation analysis.</p>
+<p>Regarding sequencing throughput, DRS avoids amplification biases by sequencing native RNA but has lower throughput than amplification-based platforms (Illumina/PacBio). Despite enzyme engineering advances (high-speed helicases ~150 nt/s, stable nanopores) improving output by an order of magnitude, sequencing depth/yield remains limiting for high-coverage large-scale studies <a class="reference internal" href="references.html#ref39"><span class="std std-ref">[39]</span></a>, <a class="reference internal" href="references.html#ref59"><span class="std std-ref">[59]</span></a>, <a class="reference internal" href="references.html#ref108"><span class="std std-ref">[108]</span></a>, <a class="reference internal" href="references.html#ref191"><span class="std std-ref">[191]</span></a>.</p>
+<p>Nanopore blockage and signal drift also compromise sequencing performance. Blockage events caused by sample contaminants, persistent RNA secondary structures, or improper enzyme interactions can result in irreversible pore inactivation. During prolonged sequencing runs, variations in temperature and ionic strength progressively shift the baseline ionic current, leading to signal drift that diminishes data stability and interpretability. Together, these effects reduce base calling consistency and undermine the accuracy and reproducibility of sequencing results <a class="reference internal" href="references.html#ref39"><span class="std std-ref">[39]</span></a>, <a class="reference internal" href="references.html#ref640"><span class="std std-ref">[640]</span></a>, <a class="reference internal" href="references.html#ref685"><span class="std std-ref">[685]</span></a>.</p>
+<p><strong>Technical consistency and bioinformatics gaps</strong></p>
+<p>In terms of technical reproducibility, technical replicate consistency is compromised by MinKNOW base-calling algorithm variations (dependent on software version/parameters), leading to different read subsets from identical raw data <a class="reference internal" href="references.html#ref40"><span class="std std-ref">[40]</span></a>, <a class="reference internal" href="references.html#ref41"><span class="std std-ref">[41]</span></a>, <a class="reference internal" href="references.html#ref639"><span class="std std-ref">[639]</span></a> and introducing unwanted variability. DRS kit shelf stability is unstandardized: unlike ONT DNA “Q Series” (3-year stability), DRS reagents have inter-batch enzyme performance variability, affecting cross-experiment data comparability <a class="reference internal" href="references.html#ref639"><span class="std std-ref">[639]</span></a>, <a class="reference internal" href="references.html#ref640"><span class="std std-ref">[640]</span></a>.</p>
+<p>Another aspect affecting data reliability is the uneven base-calling accuracy. DRS base-calling accuracy is lower than short-read sequencing and uneven along transcripts, with signal degradation at termini (especially 5′ end) <a class="reference internal" href="references.html#ref119"><span class="std std-ref">[119]</span></a>, <a class="reference internal" href="references.html#ref640"><span class="std std-ref">[640]</span></a>, complicating transcript boundary mapping and isoform analysis.</p>
+<p>Regarding standardization gaps, DRS lacks standardized commercial RNA reference materials with defined modification profiles; ERCC/SIRV spike-ins (used in traditional RNA-seq) are incompatible with epitranscriptomic analysis <a class="reference internal" href="references.html#ref115"><span class="std std-ref">[115]</span></a>, <a class="reference internal" href="references.html#ref118"><span class="std std-ref">[118]</span></a>. In-house in vitro transcribed RNAs (used as controls) vary in quality/modifications, undermining cross-study reproducibility.</p>
+<p>Additionally, bioinformatics pipeline instability and modification detection challenges further limit DRS application: rapid advances in DRS chemistry/base-calling render dedicated bioinformatics tools obsolete (early software fails to support new chemistries) <a class="reference internal" href="references.html#ref118"><span class="std std-ref">[118]</span></a>, disrupting data processing continuity. DRS modification calling (relying on subtle ionic current deviations) is sensitive to technical noise, increasing false positives <a class="reference internal" href="references.html#ref162"><span class="std std-ref">[162]</span></a>, <a class="reference internal" href="references.html#ref280"><span class="std std-ref">[280]</span></a>; accurate modification stoichiometry quantification at specific sites also remains challenging, limiting epitranscriptomic profiling reliability.</p>
+<p>To address the aforementioned technical challenges limiting nanopore DRS in high-precision epitranscriptomic research and clinical translation, extensive technological innovation and optimization have been pursued recently. Below, we systematically summarize the latest advances and key improvement directions of nanopore DRS, focusing on hardware upgrading, algorithmic optimization, standardization establishment, and application expansion to overcome current technical bottlenecks.</p>
+</section>
+<section id="technological-improvement-directions-of-drs">
+<h2>Technological improvement directions of DRS<a class="headerlink" href="#technological-improvement-directions-of-drs" title="Permalink to this heading"></a></h2>
+<p>Starting with hardware innovation, this field relies on synergistic evolution of membrane materials and molecular motors. While biological nanopores are DRS gold standards, their resolution/stability limitations drive AI-augmented enzyme engineering (e.g., Huimin Zhao et al.’s autonomous AI platforms enabling high-throughput design of high-fidelity, processive enzymes) <a class="reference internal" href="references.html#ref686"><span class="std std-ref">[686]</span></a>. Solid-state/hybrid pore architectures (mechanical robustness, complementary metal-oxide-semiconductor integration potential) aim for superior SNR and precise molecular translocation contro <a class="reference internal" href="references.html#ref687"><span class="std std-ref">[687]</span></a>; 2D materials (graphene, MoS2) offer atomic-scale spatial resolution, potentially enabling enzyme-free base/modification discrimination <a class="reference internal" href="references.html#ref687"><span class="std std-ref">[687]</span></a>.</p>
+<p>Notably, high-confidence single-molecule protein sequencing via DRS requires overcoming multi-dimensional bottlenecks (stochastic motor-pore assembly, spatio-temporal noise compression, peptide-driven ionic current deciphering); scarce high-quality ground-truth datasets hinder supervised learning model robustness in proteomic deconvolution <a class="reference internal" href="references.html#ref688"><span class="std std-ref">[688]</span></a>.</p>
+<p>In terms of algorithms, DRS data analysis is shifting from task-specific algorithms to foundation model-driven intelligence, with genomic language models (gLMs) capturing long-range dependencies to improve base-calling/modification prediction. While m6A detection is mature, epitranscriptomic “dark matter” (Ψ, m5C, A-to-I) requires new tools optimized for specificity/quantification <a class="reference internal" href="references.html#ref689"><span class="std std-ref">[689]</span></a>, <a class="reference internal" href="references.html#ref690"><span class="std std-ref">[690]</span></a>. Tailored architectures (mirroring nanopore signal biophysics) outperform generalized massive models <a class="reference internal" href="references.html#ref689"><span class="std std-ref">[689]</span></a>, <a class="reference internal" href="references.html#ref690"><span class="std std-ref">[690]</span></a>; retrained models (validated via orthogonal data) ensure non-canonical modification call fidelity.</p>
+<p>Certainly, DRS maturation requires rigorous standardization and real-time clinical workflows: high-fidelity RNA reference materials, unified benchmarking frameworks, and community-driven data standards are needed for clinical translation <a class="reference internal" href="references.html#ref688"><span class="std std-ref">[688]</span></a>. Real-time analysis integrated with adaptive sampling enables dynamic target enrichment and instant clinical decision-making <a class="reference internal" href="references.html#ref28"><span class="std std-ref">[28]</span></a>; automated “sample-to-report” pipelines and regulatory validation will expand DRS from infectious disease surveillance to standardized precision medicine.</p>
+<p>In summary, DRS is indispensable in epitranscriptomics, offering preprocessing-free, single-molecule, long-read multi-modification analysis. Despite prominent challenges (high input, poor short RNA detection, uneven accuracy, insufficient standardization, bioinformatics gaps), continuous hardware/algorithmic advances and standardization efforts will gradually address these limitations. DRS will drive epitranscriptomics toward higher precision, broader coverage, and greater accessibility, supporting RNA modification function research and development of modification-based diagnostic/therapeutic tools, ultimately paving the way for precision epitranscriptomics and revolutionizing disease diagnosis/treatment.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="multiomics.html" class="btn btn-neutral float-left" title="Application-oriented integration of nanopore DRS with multi-omics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="outlook.html" class="btn btn-neutral float-right" title="Outlook: toward integrative, haplotype-aware RNA biology" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

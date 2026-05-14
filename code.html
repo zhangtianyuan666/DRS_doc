@@ -1,0 +1,648 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personalized Plotting &mdash; Nanopore DRS guide 1.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="_static/custom.css?v=175ac1d5" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=def9ab29"></script>
+      <script src="_static/doctools.js?v=888ff710"></script>
+      <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="References" href="references.html" />
+    <link rel="prev" title="Supplementary tables" href="table.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Nanopore DRS guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="fundamental_principles.html">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparative_analysis.html">Comparative analysis of DRS technology and traditional sequencing technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biological_landscape.html">The biological landscape from a DRS perspective</a></li>
+<li class="toctree-l1"><a class="reference internal" href="typical_application.html">Typical application scenarios and breakthrough discoveries of DRS technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="design.html">Design, standardization and optimization of DRS workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_analysis.html">DRS data analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">Designing, validating, and benchmarking DRS: an integrated framework</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiomics.html">Application-oriented integration of nanopore DRS with multi-omics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Challenges and technical improvements of DRS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="outlook.html">Outlook: toward integrative, haplotype-aware RNA biology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conclusions.html">Conclusions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table.html">Supplementary tables</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Personalized Plotting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#as-plot">AS Plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#as-transcript-statistics">AS Transcript Statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#igv-visualization-of-apa-genes">IGV Visualization of APA Genes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#as-and-poly-a-length-joint-analysis">AS and Poly(A) Length Joint Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#counts-and-poly-a-length-joint-analysis">Counts and Poly(A) Length Joint Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sample-wise-poly-a-length-heatmap">Sample-wise Poly(A) Length Heatmap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#goplot">GOplot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deg-dei-statistical-bar-chart">DEG/DEI Statistical Bar Chart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sqanti3-statistics-plots">SQANTI3 Statistics Plots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modification-site-density-across-gene-regions">Modification Site Density Across Gene Regions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modification-and-tpm-relationship">Modification and TPM Relationship</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modification-motif-radar-chart">Modification Motif Radar Chart</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nanopore DRS guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Personalized Plotting</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="personalized-plotting">
+<h1>Personalized Plotting<a class="headerlink" href="#personalized-plotting" title="Permalink to this heading"></a></h1>
+<p>This section contains various scripts and commands for generating publication-quality figures from RNA-seq and related data. The examples include visualization of alternative splicing, poly(A) tail length, gene modifications, and enrichment analysis results.</p>
+<nav class="contents local" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#as-plot" id="id21">AS Plot</a></p></li>
+<li><p><a class="reference internal" href="#as-transcript-statistics" id="id22">AS Transcript Statistics</a></p></li>
+<li><p><a class="reference internal" href="#igv-visualization-of-apa-genes" id="id23">IGV Visualization of APA Genes</a></p></li>
+<li><p><a class="reference internal" href="#as-and-poly-a-length-joint-analysis" id="id24">AS and Poly(A) Length Joint Analysis</a></p></li>
+<li><p><a class="reference internal" href="#counts-and-poly-a-length-joint-analysis" id="id25">Counts and Poly(A) Length Joint Analysis</a></p></li>
+<li><p><a class="reference internal" href="#sample-wise-poly-a-length-heatmap" id="id26">Sample-wise Poly(A) Length Heatmap</a></p></li>
+<li><p><a class="reference internal" href="#goplot" id="id27">GOplot</a></p></li>
+<li><p><a class="reference internal" href="#deg-dei-statistical-bar-chart" id="id28">DEG/DEI Statistical Bar Chart</a></p></li>
+<li><p><a class="reference internal" href="#sqanti3-statistics-plots" id="id29">SQANTI3 Statistics Plots</a></p></li>
+<li><p><a class="reference internal" href="#modification-site-density-across-gene-regions" id="id30">Modification Site Density Across Gene Regions</a></p></li>
+<li><p><a class="reference internal" href="#modification-and-tpm-relationship" id="id31">Modification and TPM Relationship</a></p></li>
+<li><p><a class="reference internal" href="#modification-motif-radar-chart" id="id32">Modification Motif Radar Chart</a></p></li>
+</ul>
+</nav>
+<section id="as-plot">
+<span id="id1"></span><h2><a class="toc-backref" href="#id21" role="doc-backlink">AS Plot</a><a class="headerlink" href="#as-plot" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/plotplot/01.AS_plot/01.gene_AS
+<span class="nb">cd</span><span class="w"> </span>~/plotplot/01.AS_plot/01.gene_AS
+mkdir<span class="w"> </span>input<span class="w"> </span>output
+<span class="nb">cd</span><span class="w"> </span>input
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/02.alignment/*.ref.aligned.bam<span class="w"> </span>./
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/02.alignment/*.csi<span class="w"> </span>./
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/03.reconstruction/sqanti3/sqanti3_corrected.gtf.cds.gff<span class="w"> </span>./
+
+<span class="nb">cd</span><span class="w"> </span>../output
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/ggsashimi-master/ggsashimi.py<span class="w"> </span>-b<span class="w"> </span>../script/bam.tsv<span class="w"> </span>-c<span class="w"> </span>chr13:55621242-55635924<span class="w"> </span>-g<span class="w"> </span>../input/sqanti3_corrected.gtf.cds.gff<span class="w"> </span>-M<span class="w"> </span><span class="m">10</span><span class="w"> </span>-C<span class="w"> </span><span class="m">3</span><span class="w"> </span>-O<span class="w"> </span><span class="m">3</span><span class="w"> </span>-A<span class="w"> </span>mean<span class="w"> </span>--alpha<span class="w"> </span><span class="m">1</span><span class="w"> </span>-F<span class="w"> </span>pdf<span class="w"> </span>-R350<span class="w"> </span>--base-size<span class="o">=</span><span class="m">10</span><span class="w"> </span>--height<span class="o">=</span><span class="m">3</span><span class="w"> </span>--ann-height<span class="w"> </span><span class="m">3</span><span class="w">  </span>--width<span class="o">=</span><span class="m">18</span><span class="w"> </span>--fix-y-scale<span class="w"> </span>-P<span class="w"> </span>../script/palette.txt<span class="w">  </span>-o<span class="w"> </span>ENSMUSG00000034675.plot
+</pre></div>
+</div>
+<p><strong>ggsashimi.py Parameters:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">-b</span></code>: Input table containing multiple BAM file information (bam.tsv) and BAM files.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-c</span></code>: Genomic region for plotting.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-g</span></code>: GTF annotation file.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-M</span></code>: Minimum number of reads supporting a junction.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-C</span></code>: Column number in bam.tsv associated with plot colors.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-O</span></code>: Column number in bam.tsv associated with plot regions.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-A</span></code>: Method for aggregating biological replicates into groups (mean, median, mean_j, median_j).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--alpha</span></code>: Transparency value for density histograms.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-F</span></code>: Output image format.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-R</span></code>: Output image resolution.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--base-size</span></code>: Base font size for the plot.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--height</span></code>: Height of the sample read coverage visualization area.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--ann-height</span></code>: Height of the transcript annotation area.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--width</span></code>: Width of the plot.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--fix-y-scale</span></code>: Fix the y-axis scale across all signal tracks.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-P</span></code>: File specifying colors for the plot.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-o</span></code>: Output file name.</p></li>
+</ul>
+<p><strong>Input File (bam.tsv):</strong></p>
+<p>Three columns, the second column is the absolute path to the BAM file.</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>A1  /work/home/whbnpx/DRS_train/plotplot/01.AS_plot/01.gene_AS/input/A1.ref.aligned.bam  A
+A2  /work/home/whbnpx/DRS_train/plotplot/01.AS_plot/01.gene_AS/input/A2.ref.aligned.bam  A
+A3  /work/home/whbnpx/DRS_train/plotplot/01.AS_plot/01.gene_AS/input/A3.ref.aligned.bam  A
+B1  /work/home/whbnpx/DRS_train/plotplot/01.AS_plot/01.gene_AS/input/B1.ref.aligned.bam  B
+B2  /work/home/whbnpx/DRS_train/plotplot/01.AS_plot/01.gene_AS/input/B2.ref.aligned.bam  B
+B3  /work/home/whbnpx/DRS_train/plotplot/01.AS_plot/01.gene_AS/input/B3.ref.aligned.bam  B
+</pre></div>
+</div>
+<p><strong>Output Visualization:</strong></p>
+<figure class="align-center" id="id3">
+<img alt="Gene AS Visualization" src="_images/ENSMUSG00000034675.plot_uj71GV-U1y.png" />
+<figcaption>
+<p><span class="caption-text">Example of a gene AS plot generated by ggsashimi.</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="as-transcript-statistics">
+<span id="as-transcript-stat"></span><h2><a class="toc-backref" href="#id22" role="doc-backlink">AS Transcript Statistics</a><a class="headerlink" href="#as-transcript-statistics" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~/
+mkdir<span class="w"> </span>-p<span class="w"> </span>plotplot/01.AS_plot/02.AS_stat
+<span class="nb">cd</span><span class="w"> </span>plotplot/01.AS_plot/02.AS_stat
+mkdir<span class="w"> </span>input<span class="w"> </span>output
+<span class="nb">cd</span><span class="w"> </span>input
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/09.AS/00.prepare/ref/ioe/events_*.ioe<span class="w"> </span>./
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_AF_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>AF.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_A3_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>A3.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_A5_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>A5.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_RI_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>RI.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_AL_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>AL.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_MX_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>MX.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_SE_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>SE.transcript.txt
+
+<span class="nb">cd</span><span class="w"> </span>~/plotplot/01.AS_plot/02.AS_stat/output
+ln<span class="w"> </span>-s<span class="w"> </span>../input/*.transcript.txt<span class="w"> </span>./
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/ComplexUpset.sif<span class="w"> </span>Rscript<span class="w"> </span>../script/01.2.AS_upset_plot.R
+</pre></div>
+</div>
+<p><strong>Output Visualization:</strong></p>
+<figure class="align-center" id="id4">
+<img alt="AS Upset Plot" src="_images/1758103753271-fe73c5b5-6fea-41dd-8205-212a717d2279.png" />
+<figcaption>
+<p><span class="caption-text">UpSet plot showing the intersection of transcripts associated with different AS event types.</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="igv-visualization-of-apa-genes">
+<span id="igv-visualization-apa-genes"></span><h2><a class="toc-backref" href="#id23" role="doc-backlink">IGV Visualization of APA Genes</a><a class="headerlink" href="#igv-visualization-of-apa-genes" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>plotplot/03.APA_gene_plot_IGV
+<span class="nb">cd</span><span class="w"> </span>plotplot/03.APA_gene_plot_IGV
+mkdir<span class="w"> </span>input<span class="w"> </span>output
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/10.polya/01.polya_site/01.get_bed/*.bed<span class="w"> </span>input/
+
+<span class="nb">cd</span><span class="w"> </span>output
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/A1.bed<span class="w"> </span>&gt;<span class="w"> </span>A1.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/A2.bed<span class="w"> </span>&gt;<span class="w"> </span>A2.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/A3.bed<span class="w"> </span>&gt;<span class="w"> </span>A3.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/B1.bed<span class="w"> </span>&gt;<span class="w"> </span>B1.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/B2.bed<span class="w"> </span>&gt;<span class="w"> </span>B2.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/B3.bed<span class="w"> </span>&gt;<span class="w"> </span>B3.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/C1.bed<span class="w"> </span>&gt;<span class="w"> </span>C1.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/C2.bed<span class="w"> </span>&gt;<span class="w"> </span>C2.bedgraph
+awk<span class="w"> </span><span class="s1">&#39;BEGIN{FS=OFS=&quot;\t&quot;} {print $1,$3,$3,$4}&#39;</span><span class="w"> </span>../input/C3.bed<span class="w"> </span>&gt;<span class="w"> </span>C3.bedgraph
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/10.polya/01.polya_site/01.get_bed/Mus_musculus.chr13.fa<span class="w"> </span>./
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/10.polya/02.APA_analysis/sqanti3_corrected.gtf.cds.no_node.gff<span class="w"> </span>./
+
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/CPM_nor.py<span class="w"> </span>A1.bedgraph<span class="w"> </span>A1.nor.bedgraph
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/CPM_nor.py<span class="w"> </span>A2.bedgraph<span class="w"> </span>A2.nor.bedgraph
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/CPM_nor.py<span class="w"> </span>A3.bedgraph<span class="w"> </span>A3.nor.bedgraph
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/CPM_nor.py<span class="w"> </span>B1.bedgraph<span class="w"> </span>B1.nor.bedgraph
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/CPM_nor.py<span class="w"> </span>B2.bedgraph<span class="w"> </span>B2.nor.bedgraph
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>python3<span class="w"> </span>../script/CPM_nor.py<span class="w"> </span>B3.bedgraph<span class="w"> </span>B3.nor.bedgraph
+</pre></div>
+</div>
+<p><strong>Output Visualization (IGV Example):</strong></p>
+<figure class="align-center" id="id5">
+<img alt="IGV APA Visualization" src="_images/1758003446368-e02e02b9-32de-4f49-845b-227b32eccb0a.png" />
+<figcaption>
+<p><span class="caption-text">Example of APA gene tracks visualized in IGV.</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="as-and-poly-a-length-joint-analysis">
+<span id="as-poly-a-length-joint"></span><h2><a class="toc-backref" href="#id24" role="doc-backlink">AS and Poly(A) Length Joint Analysis</a><a class="headerlink" href="#as-and-poly-a-length-joint-analysis" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~
+mkdir<span class="w"> </span>-p<span class="w"> </span>plotplot/04.exp_polya_length_AS_combine/01.polya_length_AS
+<span class="nb">cd</span><span class="w"> </span>plotplot/04.exp_polya_length_AS_combine/01.polya_length_AS
+mkdir<span class="w"> </span>input<span class="w"> </span>output
+<span class="nb">cd</span><span class="w"> </span>input
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/09.AS/00.prepare/ref/ioe/events_*.ioe<span class="w"> </span>./
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_AF_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>AF.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_A3_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>A3.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_A5_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>A5.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_RI_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>RI.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_AL_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>AL.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_MX_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>MX.transcript.txt
+cut<span class="w"> </span>-f<span class="w"> </span><span class="m">4</span><span class="w"> </span>events_SE_strict.ioe<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;s/,/\n/g&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1d&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>SE.transcript.txt
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/10.polya/03.polya_length/*.polyA_length.xls<span class="w"> </span>./
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>../output
+ln<span class="w"> </span>-s<span class="w"> </span>../input/*.transcript.txt<span class="w"> </span>./
+cat<span class="w"> </span>AF.transcript.txt<span class="w"> </span>AL.transcript.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span>&gt;<span class="w"> </span>FS.transcript.txt
+cat<span class="w"> </span>RI.transcript.txt<span class="w"> </span>SE.transcript.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>uniq<span class="w"> </span>-c<span class="w"> </span><span class="p">|</span><span class="w"> </span>singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>csvtk<span class="w"> </span>space2tab<span class="w"> </span><span class="p">|</span><span class="w"> </span>awk<span class="w"> </span><span class="s1">&#39;$1 &gt; 1&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-f<span class="w"> </span><span class="m">2</span><span class="w"> </span>&gt;<span class="w"> </span>SE_RI.transcript.txt
+cat<span class="w"> </span>../input/*.polyA_length.xls<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-v<span class="w"> </span><span class="s1">&#39;polya_length&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sed<span class="w"> </span><span class="s1">&#39;1ireadname\tcontig\tpolya_length&#39;</span><span class="w"> </span>&gt;<span class="w"> </span>all_sample.polyA_length.txt
+mv<span class="w"> </span>AF.transcript.txt<span class="w"> </span>AF.transcript_temp.txt
+mv<span class="w"> </span>AL.transcript.txt<span class="w"> </span>AL.transcript_temp.txt
+mv<span class="w"> </span>MX.transcript.txt<span class="w"> </span>MX.transcript_temp.txt
+mv<span class="w"> </span>A3.transcript.txt<span class="w"> </span>A3.transcript_temp.txt
+mv<span class="w"> </span>A5.transcript.txt<span class="w"> </span>A5.transcript_temp.txt
+<span class="c1"># Generate polyA length file for transcripts</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>../script/04.1.get_sample_length.R
+<span class="c1"># Plotting</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>../script/04.2.polya_length_AS_type.violin.R<span class="w"> </span>all_sample.trans.length.txt<span class="w"> </span>all_AS_type
+</pre></div>
+</div>
+<p><strong>Output Files:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">all_AS_type.compare_signif.xls</span></code>: Significance analysis results for the violin plot.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_AS_type.ployA-stat.xls</span></code>: Data distribution file for the violin plot.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">all_AS_type.pdf</span></code> (or .png): The violin plot.</p></li>
+</ul>
+<p><strong>Output Visualization:</strong></p>
+<figure class="align-center" id="id6">
+<img alt="AS Type PolyA Length Violin Plot" src="_images/1758093241810-9b93b238-6499-4742-bbeb-90b78aca6639.png" />
+<figcaption>
+<p><span class="caption-text">Violin plot comparing poly(A) tail lengths across different AS event types.</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="counts-and-poly-a-length-joint-analysis">
+<span id="counts-poly-a-length-joint"></span><h2><a class="toc-backref" href="#id25" role="doc-backlink">Counts and Poly(A) Length Joint Analysis</a><a class="headerlink" href="#counts-and-poly-a-length-joint-analysis" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~
+mkdir<span class="w"> </span>-p<span class="w"> </span>plotplot/04.exp_polya_length_AS_combine/02.exp_polya_length
+<span class="nb">cd</span><span class="w"> </span>plotplot/04.exp_polya_length_AS_combine/02.exp_polya_length
+mkdir<span class="w"> </span>input<span class="w"> </span>output
+<span class="nb">cd</span><span class="w"> </span>input
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/03.reconstruction/sqanti3/sqanti3_corrected.gtf.cds.gff<span class="w"> </span>./
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/06.expression/03.merge.transcript/isoforms.counts.matrix.xls<span class="w"> </span>./
+
+<span class="nb">cd</span><span class="w"> </span>../output
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>../script/04.3.get_merge_sample_transcript_TPM.R<span class="w"> </span>../input/sqanti3_corrected.gtf.cds.gff<span class="w"> </span>../input/isoforms.counts.matrix.xls
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>../script/04.4.all_length_TPM_counts_cor_plot.R<span class="w"> </span>../input/all_sample.trans.length.txt<span class="w"> </span>total_transcript_tpm.txt<span class="w"> </span>total_counts.txt
+</pre></div>
+</div>
+<p><strong>Output Files:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">counts_polya_length_cor.pdf</span></code>: Correlation plot between counts and polyA length.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_counts.txt</span></code>: Combined counts matrix for all samples.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">total_transcript_tpm.txt</span></code>: Combined TPM matrix for all samples.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">TPM_polya_length_cor.pdf</span></code>: Correlation plot between TPM and polyA length.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">transcript_length.txt</span></code>: Transcript length file.</p></li>
+</ul>
+<p><strong>Correlation Plots:</strong></p>
+<p>The top plot shows the correlation between log2(TPM) and poly(A) length, the bottom plot between log10(counts) and poly(A) length. Darker colors indicate higher data density.</p>
+<figure class="align-center" id="id7">
+<img alt="TPM vs PolyA Length Correlation" src="_images/TPM_polya_length_cor_0_XcanoTbj.png" />
+<figcaption>
+<p><span class="caption-text">Correlation between log2(TPM) and poly(A) tail length.</span><a class="headerlink" href="#id7" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id8">
+<img alt="Counts vs PolyA Length Correlation" src="_images/1758095675711-835e2495-57ed-43ba-bf11-a3bddc984c8c.png" />
+<figcaption>
+<p><span class="caption-text">Correlation between log10(counts) and poly(A) tail length.</span><a class="headerlink" href="#id8" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="sample-wise-poly-a-length-heatmap">
+<span id="polya-length-heatmap"></span><h2><a class="toc-backref" href="#id26" role="doc-backlink">Sample-wise Poly(A) Length Heatmap</a><a class="headerlink" href="#sample-wise-poly-a-length-heatmap" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>~
+mkdir<span class="w"> </span>-p<span class="w"> </span>plotplot/05.polya_length_heatmap
+<span class="nb">cd</span><span class="w"> </span>plotplot/05.polya_length_heatmap
+mkdir<span class="w"> </span>input<span class="w"> </span>output
+<span class="nb">cd</span><span class="w"> </span>plotplot/05.polya_length_heatmap/input
+ln<span class="w"> </span>-s<span class="w"> </span>~/output/10.polya/03.polya_length/*.polyA_length.xls<span class="w"> </span>./
+
+<span class="nb">cd</span><span class="w"> </span>~/plotplot/05.polya_length_heatmap/output
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>~/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>~/plotplot/05.polya_length_heatmap/script/05.sample_polya_length_heatmap.R<span class="w"> </span>../input/A1.polyA_length.xls<span class="w"> </span>A1
+</pre></div>
+</div>
+<p><strong>Input File Example (A1.polyA_length.xls):</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>readname        contig  polya_length
+9c8fcb41-d16b-4e18-a5f0-fa9fd40b2a4f    ENSMUST00000161581      100
+4077b73c-0566-40ca-ba0b-2bc4bd8eca04    ENSMUST00000161581      98
+0f8843df-1e64-4dfe-9d36-b006ecb0508c    transcript27.chr1.nnic  97
+</pre></div>
+</div>
+<p><strong>Plotting Method:</strong> Reads with poly(A) length &gt;= 10bp are selected. Transcripts with at least 50 reads are included. The x-axis represents poly(A) length from 10 to 250bp (divided into 25 bins). Each row is a transcript. Color intensity (red) represents the proportion of reads for that transcript in each bin.</p>
+<figure class="align-center" id="id9">
+<img alt="Sample PolyA Length Heatmap" src="_images/1758094902443-f3f26c2f-0fc4-419d-a332-8b6b4b4cd63e.png" />
+<figcaption>
+<p><span class="caption-text">Heatmap showing the distribution of poly(A) tail lengths for highly expressed transcripts in a sample.</span><a class="headerlink" href="#id9" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="goplot">
+<span id="id2"></span><h2><a class="toc-backref" href="#id27" role="doc-backlink">GOplot</a><a class="headerlink" href="#goplot" title="Permalink to this heading"></a></h2>
+<p>Source: <a class="reference external" href="https://github.com/cran/GOplot">https://github.com/cran/GOplot</a></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/plotplot/
+cp<span class="w"> </span>-r<span class="w"> </span>/work/home/whbnpx/DRS_train/plotplot/08.Goplot富集分析环状图<span class="w"> </span>~/plotplot/
+<span class="nb">cd</span><span class="w"> </span>~/plotplot/08.Goplot富集分析环状图
+</pre></div>
+</div>
+<p><strong>Script Options:</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>options:
+  -h, --help            Show this help message and exit
+  -d DEFILE, --defile DEFILE
+                         Path to differential expression file. Requires columns: c(&#39;ID&#39;, &#39;logFC&#39;).
+                         log2FoldChange or logFC are acceptable.
+  -e ENRICHFILE, --enrichfile ENRICHFILE
+                         Path to enrichment result file. Requires columns:
+                         c(&#39;ID&#39;,&#39;Term&#39;,&#39;Category&#39;,&#39;Genes&#39;,&#39;adj_pval&#39;). Some common formats are handled automatically.
+  -t {go,kegg,other}, --type {go,kegg,other}
+                         Input file type.
+  -s SIZE SIZE, --size SIZE SIZE
+                         Plot height and width. First value is height, second is width.
+  -nc NCOL, --ncol NCOL
+                         Number of columns in the legend.
+  -gs GENESPACE, --genespace GENESPACE
+                         Spacing between gene names and the plot.
+  -o PREFIX, --prefix PREFIX
+                         Output file prefix.
+  -in IDTOP, --idtop IDTOP
+                         If &#39;id&#39; and &#39;if&#39; are not specified, take the top N entries by padj.
+  -id IDLIST, --idlist IDLIST
+                         Comma-separated list of IDs (e.g., &#39;ENSG01,ENSG02&#39;).
+  -if IDFILE, --idfile IDFILE
+                         File with one ID per line.
+</pre></div>
+</div>
+<p><strong>Usage Examples:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example 1: Using a generic enrichment file</span>
+<span class="c1"># Required columns: ID, Term, Category, Genes, adj_pval</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>Rscript<span class="w"> </span>src/GOplot.R<span class="w"> </span>-d<span class="w"> </span>input/defile.txt<span class="w"> </span>-e<span class="w"> </span>input/enrich.txt<span class="w"> </span>-o<span class="w"> </span>output/out<span class="w"> </span>-t<span class="w"> </span>other
+
+<span class="c1"># Example 2: Using a GO enrichment result file (specific column order)</span>
+<span class="c1"># Columns: GO.ID, Term, Annotated, Significant, Expected, category, pvalue, rich, SigGenes, padj, qvalue</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>Rscript<span class="w"> </span>src/GOplot.R<span class="w"> </span>-d<span class="w"> </span>input/A_vs_B_DE_results.xls<span class="w"> </span>-e<span class="w"> </span>input/A_vs_B.go_enrich.result.xls<span class="w"> </span>-if<span class="w"> </span>input/ID.list<span class="w"> </span>-o<span class="w"> </span>output/go
+
+<span class="c1"># Example 3: Using a KEGG enrichment result file</span>
+<span class="c1"># Columns: ID, Description, GeneRatio, BgRatio, pvalue, p.adjust, qvalue, enrichID, Count, rich_factor, Gene_Ratio, fold_enrichment, Class_A, Class_B, Hyperlink</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>Rscript<span class="w"> </span>src/GOplot.R<span class="w"> </span>-d<span class="w"> </span>input/A_vs_B_DE_results.xls<span class="w"> </span>-e<span class="w"> </span>input/A_vs_B.ko_enrich.xls<span class="w"> </span>-t<span class="w"> </span>kegg<span class="w"> </span>-o<span class="w"> </span>output/kegg
+</pre></div>
+</div>
+<p><strong>Example Output:</strong></p>
+<figure class="align-center" id="id10">
+<img alt="GOplot Example" src="_images/out_5hWjiiq-w4.png" />
+<figcaption>
+<p><span class="caption-text">Example of a circular plot generated by GOplot.</span><a class="headerlink" href="#id10" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="deg-dei-statistical-bar-chart">
+<span id="deg-dei-bar-chart"></span><h2><a class="toc-backref" href="#id28" role="doc-backlink">DEG/DEI Statistical Bar Chart</a><a class="headerlink" href="#deg-dei-statistical-bar-chart" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/plotplot/
+cp<span class="w"> </span>-r<span class="w"> </span>/work/home/whbnpx/DRS_train/plotplot/10.DEG_DEI统计柱状图<span class="w"> </span>~/plotplot/
+<span class="nb">cd</span><span class="w"> </span>~/plotplot/10.DEG_DEI统计柱状图
+</pre></div>
+</div>
+<p><strong>Usage:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Usage:<span class="w"> </span>Rscript<span class="w"> </span>plot.R<span class="w"> </span>data.txt<span class="w"> </span>prefix
+Usage:<span class="w"> </span>Rscript<span class="w"> </span>plot.R<span class="w"> </span>&lt;path_to_data&gt;<span class="w"> </span>&lt;output_file_prefix&gt;
+</pre></div>
+</div>
+<p><strong>1. Input (data.txt):</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Category  Time  Up   Down
+DEIs      d2    271  391
+DEIs      d4    794  1061
+DEIs      d6    412  629
+DEGs      d2    90   191
+DEGs      d4    557  812
+DEGs      d6    202  443
+PolyA     d2    129  50
+PolyA     d4    111  83
+PolyA     d6    116  62
+</pre></div>
+</div>
+<p><strong>2. Run:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>src/plot.R<span class="w"> </span>input/data.txt<span class="w"> </span>output/out
+</pre></div>
+</div>
+<p><strong>3. Output Example:</strong></p>
+<figure class="align-center" id="id11">
+<img alt="DEG/DEI Bar Chart" src="_images/out_7_t0u2KURL.png" />
+<figcaption>
+<p><span class="caption-text">Bar chart showing the number of up- and down-regulated features (DEIs, DEGs, PolyA) across different time points.</span><a class="headerlink" href="#id11" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="sqanti3-statistics-plots">
+<span id="sqanti3-stats"></span><h2><a class="toc-backref" href="#id29" role="doc-backlink">SQANTI3 Statistics Plots</a><a class="headerlink" href="#sqanti3-statistics-plots" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>-p<span class="w"> </span>~/plotplot/
+cp<span class="w"> </span>-r<span class="w"> </span>/work/home/whbnpx/DRS_train/plotplot/09.SQANTI3统计图<span class="w"> </span>~/plotplot/
+<span class="nb">cd</span><span class="w"> </span>~/plotplot/09.SQANTI3统计图
+</pre></div>
+</div>
+<p><strong>Options:</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Options:
+        -c CLASS, --class=CLASS
+                Input classification file.
+        -j JUNCT, --junct=JUNCT
+                Input junctions file.
+        -o PREFIX, --prefix=PREFIX
+                Output file prefix.
+        -h, --help
+                Show this help message and exit.
+</pre></div>
+</div>
+<p><strong>1. Input Files:</strong></p>
+<ul>
+<li><p><strong>classification.txt</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>isoform           length  exons  structural_category
+SCEN_B01840.t16   528     2      antisense
+SCEN_B02040.t1    180     2      antisense
+SCEN_B02240.t1    753     3      antisense
+SCEN_B02240.t2    827     2      antisense
+</pre></div>
+</div>
+</li>
+<li><p><strong>junctions.txt</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>isoform          chrom       strand  genomic_start_coord  genomic_end_coord  junction_category  canonical  RTS_junction
+SCEN_A00370.t1   CP046081.1  +       62123                62285              novel              canonical  FALSE
+SCEN_A00370.t2   CP046081.1  +       61045                62469              novel              canonical  FALSE
+SCEN_A00370.t3   CP046081.1  +       61389                61480              novel              canonical  FALSE
+SCEN_A00370.t4   CP046081.1  +       61471                62250              novel              canonical  TRUE
+SCEN_A00370.t5   CP046081.1  +       62242                62296              novel              canonical  TRUE
+</pre></div>
+</div>
+</li>
+</ul>
+<p><strong>2. Run:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>Rscript<span class="w"> </span>src/plot.r<span class="w"> </span>-c<span class="w"> </span>input/isoquant_classification.txt<span class="w"> </span>-j<span class="w"> </span>input/isoquant_junctions.txt<span class="w"> </span>-o<span class="w"> </span>output/out
+</pre></div>
+</div>
+<p><strong>3. Output Examples:</strong></p>
+<figure class="align-center" id="id12">
+<img alt="SQANTI3 Junction Distribution" src="_images/out.Distribution_of_Splice_Junctions_by_Structural.png" />
+<figcaption>
+<p><span class="caption-text">Distribution of splice junctions by structural category.</span><a class="headerlink" href="#id12" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id13">
+<img alt="SQANTI3 RT Switching" src="_images/out.RT_Switching_All_Junctions_gBFoCS7c9I.png" />
+<figcaption>
+<p><span class="caption-text">RT switching analysis for all junctions.</span><a class="headerlink" href="#id13" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id14">
+<img alt="SQANTI3 Structural Category Proportions" src="_images/out.Structural_Category_Proportions_sD0ZqfINDZ.png" />
+<figcaption>
+<p><span class="caption-text">Proportions of different structural categories.</span><a class="headerlink" href="#id14" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id15">
+<img alt="SQANTI3 Transcript Lengths" src="_images/out.Transcript_Lengths_by_Structural_Classificatio.png" />
+<figcaption>
+<p><span class="caption-text">Transcript lengths categorized by structural classification.</span><a class="headerlink" href="#id15" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="modification-site-density-across-gene-regions">
+<span id="modification-density-plot"></span><h2><a class="toc-backref" href="#id30" role="doc-backlink">Modification Site Density Across Gene Regions</a><a class="headerlink" href="#modification-site-density-across-gene-regions" title="Permalink to this heading"></a></h2>
+<figure class="align-center" id="id16">
+<img alt="Modification Density Plot" src="_images/1758098547472_LvZHKoW20t.png" />
+<figcaption>
+<p><span class="caption-text">Density distribution of modification sites across rescaled gene regions (5’UTR, CDS, 3’UTR) for different groups.</span><a class="headerlink" href="#id16" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Required files:</span>
+<span class="c1">#   region_size.txt: Determines the rescaling size.</span>
+<span class="c1">#   *psU_result.xls: Determines modification site distribution.</span>
+<span class="c1">#   sample_group: Determines sample groups.</span>
+mkdir<span class="w"> </span>-p<span class="w"> </span>Figure_10/F2/
+<span class="nb">cd</span><span class="w"> </span>Figure_10/F2/
+ln<span class="w"> </span>-s<span class="w"> </span>../../output/20.modification/psU/1.bed/*.psU.result.0.7.xls<span class="w"> </span>.
+ln<span class="w"> </span>-s<span class="w"> </span>../../input/sample_group/sample_desc.txt<span class="w"> </span>.
+ln<span class="w"> </span>-s<span class="w"> </span>../../region_size.txt<span class="w"> </span>.
+
+<span class="c1"># Define group merging rule (intersection, union, present in at least N samples). Here, present in at least 2 samples.</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>/work/home/whbnpx/DRS_train/script/08.meth/merge.R<span class="w"> </span>sample_desc.txt
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>/work/home/whbnpx/DRS_train/script/08.meth/cds-utr_plot.R<span class="w"> </span>region_size.txt<span class="w"> </span>merged_psU_results.txt<span class="w"> </span>All_group.psU.density
+</pre></div>
+</div>
+<p><strong>Result:</strong></p>
+<figure class="align-center" id="id17">
+<img alt="Modification Density Result" src="_images/1758102322300_VDwv2P16AM.png" />
+<figcaption>
+<p><span class="caption-text">Final density plot of modification sites across gene regions for different groups.</span><a class="headerlink" href="#id17" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="modification-and-tpm-relationship">
+<span id="modification-tpm-relationship"></span><h2><a class="toc-backref" href="#id31" role="doc-backlink">Modification and TPM Relationship</a><a class="headerlink" href="#modification-and-tpm-relationship" title="Permalink to this heading"></a></h2>
+<figure class="align-center" id="id18">
+<img alt="Modification TPM Relationship" src="_images/1758099178707__9cJon1y3H.png" />
+<figcaption>
+<p><span class="caption-text">Boxplot showing the relationship between transcript expression levels (log10(TPM)) and modification status (High, Low, No) across different groups.</span><a class="headerlink" href="#id18" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Required files:</span>
+<span class="c1">#   *psU_result.xls: Determines modification site distribution.</span>
+<span class="c1">#   sample_group: Determines sample groups.</span>
+<span class="c1">#   isoforms.TPM.matrix.xls: Expression levels.</span>
+mkdir<span class="w"> </span>Figure_10/F6
+<span class="nb">cd</span><span class="w"> </span>Figure_10/F6
+ln<span class="w"> </span>-s<span class="w"> </span>../../output/20.modification/psU/1.bed/*.psU.result.xls<span class="w"> </span>.
+ln<span class="w"> </span>-s<span class="w"> </span>../../input/sample_group/sample_desc.txt<span class="w"> </span>.
+ln<span class="w"> </span>-s<span class="w"> </span>../../output/06.expression/03.merge.transcript/isoforms.TPM.matrix.xls<span class="w"> </span>.
+
+<span class="c1"># Logic:</span>
+<span class="c1">#   X-axis: Group</span>
+<span class="c1">#   Y-axis: Expression level</span>
+<span class="c1">#   Fill/Color: Modification status (High &gt; 0.7, Low between 0 and 0.7, No = 0 or not present)</span>
+<span class="c1"># Steps:</span>
+<span class="c1">#   1. Calculate group mean expression for Y-axis.</span>
+<span class="c1">#   2. Determine modification status for each transcript in each group.</span>
+<span class="c1">#   3. Combine and plot.</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>/work/home/whbnpx/DRS_train/script/08.meth/Group_mean.R<span class="w"> </span>sample_desc.txt<span class="w"> </span>isoforms.TPM.matrix.xls
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>/work/home/whbnpx/DRS_train/script/08.meth/TPM_label.R<span class="w"> </span>--sample-desc<span class="w"> </span>sample_desc.txt
+</pre></div>
+</div>
+<p><strong>Result:</strong></p>
+<figure class="align-center" id="id19">
+<img alt="Modification TPM Result" src="_images/1758104466395_qczhZr6Faf.png" />
+<figcaption>
+<p><span class="caption-text">Final boxplot showing TPM distribution across modification statuses for each group.</span><a class="headerlink" href="#id19" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="modification-motif-radar-chart">
+<span id="modification-motif-radar"></span><h2><a class="toc-backref" href="#id32" role="doc-backlink">Modification Motif Radar Chart</a><a class="headerlink" href="#modification-motif-radar-chart" title="Permalink to this heading"></a></h2>
+<figure class="align-center" id="id20">
+<img alt="Modification Motif Radar Chart" src="_images/1758099200874_dg4YlQVl4f.png" />
+<figcaption>
+<p><span class="caption-text">Radar chart displaying the proportion of different sequence motifs around modification sites for each group.</span><a class="headerlink" href="#id20" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Required files:</span>
+<span class="c1">#   *psU_result.xls: Determines modification site distribution.</span>
+<span class="c1">#   sample_group: Determines sample groups.</span>
+mkdir<span class="w"> </span>Figure_10/F7
+<span class="nb">cd</span><span class="w"> </span>Figure_10/F7/
+ln<span class="w"> </span>-s<span class="w"> </span>../../output/20.modification/psU/1.bed/*.psU_result.xls<span class="w"> </span>.
+ln<span class="w"> </span>-s<span class="w"> </span>../../input/sample_group/sample_desc.txt<span class="w"> </span>.
+
+<span class="c1"># Logic:</span>
+<span class="c1">#   1. Calculate motif percentages.</span>
+<span class="c1">#   2. Plot radar chart.</span>
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/bena_v1.0.0.sif<span class="w"> </span>Rscript<span class="w"> </span>/work/home/whbnpx/DRS_train/script/08.meth/motif_ratio.R<span class="w"> </span>--sample-desc<span class="w"> </span>sample_desc.txt
+singularity<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-B<span class="w"> </span>/work<span class="w"> </span>/work/home/whbnpx/DRS_train/Public/Singularity/ggradar.sif<span class="w"> </span>Rscript<span class="w"> </span>/work/home/whbnpx/DRS_train/script/08.meth/group_radar.R
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="table.html" class="btn btn-neutral float-left" title="Supplementary tables" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="references.html" class="btn btn-neutral float-right" title="References" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

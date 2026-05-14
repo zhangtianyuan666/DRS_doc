@@ -1,0 +1,19 @@
+/* 两端对齐正文段落 */
+div.body p {
+    text-align: justify;
+}
+
+/* 可选：避免单词间距过大 */
+div.body p {
+    text-justify: inter-word;
+}
+
+/* RTD 主题正文 */
+.rst-content p {
+    text-align: justify;
+}
+
+.rst-content .figure p.caption {
+    margin-left: 8%;
+    margin-right: 8%;
+}

@@ -1,0 +1,4 @@
+Conclusions
+===========
+
+In summary, nanopore DRS has matured from a niche isoform-discovery approach into a general integrative platform capable of resolving transcript structure, APA, RNA modifications, and haplotype context simultaneously on native RNA molecules. Across diverse biological systems, this unified molecular readout has enabled mechanistic insights that extend beyond descriptive transcript catalogues, revealing how multiple layers of RNA regulation are coordinated on individual transcripts. Under this trajectory, DRS is poised to become a foundational layer for evolutionary transcriptomics and data-driven models of RNA regulation across biological domains.

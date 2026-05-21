@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nanopore Direct RNA Sequencing and the Epitranscriptome: Toward a Complete Map of RNA Regulation &mdash; Nanopore DRS guide 1.1.0 documentation</title>
+  <title>Nanopore direct RNA sequencing and the epitranscriptome: Advances in mapping native RNA landscapes &mdash; Nanopore DRS guide 1.1.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
       <link rel="stylesheet" type="text/css" href="_static/custom.css?v=175ac1d5" />
@@ -75,7 +75,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Nanopore Direct RNA Sequencing and the Epitranscriptome: Toward a Complete Map of RNA Regulation</li>
+      <li class="breadcrumb-item active">Nanopore direct RNA sequencing and the epitranscriptome: Advances in mapping native RNA landscapes</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -84,10 +84,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="nanopore-direct-rna-sequencing-and-the-epitranscriptome-toward-a-complete-map-of-rna-regulation">
-<h1>Nanopore Direct RNA Sequencing and the Epitranscriptome: Toward a Complete Map of RNA Regulation<a class="headerlink" href="#nanopore-direct-rna-sequencing-and-the-epitranscriptome-toward-a-complete-map-of-rna-regulation" title="Permalink to this heading"></a></h1>
+  <section id="nanopore-direct-rna-sequencing-and-the-epitranscriptome-advances-in-mapping-native-rna-landscapes">
+<h1>Nanopore direct RNA sequencing and the epitranscriptome: Advances in mapping native RNA landscapes<a class="headerlink" href="#nanopore-direct-rna-sequencing-and-the-epitranscriptome-advances-in-mapping-native-rna-landscapes" title="Permalink to this heading"></a></h1>
 <p><strong>An Encyclopedic Guide to Nanopore DRS</strong></p>
-<p>Nanopore direct RNA sequencing (DRS) has transformed transcriptomics by enabling single-molecule, long-read sequencing of native RNA without reverse transcription or amplification. Unlike short-read RNA-seq and cDNA-based long-read approaches, DRS simultaneously captures multiple RNA modifications, full-length transcript architecture, alternative splicing patterns, and poly(A) tail features within individual molecules, providing an integrated view of transcriptomic and epitranscriptomic regulation. In this systematic and comprehensive review, we outline the biophysical principles and technological evolution of nanopore DRS. We compare its performance with short-read RNA sequencing, long-read cDNA sequencing, and conventional RNA-modification mapping strategies, emphasizing its advantages in isoform-resolved quantification and multi-layer RNA feature integration. We further summarize optimized experimental workflows, including library construction strategies tailored to diverse RNA biotypes (mRNA, rRNA, tRNA, circRNA, miRNA, and non-poly(A) transcripts), as well as recommended quality-control procedures and sequencing optimization practices. Focusing on the computational advances and translational applications of DRS, we cover state-of-the-art algorithms for transcript reconstruction and isoform quantification, analytical pipelines for poly(A) tail length estimation and RNA modification detection, and integrative frameworks that jointly analyze these regulatory layers. Practical implementation examples are included to facilitate reproducible analysis. Finally, we highlight emerging applications of integrated DRS, such as resolving complex transcriptomes, uncovering coordinated epitranscriptomic regulation, and identifying disease-associated RNA signatures. We also discuss remaining technical challenges and future directions toward multi-omics integration and the clinical deployment of DRS in precision medicine.</p>
+<p>Nanopore direct RNA sequencing (DRS) has transformed transcriptomics by enabling single-molecule, long-read sequencing of native RNA without the need for reverse transcription or amplification. In contrast to short-read RNA-seq and cDNA-based long-read approaches, DRS can simultaneously capture multiple RNA modifications, full-length transcript architecture, alternative splicing patterns, and poly(A) tail features within individual molecules, thereby providing an integrated view of transcriptomic and epitranscriptomic regulation. In this comprehensive review, we outline the biophysical principles underlying nanopore DRS and trace its technological evolution. We compare its performance with short-read RNA sequencing, long-read cDNA sequencing, and conventional RNA-modification mapping strategies, highlighting its advantages in isoform-resolved quantification and multi-layer RNA feature integration, while also clarifying contexts in which alternative or combined approaches may be more appropriate for robust biological interpretation. We further summarize optimized experimental workflows, including library construction strategies tailored to diverse RNA biotypes (mRNA, rRNA, tRNA, circRNA, miRNA, and non-poly(A) transcripts), as well as recommended quality-control procedures and sequencing optimization practices. Emphasizing recent computational advances and translational applications of DRS, we cover state-of-the-art algorithms for RNA modification detection, transcript reconstruction, and isoform quantification. We also propose analytical pipelines for poly(A) tail length inference and integrative frameworks that jointly analyze these regulatory layers. We distinguish direct nanopore signals from computational inferences to define confidence levels and emphasize benchmarking and orthogonal validation of readouts. Practical implementation examples are included to facilitate reproducible analysis. Finally, we highlight emerging applications of integrated DRS, including the resolution of complex transcriptomes, the characterization of coordinated epitranscriptomic regulation, and the identification of disease-associated RNA signatures. We also discuss current technical challenges and future perspectives, particularly in relation to multi-omics integration and the broader deployment of DRS in precision medicine as well as in plant and animal research.</p>
 <p>For more information, please refer to our manuscript: [<strong>**</strong>].</p>
 </section>
 <section id="contents">
@@ -101,8 +101,8 @@
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fundamental_principles.html">Nanopore direct RNA sequencing: fundamental principles and developmental trajectory</a></li>
 <li class="toctree-l1"><a class="reference internal" href="comparative_analysis.html">Comparative analysis of DRS technology and traditional sequencing technology</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="comparative_analysis.html#comparison-of-drs-and-short-read-sequencing-techniques">Comparison of DRS and short read sequencing techniques</a></li>
-<li class="toctree-l2"><a class="reference internal" href="comparative_analysis.html#comparison-of-drs-with-other-long-read-rna-sequencing">Comparison of DRS with other long-read RNA sequencing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparative_analysis.html#comparison-of-drs-and-short-read-sequencing-techniques">Comparison of DRS and short-read sequencing techniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparative_analysis.html#comparison-of-drs-with-other-long-read-rna-sequencing-techniques">Comparison of DRS with other long-read RNA sequencing techniques</a></li>
 <li class="toctree-l2"><a class="reference internal" href="comparative_analysis.html#comparison-of-drs-with-other-modification-detection-methods-and-its-positioning-in-modification-detection">Comparison of DRS with other modification detection methods and its positioning in modification detection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="comparative_analysis.html#strategic-library-modifications-advance-drs-methodology">Strategic library modifications advance DRS methodology</a></li>
 </ul>
@@ -122,9 +122,8 @@
 <li class="toctree-l2"><a class="reference internal" href="typical_application.html#bacteria-archaea-and-metatranscriptomes">Bacteria, archaea and metatranscriptomes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="typical_application.html#plant-development-and-environmental-responses">Plant development and environmental responses</a></li>
 <li class="toctree-l2"><a class="reference internal" href="typical_application.html#animal-models-and-organ-development-research">Animal models and organ development research</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typical_application.html#clinical-and-disease-research">Clinical and disease research</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typical_application.html#disease-research-a-disease-class-perspective">Disease research: a disease-class perspective</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typical_application.html#clinical-research-and-diagnostics-transformative-potential-current-limitations-and-future-integration">Clinical Research and Diagnostics: Transformative Potential, Current Limitations, and Future Integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="typical_application.html#medicine-and-disease-research">Medicine and disease research</a></li>
+<li class="toctree-l2"><a class="reference internal" href="typical_application.html#clinical-and-translational-applications-rna-vaccines-rna-drugs-and-diagnostic-markers">Clinical and translational applications: RNA vaccines, RNA drugs, and diagnostic markers</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="design.html">Design, standardization and optimization of DRS workflows</a><ul>
@@ -144,7 +143,7 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="validation.html">Designing, validating, and benchmarking DRS: an integrated framework</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="validation.html#experimental-design-and-benchmarking-strategies-for-drs">Experimental design and benchmarking strategies for DRS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation.html#synthetic-spikein-controls-as-experimental-ground-truths-in-drs">Synthetic spike‑In controls as experimental ground truths in DRS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="validation.html#external-spikein-controls-as-experimental-ground-truths-in-drs">External spike‑In controls as experimental ground truths in DRS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation.html#simulationbased-benchmark-datasets-for-drs">Simulation‑based benchmark datasets for DRS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation.html#integrating-annotations-shortread-data-and-perturbations-for-drs-validation">Integrating annotations, short‑read data, and perturbations for DRS validation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation.html#multilayer-benchmarking-metrics-for-drs">Multi‑layer benchmarking metrics for DRS</a></li>

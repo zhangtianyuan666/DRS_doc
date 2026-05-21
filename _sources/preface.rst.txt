@@ -43,9 +43,10 @@ The example datasets and plots include:
 - heatmaps of poly(A) tail length across samples or conditions (Figure 7F)
 - relationships between RNA modification levels and TPM (Figure 7G)
 - radar plots of motif composition of modification sites across groups (Figure 7H)
-- visualization of functional enrichment analysis (Figure 7I)
-- SQANTI3 style summary statistics of transcript structural annotation (Figure 7J)
-- bar plots of counts of differential features (e.g., genes, isoforms, or poly(A) events; Figure 7K)
-- density distributions of modification sites across gene functional regions (Figure 7L)
+- density distributions of modification sites across gene functional regions (Figure 7I)
+- visualization of functional enrichment analysis (Figure 7J)
+- SQANTI3 style summary statistics of transcript structural annotation (Figure 7K)
+- bar plots of counts of differential features (e.g., genes, isoforms, or poly(A) events; Figure 7L)
+
 
 The markdown that generates this text is on GitHub, and is version controlled so that its development can be tracked now and in the future. Please notify us of errors, omissions, or other suggestions via submission of issues on GitHub: https://zhangtianyuan666.github.io/DRS_doc. To submit new entries to the database, please contact zhangtianyuan@foxmail.com. If the text in some figures are too small to read, then right click on the figure to open in a new tab to zoom in.
